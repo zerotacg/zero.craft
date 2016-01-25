@@ -1,0 +1,40 @@
+{
+  "name": "zero.craft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "packages": "jspm_packages"
+  },
+  "scripts": {
+    "lint": "jshint src/**/*.js test/**/*.js",
+    "pretest": "npm run lint",
+    "test": "mocha --recursive --compilers js:babel/register",
+    "postinstall": "jspm install"
+  },
+  "author": {
+    "name": "Tobias Peters",
+    "email": "tobias.peters@kreativeffekt.at"
+  },
+  "contributors": [
+    {
+      "name": "Tobias Peters",
+      "email": "tobias.peters@kreativeffekt.at"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "jspm": "^0.16.24"
+  },
+  "jspm": {
+    "directories": {
+      "test": "test"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

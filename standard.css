@@ -52,12 +52,12 @@ img
   white-space:    nowrap;
   width:          40px;
   height:         40px;
-  
+
   border: 1px solid;
-  border-top-color: #191919;   
-  border-left-color: #464646;   
-  border-bottom-color: #828282;   
-  border-right-color: #686868;   
+  border-top-color: #191919;
+  border-left-color: #464646;
+  border-bottom-color: #828282;
+  border-right-color: #686868;
 }
 
 .sheet div
@@ -70,19 +70,19 @@ img
   left: 3px;
   top:  1px;
 }
-    
+
 .sheet .quality
 {
   right:  2px;
   bottom: 0px;
 }
-    
+
 .sheet .quantity
 {
   left:   3px;
   bottom: 0px;
 }
-    
+
 .bar
 {
   border-width: 1px;
@@ -91,16 +91,16 @@ img
   border-bottom-color: #555555;
   border-right-color: #555555;
   border-style: solid;
-  
+
   background-color: #444444;
   width: 102px;
   height: 7px;
 }
-    
+
 .bar .bar_content
 {
   background-color: #FFFFDD;
-  
+
   position: relative;
   width:  0px;
   height: 5px;
