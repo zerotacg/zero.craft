@@ -1,0 +1,10170 @@
+.r2ed_create_location
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 200px;
+  height: 200px;
+  background-position: 0px 0px;
+}
+
+.skin_l1_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 128px;
+  background-position: -200px 0px;
+}
+
+.w_radar
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 128px;
+  background-position: -328px 0px;
+}
+
+.skin_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 128px;
+  background-position: -200px -128px;
+}
+
+.skin_header_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 256px;
+  height: 32px;
+  background-position: 0px -256px;
+}
+
+.r2ed_fall
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 80px;
+  height: 80px;
+  background-position: -328px -128px;
+}
+
+.r2ed_spring
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 80px;
+  height: 80px;
+  background-position: -408px -128px;
+}
+
+.r2ed_summer
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 80px;
+  height: 80px;
+  background-position: -328px -208px;
+}
+
+.r2ed_winter
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 80px;
+  height: 80px;
+  background-position: -408px -208px;
+}
+
+.r2ed_liberalRules
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 64px;
+  background-position: -256px -256px;
+}
+
+.r2ed_strictRules
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 64px;
+  background-position: 0px -288px;
+}
+
+.r2ed_newLocation
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 64px;
+  background-position: -64px -288px;
+}
+
+.r2ed_previousLocations
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 64px;
+  background-position: -128px -288px;
+}
+
+.r2_desert_back
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 64px;
+  background-position: -192px -288px;
+}
+
+.r2_forest_back
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 64px;
+  background-position: -320px -288px;
+}
+
+.r2_jungle_back
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 64px;
+  background-position: -384px -288px;
+}
+
+.r2_lakes_back
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 64px;
+  background-position: -448px -288px;
+}
+
+.r2_roots_back
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 64px;
+  background-position: -256px -320px;
+}
+
+.r2_map_edge_arrow
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 512px;
+  height: 7px;
+  background-position: 0px -384px;
+}
+
+.W_slot_jauge_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 126px;
+  height: 26px;
+  background-position: 0px -200px;
+}
+
+.bulle_ia
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 48px;
+  background-position: -128px -200px;
+}
+
+.jauge
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 156px;
+  height: 16px;
+  background-position: 0px -352px;
+}
+
+.slot_jauge
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 156px;
+  height: 16px;
+  background-position: -320px -352px;
+}
+
+.w_slot_icon
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 48px;
+  height: 48px;
+  background-position: -456px 0px;
+}
+
+.w_slot_categorie
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 48px;
+  height: 48px;
+  background-position: -456px -48px;
+}
+
+.r2_main_menu_full_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 68px;
+  height: 32px;
+  background-position: -156px -352px;
+}
+
+.r2_main_menu_full
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 68px;
+  height: 32px;
+  background-position: 0px -392px;
+}
+
+.r2_main_menu_full_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 68px;
+  height: 32px;
+  background-position: -68px -392px;
+}
+
+.item_selection
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 46px;
+  height: 46px;
+  background-position: -136px -392px;
+}
+
+.skin_m_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 128px;
+  background-position: -488px -96px;
+}
+
+.slot_jauge_action
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 92px;
+  height: 20px;
+  background-position: 0px -228px;
+}
+
+.jauge_action
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 92px;
+  height: 20px;
+  background-position: -184px -392px;
+}
+
+.W_slot_item
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 42px;
+  height: 42px;
+  background-position: -276px -392px;
+}
+
+.W_slot_item_selected
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 42px;
+  height: 42px;
+  background-position: -320px -392px;
+}
+
+.r2ed_create_dialog
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -364px -392px;
+}
+
+.r2ed_create_dialog_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -408px -392px;
+}
+
+.r2ed_create_dialog_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -452px -392px;
+}
+
+.curs_default
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -184px -412px;
+}
+
+.curs_pan
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -228px -412px;
+}
+
+.r2ed_feature_bandit_camp
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: 0px -424px;
+}
+
+.r2ed_feature_bandit_camp_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -44px -424px;
+}
+
+.r2ed_feature_bandit_camp_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -88px -424px;
+}
+
+.r2ed_feature_fauna
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -364px -432px;
+}
+
+.r2ed_feature_fauna_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -408px -432px;
+}
+
+.r2ed_feature_fauna_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -452px -432px;
+}
+
+.r2ed_feature_fauna_system
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -272px -436px;
+}
+
+.r2ed_feature_fauna_system_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -316px -436px;
+}
+
+.r2ed_feature_fauna_system_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -132px -440px;
+}
+
+.r2ed_feature_kitins_lair
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -176px -452px;
+}
+
+.r2ed_feature_kitins_lair_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -220px -452px;
+}
+
+.r2ed_feature_kitins_lair_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: 0px -464px;
+}
+
+.r2ed_feature_loot_spawner
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -44px -464px;
+}
+
+.r2ed_feature_loot_spawner_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -88px -464px;
+}
+
+.r2ed_feature_loot_spawner_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -360px -472px;
+}
+
+.r2ed_feature_timer
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -404px -472px;
+}
+
+.r2ed_feature_timer_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -448px -472px;
+}
+
+.r2ed_feature_timer_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -504px 0px;
+}
+
+.curs_pick
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -548px 0px;
+}
+
+.curs_resize_br_tl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -592px 0px;
+}
+
+.curs_resize_lr
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -636px 0px;
+}
+
+.curs_resize_tb
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -680px 0px;
+}
+
+.curs_rotate
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -724px 0px;
+}
+
+.curs_scale
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -768px 0px;
+}
+
+.r2ed_tool_can_pick
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -812px 0px;
+}
+
+.r2ed_tool_can_rotate
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -856px 0px;
+}
+
+.r2ed_tool_can_rotate_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -900px 0px;
+}
+
+.r2ed_tool_can_rotate_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -944px 0px;
+}
+
+.r2ed_tool_copy
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -504px -40px;
+}
+
+.r2ed_tool_copy_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -548px -40px;
+}
+
+.r2ed_tool_copy_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -592px -40px;
+}
+
+.r2ed_tool_display_mode
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -636px -40px;
+}
+
+.r2ed_tool_display_mode_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -680px -40px;
+}
+
+.r2ed_tool_display_mode_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -724px -40px;
+}
+
+.r2ed_tool_draw_region
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -768px -40px;
+}
+
+.r2ed_tool_draw_region_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -812px -40px;
+}
+
+.r2ed_tool_draw_region_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -856px -40px;
+}
+
+.r2ed_tool_draw_road
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -900px -40px;
+}
+
+.r2ed_tool_draw_road_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -944px -40px;
+}
+
+.r2ed_tool_draw_road_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -504px -80px;
+}
+
+.r2ed_tool_freeze_object
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -548px -80px;
+}
+
+.r2ed_tool_freeze_object_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -592px -80px;
+}
+
+.r2ed_tool_freeze_object_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -636px -80px;
+}
+
+.r2ed_tool_go_test
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -680px -80px;
+}
+
+.r2ed_tool_go_test_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -724px -80px;
+}
+
+.r2ed_tool_go_test_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -768px -80px;
+}
+
+.r2ed_tool_map_window
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -812px -80px;
+}
+
+.r2ed_tool_map_window_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -856px -80px;
+}
+
+.r2ed_tool_map_window_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -900px -80px;
+}
+
+.r2ed_tool_palette_window
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -944px -80px;
+}
+
+.r2ed_tool_palette_window_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -504px -120px;
+}
+
+.r2ed_tool_palette_window_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -548px -120px;
+}
+
+.r2ed_tool_paste
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -592px -120px;
+}
+
+.r2ed_tool_paste_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -636px -120px;
+}
+
+.r2ed_tool_paste_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -680px -120px;
+}
+
+.r2ed_tool_pick
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -724px -120px;
+}
+
+.r2ed_tool_prim_display_mode
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -768px -120px;
+}
+
+.r2ed_tool_prim_display_mode_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -812px -120px;
+}
+
+.r2ed_tool_prim_display_mode_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -856px -120px;
+}
+
+.r2ed_tool_redo
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -900px -120px;
+}
+
+.r2ed_tool_redo_disabled
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -944px -120px;
+}
+
+.r2ed_tool_redo_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -504px -160px;
+}
+
+.r2ed_tool_redo_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -548px -160px;
+}
+
+.r2ed_tool_rotate
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -592px -160px;
+}
+
+.r2ed_tool_rotate_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -636px -160px;
+}
+
+.r2ed_tool_rotate_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -680px -160px;
+}
+
+.r2ed_tool_rotating
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -724px -160px;
+}
+
+.r2ed_tool_scenario_window
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -768px -160px;
+}
+
+.r2ed_tool_scenario_window_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -812px -160px;
+}
+
+.r2ed_tool_scenario_window_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -856px -160px;
+}
+
+.r2ed_tool_select
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -900px -160px;
+}
+
+.r2ed_tool_select_move
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -944px -160px;
+}
+
+.r2ed_tool_select_move_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -504px -200px;
+}
+
+.r2ed_tool_select_move_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -548px -200px;
+}
+
+.r2ed_tool_select_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -592px -200px;
+}
+
+.r2ed_tool_select_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -636px -200px;
+}
+
+.r2ed_tool_start
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -680px -200px;
+}
+
+.r2ed_tool_start_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -724px -200px;
+}
+
+.r2ed_tool_start_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -768px -200px;
+}
+
+.r2ed_tool_stop
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -812px -200px;
+}
+
+.r2ed_tool_stop_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -856px -200px;
+}
+
+.r2ed_tool_stop_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -900px -200px;
+}
+
+.r2ed_tool_teleport
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -944px -200px;
+}
+
+.r2ed_tool_teleport_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -488px -240px;
+}
+
+.r2ed_tool_teleport_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -532px -240px;
+}
+
+.r2ed_tool_undo
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -576px -240px;
+}
+
+.r2ed_tool_undo_disabled
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -620px -240px;
+}
+
+.r2ed_tool_undo_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -664px -240px;
+}
+
+.r2ed_tool_undo_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -708px -240px;
+}
+
+.r2ed_tool_unfreeze_object
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -752px -240px;
+}
+
+.r2ed_tool_unfreeze_object_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -796px -240px;
+}
+
+.r2ed_tool_unfreeze_object_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -840px -240px;
+}
+
+.curs_resize_bl_tr
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -884px -240px;
+}
+
+.curs_can_pan
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -928px -240px;
+}
+
+.curs_can_pan_dup
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -972px -240px;
+}
+
+.r2_hand_can_pan
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -512px -280px;
+}
+
+.r2_hand_pan
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -556px -280px;
+}
+
+.r2_icon_dm_mode
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -600px -280px;
+}
+
+.r2_icon_dm_mode_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -644px -280px;
+}
+
+.r2_icon_dm_mode_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -688px -280px;
+}
+
+.curs_create
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -732px -280px;
+}
+
+.curs_create_multi
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -776px -280px;
+}
+
+.curs_create_vertex_invalid
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -820px -280px;
+}
+
+.curs_dup
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -864px -280px;
+}
+
+.curs_pan_dup
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -908px -280px;
+}
+
+.curs_pick_dup
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -952px -280px;
+}
+
+.r2_player_admin
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -512px -320px;
+}
+
+.r2_player_admin_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -556px -320px;
+}
+
+.r2_player_admin_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -600px -320px;
+}
+
+.curs_stop
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -644px -320px;
+}
+
+.r2_scenario_admin
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -688px -320px;
+}
+
+.r2_scenario_admin_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -732px -320px;
+}
+
+.r2_scenario_admin_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -776px -320px;
+}
+
+.r2_stop_live
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -820px -320px;
+}
+
+.r2_stop_live_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -864px -320px;
+}
+
+.r2_stop_live_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 44px;
+  height: 39px;
+  background-position: -908px -320px;
+}
+
+.w_ar_hand
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 40px;
+  background-position: -952px -320px;
+}
+
+.w_ar_helmet
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 40px;
+  background-position: -512px -360px;
+}
+
+.w_ar_pantabotte
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 40px;
+  background-position: -552px -360px;
+}
+
+.hand_right
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 40px;
+  background-position: -592px -360px;
+}
+
+.hand_left
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 40px;
+  background-position: -632px -360px;
+}
+
+.sapload
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 40px;
+  background-position: -672px -360px;
+}
+
+.w_ar_armpad
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 40px;
+  background-position: -712px -360px;
+}
+
+.w_ar_botte
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 40px;
+  background-position: -752px -360px;
+}
+
+.w_ar_gilet
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 40px;
+  background-position: -792px -360px;
+}
+
+.skin_l2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 256px;
+  background-position: -1016px 0px;
+}
+
+.r2_map_edge_stipple
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 512px;
+  height: 3px;
+  background-position: -496px -400px;
+}
+
+.r2_main_bl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 33px;
+  background-position: -832px -360px;
+}
+
+.W_slot_jauge_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 126px;
+  height: 10px;
+  background-position: -872px -360px;
+}
+
+.w_slot_blason_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 34px;
+  height: 34px;
+  background-position: -496px -404px;
+}
+
+.w_slot_blason
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 34px;
+  height: 34px;
+  background-position: -532px -404px;
+}
+
+.w_header_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 48px;
+  height: 24px;
+  background-position: -872px -372px;
+}
+
+.bg_source_mid
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 152px;
+  height: 7px;
+  background-position: 0px -248px;
+}
+
+.r2ed_toolbar_feed_zone_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -456px -96px;
+}
+
+.r2ed_toolbar_feed_zone_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -992px -320px;
+}
+
+.r2ed_toolbar_freeze
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -224px -352px;
+}
+
+.r2ed_toolbar_freeze_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -476px -352px;
+}
+
+.r2ed_toolbar_freeze_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -568px -404px;
+}
+
+.r2ed_toolbar_guard_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -600px -404px;
+}
+
+.r2ed_toolbar_guard_zone_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -632px -404px;
+}
+
+.r2ed_toolbar_guard_zone_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -664px -404px;
+}
+
+.r2ed_toolbar_hide
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -696px -404px;
+}
+
+.r2ed_toolbar_hide_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -728px -404px;
+}
+
+.r2ed_toolbar_hide_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -760px -404px;
+}
+
+.r2ed_toolbar_hunt_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -792px -404px;
+}
+
+.r2ed_toolbar_hunt_zone_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -824px -404px;
+}
+
+.r2ed_toolbar_hunt_zone_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -856px -404px;
+}
+
+.r2ed_toolbar_lock
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -888px -404px;
+}
+
+.r2ed_toolbar_lock_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -920px -404px;
+}
+
+.r2ed_toolbar_lock_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -952px -404px;
+}
+
+.r2ed_toolbar_rest_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -984px -404px;
+}
+
+.r2ed_toolbar_rest_zone_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -568px -436px;
+}
+
+.r2ed_toolbar_rest_zone_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -600px -436px;
+}
+
+.r2ed_toolbar_show
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -632px -436px;
+}
+
+.r2ed_toolbar_show_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -664px -436px;
+}
+
+.r2ed_toolbar_show_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -696px -436px;
+}
+
+.r2ed_toolbar_unfreeze
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -728px -436px;
+}
+
+.r2ed_toolbar_unfreeze_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -760px -436px;
+}
+
+.r2ed_toolbar_unfreeze_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -792px -436px;
+}
+
+.r2ed_toolbar_unlock
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -824px -436px;
+}
+
+.r2ed_toolbar_unlock_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -856px -436px;
+}
+
+.r2ed_toolbar_unlock_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -888px -436px;
+}
+
+.r2ed_toolbar_work_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -920px -436px;
+}
+
+.r2ed_toolbar_work_zone_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -952px -436px;
+}
+
+.r2ed_toolbar_work_zone_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -984px -436px;
+}
+
+.ia_surpris
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -496px -440px;
+}
+
+.skin_em_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 8px;
+  background-position: 0px -368px;
+}
+
+.curs_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -528px -440px;
+}
+
+.skin_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 128px;
+  background-position: -988px 0px;
+}
+
+.curs_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -560px -468px;
+}
+
+.building_state1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -592px -468px;
+}
+
+.building_state2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -624px -468px;
+}
+
+.skin_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 128px;
+  background-position: -996px 0px;
+}
+
+.skin_scroll_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 128px;
+  background-position: -1004px 0px;
+}
+
+.r2_allow
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -656px -468px;
+}
+
+.skin_t
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 8px;
+  background-position: -320px -368px;
+}
+
+.skin_b_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 8px;
+  background-position: 0px -376px;
+}
+
+.r2_frustum
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -688px -468px;
+}
+
+.skin_b
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 8px;
+  background-position: -320px -376px;
+}
+
+.r2ed_current_act_content
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -720px -468px;
+}
+
+.r2_icon_acts
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -752px -468px;
+}
+
+.r2_icon_acts_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -784px -468px;
+}
+
+.r2_icon_acts_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -816px -468px;
+}
+
+.r2_icon_add_hp
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -848px -468px;
+}
+
+.r2_icon_add_hp_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -880px -468px;
+}
+
+.r2_icon_add_hp_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -912px -468px;
+}
+
+.r2_icon_animation_give
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -944px -468px;
+}
+
+.r2_icon_animation_give_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -976px -468px;
+}
+
+.r2_icon_animation_give_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -492px -472px;
+}
+
+.r2_icon_animation_target
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -524px -472px;
+}
+
+.r2_icon_animation_target_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -264px -476px;
+}
+
+.r2_icon_animation_target_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -296px -476px;
+}
+
+.r2_icon_animation_triggers
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -328px -476px;
+}
+
+.r2_icon_animation_triggers_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -132px -480px;
+}
+
+.r2_icon_animation_triggers_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -164px -492px;
+}
+
+.r2_icon_despawn
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -196px -492px;
+}
+
+.r2_icon_despawn_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -228px -492px;
+}
+
+.r2_icon_despawn_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -556px -500px;
+}
+
+.r2ed_current_act_content_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -588px -500px;
+}
+
+.r2ed_current_act_content_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -620px -500px;
+}
+
+.r2ed_edit_dialog
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -652px -500px;
+}
+
+.r2_icon_possess
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -684px -500px;
+}
+
+.r2_icon_possess_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -716px -500px;
+}
+
+.r2_icon_possess_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -748px -500px;
+}
+
+.r2_icon_speak_as
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -780px -500px;
+}
+
+.r2_icon_speak_as_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -812px -500px;
+}
+
+.r2_icon_speak_as_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -844px -500px;
+}
+
+.r2_icon_stop_acts
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -876px -500px;
+}
+
+.r2_icon_stop_acts_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -908px -500px;
+}
+
+.r2_icon_stop_acts_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -940px -500px;
+}
+
+.r2_icon_stop_possess
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -972px -500px;
+}
+
+.r2_icon_stop_possess_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: 0px -504px;
+}
+
+.r2_icon_stop_possess_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -32px -504px;
+}
+
+.r2_icon_stop_speak
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -64px -504px;
+}
+
+.r2_icon_stop_speak_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -96px -504px;
+}
+
+.r2_icon_stop_speak_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -492px -504px;
+}
+
+.r2_icon_test_mode
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -524px -504px;
+}
+
+.r2_icon_test_mode_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -260px -508px;
+}
+
+.r2_icon_test_mode_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -292px -508px;
+}
+
+.r2_icon_weather
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -324px -508px;
+}
+
+.r2_icon_weather_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -128px -512px;
+}
+
+.r2_icon_weather_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -356px -512px;
+}
+
+.r2ed_tool_extend_prim
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -388px -512px;
+}
+
+.r2ed_tool_extend_prim_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -420px -512px;
+}
+
+.r2ed_tool_extend_prim_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -452px -512px;
+}
+
+.r2ed_edit_dialog_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -160px -524px;
+}
+
+.r2ed_icon_stop
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -192px -524px;
+}
+
+.r2ed_edit_dialog_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -224px -524px;
+}
+
+.r2ed_edit_events
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -556px -532px;
+}
+
+.r2ed_permanent_content
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -588px -532px;
+}
+
+.r2ed_permanent_content_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -620px -532px;
+}
+
+.r2ed_permanent_content_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -652px -532px;
+}
+
+.r2ed_edit_events_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -684px -532px;
+}
+
+.r2ed_edit_events_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -716px -532px;
+}
+
+.r2_scenario
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -748px -532px;
+}
+
+.r2ed_tool_new_vertex
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -780px -532px;
+}
+
+.r2ed_tool_new_vertex_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -812px -532px;
+}
+
+.r2ed_tool_new_vertex_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -844px -532px;
+}
+
+.Skin_scroll_H
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 8px;
+  background-position: -876px -532px;
+}
+
+.curs_L_no_mouse
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: 0px -536px;
+}
+
+.r2ed_toolbar_feed_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -32px -536px;
+}
+
+.r2_toolbar_customize_look
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -64px -536px;
+}
+
+.r2_toolbar_customize_look_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -96px -536px;
+}
+
+.r2_toolbar_customize_look_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -484px -536px;
+}
+
+.r2_toolbar_customize_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -516px -536px;
+}
+
+.r2_toolbar_customize_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -256px -540px;
+}
+
+.r2_toolbar_delete
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -288px -540px;
+}
+
+.r2_toolbar_delete_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -320px -540px;
+}
+
+.r2_toolbar_delete_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -876px -540px;
+}
+
+.r2_toolbar_follow_road
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -908px -540px;
+}
+
+.r2_toolbar_follow_road_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -940px -540px;
+}
+
+.r2_toolbar_follow_road_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -972px -540px;
+}
+
+.r2_toolbar_group
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -128px -544px;
+}
+
+.r2_toolbar_group_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -352px -544px;
+}
+
+.r2_toolbar_group_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -384px -544px;
+}
+
+.r2_toolbar_kill
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -416px -544px;
+}
+
+.r2_toolbar_kill_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -448px -544px;
+}
+
+.r2_toolbar_kill_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -160px -556px;
+}
+
+.r2_toolbar_patrol_road
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -192px -556px;
+}
+
+.r2_toolbar_patrol_road_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -224px -556px;
+}
+
+.r2_toolbar_patrol_road_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -548px -564px;
+}
+
+.r2_toolbar_properties
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -580px -564px;
+}
+
+.r2_toolbar_properties_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -612px -564px;
+}
+
+.r2_toolbar_properties_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -644px -564px;
+}
+
+.r2_toolbar_repeat_road
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -676px -564px;
+}
+
+.r2_toolbar_repeat_road_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -708px -564px;
+}
+
+.r2_toolbar_repeat_road_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -740px -564px;
+}
+
+.r2_toolbar_set_as_leader
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -772px -564px;
+}
+
+.r2_toolbar_set_as_leader_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -804px -564px;
+}
+
+.r2_toolbar_set_as_leader_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -836px -564px;
+}
+
+.r2_toolbar_stand_still
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: 0px -568px;
+}
+
+.r2_toolbar_stand_still_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -32px -568px;
+}
+
+.r2_toolbar_stand_still_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -64px -568px;
+}
+
+.r2_toolbar_ungroup
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -96px -568px;
+}
+
+.r2_toolbar_ungroup_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -480px -568px;
+}
+
+.r2_toolbar_ungroup_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -512px -568px;
+}
+
+.r2_toolbar_wander_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -256px -572px;
+}
+
+.r2_toolbar_wander_zone_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -288px -572px;
+}
+
+.r2_toolbar_wander_zone_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 32px;
+  background-position: -320px -572px;
+}
+
+.r2ed_storm
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 24px;
+  background-position: -920px -372px;
+}
+
+.r2ed_clouds
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 24px;
+  background-position: -960px -372px;
+}
+
+.r2ed_lakes_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 28px;
+  height: 32px;
+  background-position: -988px -128px;
+}
+
+.r2ed_lakes_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 28px;
+  height: 32px;
+  background-position: -988px -160px;
+}
+
+.bg_jauge_mid
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 7px;
+  background-position: -868px -572px;
+}
+
+.r2ed_jungle_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 27px;
+  height: 32px;
+  background-position: -988px -192px;
+}
+
+.r2ed_jungle_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 27px;
+  height: 32px;
+  background-position: -996px -280px;
+}
+
+.r2ed_desert_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 32px;
+  background-position: -996px -572px;
+}
+
+.r2ed_prime_roots_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 32px;
+  background-position: -128px -576px;
+}
+
+.r2ed_prime_roots_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 32px;
+  background-position: -352px -576px;
+}
+
+.skin_header_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 32px;
+  background-position: -380px -576px;
+}
+
+.r2ed_desert_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 32px;
+  background-position: -408px -576px;
+}
+
+.W_trade_not_ready
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 20px;
+  background-position: -436px -576px;
+}
+
+.disconnect
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 28px;
+  height: 28px;
+  background-position: -868px -580px;
+}
+
+.r2_tab_sequence_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 28px;
+  height: 28px;
+  background-position: -896px -580px;
+}
+
+.r2_tab_wide_normal_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 28px;
+  height: 28px;
+  background-position: -924px -580px;
+}
+
+.r2_tab_wide_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 28px;
+  height: 28px;
+  background-position: -952px -580px;
+}
+
+.w_button_mode_over2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 28px;
+  height: 28px;
+  background-position: -156px -588px;
+}
+
+.slot_brick
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 28px;
+  height: 28px;
+  background-position: -184px -588px;
+}
+
+.W_button_28_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 28px;
+  height: 28px;
+  background-position: -212px -588px;
+}
+
+.action_balance_cost
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 24px;
+  background-position: -436px -596px;
+}
+
+.action_balance_cred
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 24px;
+  background-position: -544px -596px;
+}
+
+.skill_arbo_x_extend
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 32px;
+  background-position: -1000px -352px;
+}
+
+.action_balance_equal
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 24px;
+  background-position: -576px -596px;
+}
+
+.W_slot_jauge_3_mini
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 12px;
+  background-position: -608px -596px;
+}
+
+.bulle_say_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 24px;
+  background-position: -672px -596px;
+}
+
+.bulle_say_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 24px;
+  background-position: -704px -596px;
+}
+
+.bulle_say_tl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 24px;
+  background-position: -736px -596px;
+}
+
+.bulle_say_tr
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 24px;
+  background-position: -768px -596px;
+}
+
+.bulle_think_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 24px;
+  background-position: -800px -596px;
+}
+
+.bulle_think_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 24px;
+  background-position: -832px -596px;
+}
+
+.bg_source_bot
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 152px;
+  height: 5px;
+  background-position: 0px -608px;
+}
+
+.w_slot_jauge_1_tmin
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 60px;
+  height: 12px;
+  background-position: -468px -600px;
+}
+
+.r2_main_menu_normal_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 22px;
+  height: 32px;
+  background-position: -240px -604px;
+}
+
+.r2_main_menu_normal_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 22px;
+  height: 32px;
+  background-position: -264px -604px;
+}
+
+.r2_main_menu_over_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 22px;
+  height: 32px;
+  background-position: -288px -604px;
+}
+
+.r2_main_menu_over_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 22px;
+  height: 32px;
+  background-position: -312px -604px;
+}
+
+.r2_main_menu_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 22px;
+  height: 32px;
+  background-position: -980px -604px;
+}
+
+.r2_main_menu_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 22px;
+  height: 32px;
+  background-position: -336px -608px;
+}
+
+.W_slot_spell_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 26px;
+  background-position: -360px -608px;
+}
+
+.action_cycle
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 26px;
+  background-position: -388px -608px;
+}
+
+.action_next
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 26px;
+  background-position: -608px -608px;
+}
+
+.w_slot_win_menu
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 26px;
+  background-position: -636px -608px;
+}
+
+.W_slot_spell_selected
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 26px;
+  background-position: -864px -608px;
+}
+
+.W_slot_brick_selected
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 26px;
+  background-position: -892px -608px;
+}
+
+.W_slot_brick
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 26px;
+  background-position: -920px -608px;
+}
+
+.W_slot_spell
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 26px;
+  height: 26px;
+  background-position: -948px -608px;
+}
+
+.r2ed_forest_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 21px;
+  height: 32px;
+  background-position: -468px -612px;
+}
+
+.r2ed_forest_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 21px;
+  height: 32px;
+  background-position: -492px -612px;
+}
+
+.bg_jauge_bot
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 5px;
+  background-position: 0px -600px;
+}
+
+.bg_source_top
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 152px;
+  height: 4px;
+  background-position: -832px -396px;
+}
+
+.r2_icon_go_test_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -516px -612px;
+}
+
+.r2_icon_keys_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: 0px -616px;
+}
+
+.r2_icon_light_off_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -24px -616px;
+}
+
+.r2_icon_light_on_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -48px -616px;
+}
+
+.r2_icon_load_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -72px -616px;
+}
+
+.r2_icon_mail_box_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -96px -616px;
+}
+
+.r2_icon_map_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -120px -616px;
+}
+
+.r2_icon_new_scenario_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -144px -616px;
+}
+
+.r2_icon_palette_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -168px -616px;
+}
+
+.r2_icon_player_admin_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -192px -616px;
+}
+
+.lm_mission_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -216px -616px;
+}
+
+.r2ed_not_current_act
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -416px -620px;
+}
+
+.lm_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -440px -620px;
+}
+
+.r2_icon_preferences
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -540px -620px;
+}
+
+.r2_icon_r2_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -564px -620px;
+}
+
+.r2_icon_resetwindows
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -664px -620px;
+}
+
+.r2_icon_save_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -688px -620px;
+}
+
+.r2_icon_scenario_prop
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -712px -620px;
+}
+
+.r2_icon_scenario_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -736px -620px;
+}
+
+.lm_respawn
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -760px -620px;
+}
+
+.lm_respawn_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -784px -620px;
+}
+
+.r2ed_permanent_content_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -808px -620px;
+}
+
+.lm_respawn_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -832px -620px;
+}
+
+.r2ed_connected_char
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -240px -636px;
+}
+
+.pvp_orange
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -264px -636px;
+}
+
+.r2_icon_stop_live_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -288px -636px;
+}
+
+.r2ed_right_sequence
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -312px -636px;
+}
+
+.r2ed_tool_new_vertex_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -360px -636px;
+}
+
+.ency_rite_done
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -384px -636px;
+}
+
+.ency_rite_slot
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -516px -636px;
+}
+
+.pvp_green
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -588px -636px;
+}
+
+.teammate_map
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -612px -636px;
+}
+
+.r2_icon_stop_test_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -636px -636px;
+}
+
+.r2_icon_support
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -856px -636px;
+}
+
+.r2ed_sun
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -880px -636px;
+}
+
+.teammate_map_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -904px -636px;
+}
+
+.lm_target
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -928px -636px;
+}
+
+.r2ed_current_act_content_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -952px -636px;
+}
+
+.r2ed_toolbar_feed_zone_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -976px -636px;
+}
+
+.lm_target_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -1000px -636px;
+}
+
+.lm_target_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: 0px -640px;
+}
+
+.r2ed_down_element
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -24px -640px;
+}
+
+.r2ed_toolbar_freeze_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -48px -640px;
+}
+
+.lm_user
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -72px -640px;
+}
+
+.lm_user_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -96px -640px;
+}
+
+.r2ed_edit_dialog_over_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -120px -640px;
+}
+
+.r2ed_toolbar_guard_zone_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -144px -640px;
+}
+
+.r2ed_tool_rotate_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -168px -640px;
+}
+
+.m_back
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -192px -640px;
+}
+
+.r2ed_edit_dialog_pushed_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -216px -640px;
+}
+
+.r2ed_edit_dialog_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -336px -640px;
+}
+
+.r2ed_toolbar_hide_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -408px -644px;
+}
+
+.mektoub_map
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -432px -644px;
+}
+
+.mektoub_map_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -456px -644px;
+}
+
+.r2_palette_act
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -480px -644px;
+}
+
+.r2_palette_components
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -540px -644px;
+}
+
+.r2_palette_entities
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -564px -644px;
+}
+
+.r2_palette_objets
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -660px -644px;
+}
+
+.r2_palette_scenario
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -684px -644px;
+}
+
+.r2_palette_zones
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -708px -644px;
+}
+
+.r2ed_edit_events_over_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -732px -644px;
+}
+
+.r2ed_toolbar_hunt_zone_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -756px -644px;
+}
+
+.r2ed_tool_select_move_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -780px -644px;
+}
+
+.forage_time
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -804px -644px;
+}
+
+.r2ed_edit_events_pushed_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -828px -644px;
+}
+
+.r2ed_edit_events_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -240px -660px;
+}
+
+.r2ed_toolbar_lock_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -264px -660px;
+}
+
+.r2ed_entry_point
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -288px -660px;
+}
+
+.r2_scenario_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -312px -660px;
+}
+
+.r2ed_entry_point_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -360px -660px;
+}
+
+.r2ed_entry_point_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -384px -660px;
+}
+
+.r2ed_toolbar_rest_zone_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -504px -660px;
+}
+
+.W_slot_brick_disabled
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -588px -660px;
+}
+
+.W_button_24_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -612px -660px;
+}
+
+.forage_content
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -636px -660px;
+}
+
+.r2ed_toolbar_show_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -852px -660px;
+}
+
+.forage_danger
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -876px -660px;
+}
+
+.forage_life
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -900px -660px;
+}
+
+.r2_toolbar_customize_look_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -924px -660px;
+}
+
+.forage_spawn
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -948px -660px;
+}
+
+.r2ed_toolbar_unfreeze_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -972px -660px;
+}
+
+.rap_invited_no_dm
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -996px -660px;
+}
+
+.rap_not_invited_dm
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: 0px -664px;
+}
+
+.r2ed_up_element
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -24px -664px;
+}
+
+.r2_toolbar_delete_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -48px -664px;
+}
+
+.rap_invited_dm
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -72px -664px;
+}
+
+.r2ed_toolbar_unlock_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -96px -664px;
+}
+
+.r2_allow_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -120px -664px;
+}
+
+.r2_toolbar_follow_road_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -144px -664px;
+}
+
+.lm_continent
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -168px -664px;
+}
+
+.lm_continent_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -192px -664px;
+}
+
+.TB_spellbook
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -216px -664px;
+}
+
+.r2_toolbar_group_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -336px -664px;
+}
+
+.r2ed_toolbar_work_zone_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -408px -668px;
+}
+
+.TB_System
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -432px -668px;
+}
+
+.TB_interaction
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -456px -668px;
+}
+
+.r2_toolbar_kill_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -480px -668px;
+}
+
+.TB_map
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -528px -668px;
+}
+
+.TB_missions
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -552px -668px;
+}
+
+.TB_inventory
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -660px -668px;
+}
+
+.r2_toolbar_patrol_road_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -684px -668px;
+}
+
+.TB_identity
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -708px -668px;
+}
+
+.TB_quit
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -732px -668px;
+}
+
+.pvp_red
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -756px -668px;
+}
+
+.r2_toolbar_properties_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -780px -668px;
+}
+
+.TB_help
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -804px -668px;
+}
+
+.r2ed_icon_move
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -828px -668px;
+}
+
+.r2ed_icon_newactivity
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -240px -684px;
+}
+
+.r2_toolbar_repeat_road_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -264px -684px;
+}
+
+.r2ed_icon_rotate
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -288px -684px;
+}
+
+.arbo_close_just_one_24
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -312px -684px;
+}
+
+.r2ed_invalid_event_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -360px -684px;
+}
+
+.r2_toolbar_set_as_leader_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -384px -684px;
+}
+
+.arbo_level_24
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -504px -684px;
+}
+
+.lm_home
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -576px -684px;
+}
+
+.r2_icon_chat_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -600px -684px;
+}
+
+.r2_toolbar_stand_still_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -624px -684px;
+}
+
+.r2ed_kicked_char
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -852px -684px;
+}
+
+.lm_home_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -876px -684px;
+}
+
+.lm_home_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -900px -684px;
+}
+
+.r2_toolbar_ungroup_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -924px -684px;
+}
+
+.r2ed_tool_extend_prim_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -948px -684px;
+}
+
+.r2ed_left_sequence
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -972px -684px;
+}
+
+.lm_mission
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -996px -684px;
+}
+
+.r2_toolbar_wander_zone_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: 0px -688px;
+}
+
+.TB_Forum_ring
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 24px;
+  background-position: -24px -688px;
+}
+
+.fame_arrow_up
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 14px;
+  background-position: -48px -688px;
+}
+
+.fame_arrow_updown
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 14px;
+  background-position: -88px -688px;
+}
+
+.fame_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 14px;
+  background-position: -128px -688px;
+}
+
+.fame_arrow_down
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 40px;
+  height: 14px;
+  background-position: -168px -688px;
+}
+
+.consider_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 16px;
+  background-position: -92px -228px;
+}
+
+.w_button_32_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 16px;
+  background-position: -208px -688px;
+}
+
+.consider_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 16px;
+  background-position: -408px -692px;
+}
+
+.r2_gradient
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 4px;
+  background-position: -648px -692px;
+}
+
+.consider_5
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 16px;
+  background-position: -440px -692px;
+}
+
+.consider_7
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 16px;
+  background-position: -472px -692px;
+}
+
+.w_slot_consider
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 16px;
+  background-position: -528px -692px;
+}
+
+.bg_jauge_top
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 128px;
+  height: 4px;
+  background-position: -648px -696px;
+}
+
+.consider_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 16px;
+  background-position: -776px -692px;
+}
+
+.consider_4
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 16px;
+  background-position: -808px -692px;
+}
+
+.consider_6
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 16px;
+  background-position: -648px -700px;
+}
+
+.r2ed_triggers_select
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 22px;
+  height: 23px;
+  background-position: -336px -688px;
+}
+
+.skill_arbo_level
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 32px;
+  background-position: -1008px -468px;
+}
+
+.skill_arbo_son_last
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 32px;
+  background-position: -1004px -500px;
+}
+
+.skill_arbo_son
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 32px;
+  background-position: -1004px -532px;
+}
+
+.r2_select_menu_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 32px;
+  background-position: -1004px -604px;
+}
+
+.r2_select_menu_over_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 32px;
+  background-position: -560px -692px;
+}
+
+.r2_select_menu_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 32px;
+  background-position: -680px -700px;
+}
+
+.skill_arbo_close_just_one
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 32px;
+  background-position: -696px -700px;
+}
+
+.skill_arbo_open_first
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 32px;
+  background-position: -712px -700px;
+}
+
+.skill_arbo_son_without_son
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 32px;
+  background-position: -728px -700px;
+}
+
+.r2_icon_reaction_mini
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -744px -700px;
+}
+
+.r2_icon_reaction_mini_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -48px -704px;
+}
+
+.r2_icon_reaction_mini_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -68px -704px;
+}
+
+.r2ed_open_activities
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -88px -704px;
+}
+
+.r2_icon_action_mini
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -108px -704px;
+}
+
+.r2_icon_event_trigger_mini
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -128px -704px;
+}
+
+.r2_icon_event_trigger_mini_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -148px -704px;
+}
+
+.r2_icon_event_trigger_mini_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -168px -704px;
+}
+
+.r2_icon_action_mini_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -188px -704px;
+}
+
+.r2_icon_dialog_mini
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -208px -704px;
+}
+
+.r2_icon_dialog_mini_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -228px -708px;
+}
+
+.r2_icon_dialog_mini_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -248px -708px;
+}
+
+.r2_icon_action_mini_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 20px;
+  background-position: -268px -708px;
+}
+
+.mp3_button_slot
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 22px;
+  height: 18px;
+  background-position: -288px -708px;
+}
+
+.w_mode_choice
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 28px;
+  background-position: -312px -708px;
+}
+
+.w_button_mode_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 28px;
+  background-position: -360px -708px;
+}
+
+.mp3_vol_jauge
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 48px;
+  height: 8px;
+  background-position: -152px -248px;
+}
+
+.filter_weapon
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 16px;
+  background-position: -988px -224px;
+}
+
+.w_button_filter_off
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 16px;
+  background-position: -128px -368px;
+}
+
+.r2_select_bar_start_normal_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 32px;
+  background-position: -840px -692px;
+}
+
+.r2_select_bar_start_normal_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 32px;
+  background-position: -764px -700px;
+}
+
+.r2_select_bar_start_over_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 32px;
+  background-position: -376px -708px;
+}
+
+.r2_select_bar_start_over_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 32px;
+  background-position: -388px -708px;
+}
+
+.r2_select_bar_start_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 32px;
+  background-position: -400px -708px;
+}
+
+.r2_select_bar_start_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 32px;
+  background-position: -412px -708px;
+}
+
+.w_button_filter_on
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 16px;
+  background-position: -448px -368px;
+}
+
+.details_on
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 16px;
+  background-position: -1000px -384px;
+}
+
+.W_slot_jauge_1_mini
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 64px;
+  height: 6px;
+  background-position: -424px -708px;
+}
+
+.details_off
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 16px;
+  background-position: -488px -708px;
+}
+
+.w_l0_tl_title
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 24px;
+  background-position: -980px -580px;
+}
+
+.qh_off_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 24px;
+  background-position: -512px -708px;
+}
+
+.qh_off_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 24px;
+  background-position: -528px -708px;
+}
+
+.skin_header_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 32px;
+  background-position: -544px -708px;
+}
+
+.qh_on_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 24px;
+  background-position: -576px -708px;
+}
+
+.qh_on_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 24px;
+  background-position: -592px -708px;
+}
+
+.filter_armor
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 16px;
+  background-position: -608px -708px;
+}
+
+.filter_mission
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 16px;
+  background-position: -776px -708px;
+}
+
+.filter_mps
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 16px;
+  background-position: -800px -708px;
+}
+
+.filter_tools
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 16px;
+  background-position: -852px -708px;
+}
+
+.w_button_18_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 18px;
+  height: 18px;
+  background-position: -876px -708px;
+}
+
+.mp3_button_play
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 16px;
+  background-position: -588px -620px;
+}
+
+.mp3_button_previous
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 16px;
+  background-position: -896px -708px;
+}
+
+.Switch_Ratio
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 16px;
+  background-position: -916px -708px;
+}
+
+.mp3_button_list
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 16px;
+  background-position: -936px -708px;
+}
+
+.mp3_button_next
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 16px;
+  background-position: -956px -708px;
+}
+
+.Switch_Text_Icon
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 16px;
+  background-position: -976px -708px;
+}
+
+.mp3_button_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 16px;
+  background-position: -996px -708px;
+}
+
+.mp3_button_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 16px;
+  background-position: 0px -712px;
+}
+
+.mp3_button_pause
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 20px;
+  height: 16px;
+  background-position: -20px -712px;
+}
+
+.W_warning
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 18px;
+  height: 16px;
+  background-position: -328px -712px;
+}
+
+.w_expand_off
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 24px;
+  background-position: -632px -708px;
+}
+
+.w_tab_up_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 24px;
+  background-position: -824px -708px;
+}
+
+.w_tab_down_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 24px;
+  background-position: -348px -712px;
+}
+
+.w_tab_up_normal_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 24px;
+  background-position: -424px -716px;
+}
+
+.w_tab_down_normal_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 24px;
+  background-position: -436px -716px;
+}
+
+.w_expand_on
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 24px;
+  background-position: -448px -716px;
+}
+
+.W_button_16_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -488px -224px;
+}
+
+.r2_icon_select
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -240px -588px;
+}
+
+.bgd_pause
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -460px -716px;
+}
+
+.w_button_radar_plus
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -644px -716px;
+}
+
+.w_center_map
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -660px -716px;
+}
+
+.r2_icon_speak_as_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -744px -720px;
+}
+
+.r2_icon_speak_as_small_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -40px -724px;
+}
+
+.r2_icon_speak_as_small_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -56px -724px;
+}
+
+.W_answer_16_cancel
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -72px -724px;
+}
+
+.W_answer_16_valid
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -88px -724px;
+}
+
+.W_button_default
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -104px -724px;
+}
+
+.W_button_edit
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -120px -724px;
+}
+
+.W_slot_number
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -136px -724px;
+}
+
+.W_slot_number_selected
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -152px -724px;
+}
+
+.r2_suspension
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -168px -724px;
+}
+
+.W_slot_number_unselected
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -184px -724px;
+}
+
+.w_restore
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -200px -724px;
+}
+
+.ency_step_done
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -476px -724px;
+}
+
+.r2ed_ring_rating_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -492px -724px;
+}
+
+.r2ed_ring_rating_10
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -556px -724px;
+}
+
+.r2ed_ring_rating_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -608px -724px;
+}
+
+.r2ed_ring_rating_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -776px -724px;
+}
+
+.r2ed_ring_rating_4
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -792px -724px;
+}
+
+.r2ed_ring_rating_5
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -808px -724px;
+}
+
+.r2ed_ring_rating_6
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -836px -724px;
+}
+
+.r2ed_ring_rating_7
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -852px -724px;
+}
+
+.r2ed_ring_rating_8
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -896px -724px;
+}
+
+.r2ed_ring_rating_9
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -912px -724px;
+}
+
+.ency_step_slot
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -928px -724px;
+}
+
+.r2ed_triggers_more
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -944px -724px;
+}
+
+.target_mission
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -960px -724px;
+}
+
+.r2ed_triggers_trash
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -976px -724px;
+}
+
+.money_seve
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -992px -724px;
+}
+
+.pin_off
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -1008px -724px;
+}
+
+.w_add
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: 0px -728px;
+}
+
+.r2_icon_map_invalid
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -16px -728px;
+}
+
+.pin_on
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -216px -728px;
+}
+
+.w_back_map
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -232px -728px;
+}
+
+.w_zoom_in
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -248px -728px;
+}
+
+.w_zoom_out
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -264px -728px;
+}
+
+.r2_glow_star
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -280px -728px;
+}
+
+.r2_map_edge_test
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -296px -728px;
+}
+
+.r2_map_foot_steps
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 8px;
+  background-position: -508px -732px;
+}
+
+.r2_mini_activity_chat
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -328px -728px;
+}
+
+.r2_mini_activity_empty_chat
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -868px -728px;
+}
+
+.r2_mini_activity_feed_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -460px -732px;
+}
+
+.r2_mini_activity_follow_road
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -572px -732px;
+}
+
+.r2_mini_activity_guard_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -588px -732px;
+}
+
+.r2_mini_activity_hunt_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -624px -732px;
+}
+
+.r2_mini_activity_inactive
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -640px -732px;
+}
+
+.r2_mini_activity_patrol_road
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -656px -732px;
+}
+
+.r2_mini_activity_repeat_road
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -672px -732px;
+}
+
+.r2_mini_activity_rest_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -688px -732px;
+}
+
+.r2_mini_activity_stand_still
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -704px -732px;
+}
+
+.r2_mini_activity_wander_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -720px -732px;
+}
+
+.r2_mini_activity_work_zone
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -760px -732px;
+}
+
+.W_button_reset
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -312px -736px;
+}
+
+.w_arrow_left_0
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -344px -736px;
+}
+
+.r2_icon_possess_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -360px -736px;
+}
+
+.r2_icon_possess_small_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -736px -736px;
+}
+
+.r2_icon_possess_small_pushed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -32px -740px;
+}
+
+.W_close_0
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -48px -740px;
+}
+
+.W_rename_16
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -64px -740px;
+}
+
+.W_arrow_down_0
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -80px -740px;
+}
+
+.W_user_info
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -96px -740px;
+}
+
+.bulle_next
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -112px -740px;
+}
+
+.bulle_quit
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -128px -740px;
+}
+
+.W_arrow_right_0
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -144px -740px;
+}
+
+.W_arrow_up_0
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 16px;
+  background-position: -160px -740px;
+}
+
+.w_button_10x24_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 10px;
+  height: 24px;
+  background-position: -884px -728px;
+}
+
+.w_button_spellock_on
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 9px;
+  background-position: -176px -740px;
+}
+
+.w_button_spellock_off
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 9px;
+  background-position: -376px -740px;
+}
+
+.w_button_spellock_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 24px;
+  height: 9px;
+  background-position: -400px -740px;
+}
+
+.contact_chat
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -200px -740px;
+}
+
+.r2ed_permanent_node
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -424px -740px;
+}
+
+.r2ed_permanent_pins
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -440px -740px;
+}
+
+.arbo_son_last
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -476px -740px;
+}
+
+.w_affected
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -492px -740px;
+}
+
+.w_button_radar_moins
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -508px -740px;
+}
+
+.arbo_son_without_son
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -524px -740px;
+}
+
+.w_slot_on
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -540px -740px;
+}
+
+.W_slot_mood
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -556px -740px;
+}
+
+.r2_icon_components_tasks
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -604px -740px;
+}
+
+.r2_icon_components_trigger
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -776px -740px;
+}
+
+.r2_icon_create
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -792px -740px;
+}
+
+.w_sound_off
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -808px -740px;
+}
+
+.r2ed_icon_act
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -824px -740px;
+}
+
+.r2ed_icon_botobject
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -840px -740px;
+}
+
+.r2ed_icon_creatures
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -896px -740px;
+}
+
+.r2ed_icon_default_feature
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -912px -740px;
+}
+
+.r2ed_icon_group
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -928px -740px;
+}
+
+.r2ed_icon_group_creatures
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -944px -740px;
+}
+
+.r2ed_icon_macro_components
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -960px -740px;
+}
+
+.w_sound_on
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -976px -740px;
+}
+
+.w_online_abroad
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -992px -740px;
+}
+
+.r2ed_icon_npc
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -1008px -740px;
+}
+
+.r2ed_icon_permanent_creatures
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: 0px -744px;
+}
+
+.r2_icon_far
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -16px -744px;
+}
+
+.r2ed_icon_permanent_group
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -216px -744px;
+}
+
+.r2ed_icon_permanent_group_creatures
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -232px -744px;
+}
+
+.r2ed_icon_permanent_macro_components
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -248px -744px;
+}
+
+.r2ed_icon_region
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -264px -744px;
+}
+
+.r2ed_icon_road
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -280px -744px;
+}
+
+.w_win_close
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -296px -744px;
+}
+
+.w_win_lock
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -328px -744px;
+}
+
+.w_win_popin
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -856px -744px;
+}
+
+.w_win_popup
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -456px -748px;
+}
+
+.W_online
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -572px -748px;
+}
+
+.w_opacity_on
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -588px -748px;
+}
+
+.w_pad_close
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -620px -748px;
+}
+
+.w_on
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -636px -748px;
+}
+
+.W_offline
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -652px -748px;
+}
+
+.animal_inventory
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -668px -748px;
+}
+
+.arbo_close_just_one
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -684px -748px;
+}
+
+.w_help_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -700px -748px;
+}
+
+.w_button_14_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -716px -748px;
+}
+
+.r2_icon_properties
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -752px -748px;
+}
+
+.arbo_level
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -176px -752px;
+}
+
+.arbo_open_first
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -312px -752px;
+}
+
+.arbo_son
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 14px;
+  background-position: -344px -752px;
+}
+
+.r2_select_menu_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 32px;
+  background-position: -192px -200px;
+}
+
+.r2_select_menu_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 32px;
+  background-position: -320px -256px;
+}
+
+.quit_button_normal_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 24px;
+  background-position: -1016px -256px;
+}
+
+.quit_button_normal_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 24px;
+  background-position: -1016px -400px;
+}
+
+.quit_button_over_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 24px;
+  background-position: -1016px -424px;
+}
+
+.w_slot_jauge_1_umin
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 32px;
+  height: 6px;
+  background-position: -360px -752px;
+}
+
+.quit_button_over_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 24px;
+  background-position: -560px -440px;
+}
+
+.quit_button_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 24px;
+  background-position: -264px -452px;
+}
+
+.r2_select_menu_over_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 32px;
+  background-position: -872px -744px;
+}
+
+.quit_button_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 24px;
+  background-position: -484px -512px;
+}
+
+.target
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 17px;
+  height: 11px;
+  background-position: -416px -608px;
+}
+
+.flag-fr
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 15px;
+  height: 12px;
+  background-position: -528px -600px;
+}
+
+.flag-en
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 15px;
+  height: 12px;
+  background-position: -392px -752px;
+}
+
+.flag-de
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 15px;
+  height: 12px;
+  background-position: -408px -752px;
+}
+
+.num_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -504px -644px;
+}
+
+.num_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -576px -668px;
+}
+
+.num_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -732px -752px;
+}
+
+.num_4
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -880px -752px;
+}
+
+.num_5
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -32px -756px;
+}
+
+.w_defense_normal_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 42px;
+  background-position: -1012px 0px;
+}
+
+.num_6
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -44px -756px;
+}
+
+.w_defense_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 42px;
+  background-position: -1012px -44px;
+}
+
+.w_defense_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 42px;
+  background-position: -1020px -500px;
+}
+
+.num_7
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -56px -756px;
+}
+
+.num_8
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -68px -756px;
+}
+
+.w_defense_normal_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 42px;
+  background-position: -1020px -660px;
+}
+
+.w_defense_normal_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 42px;
+  background-position: -472px -748px;
+}
+
+.w_defense_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 42px;
+  background-position: -768px -748px;
+}
+
+.num_9
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -80px -756px;
+}
+
+.W_warning_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 14px;
+  height: 12px;
+  background-position: -92px -756px;
+}
+
+.num_0
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -108px -756px;
+}
+
+.w_trade_other_ready
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -120px -756px;
+}
+
+.w_trade_player_ready
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 14px;
+  background-position: -132px -756px;
+}
+
+.W_button_12_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -164px -480px;
+}
+
+.w_copy
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -144px -756px;
+}
+
+.W_arrow_right_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -156px -756px;
+}
+
+.W_arrow_down_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -192px -756px;
+}
+
+.target_info
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -204px -756px;
+}
+
+.W_scale_less_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -424px -756px;
+}
+
+.W_scale_more_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -436px -756px;
+}
+
+.W_arrow_up_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -476px -756px;
+}
+
+.W_close_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -488px -756px;
+}
+
+.W_mood_pow0
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -500px -756px;
+}
+
+.r2ed_triggers_little_chat
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -512px -756px;
+}
+
+.r2ed_triggers_little_less
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -524px -756px;
+}
+
+.r2ed_triggers_little_more
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -536px -756px;
+}
+
+.r2ed_triggers_little_trash
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -548px -756px;
+}
+
+.r2ed_triggers_maximize
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -560px -756px;
+}
+
+.r2ed_triggers_minimize
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -604px -756px;
+}
+
+.W_weight
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -772px -756px;
+}
+
+.W_mood_pow1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -784px -756px;
+}
+
+.W_mood_pow2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -796px -756px;
+}
+
+.W_mood_pow3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -808px -756px;
+}
+
+.W_mood_pow5
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 12px;
+  height: 12px;
+  background-position: -820px -756px;
+}
+
+.rollout_opened
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 11px;
+  height: 12px;
+  background-position: -832px -756px;
+}
+
+.rollout_closed
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 11px;
+  height: 12px;
+  background-position: -844px -756px;
+}
+
+.W_magic_sep2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 26px;
+  background-position: -548px -536px;
+}
+
+.W_magic_sep1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 26px;
+  background-position: -744px -752px;
+}
+
+.w_death
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 13px;
+  height: 10px;
+  background-position: -892px -756px;
+}
+
+.r2_select_menu_over_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -1012px -88px;
+}
+
+.r2ed_desert_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -508px -352px;
+}
+
+.r2ed_desert_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -360px -436px;
+}
+
+.r2_select_menu_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -1020px -604px;
+}
+
+.r2ed_desert_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -168px -756px;
+}
+
+.W_L0_EL_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 8px;
+  background-position: -488px -280px;
+}
+
+.skin_el_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 8px;
+  background-position: -996px -312px;
+}
+
+.skin_bl_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 8px;
+  background-position: -496px -392px;
+}
+
+.r2_main_menu_normal_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -172px -756px;
+}
+
+.r2ed_desert_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -448px -756px;
+}
+
+.r2ed_forest_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -452px -756px;
+}
+
+.r2_main_menu_over_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -616px -756px;
+}
+
+.r2ed_jungle_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -908px -756px;
+}
+
+.curs_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -912px -756px;
+}
+
+.r2_main_menu_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -916px -756px;
+}
+
+.r2ed_jungle_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -920px -756px;
+}
+
+.r2ed_jungle_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -924px -756px;
+}
+
+.r2ed_jungle_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -928px -756px;
+}
+
+.r2ed_prime_roots_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -932px -756px;
+}
+
+.r2ed_forest_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -936px -756px;
+}
+
+.r2ed_prime_roots_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -940px -756px;
+}
+
+.r2ed_prime_roots_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -944px -756px;
+}
+
+.r2_select_bar_start_normal_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -948px -756px;
+}
+
+.r2ed_prime_roots_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -952px -756px;
+}
+
+.r2ed_forest_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -956px -756px;
+}
+
+.r2_select_bar_start_over_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -960px -756px;
+}
+
+.r2ed_lakes_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -964px -756px;
+}
+
+.r2ed_forest_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -968px -756px;
+}
+
+.r2_select_bar_start_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -972px -756px;
+}
+
+.r2ed_lakes_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -976px -756px;
+}
+
+.r2ed_lakes_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -980px -756px;
+}
+
+.r2_select_menu_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -984px -756px;
+}
+
+.r2ed_lakes_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 32px;
+  background-position: -988px -756px;
+}
+
+.r2_tab_wide_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 28px;
+  background-position: -556px -472px;
+}
+
+.r2_tab_sequence_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 28px;
+  background-position: -1020px -544px;
+}
+
+.r2_tab_wide_normal_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 28px;
+  background-position: -544px -568px;
+}
+
+.r2_tab_wide_normal_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 28px;
+  background-position: -976px -608px;
+}
+
+.r2_tab_sequence_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 28px;
+  background-position: -992px -756px;
+}
+
+.r2_tab_wide_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 28px;
+  background-position: -996px -756px;
+}
+
+.W_button_10_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 10px;
+  height: 10px;
+  background-position: -1000px -756px;
+}
+
+.W_arrow_down_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 10px;
+  height: 10px;
+  background-position: -1012px -756px;
+}
+
+.W_close_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 10px;
+  height: 10px;
+  background-position: 0px -760px;
+}
+
+.W_arrow_right_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 10px;
+  height: 10px;
+  background-position: -12px -760px;
+}
+
+.W_scale_less_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 10px;
+  height: 10px;
+  background-position: -216px -760px;
+}
+
+.W_arrow_up_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 10px;
+  height: 10px;
+  background-position: -228px -760px;
+}
+
+.W_scale_more_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 10px;
+  height: 10px;
+  background-position: -240px -760px;
+}
+
+.r2_icon_map_entity_orient
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 9px;
+  height: 11px;
+  background-position: -252px -760px;
+}
+
+.w_tab_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -272px -412px;
+}
+
+.w_tab_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -480px -544px;
+}
+
+.w_header_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -476px -576px;
+}
+
+.quit_button_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -464px -620px;
+}
+
+.w_l0_t_title
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -24px -760px;
+}
+
+.qh_on_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -28px -760px;
+}
+
+.w_l0_tr_title
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -264px -760px;
+}
+
+.quit_button_over_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -268px -760px;
+}
+
+.quit_button_normal_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -272px -760px;
+}
+
+.qh_off_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -276px -760px;
+}
+
+.w_header_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -280px -760px;
+}
+
+.w_tab_normal_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -284px -760px;
+}
+
+.w_tab_normal_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -288px -760px;
+}
+
+.w_tab_normal_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -292px -760px;
+}
+
+.w_tab_up_normal_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -296px -760px;
+}
+
+.w_tab_down_normal_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -300px -760px;
+}
+
+.r2_tab_wide_over_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -304px -760px;
+}
+
+.r2_tab_wide_over_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -308px -760px;
+}
+
+.r2_tab_wide_over_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -328px -760px;
+}
+
+.w_tab_up_normal_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -332px -760px;
+}
+
+.w_tab_down_normal_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -336px -760px;
+}
+
+.w_tab_over_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -340px -760px;
+}
+
+.w_tab_over_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -360px -760px;
+}
+
+.w_tab_over_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -364px -760px;
+}
+
+.w_tab_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 24px;
+  background-position: -368px -760px;
+}
+
+.W_ico_affected_fill
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 12px;
+  background-position: -192px -232px;
+}
+
+.W_ico_affected
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 12px;
+  background-position: -176px -440px;
+}
+
+.r2ed_tool_corner
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -504px -280px;
+}
+
+.r2ed_tool_corner_select
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -1012px -312px;
+}
+
+.r2ed_tool_corner_select_g
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -992px -352px;
+}
+
+.cm_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -1016px -448px;
+}
+
+.W_arrow_down_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -1016px -456px;
+}
+
+.cm_link_vert
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -868px -564px;
+}
+
+.cm_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -1004px -564px;
+}
+
+.cm_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -1012px -564px;
+}
+
+.w_text_button_normal_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -1012px -224px;
+}
+
+.cm_t
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -664px -608px;
+}
+
+.cm_tl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -856px -620px;
+}
+
+.cm_tr
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -856px -628px;
+}
+
+.compas_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -124px -228px;
+}
+
+.compas_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -152px -368px;
+}
+
+.compas_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -472px -368px;
+}
+
+.W_point
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -408px -636px;
+}
+
+.W_L1_E_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -92px -244px;
+}
+
+.W_L1_M_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -108px -244px;
+}
+
+.w_special_bl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -528px -660px;
+}
+
+.w_special_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -648px -684px;
+}
+
+.w_special_br
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -1016px -708px;
+}
+
+.w_special_tr
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -40px -712px;
+}
+
+.W_L2_BL
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -984px -396px;
+}
+
+.W_scale_less_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -476px -716px;
+}
+
+.W_arrow_right_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -1016px -716px;
+}
+
+.W_L2_BL_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -336px -604px;
+}
+
+.W_scale_more_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -624px -724px;
+}
+
+.W_close_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -32px -728px;
+}
+
+.cm_bl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -824px -732px;
+}
+
+.skin_bl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -752px -736px;
+}
+
+.cm_b
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -372px -760px;
+}
+
+.W_hl_b
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -380px -760px;
+}
+
+.skin_br
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -856px -760px;
+}
+
+.w_text_button_normal_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -132px -424px;
+}
+
+.w_text_button_normal_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -260px -492px;
+}
+
+.w_text_button_over_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -256px -524px;
+}
+
+.w_text_button_over_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -852px -644px;
+}
+
+.w_text_button_over_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -556px -708px;
+}
+
+.w_text_button_pushed_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -836px -708px;
+}
+
+.w_text_button_pushed_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -676px -716px;
+}
+
+.w_text_button_pushed_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 16px;
+  background-position: -388px -760px;
+}
+
+.skin_br_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -864px -760px;
+}
+
+.W_hl_bl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -392px -764px;
+}
+
+.r2ed_island_border
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -400px -764px;
+}
+
+.r2ed_island_corner
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -408px -764px;
+}
+
+.W_hl_br
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -416px -764px;
+}
+
+.skin_er_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -456px -764px;
+}
+
+.W_hl_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -464px -764px;
+}
+
+.W_hl_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -572px -764px;
+}
+
+.W_hl_t
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -580px -764px;
+}
+
+.W_hl_tl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -588px -764px;
+}
+
+.skin_l1_bl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -620px -764px;
+}
+
+.skin_sep_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -596px -764px;
+}
+
+.skin_sep_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -636px -764px;
+}
+
+.skin_l1_bl_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -644px -764px;
+}
+
+.W_hl_tr
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -660px -764px;
+}
+
+.skin_l1_e_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -668px -764px;
+}
+
+.skin_l1_m_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -684px -764px;
+}
+
+.W_L2_E_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -700px -764px;
+}
+
+.W_L2_M_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -716px -764px;
+}
+
+.r2_icon_map_entity_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -752px -764px;
+}
+
+.r2_icon_map_entity_small_highlight
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -760px -764px;
+}
+
+.W_arrow_up_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -92px -768px;
+}
+
+.r2_icon_map_invalid_small
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -100px -768px;
+}
+
+.W_button_08_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -144px -768px;
+}
+
+.W_button_10_choice
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -152px -768px;
+}
+
+.skin_tl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -160px -768px;
+}
+
+.skin_tr
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -176px -768px;
+}
+
+.W_L0_BL_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -184px -768px;
+}
+
+.r2ed_tool_border
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -200px -768px;
+}
+
+.r2ed_tool_border_select
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -208px -768px;
+}
+
+.r2ed_tool_border_select_g
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -312px -768px;
+}
+
+.W_L0_BL
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -344px -768px;
+}
+
+.W_L0_M_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -372px -768px;
+}
+
+.W_L1_BL
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -424px -768px;
+}
+
+.W_L1_BL_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 16px;
+  height: 4px;
+  background-position: -476px -768px;
+}
+
+.w_l0_lock
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -320px -768px;
+}
+
+.r2ed_triggers_border
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -440px -768px;
+}
+
+.r2ed_triggers_corner
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -492px -768px;
+}
+
+.cm_link_hor
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -500px -768px;
+}
+
+.cm_br
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 8px;
+  background-position: -508px -768px;
+}
+
+.W_quantity
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 8px;
+  background-position: -516px -768px;
+}
+
+.Numbers_8
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 8px;
+  background-position: -524px -768px;
+}
+
+.Numbers_9
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 8px;
+  background-position: -532px -768px;
+}
+
+.Numbers_sep
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 8px;
+  background-position: -540px -768px;
+}
+
+.Numbers_0
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 8px;
+  background-position: -548px -768px;
+}
+
+.Numbers_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 8px;
+  background-position: -556px -768px;
+}
+
+.Numbers_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 8px;
+  background-position: -564px -768px;
+}
+
+.Numbers_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 8px;
+  background-position: -604px -768px;
+}
+
+.Numbers_4
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 8px;
+  background-position: -620px -768px;
+}
+
+.Numbers_5
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 8px;
+  background-position: -628px -768px;
+}
+
+.Numbers_6
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 8px;
+  background-position: -644px -768px;
+}
+
+.Numbers_7
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 8px;
+  background-position: -652px -768px;
+}
+
+.typo_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 6px;
+  background-position: -668px -768px;
+}
+
+.typo_q
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 6px;
+  background-position: -676px -768px;
+}
+
+.r2ed_island_border_select
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 6px;
+  background-position: -684px -768px;
+}
+
+.typo_v
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 6px;
+  background-position: -692px -768px;
+}
+
+.r2ed_island_corner_select
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 6px;
+  background-position: -700px -768px;
+}
+
+.typo_w
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 6px;
+  background-position: -708px -768px;
+}
+
+.typo_y
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 6px;
+  height: 6px;
+  background-position: -716px -768px;
+}
+
+.w_special_b
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 8px;
+  background-position: -1012px -120px;
+}
+
+.w_scroll_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 8px;
+  background-position: -1020px -312px;
+}
+
+.w_scroll_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 8px;
+  background-position: -128px -504px;
+}
+
+.skin_sep_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 4px;
+  background-position: -192px -244px;
+}
+
+.w_scroll_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 8px;
+  background-position: -160px -512px;
+}
+
+.w_special_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 4px;
+  background-position: -1008px -400px;
+}
+
+.w_special_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 4px;
+  background-position: -560px -464px;
+}
+
+.w_special_t
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 8px;
+  background-position: -156px -576px;
+}
+
+.W_scroll_L123_M
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 4px;
+  background-position: -1016px -464px;
+}
+
+.Skin_scroll_R
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 8px;
+  background-position: -864px -596px;
+}
+
+.W_scroll_L123_T
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 4px;
+  background-position: -468px -596px;
+}
+
+.Skin_scroll_L
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 8px;
+  background-position: -152px -608px;
+}
+
+.W_L0_ER_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 8px;
+  background-position: -540px -612px;
+}
+
+.W_L0_EM_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 8px;
+  background-position: -660px -636px;
+}
+
+.skin_scroll_b
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 4px;
+  background-position: -664px -616px;
+}
+
+.W_scroll_L0_B
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 4px;
+  background-position: -228px -704px;
+}
+
+.skin_scroll_t
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 4px;
+  background-position: -328px -708px;
+}
+
+.W_scroll_L0_M
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 4px;
+  background-position: -40px -720px;
+}
+
+.W_scroll_L0_T
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 4px;
+  background-position: -216px -724px;
+}
+
+.W_scroll_L123_B
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 8px;
+  height: 4px;
+  background-position: -868px -724px;
+}
+
+.typo_2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -724px -768px;
+}
+
+.typo_question
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -732px -768px;
+}
+
+.typo_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -772px -768px;
+}
+
+.typo_u
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -780px -768px;
+}
+
+.typo_3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -788px -768px;
+}
+
+.typo_4
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -796px -768px;
+}
+
+.typo_x
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -804px -768px;
+}
+
+.typo_5
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -812px -768px;
+}
+
+.typo_6
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -820px -768px;
+}
+
+.typo_7
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -828px -768px;
+}
+
+.typo_8
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -836px -768px;
+}
+
+.typo_9
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -844px -768px;
+}
+
+.typo_a
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -852px -768px;
+}
+
+.typo_b
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -860px -768px;
+}
+
+.typo_d
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -880px -768px;
+}
+
+.typo_g
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -888px -768px;
+}
+
+.typo_h
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -896px -768px;
+}
+
+.typo_k
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -1000px -768px;
+}
+
+.typo_0
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -1008px -768px;
+}
+
+.typo_n
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -1016px -768px;
+}
+
+.typo_o
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: 0px -772px;
+}
+
+.typo_p
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 6px;
+  background-position: -8px -772px;
+}
+
+.infos_bot
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 7px;
+  height: 4px;
+  background-position: -736px -732px;
+}
+
+.infos_mid
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 7px;
+  height: 4px;
+  background-position: -32px -736px;
+}
+
+.infos_top
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 7px;
+  height: 4px;
+  background-position: -856px -740px;
+}
+
+.bulle_bl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 5px;
+  background-position: -16px -772px;
+}
+
+.bulle_tl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 5px;
+  background-position: -32px -772px;
+}
+
+.bulle_tr
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 5px;
+  background-position: -40px -772px;
+}
+
+.bulle_br
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 5px;
+  background-position: -48px -772px;
+}
+
+.w_radar_point
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 5px;
+  background-position: -56px -772px;
+}
+
+.typo_t
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 6px;
+  background-position: -536px -660px;
+}
+
+.typo_f
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 6px;
+  background-position: -656px -684px;
+}
+
+.typo_c
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 6px;
+  background-position: -644px -708px;
+}
+
+.typo_1
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 6px;
+  background-position: -484px -716px;
+}
+
+.typo_i
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 6px;
+  background-position: -760px -720px;
+}
+
+.typo_j
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 6px;
+  background-position: -508px -724px;
+}
+
+.typo_z
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 6px;
+  background-position: -572px -724px;
+}
+
+.typo_e
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 6px;
+  background-position: -344px -728px;
+}
+
+.typo_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 6px;
+  background-position: -540px -732px;
+}
+
+.typo_s
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 6px;
+  background-position: -604px -732px;
+}
+
+.W_modal_B
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -124px -244px;
+}
+
+.W_modal_BL
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -360px -468px;
+}
+
+.W_modal_BR
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -356px -508px;
+}
+
+.W_modal_L
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -160px -520px;
+}
+
+.W_modal_R
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -352px -540px;
+}
+
+.W_modal_T
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -156px -584px;
+}
+
+.W_modal_TL
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -864px -604px;
+}
+
+.W_modal_TR
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -236px -704px;
+}
+
+.fame_bar_3d
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 1px;
+  height: 16px;
+  background-position: -612px -768px;
+}
+
+.W_modal_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -1020px -704px;
+}
+
+.W_L1_B
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -224px -724px;
+}
+
+.W_L0_B
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -760px -728px;
+}
+
+.W_L0_BR
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -832px -732px;
+}
+
+.W_L1_BR
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -832px -736px;
+}
+
+.W_L1_BR_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -456px -740px;
+}
+
+.W_L1_B_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -620px -740px;
+}
+
+.W_L0_BR_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -864px -740px;
+}
+
+.blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -456px -744px;
+}
+
+.blank2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -620px -744px;
+}
+
+.w_hl_b_l123
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -752px -744px;
+}
+
+.w_hl_bl_l123
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -756px -744px;
+}
+
+.w_hl_br_l123
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -880px -744px;
+}
+
+.w_hl_l_l123
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -732px -748px;
+}
+
+.w_hl_r_l123
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -772px -748px;
+}
+
+.r2ed_tool_bg
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -880px -748px;
+}
+
+.w_hl_t_l123
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -192px -752px;
+}
+
+.w_hl_tl_l123
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -196px -752px;
+}
+
+.w_hl_tr_l123
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -772px -752px;
+}
+
+.w_l0_b_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -892px -752px;
+}
+
+.w_l0_bl_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -740px -768px;
+}
+
+.w_l0_br_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -868px -768px;
+}
+
+.w_l0_l_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -904px -768px;
+}
+
+.W_L1_L
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -64px -772px;
+}
+
+.w_l0_r_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -68px -772px;
+}
+
+.w_l0_t_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -72px -772px;
+}
+
+.W_L0_L
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -76px -772px;
+}
+
+.w_l0_tl_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -80px -772px;
+}
+
+.W_L1_R
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -84px -772px;
+}
+
+.w_l0_tr_over
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -88px -772px;
+}
+
+.W_L1_T
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -108px -772px;
+}
+
+.w_l1_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -112px -772px;
+}
+
+.w_l2_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -116px -772px;
+}
+
+.w_l3_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -120px -772px;
+}
+
+.W_box_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -124px -772px;
+}
+
+.W_box_bot
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -128px -772px;
+}
+
+.W_box_bot_left
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -132px -772px;
+}
+
+.W_box_bot_right
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -136px -772px;
+}
+
+.W_box_left
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -140px -772px;
+}
+
+.W_box_right
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -184px -772px;
+}
+
+.W_box_top
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -188px -772px;
+}
+
+.alpha_10
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -192px -772px;
+}
+
+.alpha_20
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -196px -772px;
+}
+
+.alpha_30
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -216px -772px;
+}
+
+.alpha_40
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -220px -772px;
+}
+
+.alpha_50
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -224px -772px;
+}
+
+.alpha_60
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -228px -772px;
+}
+
+.alpha_70
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -232px -772px;
+}
+
+.alpha_80
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -236px -772px;
+}
+
+.W_box_top_left
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -240px -772px;
+}
+
+.W_box_top_right
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -244px -772px;
+}
+
+.W_L1_TL
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -248px -772px;
+}
+
+.W_L1_TR
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -252px -772px;
+}
+
+.r2ed_little_island_border_select
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -256px -772px;
+}
+
+.r2ed_little_island_corner_select
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -260px -772px;
+}
+
+.W_L2_B
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -344px -772px;
+}
+
+.W_L0_B_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -348px -772px;
+}
+
+.W_L0_R
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -352px -772px;
+}
+
+.W_L2_BR
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -356px -772px;
+}
+
+.W_L2_BR_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -372px -772px;
+}
+
+.W_L2_B_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -376px -772px;
+}
+
+.grey_0
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -380px -772px;
+}
+
+.grey_10
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -384px -772px;
+}
+
+.grey_100
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -392px -772px;
+}
+
+.grey_20
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -396px -772px;
+}
+
+.grey_30
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -400px -772px;
+}
+
+.grey_40
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -404px -772px;
+}
+
+.grey_50
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -408px -772px;
+}
+
+.grey_60
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -412px -772px;
+}
+
+.grey_70
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -416px -772px;
+}
+
+.grey_80
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -420px -772px;
+}
+
+.grey_90
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -424px -772px;
+}
+
+.W_L0_T
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -428px -772px;
+}
+
+.W_L2_L
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -432px -772px;
+}
+
+.skin_l1_b
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -436px -772px;
+}
+
+.skin_l1_b_open
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -456px -772px;
+}
+
+.W_L0_TL
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -460px -772px;
+}
+
+.W_L2_R
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -464px -772px;
+}
+
+.W_L2_T
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -468px -772px;
+}
+
+.W_L2_TL
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -476px -772px;
+}
+
+.skin_l1_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -480px -772px;
+}
+
+.W_L2_TR
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -484px -772px;
+}
+
+.skin_l1_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -488px -772px;
+}
+
+.skin_l1_t
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -572px -772px;
+}
+
+.skin_l1_tl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -576px -772px;
+}
+
+.W_L3_B
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -580px -772px;
+}
+
+.skin_l2_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -584px -772px;
+}
+
+.skin_l3_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -588px -772px;
+}
+
+.r2ed_dismatch_filter
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -592px -772px;
+}
+
+.W_L3_BL
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -596px -772px;
+}
+
+.skin_modal_b
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -600px -772px;
+}
+
+.skin_modal_bl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -636px -772px;
+}
+
+.skin_modal_br
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -640px -772px;
+}
+
+.skin_modal_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -660px -772px;
+}
+
+.skin_modal_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -664px -772px;
+}
+
+.skin_modal_t
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -740px -772px;
+}
+
+.skin_modal_tl
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -752px -772px;
+}
+
+.skin_modal_tr
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -756px -772px;
+}
+
+.W_L3_BR
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -760px -772px;
+}
+
+.W_L3_L
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -764px -772px;
+}
+
+.r2ed_triggers_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -868px -772px;
+}
+
+.W_L3_R
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -904px -772px;
+}
+
+.W_L3_T
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -64px -776px;
+}
+
+.r2ed_triggers_gray
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -68px -776px;
+}
+
+.r2ed_triggers_little_border
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -72px -776px;
+}
+
+.W_L3_TL
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -76px -776px;
+}
+
+.r2ed_triggers_little_corner
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -80px -776px;
+}
+
+.W_L3_TR
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -84px -776px;
+}
+
+.W_L0_TR
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -88px -776px;
+}
+
+.W_L0_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -92px -776px;
+}
+
+.W_L123_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 4px;
+  background-position: -96px -776px;
+}
+
+.w_jauge_fill_tmin
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 1px;
+  height: 10px;
+  background-position: -100px -776px;
+}
+
+.bulle_t
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 2px;
+  height: 5px;
+  background-position: -104px -776px;
+}
+
+.bulle_l
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 2px;
+  background-position: -108px -776px;
+}
+
+.bulle_r
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 5px;
+  height: 2px;
+  background-position: -116px -776px;
+}
+
+.bulle_b
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 2px;
+  height: 5px;
+  background-position: -124px -776px;
+}
+
+.w_line_hor3
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 2px;
+  height: 4px;
+  background-position: -128px -776px;
+}
+
+.r2_map_zone_edge
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 2px;
+  height: 3px;
+  background-position: -132px -776px;
+}
+
+.skin_l1_r_spe
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 1px;
+  background-position: -136px -776px;
+}
+
+.skin_l1_spe_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 1px;
+  background-position: -140px -776px;
+}
+
+.text_cursor
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 2px;
+  height: 2px;
+  background-position: -144px -776px;
+}
+
+.w_l1_r_spe
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 1px;
+  background-position: -148px -776px;
+}
+
+.w_l1_spe_blank
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 4px;
+  height: 1px;
+  background-position: -152px -776px;
+}
+
+.jauge_fill
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 1px;
+  height: 4px;
+  background-position: -156px -776px;
+}
+
+.W_line_hor
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 2px;
+  height: 2px;
+  background-position: -160px -776px;
+}
+
+.w_line_hor2
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 2px;
+  height: 2px;
+  background-position: -164px -776px;
+}
+
+.W_line_ver
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 2px;
+  height: 2px;
+  background-position: -176px -776px;
+}
+
+.W_jauge_fill
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 1px;
+  height: 4px;
+  background-position: -180px -776px;
+}
+
+.bulle_m
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 2px;
+  height: 2px;
+  background-position: -184px -776px;
+}
+
+.w_jauge_fill_umin
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 1px;
+  height: 2px;
+  background-position: -188px -776px;
+}
+
+.W_jauge_fill_mini
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 1px;
+  height: 2px;
+  background-position: -192px -776px;
+}
+
+.no_bord
+{
+  background-image: url(./texture_interfaces_v3.png);
+
+  width: 1px;
+  height: 1px;
+  background-position: -196px -776px;
+}
+

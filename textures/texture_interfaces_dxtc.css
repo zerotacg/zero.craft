@@ -1,0 +1,5463 @@
+
+.r2_live
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 44px;
+  height: 39px;
+  
+  background-position: 0px 0px;
+}
+
+.r2_live_over
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 44px;
+  height: 39px;
+  
+  background-position: -44px 0px;
+}
+
+.r2_live_pushed
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 44px;
+  height: 39px;
+  
+  background-position: 0px -40px;
+}
+
+.AR_botte
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -88px 0px;
+}
+
+.AR_gilet
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -44px -40px;
+}
+
+.AR_hand
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -84px -40px;
+}
+
+.ar_pantabotte_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: 0px -80px;
+}
+
+.AR_pantabotte
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -40px -80px;
+}
+
+.BK_fyros
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -80px -80px;
+}
+
+.BK_generic
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -128px 0px;
+}
+
+.BK_goo
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -168px 0px;
+}
+
+.BK_matis
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -208px 0px;
+}
+
+.BK_primes
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -124px -40px;
+}
+
+.BK_tryker
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -164px -40px;
+}
+
+.BK_zorai
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -204px -40px;
+}
+
+.MW_2h_axe
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -120px -80px;
+}
+
+.MW_2h_lance
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -160px -80px;
+}
+
+.MW_2h_mace
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -200px -80px;
+}
+
+.MW_2h_sword
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: 0px -120px;
+}
+
+.MW_axe
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -40px -120px;
+}
+
+.MW_dagger
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -80px -120px;
+}
+
+.MW_lance
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -120px -120px;
+}
+
+.MW_mace
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -160px -120px;
+}
+
+.MW_staff
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -200px -120px;
+}
+
+.MW_sword
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: 0px -160px;
+}
+
+.PA_anklet
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -40px -160px;
+}
+
+.PA_bracelet
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -80px -160px;
+}
+
+.PA_diadem
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -120px -160px;
+}
+
+.PA_earring
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -160px -160px;
+}
+
+.PA_pendant
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -200px -160px;
+}
+
+.PA_ring
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: 0px -200px;
+}
+
+.PW_heavy
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -40px -200px;
+}
+
+.PW_light
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -80px -200px;
+}
+
+.PW_medium
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -120px -200px;
+}
+
+.RW_autolaunch
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -160px -200px;
+}
+
+.RW_bowgun
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -200px -200px;
+}
+
+.RW_grenade
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -248px 0px;
+}
+
+.RW_harpoongun
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -288px 0px;
+}
+
+.RW_launcher
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -328px 0px;
+}
+
+.RW_pistol
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -368px 0px;
+}
+
+.RW_pistolarc
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -408px 0px;
+}
+
+.RW_rifle
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -448px 0px;
+}
+
+.SH_buckler
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -244px -40px;
+}
+
+.SH_large_shield
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -284px -40px;
+}
+
+.TP_caravane
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -324px -40px;
+}
+
+.TP_kami
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -364px -40px;
+}
+
+.W_AM_logo
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -404px -40px;
+}
+
+.ar_armpad_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -444px -40px;
+}
+
+.ar_botte_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -240px -80px;
+}
+
+.ar_gilet_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -280px -80px;
+}
+
+.ar_hand_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -320px -80px;
+}
+
+.ar_helmet_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -360px -80px;
+}
+
+.bk_guild
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -400px -80px;
+}
+
+.bk_training
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -440px -80px;
+}
+
+.charge
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -240px -120px;
+}
+
+.construction
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -280px -120px;
+}
+
+.cristal_ammo
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -320px -120px;
+}
+
+.cristal_spell
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -360px -120px;
+}
+
+.ico_task_craft
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -400px -120px;
+}
+
+.mp_buterfly_cocoon
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -440px -120px;
+}
+
+.ico_task_fight
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -240px -160px;
+}
+
+.ico_task_forage
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -280px -160px;
+}
+
+.ico_task_generic
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -320px -160px;
+}
+
+.ico_task_guild
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -360px -160px;
+}
+
+.ico_task_rite
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -400px -160px;
+}
+
+.ico_task_travel
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -440px -160px;
+}
+
+.item_default
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -240px -200px;
+}
+
+.item_plan_over
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -280px -200px;
+}
+
+.mektoub_pack
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -320px -200px;
+}
+
+.mektoub_steed
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -360px -200px;
+}
+
+.mission_icon_0,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -400px -200px;
+}
+
+.mission_icon_1,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -440px -200px;
+}
+
+.mission_icon_2
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: 0px -240px;
+}
+
+.mission_icon_3
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -40px -240px;
+}
+
+.mp_eyes
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -80px -240px;
+}
+
+.mp_amber
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -120px -240px;
+}
+
+.mp_bark
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -160px -240px;
+}
+
+.mp_blood
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -200px -240px;
+}
+
+.mp_bone
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -240px -240px;
+}
+
+.mp_bud
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -280px -240px;
+}
+
+.mp_buterfly_blue
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -320px -240px;
+}
+
+.mp_dry
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -360px -240px;
+}
+
+.wood
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -360px -240px;
+}
+
+.mp_claw
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -400px -240px;
+}
+
+.mp_kitinshell
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -440px -240px;
+}
+
+.mp_egg
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: 0px -280px;
+}
+
+.mp_flowers
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -40px -280px;
+}
+
+.mp_fang
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -80px -280px;
+}
+
+.mp_fiber
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -120px -280px;
+}
+
+.rm_f_upgrade
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -160px -280px;
+}
+
+.rm_f
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -200px -280px;
+}
+
+.mp_fresh_loose_soil
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -240px -280px;
+}
+
+.mp_fruit
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -280px -280px;
+}
+
+.mp_generic
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -320px -280px;
+}
+
+.mp_hairs
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -360px -280px;
+}
+
+.mp_hoof
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -400px -280px;
+}
+
+.mp_horn
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -440px -280px;
+}
+
+.mp_horney
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: 0px -320px;
+}
+
+.mp_kitin_flesh
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -40px -320px;
+}
+
+.mp_kitin_secretion
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -80px -320px;
+}
+
+.mp_larva
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -120px -320px;
+}
+
+.mp_leaf
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -160px -320px;
+}
+
+.mp_leather
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -200px -320px;
+}
+
+.mp_meat
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -240px -320px;
+}
+
+.mp_moss
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -280px -320px;
+}
+
+.mp_mushroom
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -320px -320px;
+}
+
+.mp_nail
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -360px -320px;
+}
+
+.mp_oil
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -400px -320px;
+}
+
+.mp_parasite
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -440px -320px;
+}
+
+.mp_pearl
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: 0px -360px;
+}
+
+.mp_pistil
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -40px -360px;
+}
+
+.mp_plant_fossil
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -80px -360px;
+}
+
+.mp_pollen
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -120px -360px;
+}
+
+.mp_resin
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -160px -360px;
+}
+
+.mp_rostrum
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -200px -360px;
+}
+
+.mp_sap
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -240px -360px;
+}
+
+.mp_seed
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -280px -360px;
+}
+
+.mp_shell
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -320px -360px;
+}
+
+.mp_silk_worm
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -360px -360px;
+}
+
+.mp_skull
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -400px -360px;
+}
+
+.mp_spiders_web
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -440px -360px;
+}
+
+.mp_spine
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: 0px -400px;
+}
+
+.pw_4
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -40px -400px;
+}
+
+.mp_stem
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -80px -400px;
+}
+
+.mp_sting
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -120px -400px;
+}
+
+.mp_straw
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -160px -400px;
+}
+
+.mp_tail
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -200px -400px;
+}
+
+.mp_tooth
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -240px -400px;
+}
+
+.mp_trunk
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -280px -400px;
+}
+
+.mp_whiskers
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -320px -400px;
+}
+
+.mp_wood
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -360px -400px;
+}
+
+.mp_skin
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -400px -400px;
+}
+
+.mp_wood_node
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -440px -400px;
+}
+
+.requirement
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: 0px -440px;
+}
+
+.rm_m_upgrade
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -40px -440px;
+}
+
+.rm_m
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -80px -440px;
+}
+
+.rm_r_upgrade
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -120px -440px;
+}
+
+.rm_r
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -160px -440px;
+}
+
+.to_ammo
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -200px -440px;
+}
+
+.to_armor
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -240px -440px;
+}
+
+.to_cooking_pot
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -280px -440px;
+}
+
+.to_fishing_rod
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -320px -440px;
+}
+
+.to_forage
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -360px -440px;
+}
+
+.to_hammer
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -400px -440px;
+}
+
+.to_jewelry_hammer
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -440px -440px;
+}
+
+.to_jewels
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -488px 0px;
+}
+
+.to_leathercutter
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -528px 0px;
+}
+
+.to_melee
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -568px 0px;
+}
+
+.to_needle
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -608px 0px;
+}
+
+.to_pestle
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -648px 0px;
+}
+
+.to_range
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -688px 0px;
+}
+
+.to_searake
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -728px 0px;
+}
+
+.to_spade
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -768px 0px;
+}
+
+.to_stick
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -808px 0px;
+}
+
+.to_tunneling_knife
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -848px 0px;
+}
+
+.to_whip
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -888px 0px;
+}
+
+.to_wrench
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -928px 0px;
+}
+
+.w_pa_anklet
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -968px 0px;
+}
+
+.w_pa_bracelet
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -484px -40px;
+}
+
+.w_pa_diadem
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -524px -40px;
+}
+
+.w_pa_earring
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -564px -40px;
+}
+
+.w_pa_pendant
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -604px -40px;
+}
+
+.w_pa_ring
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -644px -40px;
+}
+
+.rm_h
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -684px -40px;
+}
+
+.rm_h_upgrade
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -724px -40px;
+}
+
+.mp_cereal
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -764px -40px;
+}
+
+.mp_dandelion
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -804px -40px;
+}
+
+.mp_dust
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -844px -40px;
+}
+
+.mp_firefly_abdomen
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -884px -40px;
+}
+
+.mp_fish_scale
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -924px -40px;
+}
+
+.mp_goo_residue
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -964px -40px;
+}
+
+.mp_insect_fossil
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -480px -80px;
+}
+
+.mp_pigment
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -520px -80px;
+}
+
+.mp_sawdust
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -560px -80px;
+}
+
+.mp_beak
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -600px -80px;
+}
+
+.mp_pelvis
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -640px -80px;
+}
+
+.mg_glove
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -680px -80px;
+}
+
+.mp_ligament
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -720px -80px;
+}
+
+.mp_mandible
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -760px -80px;
+}
+
+.mp_wing
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -800px -80px;
+}
+
+.bk_mission
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -840px -80px;
+}
+
+.ico_mission_art_fyros
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -880px -80px;
+}
+
+.ico_mission_art_matis
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -920px -80px;
+}
+
+.ico_mission_art_tryker
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -960px -80px;
+}
+
+.ico_mission_art_zorai
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -480px -120px;
+}
+
+.ico_mission_barrel
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -520px -120px;
+}
+
+.ico_mission_bottle
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -560px -120px;
+}
+
+.ico_mission_casket
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -600px -120px;
+}
+
+.ico_mission_medicine
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -640px -120px;
+}
+
+.ico_mission_message
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -680px -120px;
+}
+
+.ico_mission_package
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -720px -120px;
+}
+
+.ico_mission_pot
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -760px -120px;
+}
+
+.ico_mission_purse
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -800px -120px;
+}
+
+.ico_haircolor
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -840px -120px;
+}
+
+.ico_haircut
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -880px -120px;
+}
+
+.ico_tatoo
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -920px -120px;
+}
+
+.bk_service
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -960px -120px;
+}
+
+.ico_task_done
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -480px -160px;
+}
+
+.ico_task_failed
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -520px -160px;
+}
+
+.bk_horde
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -560px -160px;
+}
+
+.bk_kami
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -600px -160px;
+}
+
+.bk_karavan
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -640px -160px;
+}
+
+.mp_batiment_brique
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -680px -160px;
+}
+
+.mp_batiment_colonne
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -720px -160px;
+}
+
+.mp_batiment_colonne_justice
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -760px -160px;
+}
+
+.mp_batiment_comble
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -800px -160px;
+}
+
+.mp_batiment_noyau_maduk
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -840px -160px;
+}
+
+.mp_batiment_ornement
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -880px -160px;
+}
+
+.mp_batiment_revetement
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -920px -160px;
+}
+
+.mp_batiment_socle
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -960px -160px;
+}
+
+.mp_batiment_statue
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -480px -200px;
+}
+
+.ico_cataliseur_xp
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -520px -200px;
+}
+
+.ico_noix
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -560px -200px;
+}
+
+.ico_amande
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -600px -200px;
+}
+
+.bk_outpost
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -640px -200px;
+}
+
+.ico_fleur_carac_2
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -680px -200px;
+}
+
+.ico_fleur_carac_2_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -720px -200px;
+}
+
+.ico_fleur_carac_1_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -760px -200px;
+}
+
+.ico_fleur_carac_1,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -800px -200px;
+}
+
+.ico_consommable_over
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -840px -200px;
+}
+
+.ico_tourbe
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -880px -200px;
+}
+
+.ico_spores
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -920px -200px;
+}
+
+.pw_5
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -960px -200px;
+}
+
+.ge_mission_outpost_townhall
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -480px -240px;
+}
+
+.ico_racine
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -520px -240px;
+}
+
+.conso_fleur
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -560px -240px;
+}
+
+.ico_foreuse
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -600px -240px;
+}
+
+.conso_fleur_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -640px -240px;
+}
+
+.clef
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -680px -240px;
+}
+
+.ico_fleur_carac_3
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -720px -240px;
+}
+
+.ico_fleur_carac_3_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -760px -240px;
+}
+
+.mp_filament
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -800px -240px;
+}
+
+.mp_gomme
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -840px -240px;
+}
+
+.mp_liane
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -880px -240px;
+}
+
+.mp_lichen
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -920px -240px;
+}
+
+.mp_ronce
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -960px -240px;
+}
+
+.mp_suc
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -480px -280px;
+}
+
+.conso_nectar
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -520px -280px;
+}
+
+.conso_nectar_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -560px -280px;
+}
+
+.conso_grappe_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -600px -280px;
+}
+
+.conso_grappe
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -640px -280px;
+}
+
+.conso_branche
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -680px -280px;
+}
+
+.conso_branche_mask
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -720px -280px;
+}
+
+.tetekitin
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -760px -280px;
+}
+
+.ico_task_generic_quart
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -800px -280px;
+}
+
+.quest_coeur
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -840px -280px;
+}
+
+.quest_foie
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -880px -280px;
+}
+
+.quest_jeton
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -920px -280px;
+}
+
+.quest_langue
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -960px -280px;
+}
+
+.quest_louche
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -480px -320px;
+}
+
+.quest_oreille
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -520px -320px;
+}
+
+.quest_patte
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -560px -320px;
+}
+
+.quest_poils
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -600px -320px;
+}
+
+.quest_queue
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -640px -320px;
+}
+
+.quest_ticket
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -680px -320px;
+}
+
+.spe_beast
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -720px -320px;
+}
+
+.spe_com
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -760px -320px;
+}
+
+.spe_inventory
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -800px -320px;
+}
+
+.spe_labs
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -840px -320px;
+}
+
+.spe_memory
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -880px -320px;
+}
+
+.spe_options
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -920px -320px;
+}
+
+.spe_status
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -960px -320px;
+}
+
+.AR_armpad
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -480px -360px;
+}
+
+.AM_logo
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -520px -360px;
+}
+
+.AR_helmet
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 40px;
+  height: 40px;
+  
+  background-position: -560px -360px;
+}
+
+.faction_zorai
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -600px -360px;
+}
+
+.asc_rolemasterfight
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -632px -360px;
+}
+
+.asc_rolemastermagic
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -664px -360px;
+}
+
+.asc_rolemasterharvest
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -696px -360px;
+}
+
+.asc_unknown
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -728px -360px;
+}
+
+.asc_exit
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -760px -360px;
+}
+
+.faction_kami
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -792px -360px;
+}
+
+.faction_karavan
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -824px -360px;
+}
+
+.asc_rolemastercraft
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -856px -360px;
+}
+
+.faction_fyros
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -888px -360px;
+}
+
+.faction_matis
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -920px -360px;
+}
+
+.faction_tryker
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -952px -360px;
+}
+
+.faction_tryton
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 32px;
+  
+  background-position: -984px -360px;
+}
+
+.mail
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 32px;
+  height: 24px;
+  
+  background-position: -600px -392px;
+}
+
+.ico_armor_clip
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -1000px -80px;
+}
+
+.ico_armor_shell
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -1000px -104px;
+}
+
+.ico_barrel
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -1000px -128px;
+}
+
+.ico_blade
+{
+  background-image: url("./texture_interfaces_dxtc.png");
+  width: 24px;
+  height: 24px;
+  
+  background-position: -1000px -152px;
+}
+
+.ico_clothes
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -1000px -176px;
+}
+
+.ico_trigger
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -1000px -200px;
+}
+
+.ico_counterweight
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -1000px -224px;
+}
+
+.ico_magic_focus
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -1000px -248px;
+}
+
+.ico_explosif
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -1000px -272px;
+}
+
+.BK_fyros_brick
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -1000px -296px;
+}
+
+.1h_over
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -1000px -320px;
+}
+
+.2h_over
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -632px -392px;
+}
+
+.BK_magie_noire_brick
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -656px -392px;
+}
+
+.BK_generic_brick
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -680px -392px;
+}
+
+.cp_over_opening_2
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -704px -392px;
+}
+
+.BK_matis_brick
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -728px -392px;
+}
+
+.BK_tryker_brick
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -752px -392px;
+}
+
+.BK_zorai_brick
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -776px -392px;
+}
+
+.bk_aura
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -800px -392px;
+}
+
+.fo_back
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -824px -392px;
+}
+
+.bk_power
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -848px -392px;
+}
+
+.fo_over
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -872px -392px;
+}
+
+.brick_default
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -896px -392px;
+}
+
+.ch_back
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -920px -392px;
+}
+
+.cp_back
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -944px -392px;
+}
+
+.cp_over_break
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -968px -392px;
+}
+
+.cp_over_less
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -992px -392px;
+}
+
+.cp_over_more
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -480px -400px;
+}
+
+.cp_over_opening
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -504px -400px;
+}
+
+.ef_over_break
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -528px -400px;
+}
+
+.ef_back
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -552px -400px;
+}
+
+.ico_absorb_damage
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -576px -400px;
+}
+
+.ef_over_less
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -600px -416px;
+}
+
+.ef_over_more
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -624px -416px;
+}
+
+.ico_durability
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -648px -416px;
+}
+
+.ico_landmark_bonus
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -672px -416px;
+}
+
+.ico_speed
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -696px -416px;
+}
+
+.fp_tools
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -720px -416px;
+}
+
+.ico_aim_bird_wings
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -744px -416px;
+}
+
+.cb_main_nue
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -768px -416px;
+}
+
+.fp_ammo
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -792px -416px;
+}
+
+.fp_armor
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -816px -416px;
+}
+
+.fp_jewel
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -840px -416px;
+}
+
+.fp_melee
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -864px -416px;
+}
+
+.fp_over
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -888px -416px;
+}
+
+.fp_range
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -912px -416px;
+}
+
+.fp_shield
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -936px -416px;
+}
+
+.ico_accurate
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -960px -416px;
+}
+
+.ico_acid
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -984px -416px;
+}
+
+.ico_aim
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -480px -424px;
+}
+
+.ico_atysian
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -504px -424px;
+}
+
+.ico_atys
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -528px -424px;
+}
+
+.ico_aim_flying_kitin_abdomen
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -552px -424px;
+}
+
+.ico_aim_homin_arms
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -576px -424px;
+}
+
+.ico_aim_homin_chest
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -600px -440px;
+}
+
+.ico_aim_homin_feet
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -624px -440px;
+}
+
+.ico_aim_homin_feint
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -648px -440px;
+}
+
+.ico_aim_homin_hands
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -672px -440px;
+}
+
+.ico_aim_homin_head
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -696px -440px;
+}
+
+.ico_aim_homin_legs
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -720px -440px;
+}
+
+.ico_aim_kitin_head
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -744px -440px;
+}
+
+.ico_angle
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -768px -440px;
+}
+
+.ico_armor
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -792px -440px;
+}
+
+.ico_armor_heavy
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -816px -440px;
+}
+
+.ico_armor_kitin
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -840px -440px;
+}
+
+.ico_armor_light
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -864px -440px;
+}
+
+.ico_armor_medium
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -888px -440px;
+}
+
+.ico_armor_penalty
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -912px -440px;
+}
+
+.ico_berserk
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -936px -440px;
+}
+
+.ico_bash
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -960px -440px;
+}
+
+.ico_celestial
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -984px -440px;
+}
+
+.ico_bleeding
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -480px -448px;
+}
+
+.ico_blind
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -504px -448px;
+}
+
+.ico_blunt
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -528px -448px;
+}
+
+.ico_constitution
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -552px -448px;
+}
+
+.ico_cold
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -576px -448px;
+}
+
+.ico_over_hit_feet_hands
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -600px -464px;
+}
+
+.ico_create_sapload
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -624px -464px;
+}
+
+.ico_curse
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -648px -464px;
+}
+
+.ico_debuff
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -672px -464px;
+}
+
+.ico_debuff_resist
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -696px -464px;
+}
+
+.ico_debuff_skill
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -720px -464px;
+}
+
+.ico_desert
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -744px -464px;
+}
+
+.ico_dexterity
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -768px -464px;
+}
+
+.ico_disarm
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -792px -464px;
+}
+
+.ico_dodge
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -816px -464px;
+}
+
+.ico_dot
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -840px -464px;
+}
+
+.ico_electric
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -864px -464px;
+}
+
+.ico_fear
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -888px -464px;
+}
+
+.ico_fire
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -912px -464px;
+}
+
+.ico_focus
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -936px -464px;
+}
+
+.ico_forbid_item
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -960px -464px;
+}
+
+.ico_forest
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -984px -464px;
+}
+
+.ico_goo
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -480px -472px;
+}
+
+.ico_hatred
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -504px -472px;
+}
+
+.ico_heal
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -528px -472px;
+}
+
+.ico_hit_rate
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -552px -472px;
+}
+
+.ico_incapacity
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -576px -472px;
+}
+
+.ico_intelligence
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: 0px -480px;
+}
+
+.ico_interrupt
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -24px -480px;
+}
+
+.ico_jungle
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -48px -480px;
+}
+
+.ico_lacustre
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -72px -480px;
+}
+
+.ico_level
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -96px -480px;
+}
+
+.ico_location
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -120px -480px;
+}
+
+.ico_madness
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -144px -480px;
+}
+
+.ico_magic
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -168px -480px;
+}
+
+.ico_mental
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -192px -480px;
+}
+
+.ico_metabolism
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -216px -480px;
+}
+
+.ico_mezz
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -240px -480px;
+}
+
+.ico_misfortune
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -264px -480px;
+}
+
+.ico_move
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -288px -480px;
+}
+
+.ico_multi_fight
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -312px -480px;
+}
+
+.ico_multiple_spots
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -336px -480px;
+}
+
+.ico_opening_hit
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -360px -480px;
+}
+
+.ico_over_autumn
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -384px -480px;
+}
+
+.ico_over_degenerated
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -408px -480px;
+}
+
+.ico_over_fauna
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -432px -480px;
+}
+
+.ico_over_flora
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -456px -480px;
+}
+
+.ico_over_hit_arms
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -600px -488px;
+}
+
+.ico_over_hit_chest
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -624px -488px;
+}
+
+.ico_over_hit_feet
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -648px -488px;
+}
+
+.ico_anti_magic_shield
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -672px -488px;
+}
+
+.ico_over_hit_feet_head
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -696px -488px;
+}
+
+.ico_over_hit_feet_x2
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -720px -488px;
+}
+
+.ico_over_hit_feint_x3
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -744px -488px;
+}
+
+.ico_over_hit_hands
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -768px -488px;
+}
+
+.ico_over_hit_hands_chest
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -792px -488px;
+}
+
+.ico_over_hit_hands_head
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -816px -488px;
+}
+
+.ico_over_hit_head
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -840px -488px;
+}
+
+.ico_over_hit_head_x3
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -864px -488px;
+}
+
+.ico_over_hit_legs
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -888px -488px;
+}
+
+.ico_over_homin
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -912px -488px;
+}
+
+.ico_over_kitin
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -936px -488px;
+}
+
+.ico_over_magic
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -960px -488px;
+}
+
+.ico_over_melee
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -984px -488px;
+}
+
+.ico_over_racial
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -480px -496px;
+}
+
+.ico_over_range
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -504px -496px;
+}
+
+.ico_over_special
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -528px -496px;
+}
+
+.ico_over_spring
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -552px -496px;
+}
+
+.ico_over_summer
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -576px -496px;
+}
+
+.ico_over_winter
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: 0px -504px;
+}
+
+.ico_parry
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -24px -504px;
+}
+
+.ico_piercing
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -48px -504px;
+}
+
+.ico_poison
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -72px -504px;
+}
+
+.ico_power
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -96px -504px;
+}
+
+.ico_preservation
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -120px -504px;
+}
+
+.ico_primal
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -144px -504px;
+}
+
+.ico_prime_roots
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -168px -504px;
+}
+
+.ico_private
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -192px -504px;
+}
+
+.ico_quality
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -216px -504px;
+}
+
+.ico_range
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -240px -504px;
+}
+
+.ico_root
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -264px -504px;
+}
+
+.ico_rot
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -288px -504px;
+}
+
+.ico_safe
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -312px -504px;
+}
+
+.ico_sap
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -336px -504px;
+}
+
+.ico_self_damage
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -360px -504px;
+}
+
+.ico_shielding
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -384px -504px;
+}
+
+.ico_shockwave
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -408px -504px;
+}
+
+.ico_sickness
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -432px -504px;
+}
+
+.ico_slashing
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -456px -504px;
+}
+
+.ico_slow
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -600px -512px;
+}
+
+.ico_soft_spot
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -624px -512px;
+}
+
+.ico_source_time
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -648px -512px;
+}
+
+.ico_spell_break
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -672px -512px;
+}
+
+.ico_stamina
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -696px -512px;
+}
+
+.ico_strength
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -720px -512px;
+}
+
+.ico_stunn
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -744px -512px;
+}
+
+.ico_taunt
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -768px -512px;
+}
+
+.ico_time
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -792px -512px;
+}
+
+.ico_use_enchantement
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -816px -512px;
+}
+
+.ico_vampire
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -840px -512px;
+}
+
+.ico_visibility
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -864px -512px;
+}
+
+.ico_weight
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -888px -512px;
+}
+
+.ico_wellbalanced
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -912px -512px;
+}
+
+.ico_will
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -936px -512px;
+}
+
+.ico_windding
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -960px -512px;
+}
+
+.ico_wisdom
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -984px -512px;
+}
+
+.mf_back
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -480px -520px;
+}
+
+.mf_over
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -504px -520px;
+}
+
+.mp_back_curative
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -528px -520px;
+}
+
+.mp_back_offensive
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -552px -520px;
+}
+
+.mp_back_selfonly
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -576px -520px;
+}
+
+.mp_over_link
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: 0px -528px;
+}
+
+.op_back
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -24px -528px;
+}
+
+.op_over_break
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -48px -528px;
+}
+
+.op_over_less
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -72px -528px;
+}
+
+.op_over_more
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -96px -528px;
+}
+
+.pa_back
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -120px -528px;
+}
+
+.pa_over_break
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -144px -528px;
+}
+
+.pa_over_less
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -168px -528px;
+}
+
+.pa_over_more
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -192px -528px;
+}
+
+.ico_balance_hp
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -216px -528px;
+}
+
+.ico_bomb
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -240px -528px;
+}
+
+.ico_circular_attack
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -264px -528px;
+}
+
+.ico_feint
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -288px -528px;
+}
+
+.ico_invulnerability
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -312px -528px;
+}
+
+.ico_ricochet
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -336px -528px;
+}
+
+.ico_speeding_up
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -360px -528px;
+}
+
+.ico_spray
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -384px -528px;
+}
+
+.ico_umbrella
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -408px -528px;
+}
+
+.ico_war_cry
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -432px -528px;
+}
+
+.no_action
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -456px -528px;
+}
+
+.bk_conso
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -600px -536px;
+}
+
+.ico_concentration
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -624px -536px;
+}
+
+.ico_extracting
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -648px -536px;
+}
+
+.ico_gardening
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -672px -536px;
+}
+
+.ico_gentle
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -696px -536px;
+}
+
+.ico_harmful
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -720px -536px;
+}
+
+.ico_prospecting
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -744px -536px;
+}
+
+.ico_spying
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -768px -536px;
+}
+
+.ico_time_bonus
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -792px -536px;
+}
+
+.fp_building
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -816px -536px;
+}
+
+.bk_outpost_brick
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -840px -536px;
+}
+
+.building_state_24x24
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -864px -536px;
+}
+
+.ico_shield_up
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -888px -536px;
+}
+
+.ico_shield_buff
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -912px -536px;
+}
+
+.ico_forage_buff
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -936px -536px;
+}
+
+.ico_craft_buff
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -960px -536px;
+}
+
+.ico_magic_action_buff
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -984px -536px;
+}
+
+.ico_magic_target_buff
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -480px -544px;
+}
+
+.ico_range_action_buff
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -504px -544px;
+}
+
+.ico_melee_target_buff
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -528px -544px;
+}
+
+.ico_melee_action_buff
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -552px -544px;
+}
+
+.ico_range_target_buff
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -576px -544px;
+}
+
+.ico_firing_pin
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: 0px -552px;
+}
+
+.ico_gripp
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -24px -552px;
+}
+
+.ico_hammer
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -48px -552px;
+}
+
+.ico_jewel_stone
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -72px -552px;
+}
+
+.us_back_0,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -96px -552px;
+}
+
+.ico_jewel_stone_support
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -120px -552px;
+}
+
+.W_slot_shortcut_id0,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -144px -552px;
+}
+
+.W_slot_shortcut_id1,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -168px -552px;
+}
+
+.W_slot_shortcut_id2
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -192px -552px;
+}
+
+.W_slot_shortcut_id3
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -216px -552px;
+}
+
+.W_slot_shortcut_id4
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -240px -552px;
+}
+
+.W_slot_shortcut_id5
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -264px -552px;
+}
+
+.W_slot_shortcut_id6
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -288px -552px;
+}
+
+.W_slot_shortcut_id7
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -312px -552px;
+}
+
+.W_slot_shortcut_id8
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -336px -552px;
+}
+
+.W_slot_shortcut_id9
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -360px -552px;
+}
+
+.ico_lining
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -384px -552px;
+}
+
+.ico_shaft
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -408px -552px;
+}
+
+.ico_stuffing
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -432px -552px;
+}
+
+.tb_contacts
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -456px -552px;
+}
+
+.tb_connection
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -600px -560px;
+}
+
+.us_back_1,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -624px -560px;
+}
+
+.us_back_2
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -648px -560px;
+}
+
+.us_back_3
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -672px -560px;
+}
+
+.us_back_4
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -696px -560px;
+}
+
+.us_back_5
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -720px -560px;
+}
+
+.us_back_6
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -744px -560px;
+}
+
+.us_back_7
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -768px -560px;
+}
+
+.us_back_8
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -792px -560px;
+}
+
+.us_back_9
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -816px -560px;
+}
+
+.us_ico_0,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -840px -560px;
+}
+
+.us_ico_1,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -864px -560px;
+}
+
+.us_ico_2
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -888px -560px;
+}
+
+.us_ico_3
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -912px -560px;
+}
+
+.us_ico_4
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -936px -560px;
+}
+
+.us_ico_5
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -960px -560px;
+}
+
+.us_ico_6
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -984px -560px;
+}
+
+.us_ico_7
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -480px -568px;
+}
+
+.us_ico_8
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -504px -568px;
+}
+
+.us_ico_9
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -528px -568px;
+}
+
+.us_over_0,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -552px -568px;
+}
+
+.us_over_1,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -576px -568px;
+}
+
+.us_over_2
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: 0px -576px;
+}
+
+.us_over_3
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -24px -576px;
+}
+
+.us_over_4
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -48px -576px;
+}
+
+.tb_faction
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -72px -576px;
+}
+
+.tb_team
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -96px -576px;
+}
+
+.w_slot_shortcut_shift_id0,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -120px -576px;
+}
+
+.w_slot_shortcut_shift_id1,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -144px -576px;
+}
+
+.w_slot_shortcut_shift_id2
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -168px -576px;
+}
+
+.w_slot_shortcut_shift_id3
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -192px -576px;
+}
+
+.w_slot_shortcut_shift_id4
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -216px -576px;
+}
+
+.w_slot_shortcut_shift_id5
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -240px -576px;
+}
+
+.w_slot_shortcut_shift_id6
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -264px -576px;
+}
+
+.w_slot_shortcut_shift_id7
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -288px -576px;
+}
+
+.w_slot_shortcut_shift_id8
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -312px -576px;
+}
+
+.w_slot_shortcut_shift_id9
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -336px -576px;
+}
+
+.tb_forum
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -360px -576px;
+}
+
+.ico_ammo_bullet
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -384px -576px;
+}
+
+.mp3
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -408px -576px;
+}
+
+.tb_macros
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -432px -576px;
+}
+
+.tb_keys
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -456px -576px;
+}
+
+.tb_config
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -600px -584px;
+}
+
+.ico_ammo_jacket
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -624px -584px;
+}
+
+.tb_animals
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -648px -584px;
+}
+
+.tb_mail
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -672px -584px;
+}
+
+.tb_guild
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -696px -584px;
+}
+
+.ico_pointe
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -720px -584px;
+}
+
+.bg_downloader
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -744px -584px;
+}
+
+.tb_mode_dodge
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -768px -584px;
+}
+
+.tb_mode_parry
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -792px -584px;
+}
+
+.tb_action_attack
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -816px -584px;
+}
+
+.tb_action_config
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -840px -584px;
+}
+
+.tb_action_disband
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -864px -584px;
+}
+
+.tb_action_disengage
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -888px -584px;
+}
+
+.tb_action_extract
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -912px -584px;
+}
+
+.tb_action_invite
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -936px -584px;
+}
+
+.tb_action_kick
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -960px -584px;
+}
+
+.tb_action_move
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -984px -584px;
+}
+
+.tb_action_run
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -480px -592px;
+}
+
+.tb_action_sit
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -504px -592px;
+}
+
+.tb_action_stand
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -528px -592px;
+}
+
+.tb_action_stop
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -552px -592px;
+}
+
+.tb_action_talk
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -576px -592px;
+}
+
+.tb_action_walk
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: 0px -600px;
+}
+
+.tb_desk_1,tga
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -24px -600px;
+}
+
+.tb_desk_2
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -48px -600px;
+}
+
+.tb_desk_3
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -72px -600px;
+}
+
+.tb_desk_4
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -96px -600px;
+}
+
+.tb_over
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -120px -600px;
+}
+
+.tb_support
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -144px -600px;
+}
+
+.tb_windows
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 24px;
+  height: 24px;
+  
+  background-position: -168px -600px;
+}
+
+.ico_source_knowledge
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 22px;
+  height: 24px;
+  
+  background-position: -192px -600px;
+}
+
+.small_task_travel
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 16px;
+  height: 16px;
+  
+  background-position: -1008px 0px;
+}
+
+.small_task_fight
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 16px;
+  height: 16px;
+  
+  background-position: -1008px -16px;
+}
+
+.small_task_done
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 16px;
+  height: 16px;
+  
+  background-position: -1008px -32px;
+}
+
+.small_task_forage
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 16px;
+  height: 16px;
+  
+  background-position: -1004px -48px;
+}
+
+.small_task_generic
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 16px;
+  height: 16px;
+  
+  background-position: -1004px -64px;
+}
+
+.small_task_craft
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 16px;
+  height: 16px;
+  
+  background-position: -1000px -344px;
+}
+
+.small_task_failed
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 16px;
+  height: 16px;
+  
+  background-position: -1008px -416px;
+}
+
+.small_task_guild
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 16px;
+  height: 16px;
+  
+  background-position: -1008px -432px;
+}
+
+.small_task_rite
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 16px;
+  height: 16px;
+  
+  background-position: -1008px -448px;
+}
+
+.W_leader
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 13px;
+  height: 12px;
+  
+  background-position: -1008px -464px;
+}
+
+.w_major
+{
+  background-image: url(./texture_interfaces_dxtc.png);
+  width: 12px;
+  height: 12px;
+  
+  background-position: -1008px -476px;
+}
