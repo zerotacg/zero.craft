@@ -34,4 +34,12 @@ export default class Generation {
             return gene;
         });
     }
+
+    crossover(genes_a, genes_b) {
+        var randomValue = this.randomValue;
+
+        return genes_a.map((gene, index) => {
+            return randomValue([gene, genes_b[index]]);
+        });
+    }
 }

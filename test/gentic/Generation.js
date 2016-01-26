@@ -42,12 +42,10 @@ describe("zero.genetic", function () {
 
     describe("#mutate()", function () {
         it("should randomize the genome according to mutation rate", function () {
-            var random;
-            var randomValue;
-            random = sinon.stub(generation, "random");
-            randomValue = sinon.stub(generation, "randomValue");
+            var random = sinon.stub(generation, "random");
+            var randomValue = sinon.stub(generation, "randomValue");
             generation.mutation_rate = 0.1;
-            generation.gene_pool = [ "x", "y", "z" ];
+            generation.gene_pool = ["x", "y", "z"];
 
             random.onCall(0).returns(0);
             random.onCall(1).returns(0.1);
@@ -58,6 +56,21 @@ describe("zero.genetic", function () {
             expect(generation.mutate([1, 2, 3])).to.deep.equal([1, "b", "c"]);
             expect(randomValue.firstCall).to.have.been.calledWith("y");
             expect(randomValue.secondCall).to.have.been.calledWith("z");
+        });
+    });
+
+    describe("#crossover()", function () {
+        it("should randomize the genome between 2 spouses", function () {
+            var randomValue = sinon.stub(generation, "randomValue");
+
+            var a = [1, 2];
+            var b = ["a", "b"];
+            randomValue.onCall(0).returns("x");
+            randomValue.returns("y");
+
+            expect(generation.crossover(a, b)).to.deep.equal(["x", "y"]);
+            expect(randomValue.firstCall).to.have.been.calledWith([1, "a"]);
+            expect(randomValue.secondCall).to.have.been.calledWith([2, "b"]);
         });
     });
 });
