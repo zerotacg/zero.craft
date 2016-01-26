@@ -1,0 +1,10 @@
+[
+    {
+        "_id": "magic-amplifier-medium-quality",
+        "parts": [
+            { "type": "shaft", "count": 5 },
+            { "type": "grip", "count": 5 },
+            { "type": "magic-focus", "count": 10 }
+        ]
+    }
+]
