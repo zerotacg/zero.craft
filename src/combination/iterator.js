@@ -2,32 +2,35 @@ export default class Iterator {
     constructor(config) {
         Object.assign(this, config);
 
-        this.init();
-    }
-
-    init() {
         var k = this.k;
         var empty = new Array(k).fill(0);
         var current = this.current || empty;
         this.current = current.concat(empty).splice(0, k);
+        this.overflow = 0;
     }
 
     next() {
         var current = this.current;
-        var inc = 1;
         var n = this.n;
+        var k = this.k;
+        var inc = 1;
+        var i, value;
 
-        this.current = current.map(value =>{
-            value += inc;
-            inc = Math.floor(value / n);
+        for ( i = 0; i < k; ++i ) {
+            value = current[ i ] + inc;
+            inc = (value / n) | 0;
 
-            return value % n;
-        });
+            current[ i ] = value % n;
+        }
+        this.overflow = inc;
 
-        if ( inc ) {
-            return false;
+        var min = 0;
+        for ( i = k - 1; i >= 0; --i ) {
+            min = current[ i ] = (Math.max(min, current[ i ]));
         }
 
-        return this.current;
+        this.current = current;
+
+        return current;
     }
 }
