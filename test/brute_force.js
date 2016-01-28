@@ -3,7 +3,7 @@ import jspm from "jspm";
 
 var System = jspm.Loader();
 
-describe("zero.craft", function () {
+describe("zero.brute_force", function () {
     var Search;
 
     before("imports", function (done) {
@@ -19,7 +19,7 @@ describe("zero.craft", function () {
 
     describe("#next", function () {
         it("should return an array", function () {
-            var current = [0,0];
+            var current = [[0,0],[0,0]];
             var possibilities = [
                 ["a","b"],
                 [1,2,3]
@@ -28,11 +28,10 @@ describe("zero.craft", function () {
                 current, possibilities
             });
 
-            expect(search.next()).to.deep.equal(["a",1]);
-            expect(search.next()).to.deep.equal(["b",1]);
-            expect(search.next()).to.deep.equal(["a",2]);
-            expect(search.next()).to.deep.equal(["b",2]);
-            expect(search.next()).to.deep.equal(["a",3]);
+            expect(search.next()).to.deep.equal([ "b", "a", 1, 1 ]);
+            expect(search.next()).to.deep.equal([ "b", "b", 1, 1 ]);
+            expect(search.next()).to.deep.equal([ "a", "a", 2, 1 ]);
+            expect(search.next()).to.deep.equal([ "b", "a", 2, 1 ]);
         });
     });
 });

@@ -2,23 +2,21 @@ export default class Iterator {
     constructor(config) {
         Object.assign(this, config);
 
-        var k = this.k;
-        var empty = new Array(k).fill(0);
-        var current = this.current || empty;
-        this.current = current.concat(empty).splice(0, k);
         this.overflow = 0;
     }
 
-    next() {
+    next( inc ) {
         var current = this.current;
         var n = this.n;
         var k = this.k;
-        var inc = 1;
         var i, value;
+        if ( inc === undefined ) {
+            inc = 1;
+        }
 
         for ( i = 0; i < k; ++i ) {
             value = current[ i ] + inc;
-            inc = (value / n) | 0;
+            inc = Math.floor(value / n);
 
             current[ i ] = value % n;
         }

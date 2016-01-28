@@ -23,27 +23,7 @@ describe("zero.combination", function () {
 
     var iterator;
     beforeEach("setup", function () {
-        iterator = new Iterator({k: 3, n: 5});
-    });
-
-    describe("#constructor()", function () {
-        context("when no current is given", function () {
-            it("should create a starting point", function () {
-                expect(iterator).to.have.property("current").that.deep.equals([0,0,0]);
-            });
-        });
-        context("when a current is given", function () {
-            it("should adjust the size of given current", function () {
-                expectCurrent([1,2]).to.deep.equals([1,2,0]);
-                expectCurrent([1,2,3]).to.deep.equals([1,2,3]);
-                expectCurrent([1,2,3,4]).to.deep.equals([1,2,3]);
-            });
-
-            function expectCurrent(current) {
-                iterator = new Iterator({k: 3, n: 5, current});
-                return expect(iterator.current);
-            }
-        });
+        iterator = new Iterator({k: 3, n: 5, current: [0,0,0]});
     });
 
     describe("#next()", function () {
@@ -81,6 +61,7 @@ describe("zero.combination", function () {
             expect(iterator.next()).to.deep.equal([3,3,3]);
             expect(iterator.next()).to.deep.equal([4,3,3]);
             expect(iterator.next()).to.deep.equal([4,4,3]);
+            expect(iterator.next(0)).to.deep.equal([4,4,3]);
             expect(iterator.next()).to.deep.equal([4,4,4]);
             expect(iterator.overflow).to.equal(0);
             expect(iterator.next()).to.deep.equal([0,0,0]);

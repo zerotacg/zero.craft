@@ -1,27 +1,38 @@
+import Iterator from "zero/combination/iterator";
+
 export default class Search {
     constructor(config) {
         Object.assign(this, config);
+
+        var possibilities = this.possibilities;
+        this.iterators = this.current.map((current, group) => {
+            var k = current.length;
+            var n = possibilities[group].length;
+
+            return new Iterator({n, k, current });
+        });
     }
 
     next() {
-        var current = this.current;
+        var iterators = this.iterators;
+        var groups = iterators.length;
         var possibilities = this.possibilities;
+        var result = [];
         var inc = 1;
 
-        this.current = current.map((value, index) => {
-            var values = possibilities[index];
-            var length = values.length;
-            value += inc;
-            inc = Math.floor(value / length);
-            value = value % length;
-
-            return value;
-        });
+        for( var g = 0; g < groups; ++g ) {
+            var iterator = iterators[g];
+            var indices = iterator.next(inc);
+            inc = iterator.overflow;
+            for( var i = 0; i < indices.length; ++i ) {
+                result.push(possibilities[g][indices[i]]);
+            }
+        }
 
         if (inc) {
             return false;
         }
 
-        return current.map((current, index) => possibilities[index][current]);
+        return result;
     }
 }
