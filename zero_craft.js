@@ -120,13 +120,11 @@ function doCraft() {
         }
     }
     var max = { "before": 0 };
-    var average = 0;
     var count = 0;
     var sum_before = 0;
     for ( var mpstat in stats ) {
         stat = stats[ mpstat ];
-        count += stat.count;
-        average += stat.before;
+        ++count;
         if ( stat.count != 0 ) {
             stat.before /= stat.count;
         }
@@ -140,8 +138,9 @@ function doCraft() {
     }
     craft.max = max.before;
 
+    var average = 0;
     if ( count != 0 ) {
-        average /= count;
+        average = sum_before / count;
     }
     craft.average = average;
 

@@ -1,4 +1,5 @@
 import Search from "zero/brute_force";
+import Stats from "zero/craft/stats";
 
 var adriel_basic = {type: "adriel-basic", stats: {0: 20, 1: 0, 2: 20, 3: 20, 4: 0, 6: 20, 7: 20, 8: 60, 9: 20}};
 var becker_fine = {type: "becker-fine", stats: {0: 35, 1: 15, 2: 75, 3: 35, 4: 35, 6: 15, 7: 35, 8: 35, 9: 35}};
@@ -84,116 +85,50 @@ function fitness(mats) {
 function craft(mats) {
     var material_stats = mats.map(mat => mat.stats);
     var length = material_stats.length;
-    var stats = new Array(17).fill(0);
-    var counts = new Array(17).fill(0);
-    var mapping = {
-        0: 0,
-        1: 1,
-        2: 2,
-        3: 3,
-        4: 4,
-        6: 5,
-        7: 6,
-        8: 7,
-        9: 8,
-        26: 9,
-        27: 10,
-        28: 11,
-        29: 12,
-        30: 13,
-        31: 14,
-        32: 15,
-        33: 16
-    };
+    var stats = new Stats();
+    var counts = new Array(stats.values.length).fill(0);
+    var used = new Array(stats.values.length).fill(0);
 
     for (var i = 0; i < length; ++i) {
         var mat = material_stats[i];
-        Object.keys(mat).reduce((values, key) => {
-            var index = mapping[key];
-            values[index] += mat[key];
+        Object.keys(mat).reduce((values, index) => {
+            values[index] += mat[index] / 100;
             ++counts[index];
+            used[index] = 1;
 
             return values;
-        }, stats);
+        }, stats.values);
     }
 
-    var stat_count = counts.reduce(sum);
-    var average = stats.reduce(sum) / stat_count;
-    var factors = counts.map(value => value ? 1 / value : 0);
-    var plain_stats = stats.map((value, index) => value * factors[index]);
-    var max_value = plain_stats.reduce(max);
-    var delta = max_value - average;
-    var STAT_SCALE_FACTOR = 30;
-    var factor = Math.max(1, Math.min(2, STAT_SCALE_FACTOR / delta));
-    var scaled_stats = plain_stats
-        .map(stat => stat - average)
-        .map(stat => stat * factor)
-        .map(stat => stat + average)
-        ;
-    var count_greater_0 = scaled_stats.map(stat => stat > 0 ? 1 : 0).reduce(sum);
-    var count_less_1 = scaled_stats.map(stat => stat < 100 ? 1 : 0).reduce(sum);
-    var clamped_stats = scaled_stats.map(clamp);
-    var plain_sum = plain_stats.reduce(sum);
-    var clamped_sum = clamped_stats.reduce(sum);
+    stats.div(counts);
+    stats.stretch(used);
 
-    delta = clamped_sum - plain_sum;
-    console.log("delta", delta);
-    var pass = 0;
-    while(Math.abs(delta) > 0.1*stat_count) {
-        if (delta > 0) {
-            delta = -delta / count_greater_0;
-        }
-        else {
-            delta = -delta / count_less_1;
-        }
-        scaled_stats = clamped_stats.map(stat => stat + delta);
-        clamped_stats = scaled_stats.map(clamp);
-        count_greater_0 = clamped_stats.map(stat => stat > 0 ? 1 : 0).reduce(sum);
-        count_less_1 = clamped_stats.map(stat => stat < 100 ? 1 : 0).reduce(sum);
-        clamped_sum = clamped_stats.reduce(sum);
-        delta = clamped_sum - plain_sum;
-
-        console.assert(++pass<=34);
-    }
-
-    return clamped_stats;
+    return stats.values;
 }
 
-function sum(total, current) {
-    return total + current;
-}
-
-function max(total, current) {
-    return current > total ? current : total;
-}
-
-function clamp(value) {
-    return Math.max(0, Math.min(100, value));
-}
-
-var i = 0;
-var current;
-while (current = search.next()) {
-    ++i;
-    if (i > 10) {
-        console.log("searching", search.current);
-        i = 0;
-        break;
-    }
-
-    current = current.concat(amber);
-    var current_fitness = fitness(current);
-    if (current_fitness > best_fitness) {
-        best_fitness = current_fitness;
-        best = current;
-        var mats = best.slice(0, 13).map(mat => mat.type);
-        console.log("new best", best_fitness, mats);
-        console.log("next", search.current);
-    }
-}
-
-var mats = best.slice(0, 13).map(mat => mat.type);
-console.log("new best", best_fitness, mats);
+//var i = 0;
+//var current;
+//while (current = search.next()) {
+//    ++i;
+//    if (i > 10) {
+//        console.log("searching", search.current);
+//        i = 0;
+//        break;
+//    }
+//
+//    current = current.concat(amber);
+//    var current_fitness = fitness(current);
+//    if (current_fitness > best_fitness) {
+//        best_fitness = current_fitness;
+//        best = current;
+//        var mats = best.slice(0, 13).map(mat => mat.type);
+//        console.log("new best", best_fitness, mats);
+//        console.log("next", search.current);
+//    }
+//}
+//
+//var mats = best.slice(0, 13).map(mat => mat.type);
+//console.log("new best", best_fitness, mats);
 
 console.log(craft([
     oath_basic,oath_choice,perfling_basic,perfling_basic,perfling_basic,perfling_basic,
