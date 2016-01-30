@@ -45,11 +45,8 @@ export default class Stats {
 
         var mean = energy / stat_count;
         var delta = value_max - mean;
-        console.log("max", value_max, "mean", mean, "delta", delta, "energy", energy, "stat_count", stat_count);
         if (delta < MIN_DELTA) {
-            var stretch_factor = MIN_DELTA / delta;
-            stretch_factor = min(stretch_factor, MAX_STRETCH_FACTOR);
-            console.log("stretch_factor", stretch_factor);
+            var stretch_factor = min(MIN_DELTA / delta, MAX_STRETCH_FACTOR);
             var new_energy = 0;
             var count_greater_zero = 0;
             var count_less_one = 0;

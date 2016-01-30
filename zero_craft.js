@@ -120,11 +120,11 @@ function doCraft() {
         }
     }
     var max = { "before": 0 };
-    var count = 0;
+    var stat_count = 0;
     var sum_before = 0;
     for ( var mpstat in stats ) {
         stat = stats[ mpstat ];
-        ++count;
+        ++stat_count;
         if ( stat.count != 0 ) {
             stat.before /= stat.count;
         }
@@ -139,8 +139,8 @@ function doCraft() {
     craft.max = max.before;
 
     var average = 0;
-    if ( count != 0 ) {
-        average = sum_before / count;
+    if ( stat_count != 0 ) {
+        average = sum_before / stat_count;
     }
     craft.average = average;
 
@@ -154,48 +154,50 @@ function doCraft() {
     delta = Math.max(1.00, Math.min(2.00, delta));
 
     var sum_after = 0;
-    var stat_count = 0;
     var count_less_max = 0;
     var count_greater_min = 0;
     for ( var mpstat in stats ) {
         stat = stats[ mpstat ];
         stat.after += (stat.before - average) * delta + average;
-        ++count_less_max;
-        ++count_greater_min;
-        if ( stat.after > 1.00 ) {
-            stat.after = 1.00;
-            --count_less_max;
-        }
-        else if ( stat.after < 0.00 ) {
-            stat.after = 0.00;
-            --count_greater_min;
-        }
+        stat.after = Math.max(0.00, Math.min(stat.after, 1.00));
         sum_after += stat.after;
-        ++stat_count;
+        if ( stat.after < 1.00 ) {
+            ++count_less_max;
+        }
+        else if ( stat.after > 0.00 ) {
+            ++count_greater_min;
+        }
     }
     craft.m = delta;
 
     delta = sum_after - sum_before;
-
-    if ( Math.abs(delta) > stat_count * 0.001 ) {
+    var pass = 0;
+    var max_delta = stat_count * 0.001;
+    while( Math.abs(delta) > max_delta && pass <= 34 ) {
         if ( delta < 0 ) {
-            delta = Math.abs(delta) / count_less_max;
+            delta = -delta / count_less_max;
         }
         else if ( delta > 0 ) {
-            delta = -(delta / count_greater_min);
+            delta = -delta / count_greater_min;
         }
-
+        console.log("sum_after", sum_after, "sum_before", sum_before, "delta", delta, count_less_max, count_greater_min);
+        sum_after = 0;
+        count_less_max = 0;
+        count_greater_min = 0;
         for ( var mpstat in stats ) {
             stat = stats[ mpstat ];
-            stat.after += delta;
-
-            if ( stat.after > 1.00 ) {
-                stat.after = 1.00;
+            stat.after = Math.max(0.00, Math.min(stat.after + delta, 1.00));
+            sum_after += stat.after;
+            if ( stat.after < 1.00 ) {
+                ++count_less_max;
             }
-            else if ( stat.after < 0.00 ) {
-                stat.after = 0.00;
+            else if ( stat.after > 0.00 ) {
+                ++count_greater_min;
             }
         }
+
+        delta = sum_after - sum_before;
+        console.assert(++pass <= 34);
     }
     if ( class_count != 0 ) {
         purity /= class_count;

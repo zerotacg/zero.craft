@@ -79,7 +79,8 @@ var best_fitness = 0;
 function fitness(mats) {
     var result = craft(mats);
 
-    return result[16];
+    var Stat_ELEMENTAL_CASTING_SPEED = 26;
+    return result[Stat_ELEMENTAL_CASTING_SPEED];
 }
 
 function craft(mats) {
@@ -106,31 +107,30 @@ function craft(mats) {
     return stats.values;
 }
 
-//var i = 0;
-//var current;
-//while (current = search.next()) {
-//    ++i;
-//    if (i > 10) {
-//        console.log("searching", search.current);
-//        i = 0;
-//        break;
-//    }
-//
-//    current = current.concat(amber);
-//    var current_fitness = fitness(current);
-//    if (current_fitness > best_fitness) {
-//        best_fitness = current_fitness;
-//        best = current;
-//        var mats = best.slice(0, 13).map(mat => mat.type);
-//        console.log("new best", best_fitness, mats);
-//        console.log("next", search.current);
-//    }
-//}
-//
-//var mats = best.slice(0, 13).map(mat => mat.type);
-//console.log("new best", best_fitness, mats);
+var i = 0;
+var current;
+while (current = search.next()) {
+    ++i;
+    if (i > 100000) {
+        console.log("searching", search.current);
+        i = 0;
+    }
 
-console.log(craft([
-    oath_basic,oath_choice,perfling_basic,perfling_basic,perfling_basic,perfling_basic,
-    dzao_basic,dzao_basic,dzao_basic,buo_fine,buo_fine,buo_fine
-].concat(new Array(15).fill(zun))));
+    current = current.concat(amber);
+    var current_fitness = fitness(current);
+    if (current_fitness > best_fitness) {
+        best_fitness = current_fitness;
+        best = current;
+        var mats = best.slice(0, 13).map(mat => mat.type);
+        console.log("new best", "mats", mats, "fitness", best_fitness );
+        console.log("next", search.current);
+    }
+}
+
+var mats = best.slice(0, 13).map(mat => mat.type);
+console.log("new best", best_fitness, mats);
+
+//console.log(craft([
+//    oath_basic,oath_choice,perfling_basic,perfling_basic,perfling_basic,perfling_basic,
+//    dzao_basic,dzao_basic,dzao_basic,buo_fine,buo_fine,buo_fine
+//].concat(new Array(15).fill(zun))));
