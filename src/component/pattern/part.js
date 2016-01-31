@@ -46,7 +46,7 @@ export default class Part extends React.Component {
     createCount() {
         var props = this.props;
         var count = props.children.length;
-        var max = props.max;
+        var max = props.count;
 
         return React.createElement(
             Col,
@@ -60,14 +60,15 @@ export default class Part extends React.Component {
 
         return React.createElement(
             ItemList,
-            { max: props.max },
+            { max: props.count },
             props.children
         );
     }
 }
 
 Part.propTypes = {
-    max: React.PropTypes.number,
+    type: React.PropTypes.string,
+    count: React.PropTypes.number,
     children: ItemList.propTypes.children
 };
 
