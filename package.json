@@ -26,6 +26,7 @@
   "license": "MIT",
   "devDependencies": {
     "babel": "^5.8.24",
+    "benchmark": "^2.1.0",
     "chai": "^3.4.1",
     "jshint": "^2.8.0",
     "jspm": "^0.16.15",
@@ -38,12 +39,12 @@
       "test": "test"
     },
     "dependencies": {
-      "chai": "npm:chai@^3.4.1",
       "json": "github:systemjs/plugin-json@^0.1.0"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "chai": "npm:chai@^3.4.1",
       "core-js": "npm:core-js@^1.1.4"
     }
   }

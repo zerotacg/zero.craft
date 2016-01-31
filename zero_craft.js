@@ -164,7 +164,7 @@ function doCraft() {
         if ( stat.after < 1.00 ) {
             ++count_less_max;
         }
-        else if ( stat.after > 0.00 ) {
+        if ( stat.after > 0.00 ) {
             ++count_greater_min;
         }
     }
@@ -177,7 +177,7 @@ function doCraft() {
         if ( delta < 0 ) {
             delta = -delta / count_less_max;
         }
-        else if ( delta > 0 ) {
+        if ( delta > 0 ) {
             delta = -delta / count_greater_min;
         }
         console.log("sum_after", sum_after, "sum_before", sum_before, "delta", delta, count_less_max, count_greater_min);

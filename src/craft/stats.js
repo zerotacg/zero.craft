@@ -2,7 +2,7 @@ const min = Math.min;
 const max = Math.max;
 const abs = Math.abs;
 
-const STAT_COUNT = 34;
+export const COUNT = 34;
 
 const MIN_DELTA = 0.3;
 const MAX_STRETCH_FACTOR = 2.0;
@@ -13,12 +13,12 @@ function clamp(value) {
 
 export default class Stats {
     constructor() {
-        this.values = new Array(STAT_COUNT).fill(0);
+        this.values = new Array(COUNT).fill(0);
     }
 
     div(divisors) {
         var values = this.values;
-        for (var i = 0; i < STAT_COUNT; ++i) {
+        for (var i = 0; i < COUNT; ++i) {
             values[i] /= divisors[i] || 1;
         }
     }
@@ -31,7 +31,7 @@ export default class Stats {
         var values = this.values;
         var i, value;
 
-        for (i = 0; i < STAT_COUNT; ++i) {
+        for (i = 0; i < COUNT; ++i) {
             if (used[i]) {
                 value = values[i] = clamp(values[i]);
                 energy += value;
@@ -50,7 +50,7 @@ export default class Stats {
             var new_energy = 0;
             var count_greater_zero = 0;
             var count_less_one = 0;
-            for (i = 0; i < STAT_COUNT; ++i) {
+            for (i = 0; i < COUNT; ++i) {
                 if (used[i]) {
                     value = values[i];
                     value = (value - mean) * stretch_factor + mean;
@@ -80,7 +80,7 @@ export default class Stats {
                 count_greater_zero = 0;
                 count_less_one = 0;
 
-                for (i = 0; i < STAT_COUNT; ++i) {
+                for (i = 0; i < COUNT; ++i) {
                     if (used[i]) {
                         value = values[i] = clamp(values[i] + delta);
                         new_energy += value;
@@ -96,7 +96,7 @@ export default class Stats {
 
                 delta = new_energy - energy;
 
-                console.assert(++pass <= STAT_COUNT);
+                console.assert(++pass <= COUNT);
             }
         }
     }
