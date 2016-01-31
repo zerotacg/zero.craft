@@ -39,7 +39,12 @@
       "test": "test"
     },
     "dependencies": {
-      "json": "github:systemjs/plugin-json@^0.1.0"
+      "bootstrap": "github:twbs/bootstrap@^3.3.6",
+      "css": "github:systemjs/plugin-css@^0.1.20",
+      "json": "github:systemjs/plugin-json@^0.1.0",
+      "react": "npm:react@^0.14.7",
+      "react-bootstrap": "npm:react-bootstrap@^0.28.2",
+      "rx": "npm:rx@^4.0.7"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",

@@ -1,231 +1,60 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Craft Simulator</title>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>zero craft</title>
+
     <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
-    <link type="text/css"     rel="stylesheet"    href="./standard.css">
-    <link type="text/css"     rel="stylesheet"    href="./textures/texture.css">
-    <link type="text/css"     rel="stylesheet"    href="./textures/texture_interfaces_dxtc.css">
-    <link type="text/css"     rel="stylesheet"    href="./textures/texture_interfaces_v3.css">
-    <link type="text/css"     rel="stylesheet"    href="./textures/texture_interfaces_v3_login.css">
-    <link type="text/css"     rel="stylesheet"    href="./textures/texture_interfaces_v3_outgame_ui.css">
+    <link type="text/css" rel="stylesheet" href="./textures/texture.css">
+    <link type="text/css" rel="stylesheet" href="./textures/texture_interfaces_dxtc.css">
+    <link type="text/css" rel="stylesheet" href="./textures/texture_interfaces_v3.css">
+    <link type="text/css" rel="stylesheet" href="./textures/texture_interfaces_v3_login.css">
+    <link type="text/css" rel="stylesheet" href="./textures/texture_interfaces_v3_outgame_ui.css">
 
-    <script type="text/javascript" src="./prototype.js"></script>
-    <script type="text/javascript" src="./tools.js"></script>
-    <script type="text/javascript" src="./data/translation.js"></script>
-    <script type="text/javascript" src="./data/item_words.js"></script>
-    <script type="text/javascript" src="./data/slots.js"></script>
-    <script type="text/javascript" src="./data/sheets.js"></script>
-    <script type="text/javascript" src="./data/materials.js"></script>
-    <script type="text/javascript" src="./zero_craft.js"></script>
-  </head>
-
-  <body bgcolor="#333333" text="#FFFFFF" link="#44AA44" vlink="#AA4444" alink="#4444AA" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-
-    <center>
-      <h3>Zero Crafting</h3>
-      Last edited: 14.07.2009 15:13 <a href="javascript:ah_showHide('ui:interface:main:change_log')">i</a> <a href="http://zerocraft.mine.nu/zero.craft.rar">dl</a>
-      <!-- site seems down
-      <a href="http://www.easy-poll.com/counters/"><img src="http://www.easy-poll.com/counters/free_counter.88479.png" alt="Free Webcounter" border="0" /></a>
-      -->
-    </center>
-    
-    <div id="ui:interface:main"
-         style="top: 0px;
-                width: 90%;
-                margin: 0% auto;" >
-      
-      <ul id="ui:interface:main:change_log"
-          style="display: none;" >
-        <li>Fixed: a 32Bit Javascript bug, noticeable for amps</li>
-        <li>Changed: Mats sorted by Familyname now</li>
-        <li>Issue: Class issn't calculated correctly (doesn't effect crafting results ;D)</li>
-      </ul>
-      
-      <div id="ui:interface:main:language"
-           style="margin-left: 4px;
-                  padding-left: 1%;
-                  position: relative;">
-        <a id="ui:interface:language:en" href="javascript:loadTranslations('en');"><img src="./textures/en.png" title="English" /></a>
-        <a id="ui:interface:language:de" href="javascript:loadTranslations('de');"><img src="./textures/de.png" title="Deutsch" /></a>
-        <a id="ui:interface:language:fr" href="javascript:loadTranslations('fr');"><img src="./textures/fr.png" title="Fran�ais" /></a>
-        <div class="text">uiLanguageName</div>
-      </div>
-      
-      <div id="ui:interface:main:slots"
-           style="top: 0px;
-                  float: left;
-                  width: 18%;
-                  margin: 3px;
-                  border: 1px;
-                  border-style: solid;
-                  padding-top: 1%;
-                  padding-bottom: 1%;
-                  padding-left: 1%;
-                  padding-right: 0;" >
-        <div class="text">uiSlotsTitle</div>
-      </div>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+</head>
+<body role="document">
 
 
-      <div id="ui:interface:main:craft_window" 
-           style="top: 0px;
-                  float: left;
-                  width: 78%;
-                  margin: 3px;
-                  border: 1px;
-                  border-style: solid;
-                  padding-top: 1%;
-                  padding-bottom: 1%;
-                  padding-left: 1%;
-                  padding-right: 0;" >
-        <div class="text" style="display: block;">uiCraftWindowTitle</div>
-        <div id="ui:interface:main:craft_window:item_list"
-             style="top: 0px;
-                    float: left;
-                    width: 48%;
-                    margin: 3px;
-                    border: 1px;
-                    border-style: solid;
-                    padding-bottom: 2%;" >
-          <div class="text">uiItemListTitle</div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">zero craft</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Menu entry</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+                <li class="active"><a href="#">Magic amplifiers<span class="sr-only">(current)</span></a></li>
+            </ul>
         </div>
 
-
-        <div id="ui:interface:main:craft_window:preview"
-             style="top: 0px;
-                    float: left;
-                    width: 48%;
-                    margin: 3px;
-                    border: 1px solid;
-                    padding-bottom: 2%;" >
-          <div class="text">uiPreviewTitle</div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
         </div>
-      </div>
     </div>
-    
-    
-    <div id="ui:interface:material_selection"
-         style="top: 0px;
-                position: absolute;
-                display: none;
-                min-width: 10px;
-                min-height: 10px;
-                border: 1px solid;
-                background-color: #333333;" ></div>
-    
-    
-    <div id="ui:interface:quantity_selection"
-         style="width: 187px;
-                height: 105px;
-                top: 0px;
-                z-index: 1;
-                position: absolute;
-                display: none;
-                border: 1px solid;
-                background-color: #333333;" >
-      <div class="text">uiSelectQuantity</div>
-      <div id="ui:interface:quantity_selection:sheet"
-           style="position: absolute;
-                  left: 43px;
-                  top: 30px" ></div>
-      
-      <input id="ui:interface:quantity_selection:txt_quantity"
-             type="text"
-             maxlength="3"
-             size="2"
-             style="position: absolute;
-                    left: 103px;
-                    top: 40px" />
-      
-      <input id="ui:interface:quantity_selection:button_remove"
-             type="button"
-             value="remove"
-             style="position: absolute;
-                    left: 3px;
-                    top: 80px" />
-      
-      <input id="ui:interface:quantity_selection:button_ok"
-             type="button"
-             value="ok"
-             style="position: absolute;
-                    left: 83px;
-                    top: 80px" />
-           
-      <input id="ui:interface:quantity_selection:button_cancel"
-             type="button"
-             value="cancel"
-             style="position: absolute;
-                    left: 123px;
-                    top: 80px"
-             onclick="ah_hide('ui:interface:quantity_selection')" />
-    </div>
-    
-    
-    <div id="ui:interface:item_info"
-         style="width: 350px;
-                left: 10px;
-                top: 10px;
-                position: absolute;
-                z-index: 1;
-                display: none;
-                border: 1px solid;
-                background-color: #333333;">
-      
-      <div id="ui:interface:item_info:header_opened"
-         style="width: 350px;
-                height: 16px;
-                background-color: #773333;">
-        <div id="ui:interface:header_opened:close"
-             class="texture w_close_1"
-             style="position: relative;
-                    left: 336px;
-                    top: 2px"
-             onclick="ah_hide('ui:interface:item_info')"></div>
-      </div>
-      <div id="ui:interface:item_info:content"
-           style="width: 338px;
-                  margin: 10px;
-                  border: 0;
-                  position: relative;">
-        
-        <div id="ui:interface:item_info:content:sheet"
-             style="position: absolute;
-                    left: 286px;
-                    top: 0px" ></div>
-        
-        <div class="text">uiSheetID</div>:   <label id="ui:interface:item_info:content:lbl_sheet_id"></label><br />
-        <div class="text">uiQuality</div>: <label id="ui:interface:item_info:content:lbl_quality"></label><br />
-        <div class="text">uiFamily</div>:  <label id="ui:interface:item_info:content:lbl_family"></label><br />
-        <div class="text">uiColor</div>:   <label id="ui:interface:item_info:content:lbl_color"></label><br />
-        <br />
-        
-        <div class="text">uiAllItemParts</div><br />
-        <div>
-          <div id="ui:interface:item_info:content:img_part"
-               class="texture ico_blade"></div>
-          
-          <select id="ui:interface:item_info:content:item_parts"
-                  onchange="showItemStats(this.getValue())">
-          </select>
-        <div>
-        
-        <div class="text">uiEcosystem</div>: <label id="ui:interface:item_info:content:lbl_ecosystem"></label><br />
-        <div id="ui:interface:item_info:content:stats" ></div>
-        
-      </div>
-    </div>
-    
-    <div id="ui:interface:log"
-         style="width: 80%;"></div>
-    
-    <script type="text/javascript">
-      try
-      {
-        startZeroCraft();
-      }
-      catch(e)
-      {
-      };
-      
-    </script>
-  </body>
+</div>
+
+<script>
+    System.import("zero/component/main");
+</script>
+</body>
 </html>

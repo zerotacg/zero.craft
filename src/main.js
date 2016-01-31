@@ -72,26 +72,27 @@ var zun_excellent = prepare({
     stats: {0: 45, 1: 65, 2: 100, 26: 65, 27: 65, 28: 65, 29: 65, 30: 45, 31: 65, 32: 65, 33: 65}
 });
 var zun_sup = prepare({
-    type: "zun-excellent",
+    type: "zun-supreme",
     stats: {0: 60, 1: 82, 2: 100, 26: 82, 27: 82, 28: 82, 29: 82, 30: 60, 31: 82, 32: 82, 33: 82}
 });
 
 var search = new Search({possibilities, current: [[-1, 0, 0, 0, 0], [0, 0, 0, 0, 0]]});
-var amber = new Array(10).fill(zun_sup);
+var amber = new Array(10).fill(zun_excellent);
 var best;
 var best_fitness = 0;
 
 function fitness(mats) {
     var result = craft(mats);
 
+    var Stat_DURABILITY = 0;
     var Stat_SAP_LOAD = 2;
     var Stat_DODGE = 6;
     var Stat_ELEMENTAL_CASTING_SPEED = 26;
-    var sap = result[Stat_SAP_LOAD];
-    var dodge = result[Stat_DODGE];
-    var magic = Math.floor(20 + 80 * result[Stat_ELEMENTAL_CASTING_SPEED]);
+    var durability = Math.floor(100 * result[Stat_DURABILITY]); // 100 - 200, 250, 300
+    var sap = Math.floor(2500 * result[Stat_SAP_LOAD]);
+    var magic = Math.floor(80 * result[Stat_ELEMENTAL_CASTING_SPEED]);
 
-    return magic * 100 + sap + dodge;
+    return (20 + magic) * 1000 + durability + (sap / 25);
 }
 
 var i = 0;
