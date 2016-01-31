@@ -8,6 +8,8 @@
     <title>zero craft</title>
 
     <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <link type="text/css" rel="stylesheet" href="./css/zero.craft.css">
+    <link type="text/css" rel="stylesheet" href="./css/sitem.css">
     <link type="text/css" rel="stylesheet" href="./textures/texture.css">
     <link type="text/css" rel="stylesheet" href="./textures/texture_interfaces_dxtc.css">
     <link type="text/css" rel="stylesheet" href="./textures/texture_interfaces_v3.css">
@@ -43,12 +45,62 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
-            <ul class="nav nav-sidebar">
-                <li class="active"><a href="#">Magic amplifiers<span class="sr-only">(current)</span></a></li>
-            </ul>
         </div>
 
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div id="viewport" class="row">
+                        <div class="col-lg-11">
+                            <span class="texture ico_shaft"></span>Shaft
+                        </div>
+                        <div class="col-lg-1 text-right">5/5</div>
+                        <div class="col-lg-12">
+                            <div class="sitem">
+                                <div class="texture BK_generic"></div>
+                                <div class="texture mp_bark"></div>
+                                <div class="texture PW_light"></div>
+                                <span class="text">Oath</span>
+                                <span class="quality">250</span>
+                                <span class="quantity">2</span>
+                            </div>
+                            <div class="sitem">
+                                <div class="texture BK_generic"></div>
+                                <div class="texture mp_bark"></div>
+                                <div class="texture PW_medium"></div>
+                                <span class="text">Oath</span>
+                                <span class="quality">250</span>
+                                <span class="quantity">1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 preview">
+                    <h4>Preview</h4>
+                    <div class="sitem">
+                        <div class="texture BK_zorai"></div>
+                        <div class="texture mg_glove"></div>
+                        <span class="quality">160</span>
+                    </div>
+                    <div class="stats">
+                        <div class="row">
+                            <div class="col-lg-6">Durability</div>
+                            <div class="col-lg-5">
+                                <div class="texture W_slot_jauge_1"></div>
+                            </div>
+                            <div class="col-lg-1">100/100</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">Adversary Dodge Modifier</div>
+                            <div class="col-lg-5">
+                                <div class="texture W_slot_jauge_1"></div>
+                            </div>
+                            <div class="col-lg-1">63/100</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

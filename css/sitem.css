@@ -1,0 +1,41 @@
+.sitem {
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 9px;
+    letter-spacing: 1px;
+    font-family: lucida console, monospace;
+    white-space: nowrap;
+    width: 40px;
+    height: 40px;
+}
+
+.sitem > * {
+    position: absolute;
+}
+
+.sitem span {
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.sitem .text {
+    left: 1px;
+    top: -1px;
+}
+
+.sitem .quality {
+    right: 0;
+    bottom: -2px;
+}
+
+.sitem .quantity {
+    left: 1px;
+    bottom: -2px;
+}
+
+.sitem .quantity:before {
+    content: "×";
+}
