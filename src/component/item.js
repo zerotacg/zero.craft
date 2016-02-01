@@ -1,5 +1,5 @@
 import React from "react";
-import Materials from "zero/data/materials.json!";
+import Materials from "zero/data/sitems.json!";
 
 export default class Item extends React.Component {
     constructor(props) {
