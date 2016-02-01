@@ -11,9 +11,6 @@ export default class ItemList extends React.Component {
     render() {
         var props = this.props;
         var children = props.children.map(this.createItem);
-        if (children.length < props.max) {
-            children.push(this.createEmptySlot());
-        }
 
         return React.createElement(
             Col,
@@ -26,13 +23,6 @@ export default class ItemList extends React.Component {
         return React.createElement(
             Item,
             Object.assign({key}, item)
-        );
-    }
-
-    createEmptySlot() {
-        return React.createElement(
-            "span",
-            {key: "empty", className: "texture W_slot_item"}
         );
     }
 }

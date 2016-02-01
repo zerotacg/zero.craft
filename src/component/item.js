@@ -1,4 +1,5 @@
 import React from "react";
+import Materials from "zero/data/materials.json!";
 
 export default class Item extends React.Component {
     constructor(props) {
@@ -7,9 +8,10 @@ export default class Item extends React.Component {
 
     render() {
         var props = this.props;
-        var children = props.textures.map(this.createTexture);
-        if ( props.text ) {
-            children.push( this.createText(props.text, "text") );
+        var sheet = this.getSheet(props.sheet);
+        var children = sheet.icon.texture.map(this.createTexture);
+        if ( sheet.icon.text ) {
+            children.push( this.createText(sheet.icon.text, "text") );
         }
         if ( props.quality ) {
             children.push( this.createText(props.quality, "quality") );
@@ -27,6 +29,10 @@ export default class Item extends React.Component {
         );
     }
 
+    getSheet(sheet) {
+        return Materials.filter(material => material._id === sheet)[0];
+    }
+
     createTexture(texture, key) {
         return React.createElement(
             "div",
@@ -40,7 +46,7 @@ export default class Item extends React.Component {
     createText(text, key) {
         return React.createElement(
             "span",
-            { key, className: key },
+            { key, className: key + " text-capitalize" },
             text
         );
     }

@@ -4,23 +4,29 @@ import { Row, Col } from "react-bootstrap";
 import ItemList from "zero/component/item_list";
 import Parts from "zero/data/pattern/parts.json!";
 
+function sum(total, value) {
+    return total + value;
+}
+
 export default class Part extends React.Component {
     constructor(props) {
         super(props);
     }
 
     render() {
-        var header = this.createHeader();
-        var count = this.createCount();
-        var item_list = this.createItemList();
+        var quantity = this.getQuantity();
 
         return React.createElement(
             Row,
             null,
-            header,
-            count,
-            item_list
+            this.createHeader(),
+            this.createCount(quantity),
+            this.createItemList()
         );
+    }
+
+    getQuantity() {
+        return this.props.children.map(item => item.quantity).reduce(sum,0);
     }
 
     createHeader() {
@@ -30,7 +36,7 @@ export default class Part extends React.Component {
         var label = part.label;
         return React.createElement(
             Col,
-            { lg: 10 },
+            {lg: 10},
             icon,
             label
         );
@@ -39,18 +45,17 @@ export default class Part extends React.Component {
     createIcon(icon) {
         return React.createElement(
             "span",
-            { className: "texture " + icon }
+            {className: "texture " + icon}
         );
     }
 
-    createCount() {
+    createCount(count) {
         var props = this.props;
-        var count = props.children.length;
         var max = props.count;
 
         return React.createElement(
             Col,
-            { lg: 2, className: "text-right" },
+            {lg: 2, className: "text-right"},
             `${count}/${max}`
         );
     }
@@ -60,8 +65,15 @@ export default class Part extends React.Component {
 
         return React.createElement(
             ItemList,
-            { max: props.count },
+            null,
             props.children
+        );
+    }
+
+    createEmptySlot() {
+        return React.createElement(
+            "span",
+            {key: "empty", className: "texture W_slot_item"}
         );
     }
 }
@@ -72,5 +84,4 @@ Part.propTypes = {
     children: ItemList.propTypes.children
 };
 
-Part.defaultProps = {
-};
+Part.defaultProps = {};

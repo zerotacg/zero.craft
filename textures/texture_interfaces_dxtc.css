@@ -71,7 +71,7 @@
   background-position: -40px -80px;
 }
 
-.BK_fyros
+.bk_fyros
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -80,7 +80,7 @@
   background-position: -80px -80px;
 }
 
-.BK_generic
+.bk_generic
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -89,7 +89,7 @@
   background-position: -128px 0px;
 }
 
-.BK_goo
+.bk_goo
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -98,7 +98,7 @@
   background-position: -168px 0px;
 }
 
-.BK_matis
+.bk_matis
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -107,7 +107,7 @@
   background-position: -208px 0px;
 }
 
-.BK_primes
+.bk_primes
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -116,7 +116,7 @@
   background-position: -124px -40px;
 }
 
-.BK_tryker
+.bk_tryker
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -125,7 +125,7 @@
   background-position: -164px -40px;
 }
 
-.BK_zorai
+.bk_zorai
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;

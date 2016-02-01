@@ -4,24 +4,38 @@ import Pattern from "zero/component/pattern/pattern";
 import Patterns from "zero/data/pattern/patterns.json!";
 
 var pattern = Patterns.filter(pattern => pattern._id === "magic-amplifier-basic-quality")[0];
-console.log("pattern", pattern);
 var main = React.createElement(Pattern, pattern, [
     [
         {
-            textures: ["BK_generic", "mp_bark", "PW_light"],
-            text: "Oath",
+            sheet: "perfling-choice",
             quality: 250,
             quantity: 2
         },
         {
-            textures: ["BK_generic", "mp_bark", "PW_medium"],
-            text: "Oath",
+            sheet: "oath-fine",
             quality: 250,
             quantity: 1
         }
     ],
-    [],
-    []
+    [
+        {
+            sheet: "dzao-fine",
+            quality: 250,
+            quantity: 3
+        },
+        {
+            sheet: "anete-basic",
+            quality: 250,
+            quantity: 2
+        }
+    ],
+    [
+        {
+            sheet: "zun-excellent",
+            quality: 250,
+            quantity: 10
+        }
+    ]
 ]);
 
 ReactDOM.render(main, document.getElementById("viewport"));
