@@ -278,7 +278,7 @@
   background-position: 0px -200px;
 }
 
-.PW_heavy
+.pw_heavy
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -287,7 +287,7 @@
   background-position: -40px -200px;
 }
 
-.PW_light
+.pw_light
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -296,7 +296,7 @@
   background-position: -80px -200px;
 }
 
-.PW_medium
+.pw_medium
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;

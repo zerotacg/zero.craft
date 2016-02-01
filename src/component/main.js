@@ -7,31 +7,41 @@ var pattern = Patterns.filter(pattern => pattern._id === "magic-amplifier-basic-
 var main = React.createElement(Pattern, pattern, [
     [
         {
-            sheet: "perfling-choice",
+            sheet: "choice-perfling",
             quality: 250,
             quantity: 2
         },
         {
-            sheet: "oath-fine",
+            sheet: "fine-oath",
+            quality: 250,
+            quantity: 1
+        },
+        {
+            sheet: "basic-becker",
+            quality: 250,
+            quantity: 1
+        },
+        {
+            sheet: "basic-adriel",
             quality: 250,
             quantity: 1
         }
     ],
     [
         {
-            sheet: "dzao-fine",
+            sheet: "fine-dzao",
             quality: 250,
             quantity: 3
         },
         {
-            sheet: "anete-basic",
+            sheet: "basic-anete",
             quality: 250,
             quantity: 2
         }
     ],
     [
         {
-            sheet: "zun-excellent",
+            sheet: "excellent-zun",
             quality: 250,
             quantity: 10
         }

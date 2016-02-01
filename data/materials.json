@@ -1,8 +1,41 @@
 [
     {
-        "_id": "oath-fine",
-        "icon" :
-        {
+        "_id": "basic-adriel",
+        "icon" : {
+            "texture" : [
+                "bk_generic",
+                "mp_bark",
+                "pw_light"
+            ],
+            "text" : "adriel"
+        },
+        "craft" : {
+            "parts": {
+                "shaft": { "0": 20, "1": 0, "2": 20, "3": 20, "4": 0, "6": 20, "7": 20, "8": 60, "9": 20 },
+                "ammo-bullet": { "0": 20, "1": 60, "3": 20, "4": 0, "5": 0 }
+            }
+        }
+    },
+    {
+        "_id": "basic-becker",
+        "icon" : {
+            "texture" : [
+                "bk_generic",
+                "mp_bark",
+                "pw_light"
+            ],
+            "text" : "becker"
+        },
+        "craft" : {
+            "parts": {
+                "shaft": { "0": 20, "1": 0, "2": 60, "3": 20, "4": 20, "6": 0, "7": 20, "8": 20, "9": 20 },
+                "ammo-bullet": { "0": 20, "1": 20, "3": 60, "4": 0, "5": 0 }
+            }
+        }
+    },
+    {
+        "_id": "fine-oath",
+        "icon" : {
             "texture" : [
                 "bk_generic",
                 "mp_bark",
@@ -18,7 +51,7 @@
         }
     },
     {
-        "_id": "perfling-choice",
+        "_id": "choice-perfling",
         "icon": {
             "texture": [
                 "bk_race",
@@ -35,7 +68,58 @@
         }
     },
     {
-        "_id": "zun-excellent",
+        "_id": "basic-anete",
+        "icon": {
+            "texture": [
+                "bk_generic",
+                "mp_fiber",
+                "pw_light"
+            ],
+            "text": "anete"
+        },
+        "craft": {
+            "parts" : {
+                "grip": { "0": 20, "1": 20, "2": 20, "4": 0, "6": 60, "7": 0, "8": 20, "9": 20 },
+                "clothes": { "0": 1, "1": 20, "6": 20, "7": 20, "10": 20, "11": 0, "12": 60, "13": 20 }
+            }
+        }
+    },
+    {
+        "_id": "basic-dzao",
+        "icon": {
+            "texture": [
+                "bk_generic",
+                "mp_fiber",
+                "pw_light"
+            ],
+            "text": "dzao"
+        },
+        "craft": {
+            "parts" : {
+                "grip": { "0": 20, "1": 20, "2": 0, "4": 20, "6": 20, "7": 20, "8": 60, "9": 0 },
+                "clothes": { "0": 20, "1": 20, "6": 0, "7": 20, "10": 20, "11": 20, "12": 0, "13": 60 }
+            }
+        }
+    },
+    {
+        "_id": "fine-dzao",
+        "icon": {
+            "texture": [
+                "bk_generic",
+                "mp_fiber",
+                "pw_medium"
+            ],
+            "text": "dzao"
+        },
+        "craft": {
+            "parts" : {
+                "grip": { "0": 35, "1": 35, "2": 15, "4": 35, "6": 35, "7": 35, "8": 75, "9": 15 },
+                "clothes": { "0": 35, "1": 35, "6": 15, "7": 35, "10": 35, "11": 35, "12": 15, "13": 75 }
+            }
+        }
+    },
+    {
+        "_id": "excellent-zun",
         "icon": {
             "texture": [
                 "bk_race",
