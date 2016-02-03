@@ -1,0 +1,1088 @@
+.pop_t
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 512px;
+  height: 64px;
+  background-position: 0px 0px;
+}
+
+.kami_select
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 96px;
+  height: 96px;
+  background-position: 0px -64px;
+}
+
+.curs_scale
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 56px;
+  height: 56px;
+  background-position: -96px -64px;
+}
+
+.curs_default
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 56px;
+  height: 56px;
+  background-position: -152px -64px;
+}
+
+.curs_rotate
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 56px;
+  height: 56px;
+  background-position: -208px -64px;
+}
+
+.job_fight_on
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 48px;
+  height: 48px;
+  background-position: -264px -64px;
+}
+
+.job_magic_on
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 48px;
+  height: 48px;
+  background-position: -312px -64px;
+}
+
+.job_forage_on
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 48px;
+  height: 48px;
+  background-position: -360px -64px;
+}
+
+.job_craft_on
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 48px;
+  height: 48px;
+  background-position: -408px -64px;
+}
+
+.quit
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 48px;
+  height: 48px;
+  background-position: -456px -64px;
+}
+
+.scroll_m
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 128px;
+  background-position: -264px -112px;
+}
+
+.opt_on_zorai
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 44px;
+  height: 46px;
+  background-position: -280px -112px;
+}
+
+.opt_on_tryker
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 44px;
+  height: 46px;
+  background-position: -324px -112px;
+}
+
+.opt_on_fyros
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 44px;
+  height: 46px;
+  background-position: -368px -112px;
+}
+
+.opt_on_matis
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 44px;
+  height: 46px;
+  background-position: -412px -112px;
+}
+
+.f3
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -456px -112px;
+}
+
+.f4
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -96px -120px;
+}
+
+.f5
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -136px -120px;
+}
+
+.f6
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -176px -120px;
+}
+
+.g1
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -216px -120px;
+}
+
+.g2
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -456px -152px;
+}
+
+.g3
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: 0px -160px;
+}
+
+.g4
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -40px -160px;
+}
+
+.g5
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -80px -160px;
+}
+
+.g6
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -120px -160px;
+}
+
+.c3
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -160px -160px;
+}
+
+.c4
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -200px -160px;
+}
+
+.c5
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -280px -160px;
+}
+
+.c6
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -320px -160px;
+}
+
+.c7
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -360px -160px;
+}
+
+.m1
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -400px -160px;
+}
+
+.m2
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -440px -192px;
+}
+
+.m3
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: 0px -200px;
+}
+
+.m4
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -40px -200px;
+}
+
+.m5
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -80px -200px;
+}
+
+.c8
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -120px -200px;
+}
+
+.c9
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -160px -200px;
+}
+
+.c1
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -200px -200px;
+}
+
+.c10
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -280px -200px;
+}
+
+.pack_default
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -320px -200px;
+}
+
+.c2
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -360px -200px;
+}
+
+.f1
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -400px -200px;
+}
+
+.f2
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 40px;
+  background-position: -440px -232px;
+}
+
+.opt_off_r
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 32px;
+  height: 48px;
+  background-position: -480px -192px;
+}
+
+.opt_off_l
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 32px;
+  height: 48px;
+  background-position: 0px -240px;
+}
+
+.job_border_r
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 26px;
+  height: 52px;
+  background-position: -32px -240px;
+}
+
+.job_border_l
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 26px;
+  height: 52px;
+  background-position: -60px -240px;
+}
+
+.slider_m
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 40px;
+  height: 32px;
+  background-position: -88px -240px;
+}
+
+.w_slot_jauge_1
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 126px;
+  height: 10px;
+  background-position: -128px -240px;
+}
+
+.W_slot_jauge_1
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 126px;
+  height: 10px;
+  background-position: -256px -240px;
+}
+
+.play_off
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 44px;
+  height: 28px;
+  background-position: -384px -240px;
+}
+
+.play_on
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 44px;
+  height: 28px;
+  background-position: -128px -252px;
+}
+
+.menu_off_r
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 150px;
+  background-position: -428px -240px;
+}
+
+.menu_on_l
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 150px;
+  background-position: -480px -240px;
+}
+
+.menu_on_m
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 150px;
+  background-position: -488px -240px;
+}
+
+.menu_on_r
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 150px;
+  background-position: -496px -240px;
+}
+
+.menu_off_l
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 150px;
+  background-position: -504px -240px;
+}
+
+.menu_off_m
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 150px;
+  background-position: -172px -252px;
+}
+
+.opt_on_l_over
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 32px;
+  height: 32px;
+  background-position: -180px -252px;
+}
+
+.opt_on_r_over
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 32px;
+  height: 32px;
+  background-position: -212px -252px;
+}
+
+.opt_on_r
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 32px;
+  height: 32px;
+  background-position: -244px -252px;
+}
+
+.opt_on_l
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 32px;
+  height: 32px;
+  background-position: -276px -252px;
+}
+
+.job_br
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 26px;
+  height: 26px;
+  background-position: -308px -252px;
+}
+
+.job_tl
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 26px;
+  height: 26px;
+  background-position: -336px -252px;
+}
+
+.job_tr
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 26px;
+  height: 26px;
+  background-position: -364px -268px;
+}
+
+.job_bl
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 26px;
+  height: 26px;
+  background-position: -392px -268px;
+}
+
+.qh_on_l
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 22px;
+  height: 28px;
+  background-position: -240px -160px;
+}
+
+.qh_on_r
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 22px;
+  height: 28px;
+  background-position: -240px -188px;
+}
+
+.qh_off_l
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 22px;
+  height: 28px;
+  background-position: -88px -272px;
+}
+
+.qh_off_r
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 22px;
+  height: 28px;
+  background-position: -436px -272px;
+}
+
+.job_border_m
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 52px;
+  background-position: -504px -64px;
+}
+
+.pop_br
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -496px -116px;
+}
+
+.pop_l
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -496px -132px;
+}
+
+.pop_r
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -496px -148px;
+}
+
+.sub_menu_blank
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -440px -160px;
+}
+
+.sub_menu_bl
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -496px -164px;
+}
+
+.pop_b
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -440px -176px;
+}
+
+.sub_menu_br
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -240px -216px;
+}
+
+.sub_menu_tl
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -364px -252px;
+}
+
+.sub_menu_tr
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -112px -272px;
+}
+
+.pop_bl
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -460px -272px;
+}
+
+.bgd_pause
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -128px -280px;
+}
+
+.w_answer_16_cancel
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -144px -280px;
+}
+
+.w_answer_16_valid
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -308px -280px;
+}
+
+.pop_blank
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 16px;
+  background-position: -324px -280px;
+}
+
+.job_t
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 26px;
+  background-position: -256px -120px;
+}
+
+.job_b
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 26px;
+  background-position: -420px -268px;
+}
+
+.job_l
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 26px;
+  height: 8px;
+  background-position: -180px -284px;
+}
+
+.job_blank
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 26px;
+  height: 8px;
+  background-position: -208px -284px;
+}
+
+.job_r
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 26px;
+  height: 8px;
+  background-position: -236px -284px;
+}
+
+.scroll_t
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 12px;
+  background-position: -496px -180px;
+}
+
+.scroll_b
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 16px;
+  height: 12px;
+  background-position: -340px -280px;
+}
+
+.opt_off_m
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 48px;
+  background-position: -476px -272px;
+}
+
+.opt_on_m
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 32px;
+  background-position: -436px -240px;
+}
+
+.qh_off_m
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 28px;
+  background-position: -160px -280px;
+}
+
+.qh_on_m
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 28px;
+  background-position: -164px -280px;
+}
+
+.w_arrow_down_2
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 10px;
+  height: 10px;
+  background-position: -264px -284px;
+}
+
+.w_hl_t
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -256px -148px;
+}
+
+.w_hl_bl
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -256px -216px;
+}
+
+.w_hl_r
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -256px -224px;
+}
+
+.w_hl_b
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -240px -232px;
+}
+
+.w_hl_tr
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -248px -232px;
+}
+
+.w_hl_l
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -256px -232px;
+}
+
+.w_hl_tl
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -356px -280px;
+}
+
+.CM_B
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -276px -284px;
+}
+
+.CM_BL
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -284px -284px;
+}
+
+.CM_BR
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -292px -284px;
+}
+
+.CM_L
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -300px -284px;
+}
+
+.CM_M
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: 0px -288px;
+}
+
+.CM_R
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -8px -288px;
+}
+
+.CM_T
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -16px -288px;
+}
+
+.CM_TL
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -24px -288px;
+}
+
+.CM_TR
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -112px -288px;
+}
+
+.w_hl_br
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 8px;
+  height: 8px;
+  background-position: -120px -288px;
+}
+
+.w_modal_r
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -496px -112px;
+}
+
+.w_modal_tr
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -500px -112px;
+}
+
+.w_modal_blank
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -256px -156px;
+}
+
+.w_modal_t
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -260px -156px;
+}
+
+.w_modal_tl
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -380px -252px;
+}
+
+.w_modal_l
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -380px -256px;
+}
+
+.W_box_blank
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -380px -260px;
+}
+
+.blank
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -380px -264px;
+}
+
+.w_box_top_right
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -168px -280px;
+}
+
+.w_box_bot
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -168px -284px;
+}
+
+.w_box_bot_left
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -168px -288px;
+}
+
+.w_box_bot_right
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -356px -288px;
+}
+
+.w_box_left
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -360px -288px;
+}
+
+.w_box_right
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -460px -288px;
+}
+
+.w_box_top
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -464px -288px;
+}
+
+.w_box_top_left
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -468px -288px;
+}
+
+.w_modal_b
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -472px -288px;
+}
+
+.w_modal_bl
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -32px -292px;
+}
+
+.w_modal_br
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 4px;
+  height: 4px;
+  background-position: -36px -292px;
+}
+
+.text_cursor
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 2px;
+  height: 2px;
+  background-position: -40px -292px;
+}
+
+.W_jauge_fill
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 1px;
+  height: 4px;
+  background-position: -44px -292px;
+}
+
+.w_jauge_fill
+{
+  background-image: url(./texture_interfaces_v3_outgame_ui.png);
+  width: 1px;
+  height: 4px;
+  background-position: -48px -292px;
+}
+

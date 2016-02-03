@@ -1,0 +1,109 @@
+.debug
+{
+  border: 1px solid purple;
+  margin: 1px;
+  padding: 1px;
+}
+
+td
+{
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+th
+{
+  text-align: left;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+th a
+{
+  font-size: 0.7em;
+}
+
+img
+{
+  border: 0;
+}
+
+.text
+{
+  display: inline;
+}
+
+.header
+{
+  background-color: #2A2A2A;
+}
+.odd
+{
+  background-color: #222222;
+}
+
+.sheet
+{
+  position:       relative;
+  color:          white;
+  font-size:      9px;
+  letter-spacing: 1px;
+  font-family:    lucida console;
+  white-space:    nowrap;
+  width:          40px;
+  height:         40px;
+
+  border: 1px solid;
+  border-top-color: #191919;
+  border-left-color: #464646;
+  border-bottom-color: #828282;
+  border-right-color: #686868;
+}
+
+.sheet div
+{
+  position: absolute;
+}
+
+.sheet .text
+{
+  left: 3px;
+  top:  1px;
+}
+
+.sheet .quality
+{
+  right:  2px;
+  bottom: 0px;
+}
+
+.sheet .quantity
+{
+  left:   3px;
+  bottom: 0px;
+}
+
+.bar
+{
+  border-width: 1px;
+  border-top-color: #222222;
+  border-left-color: #222222;
+  border-bottom-color: #555555;
+  border-right-color: #555555;
+  border-style: solid;
+
+  background-color: #444444;
+  width: 102px;
+  height: 7px;
+}
+
+.bar .bar_content
+{
+  background-color: #FFFFDD;
+
+  position: relative;
+  width:  0px;
+  height: 5px;
+  left:   1px;
+  top:    1px;
+}

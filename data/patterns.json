@@ -1,0 +1,26 @@
+[
+    {
+        "_id": "magic-amplifier-basic-quality",
+        "parts": [
+            { "type": "shaft", "count": 5 },
+            { "type": "grip", "count": 5 },
+            { "type": "magic-focus", "count": 10 }
+        ]
+    },
+    {
+        "_id": "magic-amplifier-medium-quality",
+        "parts": [
+            { "type": "shaft", "count": 6 },
+            { "type": "grip", "count": 6 },
+            { "type": "magic-focus", "count": 15 }
+        ]
+    },
+    {
+        "_id": "magic-amplifier-high-quality",
+        "parts": [
+            { "type": "shaft", "count": 7 },
+            { "type": "grip", "count": 6 },
+            { "type": "magic-focus", "count": 20 }
+        ]
+    }
+]

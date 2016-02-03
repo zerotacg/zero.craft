@@ -1,0 +1,12 @@
+
+.texture {
+    background-repeat: no-repeat;
+
+    float: left;
+}
+
+.bk_race {
+    background-image: url(./bk_race.png);
+    width: 40px;
+    height: 40px;
+}
