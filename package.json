@@ -1,6 +1,6 @@
 {
   "name": "zero.craft",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -15,7 +15,7 @@
     "clean": "rimraf dist/*",
     "build:asset": "rsync --recursive --times --human-readable --progress --delete --exclude-from=.distignore . dist",
     "build": "npm run build:asset",
-    "deploy": "gh-pages --dist dist"
+    "deploy": "gh-pages --repo git@github.com:zerotacg/zero.craft.git --dist dist"
   },
   "author": {
     "name": "Tobias Peters",
@@ -32,9 +32,11 @@
     "babel": "^5.8.24",
     "benchmark": "^2.1.0",
     "chai": "^3.4.1",
+    "gh-pages": "^0.9.0",
     "jshint": "^2.8.0",
     "jspm": "^0.16.15",
     "mocha": "^2.3.4",
+    "rimraf": "^2.5.1",
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0"
   },

@@ -4,6 +4,7 @@ node_modules/
 jspm_packages/
 
 benchmark/
+dist/
 src/
 test/
 .distignore
@@ -11,6 +12,4 @@ test/
 .gitignore
 .jshintrc
 config.js
-LICENSE
 package.json
-README.md
