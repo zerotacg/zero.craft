@@ -191,7 +191,7 @@ function doCraft() {
             if ( stat.after < 1.00 ) {
                 ++count_less_max;
             }
-            else if ( stat.after > 0.00 ) {
+            if ( stat.after > 0.00 ) {
                 ++count_greater_min;
             }
         }
