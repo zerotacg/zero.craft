@@ -1,18 +1,20 @@
 import Rx from "rx";
 
+const MINIMUM_WORKERS = 1;
+
 export default class {
     constructor(config) {
         Object.assign(this, config);
 
-        this._workers = [];
-        this.workers = new Rx.Subject();
-        this.add = Rx.Observer.create(this._add.bind(this));
+        this.workers = new Rx.BehaviorSubject([{state: "idle"},{state: "busy"}]);
+        this.inc = Rx.Observer.create(this.increase.bind(this));
+        this.remove = Rx.Observer.create(this.removeWorker.bind(this));
     }
 
-    _add() {
-        var worker = { state: "idle" };
-        this._workers.push(worker);
-        this.workers.onNext(this._workers);
+    increase() {
+        var worker = {state: "idle"};
+        var workers = this.workers;
+        workers.onNext(workers.getValue().concat([worker]));
     }
 
     createWorker() {
@@ -38,5 +40,12 @@ export default class {
         });
 
         return Rx.Subject.create(observer, observable);
+    }
+
+    removeWorker( index ) {
+        var workers = this.workers;
+        var new_workers = workers.getValue().slice();
+        new_workers.splice( index, 1 );
+        workers.onNext(new_workers);
     }
 }

@@ -7,9 +7,10 @@ export default class Worker extends React.Component {
     }
 
     render() {
+        var props = this.props;
         var text = this.getText();
-        var play_pause = this.createPlayPauseButton( this.props.state );
-        var stop = this.createStopButton();
+        var play_pause = this.createPlayPauseButton( props.state );
+        var stop = this.createStopButton( props.onStopClick );
 
         return React.createElement(
             "div",
@@ -41,10 +42,10 @@ export default class Worker extends React.Component {
         );
     }
 
-    createStopButton() {
+    createStopButton(onClick) {
         return React.createElement(
             Button,
-            { bsSize: "xsmall" },
+            { onClick, bsSize: "xsmall" },
             React.createElement(
                 Glyphicon,
                 {glyph: "stop"}
