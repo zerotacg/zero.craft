@@ -11,7 +11,11 @@
     "lint": "jshint src/**/*.js test/**/*.js",
     "pretest": "npm run lint",
     "test": "mocha --recursive --compilers js:babel/register",
-    "postinstall": "jspm install"
+    "postinstall": "jspm install",
+    "clean": "rimraf dist/*",
+    "build:asset": "rsync --recursive --times --human-readable --progress --delete --exclude-from=.distignore . dist",
+    "build": "npm run build:asset",
+    "deploy": "gh-pages --dist dist"
   },
   "author": {
     "name": "Tobias Peters",

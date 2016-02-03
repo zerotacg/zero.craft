@@ -1,0 +1,16 @@
+.idea/
+
+node_modules/
+jspm_packages/
+
+benchmark/
+src/
+test/
+.distignore
+.editorconfig
+.gitignore
+.jshintrc
+config.js
+LICENSE
+package.json
+README.md
