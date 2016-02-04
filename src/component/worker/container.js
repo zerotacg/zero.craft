@@ -6,7 +6,6 @@ export default class extends React.Component {
     constructor(props) {
         super(props);
         this.state = {children: []};
-        this.add = this.add.bind(this);
     }
 
     componentDidMount()
@@ -32,21 +31,10 @@ export default class extends React.Component {
     }
 
     render() {
-        var onAddClick = this.add;
-        var onStopClick = this.stop;
-
         return React.createElement(
             List,
-            { onAddClick, onStopClick },
+            null,
             this.state.children
         );
-    }
-
-    add() {
-        this.props.add.onNext();
-    }
-
-    stop( index ) {
-        this.props.stop.onNext(index);
     }
 }

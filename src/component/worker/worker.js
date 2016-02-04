@@ -4,53 +4,47 @@ import {Button, Glyphicon } from "react-bootstrap";
 export default class Worker extends React.Component {
     constructor(props) {
         super(props);
+
+        this.state = { state: "unknown" };
+    }
+
+    componentDidMount()
+    {
+        var state = this.props.state;
+        if ( state )
+        {
+            this.subscription = state.subscribeOnNext( this.setWorkerState, this );
+        }
+    }
+
+    setWorkerState(state) {
+        this.setState({ state });
+    }
+
+    componentWillUnmount()
+    {
+        if ( this.subscription )
+        {
+            this.subscription.dispose();
+            this.subscription = undefined;
+        }
     }
 
     render() {
-        var props = this.props;
         var text = this.getText();
-        var play_pause = this.createPlayPauseButton( props.state );
-        var stop = this.createStopButton( props.onStopClick );
 
         return React.createElement(
             "div",
             null,
-            text,
-            play_pause,
-            stop
+            text
         );
     }
 
     getText() {
-        var props = this.props;
-        var name = props.name;
-        var state = props.state;
+        var name = this.props.name;
+        var state = this.state.state;
 
         return `${name} (${state})`;
-    }
-
-    createPlayPauseButton(state) {
-        var glyph = state === "paused" ? "play" : "pause";
-
-        return React.createElement(
-            Button,
-            { bsSize: "xsmall" },
-            React.createElement(
-                Glyphicon,
-                {glyph}
-            )
-        );
-    }
-
-    createStopButton(onClick) {
-        return React.createElement(
-            Button,
-            { onClick, bsSize: "xsmall" },
-            React.createElement(
-                Glyphicon,
-                {glyph: "stop"}
-            )
-        );
     }
 }
 

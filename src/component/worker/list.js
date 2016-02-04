@@ -10,25 +10,12 @@ export default class List extends React.Component {
 
     render() {
         var props = this.props;
-        var add_button = this.createAddButton(props.onAddClick);
         var children = props.children.map(this.createWorker);
 
         return React.createElement(
             "div",
             null,
-            add_button,
             children
-        );
-    }
-
-    createAddButton(onClick) {
-        return React.createElement(
-            Button,
-            {onClick, bsSize: "xsmall"},
-            React.createElement(
-                Glyphicon,
-                {glyph: "asterisk"}
-            )
         );
     }
 
