@@ -6,17 +6,24 @@ export default class {
         this.chunk_size = 1000;
     }
 
-    start() {
-        this.subscription = this.idle_workers.subScribeOnNext(this.sendChunk, this);
-    }
+    work() {
+        var idle = this.workers.flatMap(Rx.Observable.from);
 
-    sendChunk(worker) {
-        var length = this.chunk_size;
-        var search = this.search;
-        var chunk = new Array(length);
-        for (var i = 0; i < length; ++i) {
-            chunk[i] = search.next();
-        }
-        worker.craft(chunk);
+        var work = Rx.Observable.create(observer => {
+            var next;
+            var search = this.search;
+
+            while( next = search.next() ) {
+                observer.onNext(next);
+            }
+            observer.onCompleted();
+        }).bufferWithCount(this.chunk_size);
+
+        Rx.Observable
+            .zip(idle, work, (worker, work) => {worker, work})
+            .subscribeOnNext(({worker, work}) => {
+                worker.send(work);
+            })
+        ;
     }
 }

@@ -5,7 +5,7 @@ const MESSAGE_STATE = "state";
 
 export default class {
     static create() {
-        var worker = new Worker("src/worker/craft.js");
+        var worker = new Worker("src/worker/craft/main.js");
 
         var observer = Rx.Observer.create(
             function (data) {

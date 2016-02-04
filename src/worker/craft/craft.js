@@ -14,6 +14,7 @@ function postState(state) {
 }
 
 function work(chunk) {
+    console.log("worker", "work", chunk);
     var length = chunk.length;
     var result = new Array(length);
     for( var i = 0; i < length; ++i) {
