@@ -1,9 +1,9 @@
-var STATE_IDLE = "idle";
-var STATE_BUSY = "busy";
-var MESSAGE_STATE = "state";
-var MESSAGE_RESULT = "result";
+const STATE_IDLE = "idle";
+const STATE_BUSY = "busy";
+const MESSAGE_STATE = "state";
+const MESSAGE_RESULT = "result";
 
-onmessage = function(e) {
+onmessage = function (e) {
     postState(STATE_BUSY);
     postResult(work(e.data));
     postState(STATE_IDLE);
@@ -14,10 +14,10 @@ function postState(state) {
 }
 
 function work(chunk) {
-    console.log("worker", "work", chunk);
+    //console.log("worker", "work", chunk);
     var length = chunk.length;
     var result = new Array(length);
-    for( var i = 0; i < length; ++i) {
+    for (var i = 0; i < length; ++i) {
         result[i] = craft(chunk[i]);
     }
 
@@ -25,7 +25,7 @@ function work(chunk) {
 }
 
 function craft(mats) {
-    for( var i = 0, length = 10000; i < length; ++i ) {
+    for (var i = 0, length = 10000; i < length; ++i) {
         Math.sqrt(2);
     }
 

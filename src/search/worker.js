@@ -28,7 +28,6 @@ export default class {
 
         var subject = Rx.Subject.create(observer, observable);
         var state = subject.filter(message => message.type === MESSAGE_STATE).map(message => message.data).startWith(STATE_IDLE);
-        subject.subscribeOnNext(message => console.log("worker", "message", message));
         state.subscribeOnNext(state => console.log("worker", "state", state));
 
         return new this({subject, state});
