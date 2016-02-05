@@ -3,7 +3,7 @@ import Rx from "rx";
 export default class {
     constructor(config) {
         Object.assign(this, config);
-        this.chunk_size = 100000;
+        this.chunk_size = 10000;
         this.work = new Rx.Subject();
         this.idle = this.workers
             .flatMap(Rx.Observable.from)

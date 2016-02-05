@@ -1,13 +1,24 @@
+import Rx from "rx";
+
 const STATE_IDLE = "idle";
 const STATE_BUSY = "busy";
 const MESSAGE_STATE = "state";
 const MESSAGE_RESULT = "result";
 
-onmessage = function (e) {
-    postState(STATE_BUSY);
-    postResult(work(e.data));
-    postState(STATE_IDLE);
-};
+var messages = Rx.Observable.create(observer => {
+    onmessage = observer.onNext.bind(observer);
+}).publish().refCount();
+
+var incoming = messages.map(e => e.data);
+var outgoing = incoming.map(work);
+outgoing.subscribeOnNext(postResult);
+
+incoming
+    .map(() => STATE_BUSY)
+    .merge(outgoing.map(() => STATE_IDLE))
+    .distinctUntilChanged()
+    .subscribeOnNext(postState)
+;
 
 function postState(state) {
     postMessage({type: MESSAGE_STATE, data: state});
