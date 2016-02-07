@@ -2,41 +2,44 @@ import Rx from "rx";
 
 export default class {
     constructor(config) {
-        Object.assign(this, config);
         this.chunk_size = 10000;
+        this.fixed = [];
+
+        Object.assign(this, config);
+
         this.work = new Rx.Subject();
         this.idle = this.workers
-            .flatMap(Rx.Observable.from)
+            .flatMap(workers => Rx.Observable.from(workers))
             .distinct()
             .flatMap(worker => worker.state.filter(state => state === "idle").map(() => worker))
+        ;
+        this.result = this.workers
+            .flatMap(workers => Rx.Observable.from(workers))
+            .distinct()
+            .flatMap(worker => worker.result)
         ;
         Rx.Observable
             .zip(this.idle, this.work, (worker, work) => {
                 return {worker, work};
             })
             .subscribeOnNext(({worker, work}) => {
-                console.log("send");
+                console.log("send", work.length);
                 worker.craft(work);
             })
         ;
     }
 
     addSearch() {
-        var subscription = this.idle.map(() => {
+        var work = Rx.Observable.create(observer=> {
             var next;
-            var length = this.chunk_size;
-            var chunk = new Array(length);
             var search = this.search;
 
-            for( var i = 0; i < length && (next = search.next()); ++i) {
-                chunk[i] = next;
+            while(next = search.next()) {
+                observer.onNext(next.concat(this.fixed));
             }
-            if ( !next ) {
-                subscription.dispose();
-            }
-
-            return chunk;
-        }).subscribeOnNext(this.addWork, this);
+            observer.onCompleted();
+        }).bufferWithCount(this.chunk_size);
+        work.subscribeOnNext(this.addWork, this);
     }
 
     addWork(work) {

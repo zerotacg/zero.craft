@@ -1,4 +1,5 @@
 import Rx from "rx";
+import {craft} from "zero/craft";
 
 const STATE_IDLE = "idle";
 const STATE_BUSY = "busy";
@@ -6,17 +7,20 @@ const MESSAGE_STATE = "state";
 const MESSAGE_RESULT = "result";
 
 var messages = Rx.Observable.create(observer => {
-    onmessage = observer.onNext.bind(observer);
+    onmessage = function(e) {
+        observer.onNext(e);
+    };
 }).publish().refCount();
 
 var incoming = messages.map(e => e.data);
 var outgoing = incoming.map(work);
 outgoing.subscribeOnNext(postResult);
 
-incoming
-    .map(() => STATE_BUSY)
-    .merge(outgoing.map(() => STATE_IDLE))
+var idle = outgoing.map(() => STATE_IDLE);
+var busy = incoming.map(() => STATE_BUSY);
+Rx.Observable.merge(busy, idle)
     .distinctUntilChanged()
+    .startWith(STATE_IDLE)
     .subscribeOnNext(postState)
 ;
 
@@ -25,22 +29,14 @@ function postState(state) {
 }
 
 function work(chunk) {
-    //console.log("worker", "work", chunk);
     var length = chunk.length;
     var result = new Array(length);
     for (var i = 0; i < length; ++i) {
-        result[i] = craft(chunk[i]);
+        var mats = chunk[i];
+        result[i] = {mats, result: craft(mats)};
     }
 
     return result;
-}
-
-function craft(mats) {
-    for (var i = 0, length = 10000; i < length; ++i) {
-        Math.sqrt(2);
-    }
-
-    return "done";
 }
 
 function postResult(result) {
