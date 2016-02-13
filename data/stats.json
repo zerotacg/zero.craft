@@ -1,0 +1,138 @@
+[
+    {
+        "_id": "durability",
+        "label": "mpstat0"
+    },
+    {
+        "_id": "lightness",
+        "label": "mpstat1"
+    },
+    {
+        "_id": "sap-load",
+        "label": "mpstat2"
+    },
+    {
+        "_id": "damage",
+        "label": "mpstat3"
+    },
+    {
+        "_id": "speed",
+        "label": "mpstat4"
+    },
+    {
+        "_id": "range",
+        "label": "mpstat5"
+    },
+    {
+        "_id": "dodge-modifier",
+        "label": "mpstat6"
+    },
+    {
+        "_id": "parry-modifier",
+        "label": "mpstat7"
+    },
+    {
+        "_id": "adversary-dodge-modifier",
+        "label": "mpstat8"
+    },
+    {
+        "_id": "adversary-parry-modifier",
+        "label": "mpstat9"
+    },
+    {
+        "_id": "protection-factor",
+        "label": "mpstat10"
+    },
+    {
+        "_id": "max-slashing-protection",
+        "label": "mpstat11"
+    },
+    {
+        "_id": "max-smashing-protection",
+        "label": "mpstat12"
+    },
+    {
+        "_id": "max-piercing-protection",
+        "label": "mpstat13"
+    },
+    {
+        "_id": "acid-protection",
+        "label": "mpstat14"
+    },
+    {
+        "_id": "cold-protection",
+        "label": "mpstat15"
+    },
+    {
+        "_id": "rot-protection",
+        "label": "mpstat16"
+    },
+    {
+        "_id": "fire-protection",
+        "label": "mpstat17"
+    },
+    {
+        "_id": "shockwave-protection",
+        "label": "mpstat18"
+    },
+    {
+        "_id": "poison-protection",
+        "label": "mpstat19"
+    },
+    {
+        "_id": "electric-protection",
+        "label": "mpstat20"
+    },
+    {
+        "_id": "desert-resistance",
+        "label": "mpstat21"
+    },
+    {
+        "_id": "forest-resistance",
+        "label": "mpstat22"
+    },
+    {
+        "_id": "lake-resistance",
+        "label": "mpstat23"
+    },
+    {
+        "_id": "jungle-resistance",
+        "label": "mpstat24"
+    },
+    {
+        "_id": "prime-roots-resistance",
+        "label": "mpstat25"
+    },
+    {
+        "_id": "elemental-cast-speed",
+        "label": "mpstat26"
+    },
+    {
+        "_id": "elemental-power",
+        "label": "mpstat27"
+    },
+    {
+        "_id": "offensive-affliction-cast-speed",
+        "label": "mpstat28"
+    },
+    {
+        "_id": "offensive-affliction-power",
+        "label": "mpstat29"
+    },
+    {
+        "_id": "defensive-affliction-cast-speed",
+        "label": "mpstat30"
+    },
+    {
+        "_id": "defensive-affliction-power",
+        "label": "mpstat31"
+    },
+    {
+        "_id": "heal-cast-speed",
+        "label": "mpstat32"
+    },
+    {
+        "_id": "heal-power",
+        "label": "mpstat33"
+    }
+]

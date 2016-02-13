@@ -139,7 +139,6 @@
         "_id": "magic-amplifier-basic-quality",
         "icon" : {
             "texture" : [
-                "bk_race",
                 "mg_glove"
             ]
         }
