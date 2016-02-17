@@ -13,11 +13,11 @@ export default class Item extends React.Component {
         if ( sheet.icon.text ) {
             children.push( this.createText(sheet.icon.text, "text") );
         }
-        if ( props.quality ) {
-            children.push( this.createText(props.quality, "quality") );
+        if ( sheet.quality ) {
+            children.push( this.createText(sheet.quality, "quality") );
         }
-        if ( props.quantity ) {
-            children.push( this.createText(props.quantity, "quantity") );
+        if ( props.count ) {
+            children.push( this.createText(props.count, "quantity") );
         }
 
         return React.createElement(
