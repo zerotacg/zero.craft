@@ -1,7 +1,7 @@
 import React from "react";
 
 import parts from "zero/data/pattern/parts.json!";
-import Slot from "zero/component/craft/slot";
+import Item from "zero/component/item";
 
 export default class Part extends React.Component {
     render() {
@@ -51,7 +51,7 @@ export default class Part extends React.Component {
 
     createSlot( item, key ) {
         return React.createElement(
-            Slot,
+            Item,
             { key },
             item
         );

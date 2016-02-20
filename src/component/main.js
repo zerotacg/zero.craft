@@ -5,10 +5,9 @@ import Rx from "rx";
 import Nav from "zero/component/nav/pattern/container";
 import Craft from "zero/component/craft/craft";
 import Select from "zero/component/item/select";
-import Materials from "zero/data/sitem/materials.json!";
 
 var activeKey = window.activeKey = new Rx.Subject();
-var selected = window.onSelect = new Rx.Subject();
+var selected = window.selected = new Rx.Subject();
 
 var nav = React.createElement(
     Nav,
