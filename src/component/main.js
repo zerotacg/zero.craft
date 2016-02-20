@@ -4,8 +4,11 @@ import Rx from "rx";
 
 import Nav from "zero/component/nav/pattern/container";
 import Craft from "zero/component/craft/craft";
+import Select from "zero/component/item/select";
+import Materials from "zero/data/sitem/materials.json!";
 
 var activeKey = window.activeKey = new Rx.Subject();
+var selected = window.onSelect = new Rx.Subject();
 
 var nav = React.createElement(
     Nav,
@@ -42,6 +45,17 @@ var craft = React.createElement(
     ]
 );
 
+var select = React.createElement(
+    Select,
+    { selected },
+    [
+        { sheet: "basic-adriel" },
+        { sheet: "basic-becker" },
+        { sheet: "fine-oath" },
+        { sheet: "choice-perfling" }
+    ]
+);
+
 ReactDOM.render(
     nav,
     document.getElementById("patterns")
@@ -50,4 +64,9 @@ ReactDOM.render(
 ReactDOM.render(
     craft,
     document.getElementById("craft")
+);
+
+ReactDOM.render(
+    select,
+    document.getElementById("select")
 );

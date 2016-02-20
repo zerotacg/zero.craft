@@ -1,5 +1,5 @@
 import React from "react";
-import Materials from "zero/data/sitems.json!";
+import materials from "zero/data/sitems.json!";
 
 export default class Item extends React.Component {
     constructor(props) {
@@ -30,7 +30,7 @@ export default class Item extends React.Component {
     }
 
     getSheet(sheet) {
-        return Materials.filter(material => material._id === sheet)[0];
+        return materials.filter(material => material._id === sheet)[0];
     }
 
     createTexture(texture, key) {
