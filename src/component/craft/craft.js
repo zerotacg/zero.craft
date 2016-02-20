@@ -13,10 +13,10 @@ export default class Craft extends React.Component {
         );
     }
 
-    createPart({ type, items }) {
+    createPart({ type, count, items }) {
         return React.createElement(
             Part,
-            { key: type, type },
+            { key: type, type, count },
             items
         );
     }

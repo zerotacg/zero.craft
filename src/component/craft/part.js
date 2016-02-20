@@ -1,7 +1,7 @@
 import React from "react";
 
-import parts from "zero/data/pattern/parts.json!";
-import Item from "zero/component/item";
+import Item from "app/component/item";
+import parts from "data/pattern/parts.json!";
 
 export default class Part extends React.Component {
     render() {

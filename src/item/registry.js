@@ -1,4 +1,4 @@
-import SItems from "zero/data/materials";
+import SItems from "data/materials";
 
 const UNKOWN_ITEM = {
     "sheet_id": -1,

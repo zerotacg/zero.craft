@@ -21,6 +21,7 @@ var craft = React.createElement(
     [
         {
             type: "shaft",
+            count: 5,
             items: [
                 { count: 1, sheet: "basic-adriel" },
                 { count: 1, sheet: "basic-becker" },
@@ -30,6 +31,7 @@ var craft = React.createElement(
         },
         {
             type: "grip",
+            count: 5,
             items: [
                 { count: 2, sheet: "basic-anete" },
                 { count: 3, sheet: "fine-dzao" }
@@ -37,6 +39,7 @@ var craft = React.createElement(
         },
         {
             type: "magic-focus",
+            count: 10,
             items: [
                 { count: 10, sheet: "excellent-zun" }
             ]

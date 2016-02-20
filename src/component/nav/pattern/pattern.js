@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, NavItem } from "react-bootstrap";
 
-import patterns from "zero/data/pattern/patterns.json!";
+import patterns from "data/pattern/patterns.json!";
 
 export default class Pattern extends React.Component {
     render() {

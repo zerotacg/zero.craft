@@ -8,7 +8,7 @@ System.config({
     ]
   },
   paths: {
-    "zero/data/*": "data/*",
+    "data/*": "data/*",
     "zero/*": "src/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
