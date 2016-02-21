@@ -1,10 +1,10 @@
 import Rx from "rx";
 
-export default class Store {
-    static create() {
-        var value = [];
+export default class Items {
+    static create({ count }) {
+        var value = new Array(count).fill(null);
 
-        return new Store({ value });
+        return new Items({ value });
     }
 
     constructor( config ) {
@@ -14,21 +14,14 @@ export default class Store {
         this.items = new Rx.BehaviorSubject(value);
     }
 
-    add( item ) {
+    set( index, item ) {
         var value = this.value;
 
-        value.push(item);
+        value[index] = item;
         this.onNext(value);
     }
 
     onNext( value ) {
         this.items.onNext(value);
-    }
-
-    remove( index ) {
-        var value = this.value;
-
-        value.splice(index, 1);
-        this.onNext(value);
     }
 }

@@ -26,7 +26,7 @@
   background-position: 0px -40px;
 }
 
-.AR_botte
+.ar_botte
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -35,7 +35,7 @@
   background-position: -88px 0px;
 }
 
-.AR_gilet
+.ar_gilet
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -44,7 +44,7 @@
   background-position: -44px -40px;
 }
 
-.AR_hand
+.ar_hand
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -62,7 +62,7 @@
   background-position: 0px -80px;
 }
 
-.AR_pantabotte
+.ar_pantabotte
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -2357,7 +2357,7 @@
   background-position: -960px -320px;
 }
 
-.AR_armpad
+.ar_armpad
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -2375,7 +2375,7 @@
   background-position: -520px -360px;
 }
 
-.AR_helmet
+.ar_helmet
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 40px;
@@ -2600,7 +2600,7 @@
   background-position: -1000px -296px;
 }
 
-.1h_over
+._1h_over
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 24px;
@@ -2609,7 +2609,7 @@
   background-position: -1000px -320px;
 }
 
-.2h_over
+._2h_over
 {
   background-image: url(./texture_interfaces_dxtc.png);
   width: 24px;

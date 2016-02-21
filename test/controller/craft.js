@@ -25,104 +25,28 @@ describe("zero.contoller.craft", function () {
     });
 
     var craft;
-    var pattern;
-    var items;
     beforeEach("setup", function () {
-        pattern = new Rx.Subject();
-        items = new Rx.Subject();
-        craft = new Craft({ pattern, items });
+        craft = new Craft();
     });
 
-    describe("#parts", function () {
-        context("when the pattern is changed", function () {
-            it("should emit parts", function ( done ) {
-                craft.parts.subscribe(next => {
-                    expect(next).to.deep.equal([
-                        {
-                            "type": "shaft",
-                            "count": 5,
-                            "items": new Array(5).fill(null)
-                        },
-                        {
-                            "type": "grip",
-                            "count": 5,
-                            "items": new Array(5).fill(null)
-                        },
-                        {
-                            "type": "magic-focus",
-                            "count": 10,
-                            "items": new Array(10).fill(null)
-                        }
-                    ]);
+    describe("#setPattern()", function () {
+        it("should emit a new pattern", function (done) {
+            var item = "magic-amplifier-basic-quality";
+            var pattern = "pattern";
+            sinon.stub(craft.patternFactory, "create").returns(pattern);
+
+            craft.setPattern(item);
+
+            craft.createPatternStream().subscribe(
+                next => {
+                    expect(craft.patternFactory.create).to.have.been.calledWith(item);
+                    expect(next).to.equal(pattern);
                     done();
-                }, done);
-                pattern.onNext("magic-amplifier-basic-quality");
-            });
-        });
+                },
+                done
+            );
 
-        context("when items are added", function () {
-            it.skip("should add them to the parts", function ( done ) {
-                var sheet = "basic-adriel";
-                pattern.onNext("magic-amplifier-basic-quality");
-                items.onNext({ part: "shaft", sheet });
-                craft.parts.subscribe(next => {
-                    expect(next).to.deep.equal([
-                        {
-                            "type": "shaft",
-                            "count": 5,
-                            "items": [
-                                { count: 1, sheet }
-                            ]
-                        },
-                        {
-                            "type": "grip",
-                            "count": 5,
-                            "items": []
-                        },
-                        {
-                            "type": "magic-focus",
-                            "count": 10,
-                            "items": []
-                        }
-                    ]);
-                    done();
-                }, done);
-            });
         });
     });
 
-    describe("#createPartItems()", function () {
-        it("should filter the items by part", function ( done ) {
-            var part = { type: "shaft" };
-            var a = { part: "grip", sheet: "a" };
-            var b = { part: "shaft", sheet: "b" };
-            var items = Rx.Observable.from([ a, b ]);
-            craft.createPartItems(part, items).toArray().subscribe(next => {
-                expect(next).to.deep.equal([b]);
-                done();
-            }, done);
-        });
-    });
-
-    describe("#groupBySheet()", function () {
-        var items;
-        beforeEach("setup", function () {
-            items = Rx.Observable.from([ "a", "b", "b" ]);
-        });
-
-        it("should return an Observable", function () {
-            expectGroupBySheet().to.be.an.instanceOf(Rx.Observable);
-        });
-
-        function expectGroupBySheet() {
-            return expect(craft.groupBySheet(items));
-        }
-
-        it("should add a count", function ( done ) {
-            craft.groupBySheet(items).subscribe(next => {
-                expect(next).to.deep.equal([ { count: 1, sheet: "a" }, { count: 2, sheet: "b" } ]);
-                done();
-            }, done);
-        });
-    });
 });
