@@ -16,10 +16,11 @@ export default class Pattern extends React.Component {
     }
 
     createNavItem( pattern ) {
-        var key = pattern.item;
+        var item = pattern.item;
+        var key = item;
         var eventKey = key;
-        var href = "#" + pattern.item;
-        var label = pattern.item;
+        var href = `#${item}`;
+        var label = item;
 
         return React.createElement(
             NavItem,

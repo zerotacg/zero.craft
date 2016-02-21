@@ -7,7 +7,7 @@ chai.use(sinonChai);
 
 var System = jspm.Loader();
 
-describe("zero.contoller.craft", function () {
+describe("zero.controller.craft", function () {
     var Rx;
     var Craft;
 
@@ -23,30 +23,4 @@ describe("zero.contoller.craft", function () {
             })
             .then(done, done);
     });
-
-    var craft;
-    beforeEach("setup", function () {
-        craft = new Craft();
-    });
-
-    describe("#setPattern()", function () {
-        it("should emit a new pattern", function (done) {
-            var item = "magic-amplifier-basic-quality";
-            var pattern = "pattern";
-            sinon.stub(craft.patternFactory, "create").returns(pattern);
-
-            craft.setPattern(item);
-
-            craft.createPatternStream().subscribe(
-                next => {
-                    expect(craft.patternFactory.create).to.have.been.calledWith(item);
-                    expect(next).to.equal(pattern);
-                    done();
-                },
-                done
-            );
-
-        });
-    });
-
 });

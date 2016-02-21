@@ -21,6 +21,7 @@ System.config({
     "chai": "npm:chai@3.4.1",
     "core-js": "npm:core-js@1.2.6",
     "css": "github:systemjs/plugin-css@0.1.20",
+    "docuri": "npm:docuri@4.2.1",
     "json": "github:systemjs/plugin-json@0.1.0",
     "react": "npm:react@0.14.7",
     "react-bootstrap": "npm:react-bootstrap@0.28.2",
