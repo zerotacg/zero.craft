@@ -1,6 +1,6 @@
 import React from "react";
 
-import Part from "zero/component/craft/part";
+import Part from "zero/component/craft/part/container";
 
 export default class Craft extends React.Component {
     render() {
@@ -13,11 +13,13 @@ export default class Craft extends React.Component {
         );
     }
 
-    createPart({ type, count, items }) {
+    createPart(part) {
+        var type = part.type;
+
         return React.createElement(
             Part,
-            { key: type, type, count },
-            items
+            { key: type, type },
+            part.items
         );
     }
 }

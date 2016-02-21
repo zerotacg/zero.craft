@@ -53,7 +53,7 @@ export default class Part extends React.Component {
     createSlot( item, key ) {
         var component = Empty;
 
-        if ( item ) {
+        if ( item.sheet ) {
             component = Item;
         }
 

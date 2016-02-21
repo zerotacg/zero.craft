@@ -18,7 +18,8 @@ var hash = window.hash = Rx.Observable.fromEventPattern(
 var activeKey = hash;
 var pattern = hash;
 var selected = window.selected = new Rx.Subject();
-var craft_controller = window.craft_controller = new CraftController({ pattern });
+var craft_controller = window.craft_controller = CraftController.create();
+pattern.subscribeOnNext( craft_controller.setPattern, craft_controller );
 
 var nav = React.createElement(
     Nav,
@@ -29,7 +30,7 @@ var nav = React.createElement(
 var craft = React.createElement(
     CraftContainer,
     null,
-    craft_controller.parts
+    craft_controller.pattern
 );
 
 var select = React.createElement(

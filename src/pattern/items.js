@@ -2,26 +2,32 @@ import Rx from "rx";
 
 export default class Items {
     static create({ count }) {
-        var value = new Array(count).fill(null);
+        var items = new Array(count).fill(null);
+        var subject = new Rx.BehaviorSubject(items);
 
-        return new Items({ value });
+        return new Items({
+            items,
+            subject
+        });
     }
 
     constructor( config ) {
         Object.assign(this, config);
-
-        var value = this.value;
-        this.items = new Rx.BehaviorSubject(value);
     }
 
-    set( index, item ) {
-        var value = this.value;
-
-        value[index] = item;
-        this.onNext(value);
+    setItems( items ) {
+        this.items = items;
+        this.onNext(items);
     }
 
-    onNext( value ) {
-        this.items.onNext(value);
+    onNext( items ) {
+        this.subject.onNext(items);
+    }
+
+    setItem( item, index ) {
+        var items = this.items;
+
+        items[index] = item;
+        this.setItems(items);
     }
 }

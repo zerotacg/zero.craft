@@ -3,20 +3,27 @@ import Rx from "rx";
 import Pattern from "zero/pattern/pattern";
 
 export default class Craft {
+    static create() {
+        var subject = new Rx.BehaviorSubject();
+        var pattern = new Rx.BehaviorSubject();
+
+        return new Craft({
+            subject,
+            pattern
+        });
+    }
+
     constructor( config ) {
         Object.assign(this, config);
 
-        this.item = new Rx.ReplaySubject(1);
-        this.patternFactory = Pattern;
+        this.subject.map(Pattern.create).subscribe( this.pattern );
     }
 
-    setPattern( value ) {
-        this.item.onNext(value);
+    setPattern( pattern ) {
+        this.onNext(pattern);
     }
 
-    createPatternStream() {
-        return (this.item
-                .map(this.patternFactory.create)
-        );
+    onNext( pattern ) {
+        this.subject.onNext(pattern);
     }
 }
