@@ -1,6 +1,6 @@
 import React from "react";
 
-import Part from "zero/component/craft/part/part";
+import Pattern from "zero/component/craft/pattern/pattern";
 
 export default class Container extends React.Component {
     constructor( props ) {
@@ -16,8 +16,8 @@ export default class Container extends React.Component {
     }
 
     subscribe(props) {
-        //var controller = props.controller;
-        //this.subscription = controller.subject.subscribeOnNext(this.setChildren, this);
+        var controller = props.controller;
+        this.subscription = controller.subject.pluck("parts").subscribeOnNext(this.setChildren, this);
     }
 
     setChildren( children ) {
@@ -41,14 +41,12 @@ export default class Container extends React.Component {
     }
 
     render() {
-        var props = this.props;
-        var component = props.component;
-        var type = props.type;
+        var component = this.props.component;
         var children = this.state.children;
 
         return React.createElement(
             component,
-            { type },
+            null,
             children
         );
     }
@@ -57,5 +55,5 @@ export default class Container extends React.Component {
 Container.propTypes = {};
 
 Container.defaultProps = {
-    component: Part
+    component: Pattern
 };

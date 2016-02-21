@@ -8,7 +8,7 @@ export default class Part extends React.Component {
     render() {
         var props = this.props;
         var header = this.createHeader(props.type);
-        var children = props.children.map(this.createSlot);
+        var children = null; //props.children.map(this.createSlot);
 
         return React.createElement(
             "div",
@@ -35,14 +35,14 @@ export default class Part extends React.Component {
         return parts.filter(part => part._id === type)[ 0 ];
     }
 
-    createIcon( { icon } ) {
+    createIcon({ icon }) {
         return React.createElement(
             "span",
             { className: `texture ${icon}` }
         );
     }
 
-    createLabel( { label } ) {
+    createLabel({ label }) {
         return React.createElement(
             "span",
             null,

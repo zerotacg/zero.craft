@@ -1,16 +1,17 @@
+import Rx from "rx";
+
 import Part from "zero/pattern/part";
 
 import patterns from "data/pattern/patterns.json!";
 
-const empty = { parts: [] };
+const empty = { item: null, parts: [] };
 
 export default class Pattern {
-    static create( item ) {
-        var data = Pattern.find(item);
-        var parts = data.parts.map(Part.create);
+    static create() {
+        var subject = new Rx.BehaviorSubject();
 
         return new Pattern({
-            parts
+            subject
         });
     }
 
@@ -22,12 +23,38 @@ export default class Pattern {
         Object.assign(this, config);
     }
 
+    load( id ) {
+        this.setData(Pattern.find(id));
+    }
+
+    setData({ item, parts }) {
+        this.setItem( item );
+        this.setParts( parts );
+
+        this.onNext();
+    }
+
+    setItem( item ) {
+        this.item = item;
+    }
+
+    setParts( parts ) {
+        this.parts = parts.map(Part.create);
+    }
+
+    onNext() {
+        var item = this.item;
+        var parts = this.parts;
+
+        this.subject.onNext({ item, parts });
+    }
+
     setFormular( formular ) {
         formular.forEach(this.setItems, this);
     }
 
     setItems( items, index ) {
-        var part = this.parts[index];
-        part.setItems( items );
+        var part = this.parts[ index ];
+        part.setItems(items);
     }
 }
