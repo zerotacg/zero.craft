@@ -3,11 +3,22 @@ import ReactDOM from "react-dom";
 import Rx from "rx";
 
 import Nav from "zero/component/nav/pattern/container";
-import Craft from "zero/component/craft/craft";
+import CraftContainer from "zero/component/craft/container";
 import Select from "zero/component/item/select";
+import CraftController from "zero/controller/craft";
 
-var activeKey = window.activeKey = new Rx.Subject();
+var hash = window.hash = Rx.Observable.fromEventPattern(
+        handler => window.addEventListener("hashchange", handler),
+        handler => window.removeEventListener("hashchange", handler)
+    )
+    .map(event => event.newURL)
+    .startWith(location.hash)
+    .map(url => url.split("#")[1])
+;
+var activeKey = hash;
+var pattern = hash;
 var selected = window.selected = new Rx.Subject();
+var craft_controller = window.craft_controller = new CraftController({ pattern });
 
 var nav = React.createElement(
     Nav,
@@ -16,35 +27,9 @@ var nav = React.createElement(
 );
 
 var craft = React.createElement(
-    Craft,
+    CraftContainer,
     null,
-    [
-        {
-            type: "shaft",
-            count: 5,
-            items: [
-                { count: 1, sheet: "basic-adriel" },
-                { count: 1, sheet: "basic-becker" },
-                { count: 1, sheet: "fine-oath" },
-                { count: 2, sheet: "choice-perfling" }
-            ]
-        },
-        {
-            type: "grip",
-            count: 5,
-            items: [
-                { count: 2, sheet: "basic-anete" },
-                { count: 3, sheet: "fine-dzao" }
-            ]
-        },
-        {
-            type: "magic-focus",
-            count: 10,
-            items: [
-                { count: 10, sheet: "excellent-zun" }
-            ]
-        }
-    ]
+    craft_controller.parts
 );
 
 var select = React.createElement(

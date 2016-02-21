@@ -1,6 +1,7 @@
 import React from "react";
 
-import Item from "app/component/item";
+import Item from "zero/component/item";
+import {Empty} from "zero/component/craft/slot";
 import parts from "data/pattern/parts.json!";
 
 export default class Part extends React.Component {
@@ -34,14 +35,14 @@ export default class Part extends React.Component {
         return parts.filter(part => part._id === type)[ 0 ];
     }
 
-    createIcon({ icon }) {
+    createIcon( { icon } ) {
         return React.createElement(
             "span",
             { className: `texture ${icon}` }
         );
     }
 
-    createLabel({ label }) {
+    createLabel( { label } ) {
         return React.createElement(
             "span",
             null,
@@ -50,8 +51,14 @@ export default class Part extends React.Component {
     }
 
     createSlot( item, key ) {
+        var component = Empty;
+
+        if ( item ) {
+            component = Item;
+        }
+
         return React.createElement(
-            Item,
+            component,
             { key },
             item
         );
