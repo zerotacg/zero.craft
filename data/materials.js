@@ -2602,3 +2602,5 @@ var SItems =
   , 7120430 : {'sheet_id' :7120430, 'icon' : { 'texture' : {0 : 'bk_race', 1 : 'mp_resin', 2 : 'pw_4'}, 'text' : 'glue'}, 'craft' : {'part' : 9216, 'quality' : 0, 'purity' : 65, 'family' : 46, 'color' : 4, 'data' : {10 : {'ecosystem' : 1, 'stat' : {0 : 45,0 : 45,1 : 100,4 : 70,5 : 45}}, 13 : {'ecosystem' : 1, 'stat' : {0 : 45,0 : 45,1 : 100,6 : 66,7 : 66,10 : 66,11 : 66,12 : 66,13 : 45}}}}}
   , 7955246 : {'sheet_id' :7955246, 'icon' : { 'texture' : {0 : 'bk_primes', 1 : 'mp_bud', 2 : 'pw_5'}, 'text' : 'jubla'}, 'craft' : {'part' : 33685504, 'quality' : 0, 'purity' : 80, 'family' : 472, 'color' : 6, 'data' : {17 : {'ecosystem' : 0, 'stat' : {0 : 83,0 : 83,1 : 83,14 : 60,15 : 83,16 : 83,17 : 60,18 : 100,19 : 83,20 : 83}}, 25 : {'ecosystem' : 0, 'stat' : {0 : 60,0 : 60,1 : 82,2 : 82,26 : 82,27 : 82,28 : 82,29 : 100,30 : 82,31 : 82,32 : 82,33 : 60}}}}}
 };
+
+export default SItems;

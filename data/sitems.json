@@ -1,0 +1,146 @@
+[
+    {
+        "_id": "basic-adriel",
+        "icon" : {
+            "texture" : [
+                "bk_generic",
+                "mp_bark",
+                "pw_light"
+            ],
+            "text" : "adriel"
+        },
+        "craft" : {
+            "parts": {
+                "shaft": { "0": 20, "1": 0, "2": 20, "3": 20, "4": 0, "6": 20, "7": 20, "8": 60, "9": 20 },
+                "ammo-bullet": { "0": 20, "1": 60, "3": 20, "4": 0, "5": 0 }
+            }
+        }
+    },
+    {
+        "_id": "basic-becker",
+        "icon" : {
+            "texture" : [
+                "bk_generic",
+                "mp_bark",
+                "pw_light"
+            ],
+            "text" : "becker"
+        },
+        "craft" : {
+            "parts": {
+                "shaft": { "0": 20, "1": 0, "2": 60, "3": 20, "4": 20, "6": 0, "7": 20, "8": 20, "9": 20 },
+                "ammo-bullet": { "0": 20, "1": 20, "3": 60, "4": 0, "5": 0 }
+            }
+        }
+    },
+    {
+        "_id": "fine-oath",
+        "icon" : {
+            "texture" : [
+                "bk_generic",
+                "mp_bark",
+                "pw_medium"
+            ],
+            "text" : "oath"
+        },
+        "craft" : {
+            "parts": {
+                "shaft":  { "0": 35, "1": 15, "2": 35, "3": 75, "4": 35, "6": 35, "7": 15, "8": 35, "9": 35 },
+                "ammo-bullet": { "0": 15, "1": 75, "3": 35, "4": 35, "5": 15 }
+            }
+        }
+    },
+    {
+        "_id": "choice-perfling",
+        "icon": {
+            "texture": [
+                "bk_race",
+                "mp_bark",
+                "pw_heavy"
+            ],
+            "text": "perfli"
+        },
+        "craft": {
+            "parts" : {
+                "shaft": { "0": 30, "1": 90, "2": 50, "3": 30, "4": 50, "6": 50, "7": 50, "8": 50, "9": 50 },
+                "ammo-bullet": { "0": 50, "1": 90, "3": 30, "4": 30, "5": 50 }
+            }
+        }
+    },
+    {
+        "_id": "basic-anete",
+        "icon": {
+            "texture": [
+                "bk_generic",
+                "mp_fiber",
+                "pw_light"
+            ],
+            "text": "anete"
+        },
+        "craft": {
+            "parts" : {
+                "grip": { "0": 20, "1": 20, "2": 20, "4": 0, "6": 60, "7": 0, "8": 20, "9": 20 },
+                "clothes": { "0": 1, "1": 20, "6": 20, "7": 20, "10": 20, "11": 0, "12": 60, "13": 20 }
+            }
+        }
+    },
+    {
+        "_id": "basic-dzao",
+        "icon": {
+            "texture": [
+                "bk_generic",
+                "mp_fiber",
+                "pw_light"
+            ],
+            "text": "dzao"
+        },
+        "craft": {
+            "parts" : {
+                "grip": { "0": 20, "1": 20, "2": 0, "4": 20, "6": 20, "7": 20, "8": 60, "9": 0 },
+                "clothes": { "0": 20, "1": 20, "6": 0, "7": 20, "10": 20, "11": 20, "12": 0, "13": 60 }
+            }
+        }
+    },
+    {
+        "_id": "fine-dzao",
+        "icon": {
+            "texture": [
+                "bk_generic",
+                "mp_fiber",
+                "pw_medium"
+            ],
+            "text": "dzao"
+        },
+        "craft": {
+            "parts" : {
+                "grip": { "0": 35, "1": 35, "2": 15, "4": 35, "6": 35, "7": 35, "8": 75, "9": 15 },
+                "clothes": { "0": 35, "1": 35, "6": 15, "7": 35, "10": 35, "11": 35, "12": 15, "13": 75 }
+            }
+        }
+    },
+    {
+        "_id": "excellent-zun",
+        "icon": {
+            "texture": [
+                "bk_race",
+                "mp_amber",
+                "pw_4"
+            ],
+            "text": "zun"
+        },
+        "craft": {
+            "parts": {
+                "jewel-stone": { "0": 65, "1": 65, "14": 45, "15": 65, "16": 100, "17": 45, "18": 65, "19": 65, "20": 65 },
+                "magic-focus": { "0": 45, "1": 65, "2": 100, "26": 65, "27": 65, "28": 65, "29": 65, "30": 45, "31": 65, "32": 65, "33": 65 }
+            }
+        }
+    },
+    {
+        "_id": "magic-amplifier-basic-quality",
+        "icon" : {
+            "texture" : [
+                "mg_glove"
+            ]
+        }
+    }
+]
