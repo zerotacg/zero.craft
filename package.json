@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "jshint src/**/*.js test/**/*.js",
     "pretest": "npm run lint",
-    "test": "mocha --recursive --compilers js:babel/register",
+    "test": "mocha --recursive --compilers js:babel-register",
     "postinstall": "jspm install",
     "clean": "rimraf dist/*",
     "build:asset": "rsync --recursive --times --human-readable --progress --delete --exclude-from=.distignore . dist",
@@ -29,15 +29,16 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "babel": "^5.8.24",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-register": "^6.5.2",
     "benchmark": "^2.1.0",
-    "chai": "^3.4.1",
-    "gh-pages": "^0.9.0",
-    "jshint": "^2.8.0",
-    "jspm": "^0.16.15",
-    "mocha": "^2.3.4",
-    "rimraf": "^2.5.1",
-    "sinon": "^1.17.2",
+    "chai": "^3.5.0",
+    "gh-pages": "^0.10.0",
+    "jshint": "^2.9.1",
+    "jspm": "^0.16.30",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.2",
+    "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0"
   },
   "jspm": {

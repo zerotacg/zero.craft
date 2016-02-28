@@ -1,7 +1,6 @@
 import Rx from "rx";
 
 const STATE_STARTING = "starting";
-const STATE_IDLE = "idle";
 const MESSAGE_STATE = "state";
 const MESSAGE_RESULT = "result";
 

@@ -1,5 +1,3 @@
-import Rx from "rx";
-
 import Pattern from "zero/pattern/pattern";
 
 export default class Craft {

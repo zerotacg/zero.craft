@@ -1,3 +1,5 @@
+import Rx from "rx";
+
 import Items from "zero/pattern/items";
 
 import parts from "data/pattern/parts.json!";

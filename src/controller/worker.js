@@ -1,8 +1,6 @@
 import Rx from "rx";
 import Worker from "zero/search/worker";
 
-const MINIMUM_WORKERS = 1;
-
 export default class {
     constructor(config) {
         Object.assign(this, config);

@@ -1,9 +1,7 @@
-import { expect, default as chai } from "chai";
-import sinon from "sinon";
-import sinonChai from "sinon-chai";
-import jspm from "jspm";
+/* jshint expr: true */
 
-chai.use(sinonChai);
+import { expect } from "chai";
+import jspm from "jspm";
 
 var System = jspm.Loader();
 
@@ -22,5 +20,9 @@ describe("zero.controller.craft", function () {
                 Craft = modules[ 1 ].default;
             })
             .then(done, done);
+    });
+
+    it("should exist", function () {
+        expect(Craft).to.be.ok;
     });
 });
