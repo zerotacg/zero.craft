@@ -4,13 +4,15 @@
     width: 42px;
     height: 42px;
     background: url(../textures/texture_interfaces_v3.png) -276px -392px;
+}
 
+span.item-slot,
+span.item {
     display: inline-block;
 }
 
 .item {
     position: relative;
-    display: inline-block;
     color: white;
     font-size: 9px;
     letter-spacing: 1px;

@@ -4,18 +4,21 @@ import Icon from "zero/component/item/icon";
 
 export default class Slot extends React.Component {
     render() {
-        var icon = this.createIcon();
+        var item = this.props.children;
+        var icon = null;
+
+        if ( item.sheet ) {
+            icon = this.createIcon(item);
+        }
 
         return React.createElement(
-            "div",
+            "span",
             { className: "item-slot" },
             icon
         );
     }
 
-    createIcon() {
-        var item = this.props.children;
-
+    createIcon(item) {
         return React.createElement(
             Icon,
             null,

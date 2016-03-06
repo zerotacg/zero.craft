@@ -14,6 +14,10 @@ export default class Store {
         this.items = new Rx.BehaviorSubject(value);
     }
 
+    getItems() {
+        return this.items.asObservable();
+    }
+
     add( item ) {
         var value = this.value;
 

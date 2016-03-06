@@ -1,7 +1,8 @@
 import React from "react";
+import Rx from "rx";
 
 import AbstractContainer from "zero/component/container";
-import Pattern from "zero/component/craft/pattern/pattern";
+import List from "zero/component/list/list";
 
 export default class Container extends AbstractContainer {
     constructor( props ) {
@@ -13,8 +14,8 @@ export default class Container extends AbstractContainer {
     }
 
     subscribe(props) {
-        var controller = props.controller;
-        this.subscription = controller.subject.pluck("parts").subscribeOnNext(this.setChildren, this);
+        var children = props.children;
+        this.subscription = children.subscribeOnNext(this.setChildren, this);
     }
 
     setChildren( children ) {
@@ -22,19 +23,19 @@ export default class Container extends AbstractContainer {
     }
 
     render() {
-        var component = this.props.component;
         var children = this.state.children;
 
         return React.createElement(
-            component,
-            null,
+            List,
+            this.props,
             children
         );
     }
 }
 
-Container.propTypes = {};
+Container.propTypes = {
+    children: React.PropTypes.instanceOf(Rx.Observable)
+};
 
 Container.defaultProps = {
-    component: Pattern
 };

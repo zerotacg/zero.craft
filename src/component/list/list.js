@@ -23,7 +23,8 @@ export default class List extends React.Component {
 }
 
 List.propTypes = {
-    children: React.PropTypes.array
+    children: React.PropTypes.array.isRequired,
+    component: React.PropTypes.any.isRequired
 };
 
 List.defaultProps = {
