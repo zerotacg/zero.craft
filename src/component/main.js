@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 
 import Nav from "zero/component/nav/pattern/container";
 import Pattern from "zero/component/craft/pattern/container";
+import List from "zero/component/list/list";
+import Slot from "zero/component/item/slot";
 import Hash from "zero/history/hash";
 import PatternController from "zero/pattern/pattern";
 
@@ -23,6 +25,26 @@ var pattern = React.createElement(
     null
 );
 
+var items = React.createElement(
+    List,
+    {
+        component: Slot
+    },
+    [
+        {
+            sheet: "basic-adriel",
+            quantity: 1
+        },
+        {
+            sheet: "fine-oath",
+            quantity: 2
+        },
+        {
+            sheet: "choice-perfling",
+            quantity: 3
+        }
+    ]
+);
 
 ReactDOM.render(
     nav,
@@ -33,3 +55,9 @@ ReactDOM.render(
     pattern,
     document.getElementById("pattern")
 );
+
+ReactDOM.render(
+    items,
+    document.getElementById("items")
+);
+
