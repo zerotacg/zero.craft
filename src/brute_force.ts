@@ -1,6 +1,10 @@
-import Iterator from "zero/combination/iterator";
+import Iterator from "./combination/iterator";
 
-export default class Search {
+export default class Search<TValue> {
+    public possibilities: TValue[][];
+    public current: any[];
+    public iterators: Iterator[];
+
     constructor(config) {
         Object.assign(this, config);
 

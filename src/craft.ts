@@ -1,7 +1,7 @@
-import Stats from "zero/craft/stats";
-import {COUNT as STAT_COUNT} from "zero/craft/stats";
+import Stats from "./craft/stats";
+import {COUNT as STAT_COUNT} from "./craft/stats";
 
-export function prepare(mat) {
+export function prepare(mat): { used: number[], stats: number[] } {
     var mat_stats = mat.stats;
 
     var stats = new Array(STAT_COUNT).fill(0);

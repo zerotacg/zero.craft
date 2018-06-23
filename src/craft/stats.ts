@@ -12,6 +12,8 @@ function clamp(value) {
 }
 
 export default class Stats {
+    private values: number[];
+
     constructor() {
         this.values = new Array(COUNT).fill(0);
     }

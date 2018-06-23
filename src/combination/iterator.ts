@@ -1,8 +1,11 @@
 export default class Iterator {
-    constructor(config) {
-        Object.assign(this, config);
+    public overflow = 0;
+    private current;
+    private n;
+    private k;
 
-        this.overflow = 0;
+    constructor(config: Object) {
+        Object.assign(this, config);
     }
 
     next( inc ) {
