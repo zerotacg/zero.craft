@@ -1,6 +1,6 @@
-import Search from "zero/brute_force";
-import Stats from "zero/craft/stats";
-import {craft, prepare} from "zero/craft";
+import Search from "./brute_force";
+import Stats from "./craft/stats";
+import {craft, prepare} from "./craft";
 
 var adriel_basic = {type: "basic adriel", stats: {0: 20, 1: 0, 2: 20, 3: 20, 4: 0, 6: 20, 7: 20, 8: 60, 9: 20}};
 var becker_fine = {type: "fine becker", stats: {0: 35, 1: 15, 2: 75, 3: 35, 4: 35, 6: 15, 7: 35, 8: 35, 9: 35}};
