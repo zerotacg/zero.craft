@@ -133,7 +133,7 @@ function getChunk(search, size) {
     const chunk = [];
     let current;
     while ((current = search.next()) && size--) {
-        chunk.push(current);
+        chunk.push(current.concat(amber));
     }
 
     return chunk.length && chunk;
