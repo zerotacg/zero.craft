@@ -1,5 +1,6 @@
 import * as cluster from 'cluster';
 import {Worker} from 'cluster';
+import {EventEmitter} from 'events';
 import {cpus} from 'os';
 import Search from './brute_force';
 import {craft, prepare} from './craft';
@@ -101,18 +102,20 @@ cluster.setupMaster({
     exec: 'src/worker/craft.js'
 });
 
-const workers: Worker[] = [];
-for( let i = cpus().length; i--;) {
+const workerState = new EventEmitter();
+const ready: Worker[] = [];
+
+for (let i = cpus().length; i--;) {
     const worker = cluster.fork();
-    worker.on('message', onResults);
-    workers.push(worker);
+    worker.on('message', (message) => onResults(message, worker));
+    ready.push(worker);
 }
 
 var i = 0;
 var count = 11628 * 4368;
 var chunk;
 var found = [];
-const CHUNK_SIZE = 1000;
+const CHUNK_SIZE = 10000;
 
 async function main() {
     while (chunk = getChunk(search, CHUNK_SIZE)) {
@@ -122,6 +125,7 @@ async function main() {
         }
 
         const worker = await nextWorker();
+        console.log(worker.id, 'send');
         worker.send(chunk);
     }
 
@@ -140,18 +144,21 @@ function getChunk(search, size) {
 }
 
 function nextWorker(): Promise<Worker> {
-    return Promise.race(workers.map(ready));
-}
-
-function ready(worker): Promise<Worker> {
     return new Promise((resolve) => {
-        worker.send([]);
-        worker.once('message', () => resolve(worker));
+        workerState.once('ready', () => resolve(ready.pop()));
+
+        if ( ready.length ) {
+            workerState.emit('ready');
+        }
     });
 }
 
-function onResults(results) {
-    results.forEach(onResult)
+function onResults(results, worker) {
+    console.log(worker.id, 'receive', results.length);
+    results.forEach(onResult);
+
+    ready.push(worker);
+    workerState.emit('ready');
 }
 
 function onResult({mats, result}) {
