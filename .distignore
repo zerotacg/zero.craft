@@ -1,6 +1,7 @@
 .git/
 
 .idea/
+.junie/
 
 node_modules/
 jspm_packages/
