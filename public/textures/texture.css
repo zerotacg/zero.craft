@@ -1,8 +1,11 @@
 
 .texture {
     background-repeat: no-repeat;
+}
 
-    float: left;
+span.texture {
+    display: inline-block;
+    vertical-align: bottom;
 }
 
 .bk_race {

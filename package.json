@@ -1,35 +1,32 @@
 {
   "name": "zero.craft",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "test",
-    "packages": "jspm_packages"
-  },
+  "license": "MIT",
+  "private": true,
   "scripts": {
-    "lint": "jshint src/**/*.js test/**/*.js",
-    "pretest": "npm run lint",
-    "test": "mocha --recursive --compilers js:babel/register",
-    "postinstall": "jspm install",
-    "clean": "rimraf dist/*",
-    "build:asset": "rsync --recursive --times --human-readable --progress --delete --exclude-from=.distignore . dist",
-    "build": "npm run build:asset",
+    "clean": "rimraf build/*",
     "deploy": "gh-pages --repo git@github.com:zerotacg/zero.craft.git --dist dist",
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
   },
-  "author": {
-    "name": "Tobias Peters",
-    "email": "tobias.peters@kreativeffekt.at"
+  "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.126",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
   },
-  "contributors": [
-    {
-      "name": "Tobias Peters",
-      "email": "tobias.peters@kreativeffekt.at"
-    }
-  ],
-  "license": "MIT",
   "devDependencies": {
     "babel": "^5.8.24",
     "benchmark": "^2.1.0",
@@ -41,21 +38,24 @@
     "mocha": "^2.3.4",
     "rimraf": "^2.5.1",
     "sinon": "^1.17.2",
-    "sinon-chai": "^2.8.0",
-    "typescript": "5.8.2"
+    "sinon-chai": "^2.8.0"
   },
-  "jspm": {
-    "directories": {
-      "test": "test"
-    },
-    "dependencies": {
-      "json": "github:systemjs/plugin-json@^0.1.0"
-    },
-    "devDependencies": {
-      "babel": "npm:babel-core@^5.8.24",
-      "babel-runtime": "npm:babel-runtime@^5.8.24",
-      "chai": "npm:chai@^3.4.1",
-      "core-js": "npm:core-js@^1.1.4"
-    }
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
