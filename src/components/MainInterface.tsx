@@ -1,5 +1,6 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
+import SlotsPanel from './SlotsPanel';
 
 const MainInterface: React.FC = () => {
     const {t} = useTranslation();
@@ -11,21 +12,7 @@ const MainInterface: React.FC = () => {
                  width: '90%',
                  margin: '0% auto'
              }}>
-            <div id="ui:interface:main:slots"
-                 style={{
-                     top: '0px',
-                     float: 'left',
-                     width: '18%',
-                     margin: '3px',
-                     border: '1px',
-                     borderStyle: 'solid',
-                     paddingTop: '1%',
-                     paddingBottom: '1%',
-                     paddingLeft: '1%',
-                     paddingRight: '0'
-                 }}>
-                {t('uiSlotsTitle')}
-            </div>
+            <SlotsPanel />
 
             <div id="ui:interface:main:craft_window"
                  style={{
