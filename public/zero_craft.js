@@ -53,7 +53,17 @@ function loadTranslations(lang) {
     texts.translate(lang);
 }
 
-function doCraft() {
+function calculateCraftResult(slots_used) {
+    let craft_result = {
+        "color": 0,
+        "purity": 0,
+        "max": 0,
+        "average": 0,
+        "m": 0,
+        "x": 0,
+        "stats": {}
+    };
+
     var stats = {};
     var stat;
     var color = 1;
@@ -73,7 +83,7 @@ function doCraft() {
     var quantity = 0;
     var sitem;
 
-    for (var slot in craft_slots_used) {
+    for (var slot in slots_used) {
         if (isNaN(slot)) {
             continue;
         }
@@ -89,11 +99,11 @@ function doCraft() {
                 stat.after = 0;
                 stat.count = 0;
             }
-            for (var sheet_id in craft_slots_used[slot]) {
+            for (var sheet_id in slots_used[slot]) {
                 if (isNaN(sheet_id)) {
                     continue;
                 }
-                quantity = craft_slots_used[slot][sheet_id];
+                quantity = slots_used[slot][sheet_id];
                 sitem = SItems[sheet_id].craft;
 
                 if (mpstat === 0) {
@@ -124,13 +134,13 @@ function doCraft() {
             max = stat;
         }
     }
-    craft.max = max.before;
+    craft_result.max = max.before;
 
     var average = 0;
     if (stat_count != 0) {
         average = sum_before / stat_count;
     }
-    craft.average = average;
+    craft_result.average = average;
 
     var delta = max.before - average;
     if (delta >= 0.35) {
@@ -156,7 +166,7 @@ function doCraft() {
             ++count_greater_min;
         }
     }
-    craft.m = delta;
+    craft_result.m = delta;
 
     delta = sum_after - sum_before;
     var pass = 0;
@@ -208,10 +218,16 @@ function doCraft() {
             max = colors[mpcol];
         }
     }
-    craft.color = color;
-    craft.purity = purity;
-    craft.stats = stats;
+    craft_result.color = color;
+    craft_result.purity = purity;
+    craft_result.stats = stats;
+    return craft_result;
+}
 
+function doCraft() {
+    let craft_result = calculateCraftResult(craft_slots_used);
+
+    Object.assign(craft, craft_result);
     loadPreview();
 }
 
