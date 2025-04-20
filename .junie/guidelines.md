@@ -31,3 +31,15 @@ to work in small steps
    ```bash
    npm run build
    ```
+
+### Testing the Project
+
+1. **Start the Project**:
+   ```bash
+   npm run start
+   ```
+
+2. **Run Cypress tests**:
+   ```bash
+   npm run cy:run
+   ```
