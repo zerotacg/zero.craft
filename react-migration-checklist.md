@@ -10,6 +10,7 @@ deployment.
 ## Testing
 
 - Cypress for E2E testing
+- [ ] Cypress for Component testing
 
 ## Initial Assessment and Planning
 

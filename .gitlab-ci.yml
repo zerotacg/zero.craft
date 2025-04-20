@@ -29,7 +29,7 @@ cypress:
     stage: test
     needs:
         - build
-    image: cypress/included:13.14.2
+    image: cypress/included:14.3.1
     artifacts:
         when: on_failure
         paths:
