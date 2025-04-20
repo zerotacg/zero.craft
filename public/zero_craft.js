@@ -3,7 +3,6 @@ var materials = [];
 var sheets = [];
 var texts = new CTextList();
 var mat_slot_selected = -1;
-var debug_level = 10;
 var part_class = "ico_blade";
 var craft_slots_used = [];
 var craft =
@@ -64,7 +63,6 @@ function loadTranslations(lang) {
 }
 
 function doCraft() {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
     var stats = {};
     var stat;
     var color = 1;
@@ -227,23 +225,19 @@ function doCraft() {
 }
 
 function slotAddRemove(slot) {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
     if (craft_slots_used[slot]) {
         delete (craft_slots_used[slot]);
     } else {
         craft_slots_used[slot] = [];
-        //craft_slots_used[slot][0] = 0;
 
         if (materials[slot] == null) {
             loadMaterials(slot);
         }
     }
     updateItemList();
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
 }
 
 function generateSlotList() {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
     var slots = $("ui:interface:main:slots");
     var table = slots.select("table");
 
@@ -274,11 +268,9 @@ function generateSlotList() {
     }
     table.appendChild(tbody);
     slots.appendChild(table);
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
 }
 
 function generateMaterialList(slot) {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
     var selection = $("ui:interface:material_selection");
     var table = selection.select("table");
 
@@ -308,7 +300,6 @@ function generateMaterialList(slot) {
     }
     sorted_mats.sort();
 
-    //for(var i in sorted_mats)
     for (var index = 0; index < sorted_mats.length; ++index) {
         sitem = reverse_lookup[sorted_mats[index]];
 
@@ -321,19 +312,6 @@ function generateMaterialList(slot) {
             var sheet_id = sitem.sheet_id;
             var value = slot;
             sheet.setAttribute("onclick", action);
-            /*
-             sheet.observe
-             (
-             "click"
-             , function(event)
-             {
-             if(event.isLeftClick())
-             {
-             ah_addMaterial(value, sheet_id);
-             };
-             }
-             );
-             */
             action = "ah_itemInfo(event, this, " + slot + ", " + sitem.sheet_id + ")";
             sheet.setAttribute("oncontextmenu", action);
 
@@ -353,11 +331,9 @@ function generateMaterialList(slot) {
 
     table.appendChild(tbody);
     selection.appendChild(table);
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
 }
 
 function updateItemList() {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
     var item_list = $("ui:interface:main:craft_window:item_list");
     var table = item_list.getElementsByTagName("table");
     var max_width = 8;
@@ -418,8 +394,6 @@ function updateItemList() {
 
             var action = "ah_selectMaterial(event, " + slot + ")";
             img.setAttribute("onclick", action);
-            //var value = slot;
-            //img.observe("click", function(event){ ah_selectMaterial(event, value)} );
 
             cell.appendChild(img);
             row.appendChild(cell);
@@ -430,11 +404,9 @@ function updateItemList() {
     table.appendChild(tbody);
     item_list.appendChild(table);
     doCraft();
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
 }
 
 function loadPreview() {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
     var preview = $("ui:interface:main:craft_window:preview");
     var table = preview.getElementsByTagName("table");
 
@@ -536,7 +508,6 @@ function loadPreview() {
         row.appendChild(cell);
 
         var cell = document.createElement("td");
-        //var cell_text = document.createTextNode(stat * 120);
         var cell_text = document.createTextNode(Math.floor(stat * 120 * 1000) / 1000);
         cell.appendChild(cell_text);
         row.appendChild(cell);
@@ -545,12 +516,9 @@ function loadPreview() {
     }
     table.appendChild(tbody);
     preview.appendChild(table);
-
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
 }
 
 function loadMaterials(slot) {
-    //generateMaterialList(slot);
     var sheet;
     for (var sheet_id in SItems) {
         sheet = SItems[sheet_id];
@@ -564,7 +532,6 @@ function loadMaterials(slot) {
 }
 
 function translate(label, lang) {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
     if (lang == null) {
         lang = language;
     }
@@ -589,17 +556,13 @@ function translate(label, lang) {
             }
         }
     }
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
+
     return txt_translated;
 }
 
 function getSheet(sheet_id, quantity) {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
-
     if (sheets[sheet_id] != null
         && quantity == null) {
-        //loggetFunctionName(arguments.callee.toString()) + " - cached sheet loaded");
-        //loggetFunctionName(arguments.callee.toString()) + " - end");
         return sheets[sheet_id].cloneNode(true);
     }
     var sheet = document.createElement("div");
@@ -655,27 +618,18 @@ function getSheet(sheet_id, quantity) {
     if (quantity == null) {
         sheets[sheet_id] = sheet.cloneNode(true);
     }
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
     return sheet;
 }
 
 function ah_hide(id) {
-    //log"ah_hide(" + id + ")");
     $(id).hide();
 }
 
 function ah_show(id) {
-    //log"ah_show(" + id + ")");
     $(id).show();
 }
 
-function ah_showHide(id) {
-    //log"ah_showHide(" + id + ")");
-    $(id).toggle();
-}
-
 function ah_selectMaterial(event, slot) {
-    //loggetFunctionName(arguments.callee.toString()));
     var selection = $("ui:interface:material_selection");
     selection.style.left = event.clientX + document.body.scrollLeft - 25;
     selection.style.top = event.clientY + document.body.scrollTop - 25;
@@ -686,7 +640,6 @@ function ah_selectMaterial(event, slot) {
 }
 
 function ah_addMaterial(slot, sheetID) {
-    //loggetFunctionName(arguments.callee.toString()));
     if (!craft_slots_used[slot]) {
         craft_slots_used[slot] == [];
     }
@@ -696,7 +649,6 @@ function ah_addMaterial(slot, sheetID) {
 }
 
 function ah_selectMaterialQuantity(event, element, slot, sheetID) {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
     var select_quantity = $("ui:interface:quantity_selection");
 
     select_quantity.style.left = event.clientX + document.body.scrollLeft - 30;
@@ -728,11 +680,9 @@ function ah_selectMaterialQuantity(event, element, slot, sheetID) {
     txt.select();
     txt.focus();
     ah_show("ui:interface:quantity_selection");
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
 }
 
 function ah_setMaterialQuantity(slot, sheetID, count) {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
     ah_hide("ui:interface:quantity_selection");
 
     if (count == null) {
@@ -748,15 +698,12 @@ function ah_setMaterialQuantity(slot, sheetID, count) {
     }
 
     updateItemList();
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
 }
 
 function ah_itemInfo(event, element, slot, sheetId) {
     if (event.button != 2) {
         return false;
     }
-
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
 
     var item_info = $("ui:interface:item_info");
     item_info.style.left = event.clientX + document.body.scrollLeft - 25;
@@ -780,7 +727,6 @@ function ah_itemInfo(event, element, slot, sheetId) {
     } else {
         event.returnValue = false;
     }
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
 
     return false;
 }
@@ -798,15 +744,6 @@ function loadItemInfo(sheet_id, slot) {
     item_info["quality"] = sitem.craft.quality;
 
     var slots = [];
-    /*
-     for(var part in Slots)
-     {
-     if(sitem.craft.part & Math.pow(2, part))
-     {
-     slots.push(part);
-     };
-     };
-     */
     var index = 0;
     for (var part in sitem.craft.data) {
         item_info["formuli"][index] = {};
@@ -816,12 +753,9 @@ function loadItemInfo(sheet_id, slot) {
         ++index;
     }
     generateItemInfo(slot);
-
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
 }
 
 function generateItemInfo(slot) {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
     if (slot == null) {
         slot = item_info["formuli"][0]["slot"];
     }
@@ -859,12 +793,9 @@ function generateItemInfo(slot) {
     }
 
     showItemStats(islot);
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
 }
 
 function showItemStats(islot) {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
-
     var item_parts = $("ui:interface:item_info:content:item_parts");
     item_parts.selectedIndex = islot;
 
@@ -903,15 +834,12 @@ function showItemStats(islot) {
         row.appendChild(cell);
 
         tbody.appendChild(row);
-        //stat_count++;
     }
     table.appendChild(tbody);
     stats.appendChild(table);
 }
 
 function getProgressBar(value) {
-    //loggetFunctionName(arguments.callee.toString()) + " - start");
-
     var bar = document.createElement("div");
     var bar_content = document.createElement("div");
 
@@ -921,16 +849,7 @@ function getProgressBar(value) {
     bar.appendChild(bar_content);
     bar.setAttribute("class", "bar");
 
-    //loggetFunctionName(arguments.callee.toString()) + " - end");
     return bar;
-}
-
-function getFunctionName(funcName) {
-
-    funcName = funcName.substr("function ".length);        // trim off "function "
-    funcName = funcName.substr(0, funcName.indexOf("("));
-
-    return funcName + "()";
 }
 
 try {
