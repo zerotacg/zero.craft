@@ -19,7 +19,7 @@ describe('item_info', () => {
         cy.get('.item_info:visible')
             .should('be.visible')
             .within(() => {
-                cy.contains('SheetID : 5682734').should('be.visible');
+                cy.contains('SheetID: 5682734').should('be.visible');
             });
     })
 })
