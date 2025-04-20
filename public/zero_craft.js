@@ -17,7 +17,6 @@ var craft =
     };
 
 function startZeroCraft() {
-    loadTexts();
     generateSlotList();
     loadTranslations(language);
 }
@@ -47,14 +46,6 @@ function newIcon(texture_name, label) {
         texts.add(new CAttributeText(label, img, "title"));
     }
     return img;
-}
-
-function loadTexts() {
-    var text_divs = $$(".text");
-
-    for (var index = 0; index < text_divs.length; ++index) {
-        texts.add(new CText(text_divs[index].innerHTML, text_divs[index]));
-    }
 }
 
 function loadTranslations(lang) {
