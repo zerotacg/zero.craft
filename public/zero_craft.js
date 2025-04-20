@@ -17,7 +17,6 @@ var craft =
     };
 
 function startZeroCraft() {
-    generateSlotList();
     loadTranslations(language);
 }
 
@@ -242,39 +241,6 @@ function slotAddRemove(slot) {
         }
     }
     updateItemList();
-}
-
-function generateSlotList() {
-    var slots = $("ui:interface:main:slots");
-    var table = slots.select("table");
-
-    if (table.length) {
-        slots.removeChild(table[0]);
-    }
-    var table = document.createElement("table");
-    var tbody = document.createElement("tbody");
-
-    for (var slot in Slots) {
-        var row = document.createElement("tr");
-        var cell = document.createElement("td");
-
-        var label = Slots[slot].label;
-        var image_file = Slots[slot].icon;
-        var icon = newIcon(image_file, label);
-        var text = newText(label);
-
-        var txt_button = document.createElement("a");
-        txt_button.setAttribute("href", "javascript:slotAddRemove(TSlot." + TSlot[slot] + ")");
-        txt_button.appendChild(text);
-
-        cell.appendChild(icon);
-        cell.appendChild(txt_button);
-
-        row.appendChild(cell);
-        tbody.appendChild(row);
-    }
-    table.appendChild(tbody);
-    slots.appendChild(table);
 }
 
 function generateMaterialList(slot) {
