@@ -5,6 +5,7 @@ import LanguageSelector from './components/LanguageSelector';
 import MainInterface from './components/MainInterface';
 import MaterialSelection from './components/MaterialSelection';
 import QuantitySelection from './components/QuantitySelection';
+import {Provider as CraftProvider} from './craft/CraftContext';
 
 export default function App() {
     useEffect(() => {
@@ -17,11 +18,13 @@ export default function App() {
 
     return (
         <div className="App">
-            <LanguageSelector/>
-            <ItemInfo/>
-            <MaterialSelection/>
-            <QuantitySelection/>
-            <MainInterface/>
+            <CraftProvider>
+                <LanguageSelector/>
+                <ItemInfo/>
+                <MaterialSelection/>
+                <QuantitySelection/>
+                <MainInterface/>
+            </CraftProvider>
         </div>
     );
 }

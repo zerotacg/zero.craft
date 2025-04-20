@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {useTranslation} from 'react-i18next';
+import CraftContext from '../craft/CraftContext';
 import {TSlot} from "../craft/TSlot";
 
 interface Slot {
@@ -30,6 +31,7 @@ const Icon: React.FC<IconProps> = ({icon, label}) => {
 const SlotsPanel: React.FC = () => {
     const slots: Slots = (window as any).Slots;
     const {t} = useTranslation();
+    const {toggleSlot} = useContext(CraftContext);
 
     return (
         <div style={{
@@ -53,7 +55,7 @@ const SlotsPanel: React.FC = () => {
                             <Icon icon={value.icon} label={value.label}/>
                             <a href="#" onClick={(e) => {
                                 e.preventDefault();
-                                (window as any).slotAddRemove(key);
+                                toggleSlot(key as unknown as TSlot);
                             }}>{t(value.label)}</a>
                         </td>
                     </tr>))}
