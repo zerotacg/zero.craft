@@ -10,11 +10,10 @@ deployment.
 ## Testing
 
 - Cypress for E2E testing
-- [ ] Cypress for Component testing
 
 ## Initial Assessment and Planning
 
-- [ ] Analyze the current codebase and architecture
+- [x] Analyze the current codebase and architecture
 - [ ] Identify components that can be migrated incrementally
 - [ ] Define the scope of the migration (full rewrite vs. incremental)
 - [ ] Create a roadmap for the migration
