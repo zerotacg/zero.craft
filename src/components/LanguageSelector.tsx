@@ -51,7 +51,7 @@ const LanguageSelector: React.FC = () => {
             >
                 <img src="./textures/fr.png" title="Français" alt="French flag"/>
             </a>
-            <div className="text">{t('uiLanguageName')}</div>
+            {t('uiLanguageName')}
         </div>
     );
 };

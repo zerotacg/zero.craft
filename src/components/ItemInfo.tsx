@@ -59,17 +59,13 @@ const ItemInfo: React.FC = () => {
                     }}
                 ></div>
 
-                <div className="text">{t('uiSheetID')}</div>
-                : <label id="ui:interface:item_info:content:lbl_sheet_id"></label><br/>
-                <div className="text">{t('uiQuality')}</div>
-                : <label id="ui:interface:item_info:content:lbl_quality"></label><br/>
-                <div className="text">{t('uiFamily')}</div>
-                : <label id="ui:interface:item_info:content:lbl_family"></label><br/>
-                <div className="text">{t('uiColor')}</div>
-                : <label id="ui:interface:item_info:content:lbl_color"></label><br/>
+                {t('uiSheetID')}: <label id="ui:interface:item_info:content:lbl_sheet_id"></label><br/>
+                {t('uiQuality')}: <label id="ui:interface:item_info:content:lbl_quality"></label><br/>
+                {t('uiFamily')}: <label id="ui:interface:item_info:content:lbl_family"></label><br/>
+                {t('uiColor')}: <label id="ui:interface:item_info:content:lbl_color"></label><br/>
                 <br/>
 
-                <div className="text">{t('uiAllItemParts')}</div>
+                {t('uiAllItemParts')}
                 <br/>
                 <div>
                     <div
@@ -85,8 +81,7 @@ const ItemInfo: React.FC = () => {
                         }}
                     ></select>
                     <div>
-                        <div className="text">{t('uiEcosystem')}</div>
-                        : <label id="ui:interface:item_info:content:lbl_ecosystem"></label><br/>
+                        {t('uiEcosystem')}: <label id="ui:interface:item_info:content:lbl_ecosystem"></label><br/>
                         <div id="ui:interface:item_info:content:stats"></div>
                     </div>
                 </div>
