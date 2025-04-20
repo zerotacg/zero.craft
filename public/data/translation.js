@@ -976,21 +976,21 @@ translation["en"] =
 translation["de"] =
 {
     "uiLanguageName" : "Deutsch"
-  , "uiSlotsTitle" : "Slots ausw‰hlen"
+  , "uiSlotsTitle" : "Slots ausw√§hlen"
   , "uiCraftWindowTitle" : "Das Crafting Fenster"
-  , "uiItemListTitle" : "Die verwendeten Gegenst‰nde"
+  , "uiItemListTitle" : "Die verwendeten Gegenst√§nde"
   , "uiPreviewTitle" : "Werte Vorschau"
-  , "uiSelectQuantity" : "Anzahl ausw‰hlen"
+  , "uiSelectQuantity" : "Anzahl ausw√§hlen"
   , "uiSheetID" : "SheetID"
-  , "uiQuality" : "Qualit‰t"
+  , "uiQuality" : "Qualit√§t"
   , "uiFamily" : "Familie"
   , "uiColor" : "Farbe"
-  , "uiEcosystem" : "÷kosystem"
+  , "uiEcosystem" : "√ñkosystem"
   
 };
 
 translation["fr"] =
 {
-    "uiLanguageName" : "FranÁais"
+    "uiLanguageName" : "Fran√ßais"
 };
 
