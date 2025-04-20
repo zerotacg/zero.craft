@@ -14,6 +14,7 @@ export default function App() {
             console.error("Error starting ZeroCraft:", e);
         }
     }, []);
+
     return (
         <div className="App">
             <LanguageSelector/>
