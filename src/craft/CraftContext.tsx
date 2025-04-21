@@ -1,8 +1,16 @@
 import React, {createContext, ReactNode, useState} from "react";
 import {TSlot} from "./TSlot";
 
+type Slot = {
+    [sheetId: string]: number;
+}
+
+type Slots = {
+    [slot in TSlot]?: Slot;
+};
+
 export interface State {
-    slots: any[];
+    slots: Slots;
 }
 
 export interface Service {
@@ -11,7 +19,7 @@ export interface Service {
     toggleSlot: (slot: TSlot) => void;
 }
 
-const initialState = {slots: []};
+const initialState: State = {slots: {}};
 const nop = () => {
 };
 const nopService = {addSlot: nop, removeSlot: nop, toggleSlot: nop};
@@ -23,7 +31,7 @@ export interface Props {
 }
 
 export const Provider: React.FC<Props> = (props) => {
-    const [slots, setSlots] = useState<State["slots"]>([]);
+    const [slots, setSlots] = useState<State["slots"]>({});
     const global_craft_slots_used = (window as any).craft_slots_used;
     const global_materials = (window as any).materials;
     const global_loadMaterials = (window as any).loadMaterials;
@@ -31,15 +39,15 @@ export const Provider: React.FC<Props> = (props) => {
 
     function addSlot(slot: TSlot) {
         setSlots((slots) => {
-            const newSlots = [...slots];
-            newSlots[slot] = [];
+            const newSlots = {...slots};
+            newSlots[slot] = {};
             return newSlots;
         })
     }
 
     function removeSlot(slot: TSlot) {
         setSlots((slots) => {
-            const newSlots = [...slots];
+            const newSlots = {...slots};
             delete newSlots[slot];
             return newSlots;
         })
