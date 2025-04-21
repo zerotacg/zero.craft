@@ -33,27 +33,10 @@ const MaterialSelection: React.FC = () => {
 
     return (
         <>
-            <div
-                id="ui:interface:material_selection"
-                style={{
-                    top: '0px',
-                    position: 'absolute',
-                    display: 'none',
-                    minWidth: '10px',
-                    minHeight: '10px',
-                    border: '1px solid',
-                    backgroundColor: '#333333'
-                }}
-            >
-                <table>
-                    <tbody>
-                    </tbody>
-                </table>
-            </div>
-
             {(selectedSlot !== undefined) && (
                 <div className="container"
                      style={{
+                         zIndex: 1,
                          top: '0px',
                          position: 'absolute',
                          minWidth: '10px',
