@@ -1,3 +1,5 @@
+import {TSlot} from "./TSlot";
+
 export interface IconData {
     text: string;
     texture: {
@@ -12,7 +14,7 @@ export interface CraftData {
     family: number;
     color: number;
     data: {
-        [slotId: string]: {
+        [slotId in TSlot]: {
             ecosystem: number;
             stat: {
                 [statId: string]: number;

@@ -64,6 +64,7 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
                     purity += sitem.purity * quantity;
                     class_count += quantity;
                 }
+                // @ts-ignore
                 stat.before += (sitem.data[slot].stat[mpstat] / 100) * quantity;
                 stat.count += quantity;
             }
