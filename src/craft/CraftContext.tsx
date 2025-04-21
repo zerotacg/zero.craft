@@ -17,12 +17,13 @@ export interface Service {
     addSlot: (slot: TSlot) => void;
     removeSlot: (slot: TSlot) => void;
     toggleSlot: (slot: TSlot) => void;
+    setMaterialQuantity: (slot: TSlot, sheetId: string, count: number) => void;
 }
 
 const initialState: State = {slots: {}};
 const nop = () => {
 };
-const nopService = {addSlot: nop, removeSlot: nop, toggleSlot: nop};
+const nopService = {addSlot: nop, removeSlot: nop, toggleSlot: nop, setMaterialQuantity: nop};
 
 export const Context = createContext<State & Service>({...initialState, ...nopService});
 
@@ -36,6 +37,7 @@ export const Provider: React.FC<Props> = (props) => {
     const global_materials = (window as any).materials;
     const global_loadMaterials = (window as any).loadMaterials;
     const global_updateItemList = (window as any).updateItemList;
+    const ah_setMaterialQuantity = (window as any).ah_setMaterialQuantity;
 
     function addSlot(slot: TSlot) {
         setSlots((slots) => {
@@ -73,11 +75,26 @@ export const Provider: React.FC<Props> = (props) => {
         global_updateItemList();
     }
 
+    function setMaterialQuantity(slot: TSlot, sheetId: string, count: number) {
+        setSlots((slots) => {
+            const newSlot: Slot = slots[slot] || {};
+            const newSlots = {...slots, [slot]: newSlot};
+            if (count <= 0) {
+                delete newSlot[sheetId];
+            } else {
+                newSlot[sheetId] = count;
+            }
+            return newSlots;
+        })
+        ah_setMaterialQuantity();
+    }
+
     return (<Context.Provider value={{
         slots,
         addSlot,
         removeSlot,
         toggleSlot,
+        setMaterialQuantity,
     }} {...props} />)
 }
 
