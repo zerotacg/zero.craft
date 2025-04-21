@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import {useTranslation} from 'react-i18next';
-import {SItem} from '../craft/SItem';
+import {SItem, SITEMS} from '../craft/SItem';
 import {TSlot} from '../craft/TSlot';
 import InfoContext from "../info/InfoContext";
 import Sheet from "./Sheet";
@@ -120,8 +120,8 @@ const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
 const ItemInfoDialog: React.FC = () => {
     const {t} = useTranslation();
     const {sheetId, slot, close} = useContext(InfoContext);
-    const material = sheetId ? (window as any).SItems[sheetId] : undefined;
-    const selectedSlot = slot ?? Object.keys(material?.craft.data)[0] as unknown as TSlot;
+    const material = sheetId ? SITEMS[sheetId] : undefined;
+    const selectedSlot = slot ?? Object.keys(material?.craft?.data ?? [])[0] as unknown as TSlot;
 
     return (
         <>

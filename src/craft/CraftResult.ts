@@ -134,7 +134,6 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
         if (delta > 0) {
             delta = -delta / count_greater_min;
         }
-        console.log("sum_after", sum_after, "sum_before", sum_before, "delta", delta, count_less_max, count_greater_min);
         sum_after = 0;
         count_less_max = 0;
         count_greater_min = 0;
