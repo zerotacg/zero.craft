@@ -29,8 +29,8 @@ const Entry: React.FC<EntryProps> = ({slot, materials}) => {
                 </div>
             ))}
             <div className="col">
-                <Icon icon="w_slot_item" onClick={(event) => {
-                    (window as any).ah_selectMaterial(event, slot)
+                <Icon icon="w_slot_item" onClick={() => {
+                    (window as any).ah_selectMaterial(slot)
                 }}/>
             </div>
         </>

@@ -352,7 +352,7 @@ function updateItemList() {
             var cell = document.createElement("td");
             var img = newIcon("w_slot_item");
 
-            var action = "ah_selectMaterial(event, " + slot + ")";
+            var action = "ah_selectMaterial( " + slot + ")";
             img.setAttribute("onclick", action);
 
             cell.appendChild(img);
@@ -588,14 +588,9 @@ function ah_show(id) {
     $(id).show();
 }
 
-function ah_selectMaterial(event, slot) {
-    var selection = $("ui:interface:material_selection");
-    selection.style.left = event.clientX + document.body.scrollLeft - 25;
-    selection.style.top = event.clientY + document.body.scrollTop - 25;
-
+function ah_selectMaterial(slot) {
     ah_show("ui:interface:material_selection");
     generateMaterialList(slot);
-    mat_slot_selected = slot;
 }
 
 function ah_addMaterial(slot, sheetID) {
