@@ -367,6 +367,7 @@ function updateItemList() {
 }
 
 function loadPreview() {
+    const global_craft = craft;
     var preview = $("ui:interface:main:craft_window:preview");
     var table = preview.getElementsByTagName("table");
 
@@ -376,42 +377,42 @@ function loadPreview() {
     }
     var table = document.createElement("table");
     var tbody = document.createElement("tbody");
-    var param_color = craft.color;
+    var param_color = global_craft.color;
     var table = document.createElement("table");
     var tbody = document.createElement("tbody");
     var row = document.createElement("tr");
 
     var cell = document.createElement("td");
-    var cell_text = document.createTextNode("max: " + Math.floor(craft.max * 100 * 1000) / 1000);
+    var cell_text = document.createTextNode("max: " + Math.floor(global_craft.max * 100 * 1000) / 1000);
     cell.appendChild(cell_text);
     row.appendChild(cell);
 
     var cell = document.createElement("td");
-    var cell_text = document.createTextNode("avg: " + Math.floor(craft.average * 100 * 1000) / 1000);
+    var cell_text = document.createTextNode("avg: " + Math.floor(global_craft.average * 100 * 1000) / 1000);
     cell.appendChild(cell_text);
     row.appendChild(cell);
 
     var cell = document.createElement("td");
-    var cell_text = document.createTextNode("max - avg: " + Math.floor((craft.max - craft.average) * 100 * 1000) / 1000);
+    var cell_text = document.createTextNode("max - avg: " + Math.floor((global_craft.max - global_craft.average) * 100 * 1000) / 1000);
     cell.appendChild(cell_text);
     row.appendChild(cell);
 
     var cell = document.createElement("td");
-    var cell_text = document.createTextNode("m: " + Math.floor(craft.m * 100) / 100);
-    cell.appendChild(cell_text);
-    row.appendChild(cell);
-    tbody.appendChild(row);
-
-    var row = document.createElement("tr");
-    var cell = document.createElement("td");
-    var cell_text = document.createTextNode("Color: " + translate("mpcol" + craft.color));
+    var cell_text = document.createTextNode("m: " + Math.floor(global_craft.m * 100) / 100);
     cell.appendChild(cell_text);
     row.appendChild(cell);
     tbody.appendChild(row);
 
     var row = document.createElement("tr");
     var cell = document.createElement("td");
-    var cell_text = document.createTextNode("Class: " + translate("uiItemRMClass" + craft.purity));
+    var cell_text = document.createTextNode("Color: " + translate("mpcol" + global_craft.color));
+    cell.appendChild(cell_text);
+    row.appendChild(cell);
+    tbody.appendChild(row);
+
+    var row = document.createElement("tr");
+    var cell = document.createElement("td");
+    var cell_text = document.createTextNode("Class: " + translate("uiItemRMClass" + global_craft.purity));
     cell.appendChild(cell_text);
     row.appendChild(cell);
     tbody.appendChild(row);
@@ -442,9 +443,9 @@ function loadPreview() {
     row.appendChild(cell);
     tbody.appendChild(row);
 
-    for (var mpstat in craft.stats) {
-        var stat_before = craft.stats[mpstat].before;
-        var stat = craft.stats[mpstat].after;
+    for (var mpstat in global_craft.stats) {
+        var stat_before = global_craft.stats[mpstat].before;
+        var stat = global_craft.stats[mpstat].after;
 
         var row = document.createElement("tr");
         var cell = document.createElement("td");
