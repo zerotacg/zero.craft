@@ -14,6 +14,7 @@ const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
     const {t} = useTranslation();
     const {show, close} = useContext(InfoContext);
     const sheetId = material.sheet_id;
+    const {color, family, quality, data: craftData} = material.craft;
 
     return (
         <div
@@ -54,7 +55,6 @@ const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
                 }}
             >
                 <div
-                    id="ui:interface:item_info:content:sheet"
                     style={{
                         position: 'absolute',
                         left: '286px',
@@ -63,27 +63,23 @@ const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
                 ><Sheet sheetId={sheetId}/></div>
 
                 {t('uiSheetID')}: <label>{sheetId}</label><br/>
-                {t('uiQuality')}: <label id="ui:interface:item_info:content:lbl_quality"></label><br/>
-                {t('uiFamily')}: <label id="ui:interface:item_info:content:lbl_family"></label><br/>
-                {t('uiColor')}: <label id="ui:interface:item_info:content:lbl_color"></label><br/>
+                {t('uiQuality')}: <label>Q{quality}</label><br/>
+                {t('uiFamily')}: <label>{t("mpfam" + family)}</label><br/>
+                {t('uiColor')}: <label>{t("mpcol" + color)}</label><br/>
                 <br/>
 
                 {t('uiAllItemParts')}
                 <br/>
                 <div>
-                    <div
-                        id="ui:interface:item_info:content:img_part"
-                        className="texture ico_blade"
-                    ></div>
+                    <div className="texture ico_blade"></div>
 
                     <select
-                        id="ui:interface:item_info:content:item_parts"
                         onChange={(e) => {
                             show(sheetId, e.target.value as unknown as TSlot);
                         }}
                     ></select>
                     <div>
-                        {t('uiEcosystem')}: <label id="ui:interface:item_info:content:lbl_ecosystem"></label><br/>
+                        {t('uiEcosystem')}: <label></label><br/>
                         <div id="ui:interface:item_info:content:stats"></div>
                     </div>
                 </div>
