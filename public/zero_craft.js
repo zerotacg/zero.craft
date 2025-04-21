@@ -1,5 +1,4 @@
 var language = "en";
-var materials = [];
 var sheets = [];
 var texts = new CTextList();
 var mat_slot_selected = -1;
@@ -18,19 +17,6 @@ var craft =
 
 function startZeroCraft() {
     loadTranslations(language);
-}
-
-function newText(label) {
-    var div = document.createElement("div");
-    var text = document.createTextNode(translate(label));
-
-    Element.extend(div);
-    div.addClassName("text");
-    div.appendChild(text);
-
-    texts.add(new CText(label, div));
-
-    return div;
 }
 
 function newIcon(texture_name, label) {
@@ -230,69 +216,6 @@ function doCraft() {
     loadPreview();
 }
 
-function generateMaterialList(slot) {
-    var selection = $("ui:interface:material_selection");
-    var table = selection.select("table");
-
-    if (table.length) {
-        selection.removeChild(table[0]);
-    }
-
-    var table = document.createElement("table");
-    var tbody = document.createElement("tbody");
-    var row = document.createElement("tr");
-    var max_width = 15;
-    var count = 0;
-
-    var sorted_mats = [];
-    var reverse_lookup = {};
-    var sitem;
-    var sort_string;
-
-    if (materials[slot] == undefined) {
-        return;
-    }
-    for (var index = 0; index < materials[slot].length; ++index) {
-        sitem = materials[slot][index];
-        sort_string = "" + translate("mpfam" + sitem.craft.family) + sitem.craft.purity + sitem.craft.quality + sitem.sheet_id;
-        reverse_lookup[sort_string] = sitem;
-        sorted_mats.push(sort_string);
-    }
-    sorted_mats.sort();
-
-    for (var index = 0; index < sorted_mats.length; ++index) {
-        sitem = reverse_lookup[sorted_mats[index]];
-
-        if (!craft_slots_used[slot] || !craft_slots_used[slot][sitem.sheet_id]) {
-            count++;
-            var cell = document.createElement("td");
-
-            var sheet = getSheet(sitem.sheet_id);
-            var action = "ah_addMaterial(" + slot + ", " + sitem.sheet_id + ")";
-            var sheet_id = sitem.sheet_id;
-            var value = slot;
-            sheet.setAttribute("onclick", action);
-            action = "ah_itemInfo( " + slot + ", " + sitem.sheet_id + ")";
-            sheet.setAttribute("oncontextmenu", action);
-
-            cell.appendChild(sheet);
-
-            row.appendChild(cell);
-            if (count >= max_width) {
-                tbody.appendChild(row);
-                var row = document.createElement("tr");
-                count = 0;
-            }
-        }
-    }
-    if (count < max_width) {
-        tbody.appendChild(row);
-    }
-
-    table.appendChild(tbody);
-    selection.appendChild(table);
-}
-
 function loadPreview() {
     const global_craft = craft;
     var preview = $("ui:interface:main:craft_window:preview");
@@ -404,19 +327,6 @@ function loadPreview() {
     preview.appendChild(table);
 }
 
-function loadMaterials(slot) {
-    var sheet;
-    for (var sheet_id in SItems) {
-        sheet = SItems[sheet_id];
-        if (sheet.craft.part & Math.pow(2, slot)) {
-            if (materials[slot] == undefined) {
-                materials[slot] = [];
-            }
-            materials[slot].push(sheet);
-        }
-    }
-}
-
 function translate(label, lang) {
     if (lang == null) {
         lang = language;
@@ -513,11 +423,6 @@ function ah_hide(id) {
 
 function ah_show(id) {
     $(id).show();
-}
-
-function ah_selectMaterial(slot) {
-    ah_show("ui:interface:material_selection");
-    generateMaterialList(slot);
 }
 
 function ah_addMaterial(slot, sheetID) {

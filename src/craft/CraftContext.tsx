@@ -96,10 +96,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
             delete (global_craft_slots_used[slot]);
         } else {
             global_craft_slots_used[slot] = [];
-
-            if (global_materials[slot] == null) {
-                global_loadMaterials(slot);
-            }
         }
         global_doCraft();
     }
