@@ -25,9 +25,11 @@ export interface Service {
     toggleSlot: (slot: TSlot) => void;
     selectMaterial: (slot: TSlot) => void;
     materialSelected: (slot: TSlot) => void;
+    removeMaterial: (slot: TSlot, sheetId: number) => void;
 
     selectQuantity: (slot: TSlot, sheetId: number) => void;
     quantitySelected: (count: number) => void;
+    cancelQuantitySelection: () => void;
 }
 
 const initialState: State = {slots: {}};
@@ -41,8 +43,10 @@ const nopService: Service = {
     toggleSlot: nop,
     selectMaterial: nop,
     materialSelected: nop,
+    removeMaterial: nop,
     selectQuantity: nop,
-    quantitySelected: nop
+    quantitySelected: nop,
+    cancelQuantitySelection: nop
 };
 
 export const Context = createContext<State & Service>({...initialState, ...nopService});
@@ -118,6 +122,12 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         ah_setMaterialQuantity(slot, sheetId, count);
     }
 
+    function removeMaterial(slot: TSlot, sheetId: number) {
+        console.log("removeMaterial", slot, sheetId);
+        setMaterialQuantity(slot, sheetId, 0);
+        setQuantitySelection(undefined);
+    }
+
 
     function selectQuantity(slot: TSlot, sheetId: number) {
         setQuantitySelection({slot, sheetId});
@@ -130,16 +140,23 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         }
     }
 
+    function cancelQuantitySelection() {
+        setQuantitySelection(undefined);
+    }
+
     return (<Context.Provider value={{
         slots,
         selectedSlot,
+        quantitySelection,
         addSlot,
         removeSlot,
         toggleSlot,
         selectMaterial,
         materialSelected,
         selectQuantity,
-        quantitySelected
+        quantitySelected,
+        cancelQuantitySelection,
+        removeMaterial
     }} {...props} />)
 }
 

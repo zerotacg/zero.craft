@@ -1,14 +1,14 @@
-import React from "react";
+import React, {ComponentProps} from "react";
 import {useTranslation} from "react-i18next";
 import {SItems} from "../craft/SItem";
 import Icon from "./Icon";
 
-export interface Props {
+export interface Props extends ComponentProps<'div'> {
     sheetId: number;
     quantity?: number;
 }
 
-export const Sheet: React.FC<Props> = ({sheetId, quantity}) => {
+export const Sheet: React.FC<Props> = ({sheetId, quantity, ...props}) => {
     const {t} = useTranslation();
     const global_SItems: SItems = (window as any).SItems;
     const global_Sheets = (window as any).Sheets;
@@ -16,7 +16,7 @@ export const Sheet: React.FC<Props> = ({sheetId, quantity}) => {
     const {icon, craft} = global_SItems[sheetId];
 
     return (
-        <div className={"sheet"} title={title}>
+        <div className={"sheet"} title={title} {...props}>
             {Object.values(icon.texture).map((texture) => (
                 <Icon key={texture} icon={texture}/>
             ))}
