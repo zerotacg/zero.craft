@@ -32,3 +32,5 @@ export interface SItem {
 export type SItems = {
     [sheetId: string]: SItem;
 }
+
+export const SITEMS: SItem = (window as any).SItems;

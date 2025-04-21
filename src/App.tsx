@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './App.css';
 import ItemInfoDialog from './components/ItemInfo';
 import LanguageSelector from './components/LanguageSelector';
@@ -9,14 +9,6 @@ import {Provider as CraftProvider} from './craft/CraftContext';
 import {Provider as InfoProvider} from './info/InfoContext';
 
 export default function App() {
-    useEffect(() => {
-        try {
-            (window as any).startZeroCraft();
-        } catch (e) {
-            console.error("Error starting ZeroCraft:", e);
-        }
-    }, []);
-
     return (
         <div className="App">
             <InfoProvider>
