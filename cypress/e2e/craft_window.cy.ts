@@ -14,6 +14,7 @@ describe('Crafting window', () => {
                 cy.contains('max: 60');
                 cy.contains('avg: 20.111');
                 cy.contains('Color: Turquoise');
+                cy.contains('Class: Basic');
             });
     })
 
