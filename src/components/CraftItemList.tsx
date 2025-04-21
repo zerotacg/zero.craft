@@ -25,7 +25,9 @@ const Entry: React.FC<EntryProps> = ({slot, materials}) => {
                 {t(label)}
             </div>
             {Object.entries(materials).map(([sheetId, quantity]) => (
-                <div key={sheetId} className="col">
+                <div key={sheetId} className="col" onClick={() => {
+
+                }}>
                     <Sheet sheetId={sheetId as unknown as number} quantity={quantity}/>
                 </div>
             ))}

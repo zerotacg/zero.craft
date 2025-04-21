@@ -12,15 +12,22 @@ export type Slots = {
 export interface State {
     slots: Slots;
     selectedSlot?: TSlot;
+
+    quantitySelection?: {
+        slot: TSlot;
+        sheetId: number;
+    };
 }
 
 export interface Service {
     addSlot: (slot: TSlot) => void;
     removeSlot: (slot: TSlot) => void;
     toggleSlot: (slot: TSlot) => void;
-    setMaterialQuantity: (slot: TSlot, sheetId: number, count?: number) => void;
     selectMaterial: (slot: TSlot) => void;
     materialSelected: (slot: TSlot) => void;
+
+    selectQuantity: (slot: TSlot, sheetId: number) => void;
+    quantitySelected: (count: number) => void;
 }
 
 const initialState: State = {slots: {}};
@@ -28,13 +35,22 @@ const initialState: State = {slots: {}};
 function nop() {
 }
 
-const nopService = {addSlot: nop, removeSlot: nop, toggleSlot: nop, setMaterialQuantity: nop, selectMaterial: nop, materialSelected: nop};
+const nopService: Service = {
+    addSlot: nop,
+    removeSlot: nop,
+    toggleSlot: nop,
+    selectMaterial: nop,
+    materialSelected: nop,
+    selectQuantity: nop,
+    quantitySelected: nop
+};
 
 export const Context = createContext<State & Service>({...initialState, ...nopService});
 
 export const Provider: React.FC<PropsWithChildren> = (props) => {
     const [slots, setSlots] = useState<State["slots"]>({});
     const [selectedSlot, setSlotSelection] = useState<State["selectedSlot"]>();
+    const [quantitySelection, setQuantitySelection] = useState<State["quantitySelection"]>();
     const global_craft_slots_used = (window as any).craft_slots_used;
     const global_materials = (window as any).materials;
     const global_loadMaterials = (window as any).loadMaterials;
@@ -81,8 +97,11 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         setSlotSelection(slot);
     }
 
-    function materialSelected(slot: TSlot) {
-        setSlotSelection(undefined);
+    function materialSelected(sheetId: number) {
+        if (selectedSlot) {
+            setMaterialQuantity(selectedSlot, sheetId);
+            setSlotSelection(undefined);
+        }
     }
 
     function setMaterialQuantity(slot: TSlot, sheetId: number, count: number = 1) {
@@ -99,15 +118,28 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         ah_setMaterialQuantity(slot, sheetId, count);
     }
 
+
+    function selectQuantity(slot: TSlot, sheetId: number) {
+        setQuantitySelection({slot, sheetId});
+    }
+
+    function quantitySelected(count: number) {
+        if (quantitySelection) {
+            setMaterialQuantity(quantitySelection.slot, quantitySelection.sheetId, count);
+            setQuantitySelection(undefined);
+        }
+    }
+
     return (<Context.Provider value={{
         slots,
         selectedSlot,
         addSlot,
         removeSlot,
         toggleSlot,
-        setMaterialQuantity,
         selectMaterial,
-        materialSelected
+        materialSelected,
+        selectQuantity,
+        quantitySelected
     }} {...props} />)
 }
 
