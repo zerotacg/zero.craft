@@ -27,7 +27,7 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
     const ah_hide = (window as any).ah_hide;
 
     function show(sheetId: number, slot?: TSlot) {
-        setState({sheetId, slot});
+        //setState({sheetId, slot});
         ah_itemInfo(slot, sheetId)
     }
 

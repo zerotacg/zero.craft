@@ -33,8 +33,6 @@ export interface Service {
     selectQuantity: (slot: TSlot, sheetId: number) => void;
     quantitySelected: (count: number) => void;
     cancelQuantitySelection: () => void;
-
-    showItemInfo: (slot: TSlot, sheetId: number) => void;
 }
 
 const initialState: State = {slots: {}};
@@ -49,8 +47,7 @@ const nopService: Service = {
     removeMaterial: nop,
     selectQuantity: nop,
     quantitySelected: nop,
-    cancelQuantitySelection: nop,
-    showItemInfo: nop
+    cancelQuantitySelection: nop
 };
 
 export const Context = createContext<State & Service>({...initialState, ...nopService});
@@ -131,11 +128,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         setQuantitySelection(undefined);
     }
 
-    function showItemInfo(slot: TSlot, sheetId: number) {
-        setItemInfo(sheetId);
-        ah_itemInfo(slot, sheetId)
-    }
-
     return (<Context.Provider value={{
         slots,
         selectedSlot,
@@ -149,8 +141,7 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         selectQuantity,
         quantitySelected,
         cancelQuantitySelection,
-        removeMaterial,
-        showItemInfo,
+        removeMaterial
     }} {...props} />)
 }
 
