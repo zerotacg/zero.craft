@@ -54,22 +54,17 @@ const CraftItemList: React.FC = () => {
     const {slots} = useContext(CraftContext);
 
     return (
-        <div id="ui:interface:main:craft_window:item_list"
-             style={{
-                 top: '0px',
-                 float: 'left',
-                 width: '48%',
-                 margin: '3px',
-                 border: '1px',
-                 borderStyle: 'solid',
-                 paddingBottom: '2%'
-             }}>
+        <div style={{
+            top: '0px',
+            float: 'left',
+            width: '48%',
+            margin: '3px',
+            border: '1px',
+            borderStyle: 'solid',
+            paddingBottom: '2%'
+        }}>
             {t('uiItemListTitle')}
-            <table>
-                <tbody>
-                </tbody>
-            </table>
-            <div className="container" style={{display: 'block'}}>
+            <div className="container">
                 <div className="row">
                     {Object.entries(slots).map(([slot, materials]) => (
                         <Entry key={slot} slot={slot as unknown as TSlot} materials={materials}/>

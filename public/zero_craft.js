@@ -424,46 +424,6 @@ function ah_show(id) {
     $(id).show();
 }
 
-function ah_addMaterial(slot, sheetID) {
-    ah_setMaterialQuantity(slot, sheetID, 1);
-    doCraft();
-    ah_hide("ui:interface:material_selection");
-}
-
-function ah_selectMaterialQuantity(event, element, slot, sheetID) {
-    var select_quantity = $("ui:interface:quantity_selection");
-
-    select_quantity.style.left = event.clientX + document.body.scrollLeft - 30;
-    select_quantity.style.top = event.clientY + document.body.scrollTop - 90;
-
-    var sheet = $("ui:interface:quantity_selection:sheet");
-    if (sheet.firstChild != null) {
-        sheet.removeChild(sheet.firstChild);
-    }
-    sheet.title = element.title;
-    sheet.appendChild(element.cloneNode(true));
-    sheet.firstChild.setAttribute("onclick", "");
-    sheet.firstChild.setAttribute("onmousedown", "");
-
-    var remove = $("ui:interface:quantity_selection:button_remove");
-    var action = "ah_setMaterialQuantity(" + slot + ", " + sheetID + ", 0)";
-    remove.setAttribute("onclick", action);
-
-    var ok = $("ui:interface:quantity_selection:button_ok");
-    var action = "ah_setMaterialQuantity(" + slot + ", " + sheetID + ")";
-    ok.setAttribute("onclick", action);
-
-    var txt = $("ui:interface:quantity_selection:txt_quantity");
-    var quantity = craft_slots_used[slot][sheetID];
-    var action = "if(event.keyCode == 13){ah_setMaterialQuantity(" + slot + ", " + sheetID + ")}";
-    txt.value = quantity;
-    txt.setAttribute("onkeypress", action);
-
-    txt.select();
-    txt.focus();
-    ah_show("ui:interface:quantity_selection");
-}
-
 function ah_setMaterialQuantity(slot, sheetID, count) {
     ah_hide("ui:interface:quantity_selection");
 
