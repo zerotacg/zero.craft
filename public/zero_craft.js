@@ -1,7 +1,6 @@
 var language = "en";
 var sheets = [];
 var texts = new CTextList();
-var mat_slot_selected = -1;
 var part_class = "ico_blade";
 var craft_slots_used = [];
 var craft =
