@@ -24,6 +24,10 @@ export interface Props {
 
 export const Provider: React.FC<Props> = (props) => {
     const [slots, setSlots] = useState<State["slots"]>([]);
+    const global_craft_slots_used = (window as any).craft_slots_used;
+    const global_materials = (window as any).materials;
+    const global_loadMaterials = (window as any).loadMaterials;
+    const global_updateItemList = (window as any).updateItemList;
 
     function addSlot(slot: TSlot) {
         setSlots((slots) => {
@@ -47,7 +51,18 @@ export const Provider: React.FC<Props> = (props) => {
         } else {
             addSlot(slot);
         }
-        (window as any).slotAddRemove(slot);
+
+        // TODO remove once state is handled in context
+        if (global_craft_slots_used[slot]) {
+            delete (global_craft_slots_used[slot]);
+        } else {
+            global_craft_slots_used[slot] = [];
+
+            if (global_materials[slot] == null) {
+                global_loadMaterials(slot);
+            }
+        }
+        global_updateItemList();
     }
 
     return (<Context.Provider value={{

@@ -230,19 +230,6 @@ function doCraft() {
     loadPreview();
 }
 
-function slotAddRemove(slot) {
-    if (craft_slots_used[slot]) {
-        delete (craft_slots_used[slot]);
-    } else {
-        craft_slots_used[slot] = [];
-
-        if (materials[slot] == null) {
-            loadMaterials(slot);
-        }
-    }
-    updateItemList();
-}
-
 function generateMaterialList(slot) {
     var selection = $("ui:interface:material_selection");
     var table = selection.select("table");
