@@ -23,17 +23,13 @@ export const Context = createContext<State & Service>({...initialState, ...nopSe
 
 export const Provider: React.FC<PropsWithChildren> = (props) => {
     const [state, setState] = useState<State>();
-    const ah_itemInfo = (window as any).ah_itemInfo;
-    const ah_hide = (window as any).ah_hide;
 
     function show(sheetId: number, slot?: TSlot) {
         setState({sheetId, slot});
-        //ah_itemInfo(slot, sheetId)
     }
 
     function close() {
         setState({});
-        ah_hide('ui:interface:item_info');
     }
 
     return (<Context.Provider value={{

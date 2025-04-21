@@ -18,8 +18,6 @@ export interface State {
         slot: TSlot;
         sheetId: number;
     };
-
-    itemInfo?: number;
 }
 
 export interface Service {
@@ -56,8 +54,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
     const [slots, setSlots] = useState<State["slots"]>({});
     const [selectedSlot, setSlotSelection] = useState<State["selectedSlot"]>();
     const [quantitySelection, setQuantitySelection] = useState<State["quantitySelection"]>();
-    const [itemInfo, setItemInfo] = useState<State["itemInfo"]>();
-    const ah_itemInfo = (window as any).ah_itemInfo;
 
     function addSlot(slot: TSlot) {
         setSlots((slots) => {
@@ -132,7 +128,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         slots,
         selectedSlot,
         quantitySelection,
-        itemInfo,
         addSlot,
         removeSlot,
         toggleSlot,

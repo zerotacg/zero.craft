@@ -124,20 +124,6 @@ function ah_show(id) {
     $(id).show();
 }
 
-function ah_itemInfo(slot, sheetId) {
-    ah_show("ui:interface:item_info");
-
-    var sheet = $("ui:interface:item_info:content:sheet");
-    if (sheet.firstChild != null) {
-        sheet.removeChild(sheet.firstChild);
-    }
-    sheet.appendChild(getSheet(sheetId));
-
-    loadItemInfo(sheetId, slot);
-
-    return false;
-}
-
 var item_info;
 
 function loadItemInfo(sheet_id, slot) {
