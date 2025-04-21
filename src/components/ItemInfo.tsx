@@ -105,9 +105,7 @@ const ItemInfoDialog: React.FC = () => {
                 <div className="modal-content">
                     <div className="modal-header">
                         <h5 className="modal-title">{t('uiSheetID')}: {sheetId}</h5>
-                        <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={close}>
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                        <button type="button" className="btn-close" data-dismiss="modal" aria-label="Close" onClick={close}/>
                     </div>
                     <div className="modal-body">
                         <ItemInfo material={material} slot={selectedSlot}/>
