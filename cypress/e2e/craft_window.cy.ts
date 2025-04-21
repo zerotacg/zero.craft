@@ -25,8 +25,7 @@ describe('Crafting window', () => {
                 cy.contains('Blade');
                 cy.get(".sheet")
                     .should('be.visible')
-                    // TODO verify once item words translations are implemented
-                    // .and('have.attr', 'title', 'Fragment of Basic Big Shell')
+                    .and('have.attr', 'title', 'Fragment of Basic Big Shell')
                     .within(() => {
                         cy.get('.texture.bk_generic').should('be.visible');
                         cy.get('.texture.mp_shell').should('be.visible');

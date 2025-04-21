@@ -1,6 +1,6 @@
 import React, {ComponentProps} from "react";
 import {useTranslation} from "react-i18next";
-import {SItems} from "../craft/SItem";
+import {SITEMS, SItems} from "../craft/SItem";
 import Icon from "./Icon";
 
 export interface Props extends ComponentProps<'div'> {
@@ -10,10 +10,11 @@ export interface Props extends ComponentProps<'div'> {
 
 export const Sheet: React.FC<Props> = ({sheetId, quantity, ...props}) => {
     const {t} = useTranslation();
-    const global_SItems: SItems = (window as any).SItems;
+    const SItems: SItems = SITEMS;
     const global_Sheets = (window as any).Sheets;
-    const title = t(global_Sheets[sheetId]) + ".name"; // TODO: translate using item_words
-    const {icon, craft} = global_SItems[sheetId];
+    const sheetName = global_Sheets[sheetId].split(".sitem")[0];
+    const title = t(`${sheetName}.name`, {ns: "item_words"});
+    const {icon, craft} = SItems[sheetId];
 
     return (
         <div className={"sheet"} title={title} {...props}>

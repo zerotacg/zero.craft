@@ -8,6 +8,7 @@ i18n
     .use(initReactI18next)
     .init({
         fallbackLng: 'en',
+        ns: ['translation', 'item_words'],
         debug: true,
 
         interpolation: {
