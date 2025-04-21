@@ -2,7 +2,6 @@ var language = "en";
 var sheets = [];
 var texts = new CTextList();
 var part_class = "ico_blade";
-var craft_slots_used = [];
 var craft =
     {
         "color": 0,

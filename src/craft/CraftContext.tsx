@@ -61,7 +61,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
     const [selectedSlot, setSlotSelection] = useState<State["selectedSlot"]>();
     const [quantitySelection, setQuantitySelection] = useState<State["quantitySelection"]>();
     const [itemInfo, setItemInfo] = useState<State["itemInfo"]>();
-    const global_craft_slots_used = (window as any).craft_slots_used;
     const ah_itemInfo = (window as any).ah_itemInfo;
 
     function addSlot(slot: TSlot) {
@@ -85,13 +84,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
             removeSlot(slot);
         } else {
             addSlot(slot);
-        }
-
-        // TODO remove once state is handled in context
-        if (global_craft_slots_used[slot]) {
-            delete (global_craft_slots_used[slot]);
-        } else {
-            global_craft_slots_used[slot] = [];
         }
     }
 
@@ -117,16 +109,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
             }
             return newSlots;
         })
-
-        // TODO remove once state is handled in context
-        if (!global_craft_slots_used[slot]) {
-            global_craft_slots_used[slot] = [];
-        }
-        if (count <= 0) {
-            delete (global_craft_slots_used[slot][sheetId]);
-        } else {
-            global_craft_slots_used[slot][sheetId] = count;
-        }
     }
 
     function removeMaterial(slot: TSlot, sheetId: number) {
