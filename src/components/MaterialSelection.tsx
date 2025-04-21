@@ -31,26 +31,22 @@ const Materials: React.FC<MaterialsProps> = ({slot}) => {
 const MaterialSelection: React.FC = () => {
     const {selectedSlot} = useContext(CraftContext);
 
+    if (selectedSlot === undefined) {
+        return null;
+    }
+
     return (
-        <>
-            {(selectedSlot !== undefined) && (
-                <div className="container"
-                     style={{
-                         zIndex: 1,
-                         top: '0px',
-                         position: 'absolute',
-                         minWidth: '10px',
-                         minHeight: '10px',
-                         border: '1px solid',
-                         backgroundColor: '#333333'
-                     }}
-                >
-                    <div className="row row-cols-auto">
-                        <Materials slot={selectedSlot}/>
+        <div className="modal" tabIndex={-1} role="dialog" style={{display: 'block'}}>
+            <div className="modal-dialog modal-xl" role="document">
+                <div className="modal-content">
+                    <div className="modal-body container">
+                        <div className="row row-cols-auto">
+                            <Materials slot={selectedSlot}/>
+                        </div>
                     </div>
                 </div>
-            )}
-        </>
+            </div>
+        </div>
     );
 };
 
