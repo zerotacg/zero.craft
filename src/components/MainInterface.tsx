@@ -1,5 +1,6 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
+import CraftPreview from './CraftPreview';
 import SlotsPanel from './SlotsPanel';
 
 const MainInterface: React.FC = () => {
@@ -12,7 +13,7 @@ const MainInterface: React.FC = () => {
                  width: '90%',
                  margin: '0% auto'
              }}>
-            <SlotsPanel />
+            <SlotsPanel/>
 
             <div id="ui:interface:main:craft_window"
                  style={{
@@ -41,17 +42,7 @@ const MainInterface: React.FC = () => {
                     {t('uiItemListTitle')}
                 </div>
 
-                <div id="ui:interface:main:craft_window:preview"
-                     style={{
-                         top: '0px',
-                         float: 'left',
-                         width: '48%',
-                         margin: '3px',
-                         border: '1px solid',
-                         paddingBottom: '2%'
-                     }}>
-                    {t('uiPreviewTitle')}
-                </div>
+                <CraftPreview/>
             </div>
         </div>
     );
