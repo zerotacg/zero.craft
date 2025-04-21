@@ -9,7 +9,7 @@ interface MaterialsProps {
 }
 
 const Materials: React.FC<MaterialsProps> = ({slot}) => {
-    const {setMaterialQuantity} = useContext(CraftContext);
+    const {setMaterialQuantity, materialSelected} = useContext(CraftContext);
     const sheetItems: SItems = (window as any).SItems;
     const materials = Object.values(sheetItems)
         .filter(sheet => sheet.craft.part & Math.pow(2, slot)); // TODO sort?
@@ -19,6 +19,7 @@ const Materials: React.FC<MaterialsProps> = ({slot}) => {
             {materials.map((sheet) => (
                 <div key={sheet.sheet_id} className="col" onClick={() => {
                     setMaterialQuantity(slot, sheet.sheet_id);
+                    materialSelected(slot);
                 }}>
                     <Sheet sheetId={sheet.sheet_id}/>
                 </div>
@@ -52,7 +53,16 @@ const MaterialSelection: React.FC = () => {
             </div>
 
             {(selectedSlot !== undefined) && (
-                <div className="container">
+                <div className="container"
+                     style={{
+                         top: '0px',
+                         position: 'absolute',
+                         minWidth: '10px',
+                         minHeight: '10px',
+                         border: '1px solid',
+                         backgroundColor: '#333333'
+                     }}
+                >
                     <div className="row">
                         <Materials slot={selectedSlot}/>
                     </div>

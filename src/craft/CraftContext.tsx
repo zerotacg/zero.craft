@@ -20,12 +20,15 @@ export interface Service {
     toggleSlot: (slot: TSlot) => void;
     setMaterialQuantity: (slot: TSlot, sheetId: number, count?: number) => void;
     selectMaterial: (slot: TSlot) => void;
+    materialSelected: (slot: TSlot) => void;
 }
 
 const initialState: State = {slots: {}};
-const nop = () => {
-};
-const nopService = {addSlot: nop, removeSlot: nop, toggleSlot: nop, setMaterialQuantity: nop, selectMaterial: nop};
+
+function nop() {
+}
+
+const nopService = {addSlot: nop, removeSlot: nop, toggleSlot: nop, setMaterialQuantity: nop, selectMaterial: nop, materialSelected: nop};
 
 export const Context = createContext<State & Service>({...initialState, ...nopService});
 
@@ -37,7 +40,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
     const global_loadMaterials = (window as any).loadMaterials;
     const global_updateItemList = (window as any).updateItemList;
     const ah_setMaterialQuantity = (window as any).ah_setMaterialQuantity;
-    const ah_selectMaterial = (window as any).ah_selectMaterial;
 
     function addSlot(slot: TSlot) {
         setSlots((slots) => {
@@ -75,6 +77,14 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         global_updateItemList();
     }
 
+    function selectMaterial(slot: TSlot) {
+        setSlotSelection(slot);
+    }
+
+    function materialSelected(slot: TSlot) {
+        setSlotSelection(undefined);
+    }
+
     function setMaterialQuantity(slot: TSlot, sheetId: number, count: number = 1) {
         setSlots((slots) => {
             const newSlot: Slot = slots[slot] || {};
@@ -86,12 +96,7 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
             }
             return newSlots;
         })
-        ah_setMaterialQuantity();
-    }
-
-    function selectMaterial(slot: TSlot) {
-        setSlotSelection(slot);
-        ah_selectMaterial(slot);
+        ah_setMaterialQuantity(slot, sheetId, count);
     }
 
     return (<Context.Provider value={{
@@ -102,6 +107,7 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         toggleSlot,
         setMaterialQuantity,
         selectMaterial,
+        materialSelected
     }} {...props} />)
 }
 
