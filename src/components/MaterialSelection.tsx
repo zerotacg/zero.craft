@@ -1,5 +1,4 @@
 import React, {useContext} from 'react';
-import {useTranslation} from "react-i18next";
 import CraftContext from "../craft/CraftContext";
 import {SItems} from "../craft/SItem";
 import {TSlot} from '../craft/TSlot';
@@ -10,15 +9,17 @@ interface MaterialsProps {
 }
 
 const Materials: React.FC<MaterialsProps> = ({slot}) => {
-    const {t} = useTranslation();
+    const {setMaterialQuantity} = useContext(CraftContext);
     const sheetItems: SItems = (window as any).SItems;
     const materials = Object.values(sheetItems)
-        .filter(sheet => sheet.craft.part & Math.pow(2, slot));
+        .filter(sheet => sheet.craft.part & Math.pow(2, slot)); // TODO sort?
 
     return (
         <>
             {materials.map((sheet) => (
-                <div key={sheet.sheet_id} className="col">
+                <div key={sheet.sheet_id} className="col" onClick={() => {
+                    setMaterialQuantity(slot, sheet.sheet_id);
+                }}>
                     <Sheet sheetId={sheet.sheet_id}/>
                 </div>
             ))}

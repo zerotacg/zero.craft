@@ -18,7 +18,7 @@ export interface Service {
     addSlot: (slot: TSlot) => void;
     removeSlot: (slot: TSlot) => void;
     toggleSlot: (slot: TSlot) => void;
-    setMaterialQuantity: (slot: TSlot, sheetId: string, count: number) => void;
+    setMaterialQuantity: (slot: TSlot, sheetId: number, count?: number) => void;
     selectMaterial: (slot: TSlot) => void;
 }
 
@@ -75,7 +75,7 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         global_updateItemList();
     }
 
-    function setMaterialQuantity(slot: TSlot, sheetId: string, count: number) {
+    function setMaterialQuantity(slot: TSlot, sheetId: number, count: number = 1) {
         setSlots((slots) => {
             const newSlot: Slot = slots[slot] || {};
             const newSlots = {...slots, [slot]: newSlot};

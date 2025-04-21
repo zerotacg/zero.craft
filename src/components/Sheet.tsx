@@ -17,11 +17,11 @@ export const Sheet: React.FC<Props> = ({sheetId, quantity}) => {
 
     return (
         <div className={"sheet"} title={title}>
-            {Object.values(icon).map((texture: string) => (
+            {Object.values(icon.texture).map((texture) => (
                 <Icon key={texture} icon={texture}/>
             ))}
             <div className="text">{icon.text.toUpperCase()}</div>
-            {craft.quality !== undefined && <div className="quality">{craft.quality}</div>}
+            {craft.quality !== 0 && <div className="quality">{craft.quality}</div>}
             {quantity !== undefined && <div className="quantity">{quantity}</div>}
         </div>
     );
