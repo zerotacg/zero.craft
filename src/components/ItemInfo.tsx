@@ -16,7 +16,7 @@ const STAT_COUNT = 34;
 
 const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
     const {t} = useTranslation();
-    const {show, close} = useContext(InfoContext);
+    const {show} = useContext(InfoContext);
     const slotData = SLOTS[slot];
     const sheetId = material.sheet_id;
     const {color, family, quality, data: craftData} = material.craft;
@@ -90,7 +90,6 @@ const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
 };
 
 const ItemInfoDialog: React.FC = () => {
-    const {t} = useTranslation();
     const {sheetId, slot, close} = useContext(InfoContext);
     const material = sheetId ? SITEMS[sheetId] : undefined;
     const selectedSlot = slot ?? Object.keys(material?.craft?.data ?? [])[0] as unknown as TSlot;
