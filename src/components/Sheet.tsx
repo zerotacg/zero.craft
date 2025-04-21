@@ -4,7 +4,7 @@ import {SItems} from "../craft/SItem";
 import Icon from "./Icon";
 
 export interface Props {
-    sheetId: string;
+    sheetId: number;
     quantity?: number;
 }
 

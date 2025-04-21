@@ -1,19 +1,8 @@
-export interface StatValues {
-    [statId: number]: number;
-}
-
-export interface EcosystemData {
-    ecosystem: number;
-    stat: StatValues;
-}
-
-export interface TextureObject {
-    [layer: number]: string;
-}
-
 export interface IconData {
-    texture: TextureObject;
     text: string;
+    texture: {
+        [layer: number]: string;
+    };
 }
 
 export interface CraftData {
@@ -23,7 +12,12 @@ export interface CraftData {
     family: number;
     color: number;
     data: {
-        [slotId: number]: EcosystemData;
+        [slotId: string]: {
+            ecosystem: number;
+            stat: {
+                [statId: string]: number;
+            };
+        };
     };
 }
 

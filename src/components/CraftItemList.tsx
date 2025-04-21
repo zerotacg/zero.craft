@@ -16,6 +16,7 @@ interface EntryProps {
 const Entry: React.FC<EntryProps> = ({slot, materials}) => {
     const {t} = useTranslation();
     const {icon, label} = SLOTS[slot];
+    const {selectMaterial} = useContext(CraftContext);
 
     return (
         <>
@@ -25,12 +26,12 @@ const Entry: React.FC<EntryProps> = ({slot, materials}) => {
             </div>
             {Object.entries(materials).map(([sheetId, quantity]) => (
                 <div key={sheetId} className="col">
-                    <Sheet sheetId={sheetId} quantity={quantity}/>
+                    <Sheet sheetId={sheetId as unknown as number} quantity={quantity}/>
                 </div>
             ))}
             <div className="col">
                 <Icon icon="w_slot_item" onClick={() => {
-                    (window as any).ah_selectMaterial(slot)
+                    selectMaterial(slot)
                 }}/>
             </div>
         </>

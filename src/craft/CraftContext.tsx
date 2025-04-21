@@ -11,7 +11,7 @@ export type Slots = {
 
 export interface State {
     slots: Slots;
-    materialSelection?: TSlot;
+    selectedSlot?: TSlot;
 }
 
 export interface Service {
@@ -31,7 +31,7 @@ export const Context = createContext<State & Service>({...initialState, ...nopSe
 
 export const Provider: React.FC<PropsWithChildren> = (props) => {
     const [slots, setSlots] = useState<State["slots"]>({});
-    const [materialSelection, setMaterialSelection] = useState<State["materialSelection"]>();
+    const [selectedSlot, setSlotSelection] = useState<State["selectedSlot"]>();
     const global_craft_slots_used = (window as any).craft_slots_used;
     const global_materials = (window as any).materials;
     const global_loadMaterials = (window as any).loadMaterials;
@@ -90,13 +90,13 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
     }
 
     function selectMaterial(slot: TSlot) {
-        setMaterialSelection(slot);
+        setSlotSelection(slot);
         ah_selectMaterial(slot);
     }
 
     return (<Context.Provider value={{
         slots,
-        materialSelection,
+        selectedSlot,
         addSlot,
         removeSlot,
         toggleSlot,
