@@ -425,8 +425,6 @@ function ah_show(id) {
 }
 
 function ah_setMaterialQuantity(slot, sheetID, count) {
-    ah_hide("ui:interface:quantity_selection");
-
     if (count == null) {
         var txt = $("ui:interface:quantity_selection:txt_quantity");
         count = parseInt(txt.value);
