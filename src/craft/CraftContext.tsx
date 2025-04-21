@@ -1,4 +1,5 @@
 import React, {createContext, PropsWithChildren, useState} from "react";
+import {nop} from "../utils";
 import {TSlot} from "./TSlot";
 
 export type Slot = {
@@ -38,8 +39,6 @@ export interface Service {
 
 const initialState: State = {slots: {}};
 
-function nop() {
-}
 
 const nopService: Service = {
     addSlot: nop,

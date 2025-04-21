@@ -5,6 +5,7 @@ import Icon from "./Icon";
 import {SLOTS} from "../craft/Slots";
 import {TSlot} from '../craft/TSlot';
 import Sheet from "./Sheet";
+import InfoContext from "../info/InfoContext";
 
 const MAX_WIDTH = 8;
 
@@ -16,7 +17,8 @@ interface EntryProps {
 const Entry: React.FC<EntryProps> = ({slot, materials}) => {
     const {t} = useTranslation();
     const {icon, label} = SLOTS[slot];
-    const {selectMaterial, selectQuantity, showItemInfo} = useContext(CraftContext);
+    const {selectMaterial, selectQuantity} = useContext(CraftContext);
+    const {show: showItemInfo} = useContext(InfoContext);
 
     return (
         <>
@@ -34,7 +36,7 @@ const Entry: React.FC<EntryProps> = ({slot, materials}) => {
                         }}
                         onContextMenu={(event) => {
                             event.preventDefault();
-                            showItemInfo(slot, sheetId as unknown as number)
+                            showItemInfo(sheetId as unknown as number, slot)
                         }}
                     />
                 </div>

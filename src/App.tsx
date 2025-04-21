@@ -1,11 +1,12 @@
 import React, {useEffect} from 'react';
 import './App.css';
-import ItemInfo from './components/ItemInfo';
+import ItemInfoDialog from './components/ItemInfo';
 import LanguageSelector from './components/LanguageSelector';
 import MainInterface from './components/MainInterface';
 import MaterialSelection from './components/MaterialSelection';
 import QuantitySelection from './components/QuantitySelection';
 import {Provider as CraftProvider} from './craft/CraftContext';
+import {Provider as InfoProvider} from './info/InfoContext';
 
 export default function App() {
     useEffect(() => {
@@ -18,13 +19,15 @@ export default function App() {
 
     return (
         <div className="App">
-            <CraftProvider>
-                <LanguageSelector/>
-                <ItemInfo/>
-                <MaterialSelection/>
-                <QuantitySelection/>
-                <MainInterface/>
-            </CraftProvider>
+            <InfoProvider>
+                <CraftProvider>
+                    <LanguageSelector/>
+                    <ItemInfoDialog/>
+                    <MaterialSelection/>
+                    <QuantitySelection/>
+                    <MainInterface/>
+                </CraftProvider>
+            </InfoProvider>
         </div>
     );
 }
