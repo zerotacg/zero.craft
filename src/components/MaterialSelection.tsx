@@ -32,30 +32,33 @@ const MaterialSelection: React.FC = () => {
     const {selectedSlot} = useContext(CraftContext);
 
     return (
-        <div
-            id="ui:interface:material_selection"
-            style={{
-                top: '0px',
-                position: 'absolute',
-                display: 'none',
-                minWidth: '10px',
-                minHeight: '10px',
-                border: '1px solid',
-                backgroundColor: '#333333'
-            }}
-        >
-            <table>
-                <tbody>
-                </tbody>
-            </table>
-            <div className="container">
-                <div className="row">
-                    {(selectedSlot !== undefined) && (
-                        <Materials slot={selectedSlot}/>
-                    )}
-                </div>
+        <>
+            <div
+                id="ui:interface:material_selection"
+                style={{
+                    top: '0px',
+                    position: 'absolute',
+                    display: 'none',
+                    minWidth: '10px',
+                    minHeight: '10px',
+                    border: '1px solid',
+                    backgroundColor: '#333333'
+                }}
+            >
+                <table>
+                    <tbody>
+                    </tbody>
+                </table>
             </div>
-        </div>
+
+            {(selectedSlot !== undefined) && (
+                <div className="container">
+                    <div className="row">
+                        <Materials slot={selectedSlot}/>
+                    </div>
+                </div>
+            )}
+        </>
     );
 };
 
