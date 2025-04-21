@@ -4,7 +4,7 @@ describe('item_info', () => {
     })
 
     it('should show container item information', () => {
-        cy.contains('Blade').click();
+        cy.contains('Magic Focus').click();
 
         cy.get('.w_slot_item:visible').click();
         cy.get(".sheet").first().click();
@@ -12,10 +12,23 @@ describe('item_info', () => {
 
         cy.get('.item_info:visible')
             .within(() => {
-                cy.contains('SheetID: 5682734').should('be.visible');
-                cy.contains('Quality: Q0').should('be.visible');
-                cy.contains('Family: Big Shell').should('be.visible');
-                cy.contains('Color: Turquoise').should('be.visible');
+                cy.contains('SheetID: 5681454');
+                cy.contains('Quality: Q0');
+                cy.contains('Family: Beng Amber');
+                cy.contains('Color: Purple');
+                cy.contains('Def. Affliction Cast Speed')
+                    .parent()
+                    .within(() => {
+                        cy.contains('60')
+                    });
+
+                cy.get("select").select("Jewel");
+
+                cy.contains('Poison Protection')
+                    .parent()
+                    .within(() => {
+                        cy.contains('60')
+                    });
             });
 
         cy.get('.w_close_1:visible').click();
