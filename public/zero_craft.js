@@ -599,10 +599,7 @@ function ah_selectMaterial(event, slot) {
 }
 
 function ah_addMaterial(slot, sheetID) {
-    if (!craft_slots_used[slot]) {
-        craft_slots_used[slot] == [];
-    }
-    craft_slots_used[slot][sheetID] = 1;
+    ah_setMaterialQuantity(slot, sheetID, 1);
     updateItemList();
     ah_hide("ui:interface:material_selection");
 }
@@ -649,6 +646,9 @@ function ah_setMaterialQuantity(slot, sheetID, count) {
         count = parseInt(txt.value);
     }
 
+    if (!craft_slots_used[slot]) {
+        craft_slots_used[slot] == [];
+    }
     if (count <= 0) {
         count = 0;
         delete (craft_slots_used[slot][sheetID]);
