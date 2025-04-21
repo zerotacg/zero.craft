@@ -7,8 +7,6 @@ import {TSlot} from '../craft/TSlot';
 import Sheet from "./Sheet";
 import InfoContext from "../info/InfoContext";
 
-const MAX_WIDTH = 8;
-
 interface EntryProps {
     slot: TSlot;
     materials: Slot;
@@ -67,7 +65,7 @@ const CraftItemList: React.FC = () => {
         }}>
             {t('uiItemListTitle')}
             <div className="container">
-                <div className="row">
+                <div className="row row-cols-auto">
                     {Object.entries(slots).map(([slot, materials]) => (
                         <Entry key={slot} slot={slot as unknown as TSlot} materials={materials}/>
                     ))}

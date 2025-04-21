@@ -45,7 +45,7 @@ const MaterialSelection: React.FC = () => {
                          backgroundColor: '#333333'
                      }}
                 >
-                    <div className="row">
+                    <div className="row row-cols-auto">
                         <Materials slot={selectedSlot}/>
                     </div>
                 </div>
