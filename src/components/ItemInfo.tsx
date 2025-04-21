@@ -27,35 +27,7 @@ const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
     ;
 
     return (
-        <div
-            className="item_info"
-            style={{
-                width: '350px',
-                left: '10px',
-                top: '10px',
-                position: 'absolute',
-                zIndex: 1,
-                border: '1px solid',
-                backgroundColor: '#333333'
-            }}
-        >
-            <div
-                style={{
-                    width: '350px',
-                    height: '16px',
-                    backgroundColor: '#773333'
-                }}
-            >
-                <div
-                    className="texture w_close_1"
-                    style={{
-                        position: 'relative',
-                        left: '336px',
-                        top: '2px'
-                    }}
-                    onClick={close}
-                ></div>
-            </div>
+        <>
             <div
                 style={{
                     width: '338px',
@@ -113,7 +85,7 @@ const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
@@ -123,12 +95,42 @@ const ItemInfoDialog: React.FC = () => {
     const material = sheetId ? SITEMS[sheetId] : undefined;
     const selectedSlot = slot ?? Object.keys(material?.craft?.data ?? [])[0] as unknown as TSlot;
 
+    if (material === undefined) {
+        return null;
+    }
+
     return (
-        <>
-            {material !== undefined && (
-                <ItemInfo material={material} slot={selectedSlot}/>
-            )}
-        </>
+        <div
+            className="item_info"
+            style={{
+                width: '350px',
+                left: '10px',
+                top: '10px',
+                position: 'absolute',
+                zIndex: 1,
+                border: '1px solid',
+                backgroundColor: '#333333'
+            }}
+        >
+            <div
+                style={{
+                    width: '350px',
+                    height: '16px',
+                    backgroundColor: '#773333'
+                }}
+            >
+                <div
+                    className="texture w_close_1"
+                    style={{
+                        position: 'relative',
+                        left: '336px',
+                        top: '2px'
+                    }}
+                    onClick={close}
+                ></div>
+            </div>
+            <ItemInfo material={material} slot={selectedSlot}/>
+        </div>
     );
 };
 
