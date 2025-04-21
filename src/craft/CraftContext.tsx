@@ -59,6 +59,7 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
     const global_materials = (window as any).materials;
     const global_loadMaterials = (window as any).loadMaterials;
     const global_updateItemList = (window as any).updateItemList;
+    const global_doCraft = (window as any).doCraft;
     const ah_setMaterialQuantity = (window as any).ah_setMaterialQuantity;
 
     function addSlot(slot: TSlot) {
@@ -95,6 +96,7 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
             }
         }
         global_updateItemList();
+        global_doCraft();
     }
 
     function selectMaterial(slot: TSlot) {
@@ -123,7 +125,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
     }
 
     function removeMaterial(slot: TSlot, sheetId: number) {
-        console.log("removeMaterial", slot, sheetId);
         setMaterialQuantity(slot, sheetId, 0);
         setQuantitySelection(undefined);
     }

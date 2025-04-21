@@ -3,7 +3,7 @@ describe('Crafting window', () => {
         cy.visit('/')
         cy.contains('Blade').click();
 
-        cy.get('#mpftMpL').click();
+        cy.get('.w_slot_item:visible').click();
         cy.get(".sheet").first().click();
     })
 
