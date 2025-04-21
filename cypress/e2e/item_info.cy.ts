@@ -32,6 +32,6 @@ describe('item_info', () => {
             });
 
         cy.get('.w_close_1:visible').click();
-        cy.get('.item_info').should('not.be.visible');
+        cy.get('.item_info').should('not.exist');
     })
 })
