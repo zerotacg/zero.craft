@@ -424,25 +424,6 @@ function ah_show(id) {
     $(id).show();
 }
 
-function ah_setMaterialQuantity(slot, sheetID, count) {
-    if (count == null) {
-        var txt = $("ui:interface:quantity_selection:txt_quantity");
-        count = parseInt(txt.value);
-    }
-
-    if (!craft_slots_used[slot]) {
-        craft_slots_used[slot] == [];
-    }
-    if (count <= 0) {
-        count = 0;
-        delete (craft_slots_used[slot][sheetID]);
-    } else {
-        craft_slots_used[slot][sheetID] = count;
-    }
-
-    doCraft();
-}
-
 function ah_itemInfo(slot, sheetId) {
     ah_show("ui:interface:item_info");
 

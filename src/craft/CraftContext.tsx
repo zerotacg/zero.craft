@@ -62,8 +62,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
     const [quantitySelection, setQuantitySelection] = useState<State["quantitySelection"]>();
     const [itemInfo, setItemInfo] = useState<State["itemInfo"]>();
     const global_craft_slots_used = (window as any).craft_slots_used;
-    const global_materials = (window as any).materials;
-    const global_loadMaterials = (window as any).loadMaterials;
     const global_doCraft = (window as any).doCraft;
     const ah_setMaterialQuantity = (window as any).ah_setMaterialQuantity;
     const ah_itemInfo = (window as any).ah_itemInfo;
@@ -122,7 +120,18 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
             }
             return newSlots;
         })
-        ah_setMaterialQuantity(slot, sheetId, count);
+
+        // TODO remove once state is handled in context
+        if (!global_craft_slots_used[slot]) {
+            global_craft_slots_used[slot] = [];
+        }
+        if (count <= 0) {
+            delete (global_craft_slots_used[slot][sheetId]);
+        } else {
+            global_craft_slots_used[slot][sheetId] = count;
+        }
+
+        global_doCraft();
     }
 
     function removeMaterial(slot: TSlot, sheetId: number) {
