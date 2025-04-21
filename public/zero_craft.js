@@ -208,13 +208,6 @@ function calculateCraftResult(slots_used) {
     return craft_result;
 }
 
-function doCraft() {
-    let craft_result = calculateCraftResult(craft_slots_used);
-
-    Object.assign(craft, craft_result);
-    //loadPreview();
-}
-
 function translate(label, lang) {
     if (lang == null) {
         lang = language;

@@ -62,8 +62,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
     const [quantitySelection, setQuantitySelection] = useState<State["quantitySelection"]>();
     const [itemInfo, setItemInfo] = useState<State["itemInfo"]>();
     const global_craft_slots_used = (window as any).craft_slots_used;
-    const global_doCraft = (window as any).doCraft;
-    const ah_setMaterialQuantity = (window as any).ah_setMaterialQuantity;
     const ah_itemInfo = (window as any).ah_itemInfo;
 
     function addSlot(slot: TSlot) {
@@ -95,7 +93,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         } else {
             global_craft_slots_used[slot] = [];
         }
-        global_doCraft();
     }
 
     function selectMaterial(slot: TSlot) {
@@ -130,8 +127,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         } else {
             global_craft_slots_used[slot][sheetId] = count;
         }
-
-        global_doCraft();
     }
 
     function removeMaterial(slot: TSlot, sheetId: number) {
