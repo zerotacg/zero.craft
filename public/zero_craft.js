@@ -595,7 +595,8 @@ function ah_selectMaterial(slot) {
 
 function ah_addMaterial(slot, sheetID) {
     ah_setMaterialQuantity(slot, sheetID, 1);
-    updateItemList();
+    //updateItemList();
+    doCraft();
     ah_hide("ui:interface:material_selection");
 }
 
@@ -651,7 +652,8 @@ function ah_setMaterialQuantity(slot, sheetID, count) {
         craft_slots_used[slot][sheetID] = count;
     }
 
-    updateItemList();
+    //updateItemList();
+    doCraft();
 }
 
 function ah_itemInfo(slot, sheetId) {

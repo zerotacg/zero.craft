@@ -4,7 +4,7 @@ describe('Quantity Selection', () => {
 
         cy.contains('Blade').click();
 
-        cy.get('#mpftMpL').click();
+        cy.get('.w_slot_item:visible').click();
         cy.get(".sheet").first().click();
     })
 
@@ -20,7 +20,7 @@ describe('Quantity Selection', () => {
                 ;
             });
 
-        cy.contains('Select Quantity').should('be.visible')
+        cy.contains('div:visible', 'Select Quantity')
             .parent()
             .within(() => {
                 cy.get('input[type=text]').type('5')
@@ -38,7 +38,7 @@ describe('Quantity Selection', () => {
                 ;
             });
 
-        cy.contains('Select Quantity')
+        cy.contains('div:visible', 'Select Quantity')
             .parent()
             .within(() => {
                 cy.get('input[value=remove]').click()

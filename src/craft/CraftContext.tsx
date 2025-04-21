@@ -102,7 +102,7 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
                 global_loadMaterials(slot);
             }
         }
-        global_updateItemList();
+        //global_updateItemList();
         global_doCraft();
     }
 
@@ -154,7 +154,7 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
 
     function showItemInfo(slot: TSlot, sheetId: number) {
         setItemInfo(sheetId);
-        // ah_itemInfo(slots, sheetId)
+        ah_itemInfo(slot, sheetId)
     }
 
     return (<Context.Provider value={{

@@ -69,7 +69,7 @@ const CraftItemList: React.FC = () => {
                 <tbody>
                 </tbody>
             </table>
-            <div className="container" style={{display: 'none'}}>
+            <div className="container" style={{display: 'block'}}>
                 <div className="row">
                     {Object.entries(slots).map(([slot, materials]) => (
                         <Entry key={slot} slot={slot as unknown as TSlot} materials={materials}/>
