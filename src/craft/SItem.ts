@@ -33,4 +33,4 @@ export type SItems = {
     [sheetId: string]: SItem;
 }
 
-export const SITEMS: SItem = (window as any).SItems;
+export const SITEMS: SItems = (window as any).SItems;

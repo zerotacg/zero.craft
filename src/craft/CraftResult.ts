@@ -1,6 +1,7 @@
 import {StatResult} from "./StatResult";
 import {Slots as CraftInput} from "./CraftContext";
-import {CraftData} from "./SItem";
+import {CraftData, SITEMS} from "./SItem";
+import {SLOTS} from "./Slots";
 
 export interface CraftResult {
     "color": number,
@@ -14,8 +15,8 @@ export interface CraftResult {
 
 export function calculateCraftResult(slots_used: CraftInput): CraftResult {
     let mpstat;
-    const global_Slots = (window as any).Slots;
-    const global_SItems = (window as any).SItems;
+    const Slots = SLOTS;
+    const SItems = SITEMS;
     let craft_result = {
         "color": 0,
         "purity": 0,
@@ -38,7 +39,8 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
             continue;
         }
         for (mpstat = 0; mpstat < 34; ++mpstat) {
-            if (global_Slots[slot].stat.indexOf(mpstat) == -1) {
+            // @ts-ignore
+            if (Slots[slot].stat.indexOf(mpstat) == -1) {
                 continue;
             }
             if (stats[mpstat]) {
@@ -57,7 +59,7 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
                 }
                 // @ts-ignore
                 quantity = slots_used[slot][sheet_id];
-                let sitem: CraftData = global_SItems[sheet_id].craft;
+                let sitem: CraftData = SItems[sheet_id].craft;
 
                 if (mpstat === 0) {
                     colors[sitem.color as number] += quantity;
