@@ -293,79 +293,6 @@ function generateMaterialList(slot) {
     selection.appendChild(table);
 }
 
-function updateItemList() {
-    var item_list = $("ui:interface:main:craft_window:item_list");
-    var table = item_list.getElementsByTagName("table");
-    var max_width = 8;
-
-    if (table.length) {
-        item_list.removeChild(table[0]);
-    }
-
-    var table = document.createElement("table");
-    var tbody = document.createElement("tbody");
-
-    for (var slot in craft_slots_used) {
-        if (!isNaN(slot)) {
-            var count = 0;
-            var row = document.createElement("tr");
-            var cell = document.createElement("td");
-
-            var label = Slots[slot].label;
-            var image_file = Slots[slot].icon;
-            var icon = newIcon(image_file, label);
-            var text = newText(label);
-
-            cell.appendChild(icon);
-            cell.appendChild(text);
-            cell.setAttribute("colspan", 8);
-
-            row.appendChild(cell);
-            tbody.appendChild(row);
-
-            var row = document.createElement("tr");
-            row.setAttribute("id", Slots[slot].label);
-
-            for (var item in craft_slots_used[slot]) {
-                if (!isNaN(item) && item > 0) {
-                    count++;
-                    var cell = document.createElement("td");
-                    var quantity = craft_slots_used[slot][item];
-                    var img = getSheet(item, quantity);
-
-                    var action = "ah_selectMaterialQuantity(event, this, ";
-                    action += slot + ", " + item + ")";
-                    img.setAttribute("onclick", action);
-                    action = "ah_itemInfo( " + slot + ", " + item + ")";
-                    img.setAttribute("oncontextmenu", action);
-
-                    cell.appendChild(img);
-                    row.appendChild(cell);
-                    if (count >= max_width) {
-                        count = 0;
-                        tbody.appendChild(row);
-                        var row = document.createElement("tr");
-                    }
-                }
-            }
-
-            var cell = document.createElement("td");
-            var img = newIcon("w_slot_item");
-
-            var action = "ah_selectMaterial( " + slot + ")";
-            img.setAttribute("onclick", action);
-
-            cell.appendChild(img);
-            row.appendChild(cell);
-
-            tbody.appendChild(row);
-        }
-    }
-    table.appendChild(tbody);
-    item_list.appendChild(table);
-    doCraft();
-}
-
 function loadPreview() {
     const global_craft = craft;
     var preview = $("ui:interface:main:craft_window:preview");
@@ -595,7 +522,6 @@ function ah_selectMaterial(slot) {
 
 function ah_addMaterial(slot, sheetID) {
     ah_setMaterialQuantity(slot, sheetID, 1);
-    //updateItemList();
     doCraft();
     ah_hide("ui:interface:material_selection");
 }
@@ -652,7 +578,6 @@ function ah_setMaterialQuantity(slot, sheetID, count) {
         craft_slots_used[slot][sheetID] = count;
     }
 
-    //updateItemList();
     doCraft();
 }
 
