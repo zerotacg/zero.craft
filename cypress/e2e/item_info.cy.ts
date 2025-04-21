@@ -31,7 +31,7 @@ describe('item_info', () => {
                     });
             });
 
-        cy.get('.close').click();
+        cy.get('.btn-close').click();
         cy.get('.item_info').should('not.exist');
     })
 })

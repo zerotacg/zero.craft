@@ -28,61 +28,50 @@ const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
 
     return (
         <>
-            <div
-                style={{
-                    width: '338px',
-                    margin: '10px',
-                    border: 0,
-                    position: 'relative'
-                }}
-            >
-                <div
-                    style={{
-                        position: 'absolute',
-                        left: '286px',
-                        top: '0px'
+            <div className="hstack align-items-start">
+                <div className="vstack">
+                    <div>{t('uiSheetID')}: {sheetId}</div>
+                    <div>{t('uiQuality')}: Q{quality}</div>
+                    <div>{t('uiFamily')}: {t(`mpfam${family}`)}</div>
+                    <div>{t('uiColor')}: {t(`mpcol${color}`)}</div>
+                </div>
+                <div className="ms-auto">
+                    <Sheet sheetId={sheetId}/>
+                </div>
+            </div>
+
+            {t('uiAllItemParts')}
+            <br/>
+            <div>
+                <Icon icon={slotData.icon}/>
+
+                <select
+                    value={slot}
+                    onChange={(e) => {
+                        show(sheetId, e.target.value as unknown as TSlot);
                     }}
-                ><Sheet sheetId={sheetId}/></div>
-
-                {t('uiSheetID')}: <label>{sheetId}</label><br/>
-                {t('uiQuality')}: <label>Q{quality}</label><br/>
-                {t('uiFamily')}: <label>{t("mpfam" + family)}</label><br/>
-                {t('uiColor')}: <label>{t("mpcol" + color)}</label><br/>
-                <br/>
-
-                {t('uiAllItemParts')}
-                <br/>
-                <div>
-                    <Icon icon={slotData.icon}/>
-
-                    <select
-                        value={slot}
-                        onChange={(e) => {
-                            show(sheetId, e.target.value as unknown as TSlot);
-                        }}
-                    >
-                        {Object.keys(craftData).map((slot) => (
-                            <option key={slot} value={slot}>{t(SLOTS[slot as unknown as TSlot]?.label)}</option>
-                        ))}
-                    </select>
-                    <div className="container">
-                        {t('uiEcosystem')}: <label>{t(`iompf${currentCraftData.ecosystem}`)}</label><br/>
-                        {stats.map((stat) => (
-                            <div key={stat} className="row align-items-center">
-                                <div className="col-4">{t(`mpstat${stat}`)}</div>
-                                <div className="col-6">
-                                    <div className="col progress">
-                                        <div className="progress-bar" role="progressbar"
-                                             style={{width: `${currentCraftData.stat[stat]}%`}}
-                                             aria-valuenow={currentCraftData.stat[stat]}
-                                             aria-valuemin={0}
-                                             aria-valuemax={100}/>
-                                    </div>
+                >
+                    {Object.keys(craftData).map((slot) => (
+                        <option key={slot} value={slot}>{t(SLOTS[slot as unknown as TSlot]?.label)}</option>
+                    ))}
+                </select>
+                <div className="container">
+                    {t('uiEcosystem')}: <label>{t(`iompf${currentCraftData.ecosystem}`)}</label><br/>
+                    {stats.map((stat) => (
+                        <div key={stat} className="row align-items-center">
+                            <div className="col-4">{t(`mpstat${stat}`)}</div>
+                            <div className="col-6">
+                                <div className="col progress">
+                                    <div className="progress-bar" role="progressbar"
+                                         style={{width: `${currentCraftData.stat[stat]}%`}}
+                                         aria-valuenow={currentCraftData.stat[stat]}
+                                         aria-valuemin={0}
+                                         aria-valuemax={100}/>
                                 </div>
-                                <div className="col-2">{currentCraftData.stat[stat]}</div>
                             </div>
-                        ))}
-                    </div>
+                            <div className="col-2">{currentCraftData.stat[stat]}</div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </>
