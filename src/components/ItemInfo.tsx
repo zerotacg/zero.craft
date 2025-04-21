@@ -90,6 +90,7 @@ const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
 };
 
 const ItemInfoDialog: React.FC = () => {
+    const {t} = useTranslation();
     const {sheetId, slot, close} = useContext(InfoContext);
     const material = sheetId ? SITEMS[sheetId] : undefined;
     const selectedSlot = slot ?? Object.keys(material?.craft?.data ?? [])[0] as unknown as TSlot;
@@ -99,36 +100,20 @@ const ItemInfoDialog: React.FC = () => {
     }
 
     return (
-        <div
-            className="item_info"
-            style={{
-                width: '350px',
-                left: '10px',
-                top: '10px',
-                position: 'absolute',
-                zIndex: 1,
-                border: '1px solid',
-                backgroundColor: '#333333'
-            }}
-        >
-            <div
-                style={{
-                    width: '350px',
-                    height: '16px',
-                    backgroundColor: '#773333'
-                }}
-            >
-                <div
-                    className="texture w_close_1"
-                    style={{
-                        position: 'relative',
-                        left: '336px',
-                        top: '2px'
-                    }}
-                    onClick={close}
-                ></div>
+        <div className="modal item_info" tabIndex={-1} role="dialog" style={{display: 'unset'}}>
+            <div className="modal-dialog" role="document">
+                <div className="modal-content">
+                    <div className="modal-header">
+                        <h5 className="modal-title">{t('uiSheetID')}: {sheetId}</h5>
+                        <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={close}>
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div className="modal-body">
+                        <ItemInfo material={material} slot={selectedSlot}/>
+                    </div>
+                </div>
             </div>
-            <ItemInfo material={material} slot={selectedSlot}/>
         </div>
     );
 };

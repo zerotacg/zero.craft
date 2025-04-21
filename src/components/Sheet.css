@@ -1,0 +1,35 @@
+.sheet {
+    position: relative;
+    color: white;
+    font-size: 9px;
+    letter-spacing: 1px;
+    font-family: lucida console;
+    white-space: nowrap;
+    width: 40px;
+    height: 40px;
+
+    border: 1px solid;
+    border-top-color: #191919;
+    border-left-color: #464646;
+    border-bottom-color: #828282;
+    border-right-color: #686868;
+}
+
+.sheet div {
+    position: absolute;
+}
+
+.sheet .text {
+    left: 3px;
+    top: 1px;
+}
+
+.sheet .quality {
+    right: 2px;
+    bottom: 0px;
+}
+
+.sheet .quantity {
+    left: 3px;
+    bottom: 0px;
+}

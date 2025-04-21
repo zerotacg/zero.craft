@@ -12,6 +12,7 @@ export interface Service {
     close: () => void;
 }
 
+//const initialState: State = {sheetId: 5681454};
 const initialState: State = {};
 
 const nopService: Service = {
@@ -22,7 +23,7 @@ const nopService: Service = {
 export const Context = createContext<State & Service>({...initialState, ...nopService});
 
 export const Provider: React.FC<PropsWithChildren> = (props) => {
-    const [state, setState] = useState<State>();
+    const [state, setState] = useState<State>(initialState);
 
     function show(sheetId: number, slot?: TSlot) {
         setState({sheetId, slot});

@@ -2,6 +2,7 @@ import React, {ComponentProps} from "react";
 import {useTranslation} from "react-i18next";
 import {SITEMS, SItems} from "../craft/SItem";
 import Icon from "./Icon";
+import './Sheet.css';
 
 export interface Props extends ComponentProps<'div'> {
     sheetId: number;
