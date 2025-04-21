@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import {useTranslation} from 'react-i18next';
 import CraftContext from '../craft/CraftContext';
 import {TSlot} from "../craft/TSlot";
+import Icon from "./Icon";
 
 interface Slot {
     icon: string;
@@ -11,21 +12,6 @@ interface Slot {
 
 type Slots = {
     [key in TSlot]: Slot;
-};
-
-interface IconProps {
-    icon: string;
-    label?: string;
-}
-
-const Icon: React.FC<IconProps> = ({icon, label}) => {
-    const {t} = useTranslation();
-    const title = label ? t(label) : undefined;
-
-    return (
-        <div className={"texture " + icon} title={title}>
-        </div>
-    );
 };
 
 const SlotsPanel: React.FC = () => {
