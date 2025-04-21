@@ -1,4 +1,4 @@
-import React, {createContext, ReactNode, useState} from "react";
+import React, {createContext, PropsWithChildren, useState} from "react";
 import {TSlot} from "./TSlot";
 
 export type Slot = {
@@ -27,11 +27,7 @@ const nopService = {addSlot: nop, removeSlot: nop, toggleSlot: nop, setMaterialQ
 
 export const Context = createContext<State & Service>({...initialState, ...nopService});
 
-export interface Props {
-    children?: ReactNode;
-}
-
-export const Provider: React.FC<Props> = (props) => {
+export const Provider: React.FC<PropsWithChildren> = (props) => {
     const [slots, setSlots] = useState<State["slots"]>({});
     const global_craft_slots_used = (window as any).craft_slots_used;
     const global_materials = (window as any).materials;

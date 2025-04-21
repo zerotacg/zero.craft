@@ -4,6 +4,7 @@ import CraftContext, {Slot} from "../craft/CraftContext";
 import Icon from "./Icon";
 import {SLOTS} from "../craft/Slots";
 import {TSlot} from '../craft/TSlot';
+import Sheet from "./Sheet";
 
 const MAX_WIDTH = 8;
 
@@ -18,12 +19,20 @@ const Entry: React.FC<EntryProps> = ({slot, materials}) => {
 
     return (
         <>
-            <tr>
-                <td colSpan={MAX_WIDTH}>
-                    <Icon icon={icon} label={label}/>
-                    {t(label)}
-                </td>
-            </tr>
+            <div className="col-12">
+                <Icon icon={icon} label={label}/>
+                {t(label)}
+            </div>
+            {Object.entries(materials).map(([sheetId, quantity]) => (
+                <div key={sheetId} className="col">
+                    <Sheet sheetId={sheetId} quantity={quantity}/>
+                </div>
+            ))}
+            <div className="col">
+                <Icon icon="w_slot_item" onClick={(event) => {
+                    (window as any).ah_selectMaterialQuantity(event, this, slot)
+                }}/>
+            </div>
         </>
     )
 }
@@ -47,11 +56,15 @@ const CraftItemList: React.FC = () => {
             {t('uiItemListTitle')}
             <table>
                 <tbody>
-                {Object.entries(slots).map(([slot, materials]) => (
-                    <Entry key={slot} slot={slot as unknown as TSlot} materials={materials}/>
-                ))}
                 </tbody>
             </table>
+            <div className="container" style={{display: 'none'}}>
+                <div className="row">
+                    {Object.entries(slots).map(([slot, materials]) => (
+                        <Entry key={slot} slot={slot as unknown as TSlot} materials={materials}/>
+                    ))}
+                </div>
+            </div>
         </div>
     );
 };
