@@ -11,6 +11,7 @@ export type Slots = {
 
 export interface State {
     slots: Slots;
+    materialSelection?: TSlot;
 }
 
 export interface Service {
@@ -18,22 +19,25 @@ export interface Service {
     removeSlot: (slot: TSlot) => void;
     toggleSlot: (slot: TSlot) => void;
     setMaterialQuantity: (slot: TSlot, sheetId: string, count: number) => void;
+    selectMaterial: (slot: TSlot) => void;
 }
 
 const initialState: State = {slots: {}};
 const nop = () => {
 };
-const nopService = {addSlot: nop, removeSlot: nop, toggleSlot: nop, setMaterialQuantity: nop};
+const nopService = {addSlot: nop, removeSlot: nop, toggleSlot: nop, setMaterialQuantity: nop, selectMaterial: nop};
 
 export const Context = createContext<State & Service>({...initialState, ...nopService});
 
 export const Provider: React.FC<PropsWithChildren> = (props) => {
     const [slots, setSlots] = useState<State["slots"]>({});
+    const [materialSelection, setMaterialSelection] = useState<State["materialSelection"]>();
     const global_craft_slots_used = (window as any).craft_slots_used;
     const global_materials = (window as any).materials;
     const global_loadMaterials = (window as any).loadMaterials;
     const global_updateItemList = (window as any).updateItemList;
     const ah_setMaterialQuantity = (window as any).ah_setMaterialQuantity;
+    const ah_selectMaterial = (window as any).ah_selectMaterial;
 
     function addSlot(slot: TSlot) {
         setSlots((slots) => {
@@ -85,12 +89,19 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         ah_setMaterialQuantity();
     }
 
+    function selectMaterial(slot: TSlot) {
+        setMaterialSelection(slot);
+        ah_selectMaterial(slot);
+    }
+
     return (<Context.Provider value={{
         slots,
+        materialSelection,
         addSlot,
         removeSlot,
         toggleSlot,
         setMaterialQuantity,
+        selectMaterial,
     }} {...props} />)
 }
 
