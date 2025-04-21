@@ -1,11 +1,11 @@
 import React, {createContext, ReactNode, useState} from "react";
 import {TSlot} from "./TSlot";
 
-type Slot = {
+export type Slot = {
     [sheetId: string]: number;
 }
 
-type Slots = {
+export type Slots = {
     [slot in TSlot]?: Slot;
 };
 

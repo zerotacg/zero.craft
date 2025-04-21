@@ -3,19 +3,11 @@ import {useTranslation} from 'react-i18next';
 import CraftContext from '../craft/CraftContext';
 import {TSlot} from "../craft/TSlot";
 import Icon from "./Icon";
+import {SLOTS} from "../craft/Slots";
 
-interface Slot {
-    icon: string;
-    label: string;
-    stat: number[]
-}
-
-type Slots = {
-    [key in TSlot]: Slot;
-};
 
 const SlotsPanel: React.FC = () => {
-    const slots: Slots = (window as any).Slots;
+    const slots = SLOTS;
     const {t} = useTranslation();
     const {toggleSlot} = useContext(CraftContext);
 
@@ -35,8 +27,8 @@ const SlotsPanel: React.FC = () => {
             {t('uiSlotsTitle')}
             <table>
                 <tbody>
-                {Object.entries(slots).map(([key, value]) =>
-                    (<tr key={key}>
+                {Object.entries(slots).map(([key, value]) => (
+                    <tr key={key}>
                         <td>
                             <Icon icon={value.icon} label={value.label}/>
                             <a href="#" onClick={(e) => {
@@ -44,7 +36,8 @@ const SlotsPanel: React.FC = () => {
                                 toggleSlot(key as unknown as TSlot);
                             }}>{t(value.label)}</a>
                         </td>
-                    </tr>))}
+                    </tr>
+                ))}
                 </tbody>
             </table>
         </div>
