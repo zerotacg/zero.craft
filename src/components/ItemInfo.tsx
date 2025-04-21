@@ -100,7 +100,7 @@ const ItemInfoDialog: React.FC = () => {
     }
 
     return (
-        <div className="modal item_info" tabIndex={-1} role="dialog" style={{display: 'unset'}}>
+        <div className="modal item_info" tabIndex={-1} role="dialog" style={{display: 'block'}}>
             <div className="modal-dialog" role="document">
                 <div className="modal-content">
                     <div className="modal-header">
