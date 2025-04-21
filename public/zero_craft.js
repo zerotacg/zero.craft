@@ -456,13 +456,11 @@ function loadPreview() {
         row.appendChild(cell);
 
         var cell = document.createElement("td");
-        //var cell_text = document.createTextNode(stat_before * 100);
         var cell_text = document.createTextNode(Math.floor(stat_before * 100 * 1000) / 1000);
         cell.appendChild(cell_text);
         row.appendChild(cell);
 
         var cell = document.createElement("td");
-        //var cell_text = document.createTextNode(stat * 100);
         var cell_text = document.createTextNode(Math.floor(stat * 100 * 1000) / 1000);
         cell.appendChild(cell_text);
         row.appendChild(cell);
