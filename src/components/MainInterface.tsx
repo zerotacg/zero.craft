@@ -1,5 +1,6 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
+import CraftItemList from './CraftItemList';
 import CraftPreview from './CraftPreview';
 import SlotsPanel from './SlotsPanel';
 
@@ -29,19 +30,8 @@ const MainInterface: React.FC = () => {
                      paddingRight: '0'
                  }}>
                 <div>{t('uiCraftWindowTitle')}</div>
-                <div id="ui:interface:main:craft_window:item_list"
-                     style={{
-                         top: '0px',
-                         float: 'left',
-                         width: '48%',
-                         margin: '3px',
-                         border: '1px',
-                         borderStyle: 'solid',
-                         paddingBottom: '2%'
-                     }}>
-                    {t('uiItemListTitle')}
-                </div>
-
+                
+                <CraftItemList/>
                 <CraftPreview/>
             </div>
         </div>
