@@ -272,7 +272,7 @@ function generateMaterialList(slot) {
             var sheet_id = sitem.sheet_id;
             var value = slot;
             sheet.setAttribute("onclick", action);
-            action = "ah_itemInfo(event, this, " + slot + ", " + sitem.sheet_id + ")";
+            action = "ah_itemInfo( " + slot + ", " + sitem.sheet_id + ")";
             sheet.setAttribute("oncontextmenu", action);
 
             cell.appendChild(sheet);
@@ -336,7 +336,7 @@ function updateItemList() {
                     var action = "ah_selectMaterialQuantity(event, this, ";
                     action += slot + ", " + item + ")";
                     img.setAttribute("onclick", action);
-                    action = "ah_itemInfo(event, this, " + slot + ", " + item + ")";
+                    action = "ah_itemInfo( " + slot + ", " + item + ")";
                     img.setAttribute("oncontextmenu", action);
 
                     cell.appendChild(img);
@@ -654,33 +654,16 @@ function ah_setMaterialQuantity(slot, sheetID, count) {
     updateItemList();
 }
 
-function ah_itemInfo(event, element, slot, sheetId) {
-    if (event.button != 2) {
-        return false;
-    }
-
-    var item_info = $("ui:interface:item_info");
-    item_info.style.left = event.clientX + document.body.scrollLeft - 25;
-    item_info.style.top = event.clientY + document.body.scrollTop - 25;
-
+function ah_itemInfo(slot, sheetId) {
     ah_show("ui:interface:item_info");
 
     var sheet = $("ui:interface:item_info:content:sheet");
     if (sheet.firstChild != null) {
         sheet.removeChild(sheet.firstChild);
     }
-    sheet.title = element.title;
-    sheet.appendChild(element.cloneNode(true));
-    sheet.firstChild.setAttribute("onclick", "");
-    sheet.firstChild.setAttribute("oncontextmenu", "");
+    sheet.appendChild(getSheet(sheetId));
 
     loadItemInfo(sheetId, slot);
-
-    if (event.preventDefault) {
-        event.preventDefault();
-    } else {
-        event.returnValue = false;
-    }
 
     return false;
 }

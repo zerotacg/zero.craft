@@ -16,7 +16,7 @@ interface EntryProps {
 const Entry: React.FC<EntryProps> = ({slot, materials}) => {
     const {t} = useTranslation();
     const {icon, label} = SLOTS[slot];
-    const {selectMaterial, selectQuantity} = useContext(CraftContext);
+    const {selectMaterial, selectQuantity, showItemInfo} = useContext(CraftContext);
 
     return (
         <>
@@ -31,6 +31,10 @@ const Entry: React.FC<EntryProps> = ({slot, materials}) => {
                         quantity={quantity}
                         onClick={() => {
                             selectQuantity(slot, sheetId as unknown as number)
+                        }}
+                        onContextMenu={(event) => {
+                            event.preventDefault();
+                            showItemInfo(slot, sheetId as unknown as number)
                         }}
                     />
                 </div>

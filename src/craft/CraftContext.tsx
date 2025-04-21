@@ -17,6 +17,8 @@ export interface State {
         slot: TSlot;
         sheetId: number;
     };
+
+    itemInfo?: number;
 }
 
 export interface Service {
@@ -30,6 +32,8 @@ export interface Service {
     selectQuantity: (slot: TSlot, sheetId: number) => void;
     quantitySelected: (count: number) => void;
     cancelQuantitySelection: () => void;
+
+    showItemInfo: (slot: TSlot, sheetId: number) => void;
 }
 
 const initialState: State = {slots: {}};
@@ -46,7 +50,8 @@ const nopService: Service = {
     removeMaterial: nop,
     selectQuantity: nop,
     quantitySelected: nop,
-    cancelQuantitySelection: nop
+    cancelQuantitySelection: nop,
+    showItemInfo: nop
 };
 
 export const Context = createContext<State & Service>({...initialState, ...nopService});
@@ -55,12 +60,14 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
     const [slots, setSlots] = useState<State["slots"]>({});
     const [selectedSlot, setSlotSelection] = useState<State["selectedSlot"]>();
     const [quantitySelection, setQuantitySelection] = useState<State["quantitySelection"]>();
+    const [itemInfo, setItemInfo] = useState<State["itemInfo"]>();
     const global_craft_slots_used = (window as any).craft_slots_used;
     const global_materials = (window as any).materials;
     const global_loadMaterials = (window as any).loadMaterials;
     const global_updateItemList = (window as any).updateItemList;
     const global_doCraft = (window as any).doCraft;
     const ah_setMaterialQuantity = (window as any).ah_setMaterialQuantity;
+    const ah_itemInfo = (window as any).ah_itemInfo;
 
     function addSlot(slot: TSlot) {
         setSlots((slots) => {
@@ -145,10 +152,16 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         setQuantitySelection(undefined);
     }
 
+    function showItemInfo(slot: TSlot, sheetId: number) {
+        setItemInfo(sheetId);
+        // ah_itemInfo(slots, sheetId)
+    }
+
     return (<Context.Provider value={{
         slots,
         selectedSlot,
         quantitySelection,
+        itemInfo,
         addSlot,
         removeSlot,
         toggleSlot,
@@ -157,7 +170,8 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         selectQuantity,
         quantitySelected,
         cancelQuantitySelection,
-        removeMaterial
+        removeMaterial,
+        showItemInfo,
     }} {...props} />)
 }
 
