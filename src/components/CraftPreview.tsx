@@ -7,7 +7,6 @@ const CraftPreview: React.FC = () => {
     const {t} = useTranslation();
     const {slots} = useContext(CraftContext);
     const result = calculateCraftResult(slots);
-    const global_craft = result;
 
     return (
         <>
@@ -26,23 +25,23 @@ const CraftPreview: React.FC = () => {
                             max: {Math.floor(result.max * 100 * 1000) / 1000}
                         </div>
                         <div className="col">
-                            avg: {Math.floor(global_craft.average * 100 * 1000) / 1000}
+                            avg: {Math.floor(result.average * 100 * 1000) / 1000}
                         </div>
                         <div className="col">
-                            max - avg: {Math.floor((global_craft.max - global_craft.average) * 100 * 1000) / 1000}
+                            max - avg: {Math.floor((result.max - result.average) * 100 * 1000) / 1000}
                         </div>
                         <div className="col">
-                            m: {Math.floor(global_craft.m * 100) / 100}
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col">
-                            Color: {t("mpcol" + global_craft.color)}
+                            m: {Math.floor(result.m * 100) / 100}
                         </div>
                     </div>
                     <div className="row">
                         <div className="col">
-                            Class: {t("uiItemRMClass" + global_craft.purity)}
+                            Color: {t("mpcol" + result.color)}
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                            Class: {t("uiItemRMClass" + result.purity)}
                         </div>
                     </div>
                     <div className="row">
@@ -57,7 +56,7 @@ const CraftPreview: React.FC = () => {
                                 </tr>
                                 </thead>
                                 <tbody>
-                                {Object.entries(global_craft.stats).map(([mpstat, value]) => (
+                                {Object.entries(result.stats).map(([mpstat, value]) => (
                                     <tr key={mpstat}>
                                         <td>{t("mpstat" + mpstat)}</td>
                                         <td>{Math.floor(value.before * 100 * 1000) / 1000}</td>
