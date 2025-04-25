@@ -13,16 +13,8 @@ const SlotsPanel: React.FC = () => {
 
     return (
         <div style={{
-            top: '0px',
-            float: 'left',
-            width: '18%',
-            margin: '3px',
             border: '1px',
-            borderStyle: 'solid',
-            paddingTop: '1%',
-            paddingBottom: '1%',
-            paddingLeft: '1%',
-            paddingRight: '0'
+            borderStyle: 'solid'
         }}>
             {t('uiSlotsTitle')}
             <table>

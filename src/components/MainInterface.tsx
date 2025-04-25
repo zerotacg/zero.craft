@@ -8,29 +8,23 @@ const MainInterface: React.FC = () => {
     const {t} = useTranslation();
 
     return (
-        <div id="ui:interface:main"
-             style={{
-                 top: '0px',
-                 width: '90%',
-                 margin: '0% auto'
-             }}>
+        <div className="container-xl">
             <SlotsPanel/>
 
-            <div id="ui:interface:main:craft_window"
-                 style={{
-                     top: '0px',
-                     float: 'left',
-                     width: '78%',
-                     margin: '3px',
-                     border: '1px',
-                     borderStyle: 'solid',
-                     paddingTop: '1%',
-                     paddingBottom: '1%',
-                     paddingLeft: '1%',
-                     paddingRight: '0'
-                 }}>
+            <div style={{
+                top: '0px',
+                float: 'left',
+                width: '78%',
+                margin: '3px',
+                border: '1px',
+                borderStyle: 'solid',
+                paddingTop: '1%',
+                paddingBottom: '1%',
+                paddingLeft: '1%',
+                paddingRight: '0'
+            }}>
                 <div>{t('uiCraftWindowTitle')}</div>
-                
+
                 <CraftItemList/>
                 <CraftPreview/>
             </div>

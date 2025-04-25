@@ -11,12 +11,7 @@ const CraftPreview: React.FC = () => {
     return (
         <>
             <div style={{
-                top: '0px',
-                float: 'left',
-                width: '48%',
-                margin: '3px',
-                border: '1px solid',
-                paddingBottom: '2%'
+                border: '1px solid'
             }}>
                 {t('uiPreviewTitle')}
                 <div className="container">

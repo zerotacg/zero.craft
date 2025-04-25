@@ -55,13 +55,8 @@ const CraftItemList: React.FC = () => {
 
     return (
         <div style={{
-            top: '0px',
-            float: 'left',
-            width: '48%',
-            margin: '3px',
             border: '1px',
-            borderStyle: 'solid',
-            paddingBottom: '2%'
+            borderStyle: 'solid'
         }}>
             {t('uiItemListTitle')}
             <div className="container">

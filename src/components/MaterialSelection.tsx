@@ -36,10 +36,10 @@ const MaterialSelection: React.FC = () => {
     }
 
     return (
-        <div className="modal" tabIndex={-1} role="dialog" style={{display: 'block'}}>
+        <div className="modal d-block" tabIndex={-1} role="dialog">
             <div className="modal-dialog modal-xl" role="document">
                 <div className="modal-content">
-                    <div className="modal-body container">
+                    <div className="modal-body container-fluid">
                         <div className="row row-cols-auto">
                             <Materials slot={selectedSlot}/>
                         </div>
