@@ -21,8 +21,6 @@ export interface State {
 }
 
 export interface Service {
-    addSlot: (slot: TSlot) => void;
-    removeSlot: (slot: TSlot) => void;
     toggleSlot: (slot: TSlot) => void;
     selectMaterial: (slot: TSlot) => void;
     materialSelected: (slot: TSlot) => void;
@@ -37,8 +35,6 @@ const initialState: State = {slots: {}};
 
 
 const nopService: Service = {
-    addSlot: nop,
-    removeSlot: nop,
     toggleSlot: nop,
     selectMaterial: nop,
     materialSelected: nop,
@@ -128,8 +124,6 @@ export const Provider: React.FC<PropsWithChildren> = (props) => {
         slots,
         selectedSlot,
         quantitySelection,
-        addSlot,
-        removeSlot,
         toggleSlot,
         selectMaterial,
         materialSelected,
