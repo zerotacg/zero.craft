@@ -16,11 +16,11 @@ const Materials: React.FC<MaterialsProps> = ({slot}) => {
 
     return (
         <>
-            {materials.map((sheet) => (
-                <div key={sheet.sheet_id} className="col" onClick={() => {
-                    materialSelected(sheet.sheet_id);
+            {materials.map(({sheet_id}) => (
+                <div key={sheet_id} className="col" onClick={() => {
+                    materialSelected(sheet_id);
                 }}>
-                    <Sheet sheetId={sheet.sheet_id}/>
+                    <Sheet sheetId={sheet_id}/>
                 </div>
             ))}
         </>
