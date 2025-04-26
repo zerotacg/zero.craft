@@ -40,7 +40,7 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
         }
         for (mpstat = 0; mpstat < 34; ++mpstat) {
             // @ts-ignore
-            if (Slots[slot].stat.indexOf(mpstat) == -1) {
+            if (Slots[slot].stat.indexOf(mpstat) === -1) {
                 continue;
             }
             if (stats[mpstat]) {
@@ -79,7 +79,7 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
     for (mpstat in stats) {
         stat = stats[mpstat];
         ++stat_count;
-        if (stat.count != 0) {
+        if (stat.count !== 0) {
             stat.before /= stat.count;
         }
         sum_before += stat.before;
@@ -93,7 +93,7 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
     craft_result.max = max.before;
 
     let average = 0;
-    if (stat_count != 0) {
+    if (stat_count !== 0) {
         average = sum_before / stat_count;
     }
     craft_result.average = average;
@@ -152,7 +152,7 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
         delta = sum_after - sum_before;
         console.assert(++pass <= 34);
     }
-    if (class_count != 0) {
+    if (class_count !== 0) {
         purity /= class_count;
     }
     if (purity >= 80) {

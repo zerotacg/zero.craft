@@ -9,41 +9,34 @@ const LanguageSelector: React.FC = () => {
     };
 
     return (
-        <div
-            style={{
-                marginLeft: '4px',
-                paddingLeft: '1%',
-                position: 'relative'
-            }}
-        >
-            <a
-                href="#"
-                onClick={(e) => {
-                    e.preventDefault();
-                    changeLanguage('en');
-                }}
+        <div className="hstack">
+            <button type="button" className="btn"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        changeLanguage('en');
+                    }}
             >
                 <img src="./textures/en.png" title="English" alt="English flag"/>
-            </a>
-            <a
-                href="#"
-                onClick={(e) => {
-                    e.preventDefault();
-                    changeLanguage('de');
-                }}
+            </button>
+            <button type="button" className="btn"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        changeLanguage('de');
+                    }}
             >
                 <img src="./textures/de.png" title="Deutsch" alt="German flag"/>
-            </a>
-            <a
-                href="#"
-                onClick={(e) => {
-                    e.preventDefault();
-                    changeLanguage('fr');
-                }}
+            </button>
+            <button type="button" className="btn"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        changeLanguage('fr');
+                    }}
             >
                 <img src="./textures/fr.png" title="Français" alt="French flag"/>
-            </a>
-            {t('uiLanguageName')}
+            </button>
+            <span>
+                {t('uiLanguageName')}
+            </span>
         </div>
     );
 };
