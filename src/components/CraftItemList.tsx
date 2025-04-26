@@ -21,10 +21,8 @@ const Entry: React.FC<EntryProps> = ({slot, materials}) => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-1">
-                    <Icon icon={icon} label={label}/>
-                </div>
                 <div className="col">
+                    <Icon icon={icon} label={label}/>
                     {t(label)}
                 </div>
             </div>
@@ -65,7 +63,7 @@ const CraftItemList: React.FC = () => {
             borderStyle: 'solid'
         }}>
             {t('uiItemListTitle')}
-            <div className="vstack">
+            <div className="vstack gap-2">
                 {Object.entries(slots).map(([slot, materials]) => (
                     <Entry key={slot} slot={slot as unknown as TSlot} materials={materials}/>
                 ))}

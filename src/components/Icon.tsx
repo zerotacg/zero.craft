@@ -12,7 +12,7 @@ export const Icon: React.FC<Props> = ({icon, label, ...props}) => {
     const title = label ? t(label) : undefined;
 
     return (
-        <span className={"texture " + icon} title={title} {...props}/>
+        <span className={`texture ${icon}`} title={title} {...props}/>
     );
 };
 

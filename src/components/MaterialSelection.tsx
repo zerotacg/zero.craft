@@ -40,7 +40,7 @@ const MaterialSelection: React.FC = () => {
             <div className="modal-dialog modal-xl" role="document">
                 <div className="modal-content">
                     <div className="modal-body container-fluid">
-                        <div className="row row-cols-auto">
+                        <div className="row row-cols-auto g-1">
                             <Materials slot={selectedSlot}/>
                         </div>
                     </div>
