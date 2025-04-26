@@ -27,8 +27,11 @@ cypress:
     stage: test
     needs:
         - build
-    image: cypress/included:14.3.2
+    image:
+        name: cypress/included:14.3.2
+        entrypoint: [ "" ]
     artifacts:
+        expire_in: 1 day
         when: on_failure
         paths:
             - cypress/screenshots/
