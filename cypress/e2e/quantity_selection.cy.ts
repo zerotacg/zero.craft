@@ -20,11 +20,11 @@ describe('Quantity Selection', () => {
                 ;
             });
 
-        cy.contains('div:visible', 'Select Quantity')
-            .parent()
+        cy.contains('Select Quantity')
+            .parents('.modal')
             .within(() => {
                 cy.get('input[type=number]').type('5')
-                cy.get('input[value=ok]').click()
+                cy.contains('button', 'ok').click()
             })
 
         cy.contains('Items inserted')
@@ -41,7 +41,7 @@ describe('Quantity Selection', () => {
         cy.contains('div:visible', 'Select Quantity')
             .parent()
             .within(() => {
-                cy.get('input[value=remove]').click()
+                cy.contains('button', 'remove').click()
             })
 
         cy.contains('Items inserted')

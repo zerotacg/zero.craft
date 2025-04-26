@@ -16,84 +16,43 @@ const QuantitySelection: React.FC<QuantitySelectionProps> = ({slot, sheetId}) =>
     const [quantity, setQuantity] = useState(currentQuantity);
 
     return (
-        <div
-            style={{
-                width: '187px',
-                height: '105px',
-                top: '0px',
-                zIndex: 1,
-                position: 'absolute',
-                border: '1px solid',
-                backgroundColor: '#333333'
-            }}
-        >
-            <div className="text">{t('uiSelectQuantity')}</div>
-            <div
-                style={{
-                    position: 'absolute',
-                    left: '43px',
-                    top: '30px'
-                }}
-            >
-                <Sheet sheetId={sheetId}/>
+        <div className="modal d-block" role="dialog">
+            <div className="modal-dialog modal-sm">
+                <div className="modal-content">
+                    <div className="modal-header">
+                        <h5 className="modal-title">{t('uiSelectQuantity')}</h5>
+                        <button type="button" className="btn-close" aria-label="Close" onClick={cancelQuantitySelection}/>
+                    </div>
+                    <div className="modal-body hstack gap-3 justify-content-center">
+                        <Sheet sheetId={sheetId}/>
+                        <input
+                            className="p-1"
+                            type="number"
+                            min="0"
+                            max="999"
+                            step="1"
+                            inputMode="numeric"
+                            autoFocus
+                            maxLength={3}
+                            size={2}
+                            defaultValue={currentQuantity}
+                            onChange={(event) => {
+                                setQuantity(parseInt(event.target.value))
+                            }}
+                        />
+                    </div>
+                    <div className="modal-footer">
+                        <button type="button" className="btn btn-secondary" onClick={() => {
+                            removeMaterial(slot, sheetId)
+                        }}>remove
+                        </button>
+                        <button type="button" className="btn btn-primary" onClick={() => {
+                            quantitySelected(quantity)
+                        }}>ok
+                        </button>
+                    </div>
+                </div>
             </div>
-
-            <input
-                type="number"
-                min="0"
-                max="999"
-                step="1"
-                inputMode="numeric"
-                autoFocus
-                maxLength={3}
-                size={2}
-                defaultValue={currentQuantity}
-                style={{
-                    position: 'absolute',
-                    left: '103px',
-                    top: '40px'
-                }}
-                onChange={(event) => {
-                    setQuantity(parseInt(event.target.value))
-                }}
-            />
-
-            <input
-                type="button"
-                value="remove"
-                style={{
-                    position: 'absolute',
-                    left: '3px',
-                    top: '80px'
-                }}
-                onClick={() => {
-                    removeMaterial(slot, sheetId)
-                }}
-            />
-
-            <input
-                type="button"
-                value="ok"
-                style={{
-                    position: 'absolute',
-                    left: '83px',
-                    top: '80px'
-                }}
-                onClick={() => {
-                    quantitySelected(quantity)
-                }}
-            />
-
-            <input
-                type="button"
-                value="cancel"
-                style={{
-                    position: 'absolute',
-                    left: '123px',
-                    top: '80px'
-                }}
-                onClick={cancelQuantitySelection}
-            />
         </div>
     );
 };
