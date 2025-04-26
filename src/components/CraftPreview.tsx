@@ -17,31 +17,49 @@ const CraftPreview: React.FC = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            max: {Math.floor(result.max * 100 * 1000) / 1000}
+                            max:
                         </div>
                         <div className="col">
-                            avg: {Math.floor(result.average * 100 * 1000) / 1000}
+                            {Math.floor(result.max * 100 * 1000) / 1000}
                         </div>
                         <div className="col">
-                            max - avg: {Math.floor((result.max - result.average) * 100 * 1000) / 1000}
+                            avg:
                         </div>
                         <div className="col">
-                            m: {Math.floor(result.m * 100) / 100}
+                            {Math.floor(result.average * 100 * 1000) / 1000}
+                        </div>
+                        <div className="col text-nowrap">
+                            max - avg:
+                        </div>
+                        <div className="col">
+                            {Math.floor((result.max - result.average) * 100 * 1000) / 1000}
+                        </div>
+                        <div className="col">
+                            m:
+                        </div>
+                        <div className="col">
+                            {Math.floor(result.m * 100) / 100}
                         </div>
                     </div>
                     <div className="row">
                         <div className="col">
-                            Color: {t("mpcol" + result.color)}
+                            Color:
+                        </div>
+                        <div className="col">
+                            {t("mpcol" + result.color)}
                         </div>
                     </div>
                     <div className="row">
                         <div className="col">
-                            Class: {t("uiItemRMClass" + result.purity)}
+                            Class:
+                        </div>
+                        <div className="col">
+                            {t("uiItemRMClass" + result.purity)}
                         </div>
                     </div>
                     <div className="row">
                         <div className="col">
-                            <table>
+                            <table className="table table-striped table-hover">
                                 <thead>
                                 <tr>
                                     <th>Stat</th>
