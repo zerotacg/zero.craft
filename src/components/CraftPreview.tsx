@@ -42,7 +42,7 @@ const CraftPreview: React.FC = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col">
+                        <div className="col-2">
                             Color:
                         </div>
                         <div className="col">
@@ -50,7 +50,7 @@ const CraftPreview: React.FC = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col">
+                        <div className="col-2">
                             Class:
                         </div>
                         <div className="col">

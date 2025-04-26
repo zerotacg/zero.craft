@@ -4,6 +4,7 @@ import CraftContext from '../craft/CraftContext';
 import {TSlot} from "../craft/TSlot";
 import Icon from "./Icon";
 import {SLOTS} from "../craft/Slots";
+import './SlotsPanel.css';
 
 
 const SlotsPanel: React.FC = () => {
@@ -12,26 +13,20 @@ const SlotsPanel: React.FC = () => {
     const {toggleSlot} = useContext(CraftContext);
 
     return (
-        <div style={{
-            border: '1px',
-            borderStyle: 'solid'
-        }}>
+        <div className="slots-panel">
             {t('uiSlotsTitle')}
-            <table>
-                <tbody>
+            <div className="vstack">
                 {Object.entries(slots).map(([key, value]) => (
-                    <tr key={key}>
-                        <td>
-                            <Icon icon={value.icon} label={value.label}/>
-                            <a href="#" onClick={(e) => {
+                    <button key={key} type="button" className="slots-panel-item btn"
+                            onClick={(e) => {
                                 e.preventDefault();
                                 toggleSlot(key as unknown as TSlot);
-                            }}>{t(value.label)}</a>
-                        </td>
-                    </tr>
+                            }}>
+                        <Icon icon={value.icon} label={value.label}/>
+                        {t(value.label)}
+                    </button>
                 ))}
-                </tbody>
-            </table>
+            </div>
         </div>
     );
 };

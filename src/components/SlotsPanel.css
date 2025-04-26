@@ -1,0 +1,12 @@
+.slots-panel {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.slots-panel-item {
+    text-align: inherit;
+}
+
+.slots-panel-item > .texture {
+    margin-right: 0.25rem;
+}

@@ -1,22 +1,25 @@
 .sheet {
     position: relative;
     color: white;
-    font-size: 9px;
+    font-size: 8px;
     letter-spacing: 1px;
     font-family: lucida console;
     white-space: nowrap;
     width: 40px;
     height: 40px;
 
-    border: 1px solid;
-    border-top-color: #191919;
-    border-left-color: #464646;
-    border-bottom-color: #828282;
+    border: 1px solid #191919;
     border-right-color: #686868;
+    border-bottom-color: #828282;
+    border-left-color: #464646;
 }
 
-.sheet div {
+.sheet * {
     position: absolute;
+}
+
+.sheet .texture {
+    display: block;
 }
 
 .sheet .text {
@@ -26,10 +29,10 @@
 
 .sheet .quality {
     right: 2px;
-    bottom: 0px;
+    bottom: 0;
 }
 
 .sheet .quantity {
     left: 3px;
-    bottom: 0px;
+    bottom: 0;
 }

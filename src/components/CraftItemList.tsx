@@ -28,7 +28,7 @@ const Entry: React.FC<EntryProps> = ({slot, materials}) => {
                     {t(label)}
                 </div>
             </div>
-            <div className="row row-cols-auto">
+            <div className="row row-cols-auto g-1">
                 {Object.entries(materials).map(([sheetId, quantity]) => (
                     <div key={sheetId} className="col">
                         <Sheet
