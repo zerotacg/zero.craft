@@ -43,6 +43,7 @@ const QuantitySelection: React.FC<QuantitySelectionProps> = ({slot, sheetId}) =>
                 maxLength={3}
                 size={2}
                 defaultValue={currentQuantity}
+                autoFocus
                 style={{
                     position: 'absolute',
                     left: '103px',
