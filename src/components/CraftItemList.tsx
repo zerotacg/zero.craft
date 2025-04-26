@@ -19,32 +19,38 @@ const Entry: React.FC<EntryProps> = ({slot, materials}) => {
     const {show: showItemInfo} = useContext(InfoContext);
 
     return (
-        <>
-            <div className="col-12">
-                <Icon icon={icon} label={label}/>
-                {t(label)}
-            </div>
-            {Object.entries(materials).map(([sheetId, quantity]) => (
-                <div key={sheetId} className="col">
-                    <Sheet
-                        sheetId={sheetId as unknown as number}
-                        quantity={quantity}
-                        onClick={() => {
-                            selectQuantity(slot, sheetId as unknown as number)
-                        }}
-                        onContextMenu={(event) => {
-                            event.preventDefault();
-                            showItemInfo(sheetId as unknown as number, slot)
-                        }}
-                    />
+        <div className="container">
+            <div className="row">
+                <div className="col-1">
+                    <Icon icon={icon} label={label}/>
                 </div>
-            ))}
-            <div className="col">
-                <Icon icon="w_slot_item" onClick={() => {
-                    selectMaterial(slot)
-                }}/>
+                <div className="col">
+                    {t(label)}
+                </div>
             </div>
-        </>
+            <div className="row row-cols-auto">
+                {Object.entries(materials).map(([sheetId, quantity]) => (
+                    <div key={sheetId} className="col">
+                        <Sheet
+                            sheetId={sheetId as unknown as number}
+                            quantity={quantity}
+                            onClick={() => {
+                                selectQuantity(slot, sheetId as unknown as number)
+                            }}
+                            onContextMenu={(event) => {
+                                event.preventDefault();
+                                showItemInfo(sheetId as unknown as number, slot)
+                            }}
+                        />
+                    </div>
+                ))}
+                <div className="col">
+                    <Icon icon="w_slot_item" onClick={() => {
+                        selectMaterial(slot)
+                    }}/>
+                </div>
+            </div>
+        </div>
     )
 }
 
@@ -59,12 +65,10 @@ const CraftItemList: React.FC = () => {
             borderStyle: 'solid'
         }}>
             {t('uiItemListTitle')}
-            <div className="container">
-                <div className="row row-cols-auto">
-                    {Object.entries(slots).map(([slot, materials]) => (
-                        <Entry key={slot} slot={slot as unknown as TSlot} materials={materials}/>
-                    ))}
-                </div>
+            <div className="vstack">
+                {Object.entries(slots).map(([slot, materials]) => (
+                    <Entry key={slot} slot={slot as unknown as TSlot} materials={materials}/>
+                ))}
             </div>
         </div>
     );
