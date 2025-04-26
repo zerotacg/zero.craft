@@ -1,9 +1,9 @@
 import React, {useContext} from 'react';
 import {useTranslation} from 'react-i18next';
-import CraftContext, {Slot} from "../craft/CraftContext";
+import CraftContext, {type Slot} from "../craft/CraftContext";
 import Icon from "./Icon";
-import {SLOTS} from "../craft/Slots";
-import {TSlot} from '../craft/TSlot';
+import {SLOTS} from "~/craft/Slots";
+import {TSlot} from '~/craft/TSlot';
 import Sheet from "./Sheet";
 import InfoContext from "../info/InfoContext";
 

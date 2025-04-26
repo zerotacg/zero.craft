@@ -1,6 +1,6 @@
-import React, {ComponentProps} from "react";
+import React, {type ComponentProps} from "react";
 import {useTranslation} from "react-i18next";
-import {SITEMS, SItems} from "../craft/SItem";
+import {SITEMS, type SItems} from "~/craft/SItem";
 import Icon from "./Icon";
 import './Sheet.css';
 

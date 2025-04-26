@@ -1,7 +1,7 @@
 import React, {useContext, useState} from 'react';
 import {useTranslation} from 'react-i18next';
-import CraftContext from "../craft/CraftContext";
-import {TSlot} from "../craft/TSlot";
+import CraftContext from "~/craft/CraftContext";
+import {TSlot} from "~/craft/TSlot";
 import Sheet from './Sheet';
 
 interface QuantitySelectionProps {

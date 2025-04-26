@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import CraftContext from "../craft/CraftContext";
-import {SItems} from "../craft/SItem";
-import {TSlot} from '../craft/TSlot';
+import type {SItems} from "~/craft/SItem";
+import {TSlot} from '~/craft/TSlot';
 import Sheet from './Sheet';
 
 interface MaterialsProps {

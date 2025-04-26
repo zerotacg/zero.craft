@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import {useTranslation} from 'react-i18next';
 import CraftContext from "../craft/CraftContext";
-import {calculateCraftResult} from "../craft/CraftResult";
+import {calculateCraftResult} from "~/craft/CraftResult";
 
 const CraftPreview: React.FC = () => {
     const {t} = useTranslation();

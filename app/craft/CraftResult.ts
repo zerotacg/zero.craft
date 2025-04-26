@@ -1,6 +1,6 @@
-import {StatResult} from "./StatResult";
-import {Slots as CraftInput} from "./CraftContext";
-import {CraftData, SITEMS} from "./SItem";
+import {type StatResult} from "./StatResult";
+import {type Slots as CraftInput} from "./CraftContext";
+import {type CraftData, SITEMS} from "./SItem";
 import {SLOTS} from "./Slots";
 
 export interface CraftResult {
