@@ -27,6 +27,7 @@ cypress:
     stage: test
     needs:
         - build
+    extends: .node
     image:
         name: cypress/included:14.3.2
         entrypoint: [ "" ]
