@@ -39,11 +39,15 @@ const QuantitySelection: React.FC<QuantitySelectionProps> = ({slot, sheetId}) =>
             </div>
 
             <input
-                type="text"
+                type="number"
+                min="0"
+                max="999"
+                step="1"
+                inputMode="numeric"
+                autoFocus
                 maxLength={3}
                 size={2}
                 defaultValue={currentQuantity}
-                autoFocus
                 style={{
                     position: 'absolute',
                     left: '103px',

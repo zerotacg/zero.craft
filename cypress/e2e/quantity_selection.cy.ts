@@ -23,7 +23,7 @@ describe('Quantity Selection', () => {
         cy.contains('div:visible', 'Select Quantity')
             .parent()
             .within(() => {
-                cy.get('input[type=text]').type('5')
+                cy.get('input[type=number]').type('5')
                 cy.get('input[value=ok]').click()
             })
 
