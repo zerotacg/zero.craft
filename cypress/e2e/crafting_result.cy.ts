@@ -21,10 +21,11 @@ describe('Crafting window', () => {
         cy.contains('Stat Preview')
             .parent()
             .within(() => {
-                // cy.contains('max: 65');
-                // cy.contains('avg: 50');
-                // cy.contains('Color: Blue');
-                // cy.contains('Class: Fine');
+                cy.findByText('max:').next().contains('65');
+                cy.findByText('avg:').next().contains('50');
+                cy.findByText('Color:').next().contains('Blue');
+                cy.findByText('Class:').next().contains('Fine');
+
                 verifyStat('Durability', 36.5, 22.999, 27.599);
                 verifyStat('Lightness', 49.5, 48.999, 58.799);
                 verifyStat('Sap Load', 65, 80, 95.999);
@@ -65,10 +66,11 @@ describe('Crafting window', () => {
         cy.contains('Stat Preview')
             .parent()
             .within(() => {
-                // cy.contains('max: 65');
-                // cy.contains('avg: 50');
-                // cy.contains('Color: Blue');
-                // cy.contains('Class: Fine');
+                cy.findByText('max:').next().contains('65');
+                cy.findByText('avg:').next().contains('50');
+                cy.findByText('Color:').next().contains('Blue');
+                cy.findByText('Class:').next().contains('Fine');
+
                 verifyStat('Durability', 36.5, 22.999, 27.599);
                 verifyStat('Lightness', 49.5, 48.999, 58.799);
                 verifyStat('Sap Load', 65, 80, 95.999);

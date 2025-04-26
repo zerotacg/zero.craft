@@ -11,10 +11,10 @@ describe('Crafting window', () => {
         cy.contains('Stat Preview').should('be.visible')
             .parent()
             .within(() => {
-                cy.contains('max: 60');
-                cy.contains('avg: 20.111');
-                cy.contains('Color: Turquoise');
-                cy.contains('Class: Basic');
+                cy.findByText('max:').next().contains('60');
+                cy.findByText('avg:').next().contains('20.111');
+                cy.findByText('Color:').next().contains('Turquoise');
+                cy.findByText('Class:').next().contains('Basic');
             });
     })
 
