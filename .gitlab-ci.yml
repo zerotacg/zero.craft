@@ -27,14 +27,14 @@ cypress:
     stage: test
     needs:
         - build
-    image: cypress/included:14.3.1
+    image: cypress/included:14.3.2
     artifacts:
         when: on_failure
         paths:
             - cypress/screenshots/
             - cypress/videos/
     script:
-        - npm run cy:run
+        - npm run ci:cypress
 
 
 
