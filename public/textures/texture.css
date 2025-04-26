@@ -1,0 +1,15 @@
+
+.texture {
+    background-repeat: no-repeat;
+}
+
+span.texture {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.bk_race {
+    background-image: url(./bk_race.png);
+    width: 40px;
+    height: 40px;
+}

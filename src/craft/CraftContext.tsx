@@ -1,0 +1,137 @@
+import React, {createContext, PropsWithChildren, useState} from "react";
+import {nop} from "../utils";
+import {TSlot} from "./TSlot";
+
+export type Slot = {
+    [sheetId: string]: number;
+}
+
+export type Slots = {
+    [slot in TSlot]?: Slot;
+};
+
+export interface State {
+    slots: Slots;
+    selectedSlot?: TSlot;
+
+    quantitySelection?: {
+        slot: TSlot;
+        sheetId: number;
+    };
+}
+
+export interface Service {
+    toggleSlot: (slot: TSlot) => void;
+    selectMaterial: (slot: TSlot) => void;
+    materialSelected: (slot: TSlot) => void;
+    removeMaterial: (slot: TSlot, sheetId: number) => void;
+
+    selectQuantity: (slot: TSlot, sheetId: number) => void;
+    quantitySelected: (count: number) => void;
+    cancelQuantitySelection: () => void;
+}
+
+const initialState: State = {slots: {}};
+
+
+const nopService: Service = {
+    toggleSlot: nop,
+    selectMaterial: nop,
+    materialSelected: nop,
+    removeMaterial: nop,
+    selectQuantity: nop,
+    quantitySelected: nop,
+    cancelQuantitySelection: nop
+};
+
+export const Context = createContext<State & Service>({...initialState, ...nopService});
+
+export const Provider: React.FC<PropsWithChildren> = (props) => {
+    const [slots, setSlots] = useState<State["slots"]>({});
+    const [selectedSlot, setSlotSelection] = useState<State["selectedSlot"]>();
+    const [quantitySelection, setQuantitySelection] = useState<State["quantitySelection"]>();
+
+    function addSlot(slot: TSlot) {
+        setSlots((slots) => {
+            const newSlots = {...slots};
+            newSlots[slot] = {};
+            return newSlots;
+        })
+    }
+
+    function removeSlot(slot: TSlot) {
+        setSlots((slots) => {
+            const newSlots = {...slots};
+            delete newSlots[slot];
+            return newSlots;
+        })
+    }
+
+    function toggleSlot(slot: TSlot) {
+        if (slots[slot]) {
+            removeSlot(slot);
+        } else {
+            addSlot(slot);
+        }
+    }
+
+    function selectMaterial(slot: TSlot) {
+        setSlotSelection(slot);
+    }
+
+    function materialSelected(sheetId: number) {
+        if (selectedSlot) {
+            setMaterialQuantity(selectedSlot, sheetId);
+            setSlotSelection(undefined);
+        }
+    }
+
+    function setMaterialQuantity(slot: TSlot, sheetId: number, count: number = 1) {
+        setSlots((slots) => {
+            const newSlot: Slot = slots[slot] || {};
+            const newSlots = {...slots, [slot]: newSlot};
+            if (count <= 0) {
+                delete newSlot[sheetId];
+            } else {
+                newSlot[sheetId] = count;
+            }
+            return newSlots;
+        })
+    }
+
+    function removeMaterial(slot: TSlot, sheetId: number) {
+        setMaterialQuantity(slot, sheetId, 0);
+        setQuantitySelection(undefined);
+    }
+
+
+    function selectQuantity(slot: TSlot, sheetId: number) {
+        setQuantitySelection({slot, sheetId});
+    }
+
+    function quantitySelected(count: number) {
+        if (quantitySelection) {
+            setMaterialQuantity(quantitySelection.slot, quantitySelection.sheetId, count);
+            setQuantitySelection(undefined);
+        }
+    }
+
+    function cancelQuantitySelection() {
+        setQuantitySelection(undefined);
+    }
+
+    return (<Context.Provider value={{
+        slots,
+        selectedSlot,
+        quantitySelection,
+        toggleSlot,
+        selectMaterial,
+        materialSelected,
+        selectQuantity,
+        quantitySelected,
+        cancelQuantitySelection,
+        removeMaterial
+    }} {...props} />)
+}
+
+export default Context;
