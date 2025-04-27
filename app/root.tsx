@@ -31,8 +31,6 @@ export function Layout({children}: { children: React.ReactNode }) {
             <link type="text/css" rel="stylesheet" href="./textures/texture_interfaces_v3.css"/>
             <link type="text/css" rel="stylesheet" href="./textures/texture_interfaces_v3_login.css"/>
             <link type="text/css" rel="stylesheet" href="./textures/texture_interfaces_v3_outgame_ui.css"/>
-            <script type="text/javascript" src="./data/sheets.js"></script>
-            <script type="text/javascript" src="./data/materials.js"></script>
         </head>
         <body>
         {children}
