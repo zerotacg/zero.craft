@@ -1,5 +1,7 @@
 import type {Route} from "./+types/home";
 import {Crafting} from "~/crafting/crafting";
+import {fetchMaterials} from "~/data/material";
+import Context from "~/data/MaterialsContext";
 
 export function meta({}: Route.MetaArgs) {
     return [
@@ -8,6 +10,14 @@ export function meta({}: Route.MetaArgs) {
     ];
 }
 
-export default function Home() {
-    return <Crafting/>;
+export async function clientLoader({params}: Route.ClientLoaderArgs) {
+    return await fetchMaterials();
+}
+
+export default function Home({loaderData}: Route.ComponentProps) {
+    return (
+        <Context.Provider value={loaderData}>
+            <Crafting/>
+        </Context.Provider>
+    );
 }

@@ -1,8 +1,8 @@
 import React, {useContext} from 'react';
 import CraftContext from "../craft/CraftContext";
-import SItems from '~/craft/SItem';
 import {TSlot} from '~/craft/TSlot';
 import Sheet from './Sheet';
+import {useMaterials} from "~/data/MaterialsContext";
 
 interface MaterialsProps {
     slot: TSlot;
@@ -10,6 +10,7 @@ interface MaterialsProps {
 
 const Materials: React.FC<MaterialsProps> = ({slot}) => {
     const {materialSelected} = useContext(CraftContext);
+    const SItems = useMaterials();
     const materials = Object.values(SItems)
         .filter(sheet => sheet.craft.part & Math.pow(2, slot)); // TODO sort?
 

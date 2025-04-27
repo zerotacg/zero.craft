@@ -1,5 +1,4 @@
 import {TSlot} from "./TSlot";
-import data from '~/data/materials';
 
 export interface IconData {
     text: string;
@@ -29,10 +28,3 @@ export interface SItem {
     icon: IconData;
     craft: CraftData;
 }
-
-export type SItems = {
-    [sheetId: string]: SItem;
-}
-
-export const SITEMS: SItems = (data as SItems);
-export default (data as SItems);

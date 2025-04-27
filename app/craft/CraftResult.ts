@@ -1,7 +1,8 @@
 import {type StatResult} from "./StatResult";
 import {type Slots as CraftInput} from "./CraftContext";
-import {type CraftData, SITEMS} from "./SItem";
+import {type CraftData} from "./SItem";
 import {SLOTS} from "./Slots";
+import {useMaterials} from "~/data/MaterialsContext";
 
 export interface CraftResult {
     "color": number,
@@ -16,7 +17,7 @@ export interface CraftResult {
 export function calculateCraftResult(slots_used: CraftInput): CraftResult {
     let mpstat;
     const Slots = SLOTS;
-    const SItems = SITEMS;
+    const SItems = useMaterials();
     let craft_result = {
         "color": 0,
         "purity": 0,
@@ -53,13 +54,15 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
                 };
             }
             // @ts-ignore
-            for (let sheet_id in slots_used[slot]) {
-                if (isNaN(Number(sheet_id))) {
+            for (let key in slots_used[slot]) {
+                if (isNaN(Number(key))) {
                     continue;
                 }
+                const sheetId = Number(key);
                 // @ts-ignore
-                quantity = slots_used[slot][sheet_id];
-                let sitem: CraftData = SItems[sheet_id].craft;
+                quantity = slots_used[slot][sheetId];
+                // @ts-ignore
+                let sitem: CraftData = SItems.find(({sheet_id}) => sheet_id === sheetId).craft;
 
                 if (mpstat === 0) {
                     colors[sitem.color as number] += quantity;
