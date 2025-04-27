@@ -12,8 +12,8 @@
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
-    "ci:start": "serve ./build",
-    "ci:cypress": "start-server-and-test ci:start http://localhost:3000 cy:run"
+    "ci:start": "serve --listen 5173 ./build/client",
+    "ci:cypress": "start-server-and-test ci:start http://localhost:5173 cy:run"
   },
   "dependencies": {
     "@react-router/node": "7.5.2",
