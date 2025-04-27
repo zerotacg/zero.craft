@@ -14,7 +14,6 @@ export interface CraftResult {
 }
 
 export function calculateCraftResult(slots_used: CraftInput): CraftResult {
-    let mpstat;
     const Slots = SLOTS;
     const SItems = SITEMS;
     let craft_result = {
@@ -38,7 +37,7 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
         if (isNaN(Number(slot))) {
             continue;
         }
-        for (mpstat = 0; mpstat < 34; ++mpstat) {
+        for (let mpstat = 0; mpstat < 34; ++mpstat) {
             // @ts-ignore
             if (Slots[slot].stat.indexOf(mpstat) === -1) {
                 continue;
@@ -76,7 +75,7 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
     let max = {before: 0, after: 0};
     let stat_count = 0;
     let sum_before = 0;
-    for (mpstat in stats) {
+    for (let mpstat in stats) {
         stat = stats[mpstat];
         ++stat_count;
         if (stat.count !== 0) {
@@ -110,7 +109,7 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
     let sum_after = 0;
     let count_less_max = 0;
     let count_greater_min = 0;
-    for (mpstat in stats) {
+    for (let mpstat in stats) {
         stat = stats[mpstat];
         stat.after += (stat.before - average) * delta + average;
         stat.after = Math.max(0.00, Math.min(stat.after, 1.00));
@@ -137,7 +136,7 @@ export function calculateCraftResult(slots_used: CraftInput): CraftResult {
         sum_after = 0;
         count_less_max = 0;
         count_greater_min = 0;
-        for (mpstat in stats) {
+        for (let mpstat in stats) {
             stat = stats[mpstat];
             stat.after = Math.max(0.00, Math.min(stat.after + delta, 1.00));
             sum_after += stat.after;
