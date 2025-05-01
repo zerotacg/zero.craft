@@ -3,15 +3,30 @@ import CraftContext from "../craft/CraftContext";
 import {TSlot} from '../craft/TSlot';
 import Sheet from './Sheet';
 import {useMaterials} from "../data/MaterialsContext";
+import {SItem} from "../craft/SItem";
 
 interface MaterialsProps {
     slot: TSlot;
 }
 
+function compare(a: SItem, b: SItem): number {
+    if (a.icon.text < b.icon.text) {
+        return -1;
+    }
+    if (a.icon.text > b.icon.text) {
+        return 1;
+    }
+    if (a.craft.purity != b.craft.purity) {
+        return a.craft.purity - b.craft.purity;
+    }
+    return a.sheet_id - b.sheet_id;
+}
+
 const Materials: React.FC<MaterialsProps> = ({slot}) => {
     const {materialSelected} = useContext(CraftContext);
     const materials = useMaterials()
-        .filter(sheet => sheet.craft.part & Math.pow(2, slot));
+        .filter(sheet => sheet.craft.part & Math.pow(2, slot))
+        .sort(compare);
 
     return (
         <>
