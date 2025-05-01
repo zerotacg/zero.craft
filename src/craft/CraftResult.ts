@@ -1,8 +1,7 @@
 import {StatResult} from "./StatResult";
 import {Slots as CraftInput} from "./CraftContext";
-import {CraftData} from "./SItem";
+import {CraftData, type SItem} from "./SItem";
 import {SLOTS} from "./Slots";
-import {useMaterials} from "../data/MaterialsContext";
 
 export interface CraftResult {
     "color": number,
@@ -14,9 +13,8 @@ export interface CraftResult {
     "stats": StatResult
 }
 
-export function calculateCraftResult(slots_used: CraftInput): CraftResult {
+export function calculateCraftResult(slots_used: CraftInput, SItems: SItem[]): CraftResult {
     const Slots = SLOTS;
-    const SItems = useMaterials();
     let craft_result = {
         "color": 0,
         "purity": 0,

@@ -16,7 +16,7 @@ function compare(a: SItem, b: SItem): number {
     if (a.icon.text > b.icon.text) {
         return 1;
     }
-    if (a.craft.purity != b.craft.purity) {
+    if (a.craft.purity !== b.craft.purity) {
         return a.craft.purity - b.craft.purity;
     }
     return a.sheet_id - b.sheet_id;
