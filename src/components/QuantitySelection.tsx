@@ -39,6 +39,11 @@ const QuantitySelection: React.FC<QuantitySelectionProps> = ({slot, sheetId}) =>
                             onChange={(event) => {
                                 setQuantity(parseInt(event.target.value))
                             }}
+                            onKeyUp={(event) => {
+                                if (event.key === 'Enter') {
+                                    quantitySelected(quantity);
+                                }
+                            }}
                         />
                     </div>
                     <div className="modal-footer">

@@ -38,6 +38,23 @@ describe('Quantity Selection', () => {
                 ;
             });
 
+        cy.contains('Select Quantity')
+            .parents('.modal')
+            .within(() => {
+                cy.get('input[type=number]').type('7{enter}')
+            })
+
+        cy.contains('Items inserted')
+            .parent()
+            .within(() => {
+                cy.get(".sheet")
+                    .within(() => {
+                        cy.contains('.quantity', '7')
+                    })
+                    .click()
+                ;
+            });
+
         cy.contains('div:visible', 'Select Quantity')
             .parent()
             .within(() => {
