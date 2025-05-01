@@ -1,11 +1,12 @@
 import React, {useContext} from 'react';
 import {useTranslation} from 'react-i18next';
-import {SItem, SITEMS} from '../craft/SItem';
+import {SItem} from '../craft/SItem';
 import {TSlot} from '../craft/TSlot';
 import InfoContext from "../info/InfoContext";
 import Sheet from "./Sheet";
 import Icon from "./Icon";
 import {SLOTS} from "../craft/Slots";
+import {useMaterial} from "../data/MaterialsContext";
 
 interface ItemInfoProps {
     material: SItem;
@@ -81,7 +82,7 @@ const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
 const ItemInfoDialog: React.FC = () => {
     const {t} = useTranslation();
     const {sheetId, slot, close} = useContext(InfoContext);
-    const material = sheetId ? SITEMS[sheetId] : undefined;
+    const material = useMaterial(sheetId ?? 0);
     const selectedSlot = slot ?? Object.keys(material?.craft?.data ?? [])[0] as unknown as TSlot;
 
     if (material === undefined) {

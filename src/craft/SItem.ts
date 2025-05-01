@@ -28,9 +28,3 @@ export interface SItem {
     icon: IconData;
     craft: CraftData;
 }
-
-export type SItems = {
-    [sheetId: string]: SItem;
-}
-
-export const SITEMS: SItems = (window as any).SItems;

@@ -30,14 +30,14 @@ const Entry: React.FC<EntryProps> = ({slot, materials}) => {
                 {Object.entries(materials).map(([sheetId, quantity]) => (
                     <div key={sheetId} className="col">
                         <Sheet
-                            sheetId={sheetId as unknown as number}
+                            sheetId={Number(sheetId)}
                             quantity={quantity}
                             onClick={() => {
-                                selectQuantity(slot, sheetId as unknown as number)
+                                selectQuantity(slot, Number(sheetId))
                             }}
                             onContextMenu={(event) => {
                                 event.preventDefault();
-                                showItemInfo(sheetId as unknown as number, slot)
+                                showItemInfo(Number(sheetId), slot)
                             }}
                         />
                     </div>

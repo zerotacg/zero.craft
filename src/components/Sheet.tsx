@@ -1,9 +1,9 @@
 import React, {ComponentProps} from "react";
 import {useTranslation} from "react-i18next";
-import {SITEMS} from "../craft/SItem";
 import Icon from "./Icon";
 import './Sheet.css';
-import {SHEETS} from "../craft/Sheets";
+import SHEETS from "../craft/Sheets";
+import {useMaterial} from "../data/MaterialsContext";
 
 export interface Props extends ComponentProps<'div'> {
     sheetId: number;
@@ -12,8 +12,9 @@ export interface Props extends ComponentProps<'div'> {
 
 export const Sheet: React.FC<Props> = ({sheetId, quantity, ...props}) => {
     const {t} = useTranslation();
+    // @ts-ignore
     const sheetName = SHEETS[sheetId].split(".sitem")[0];
-    const {icon, craft} = SITEMS[sheetId];
+    const {icon, craft} = useMaterial(sheetId) ?? {icon: {texture: {}}, craft: {}};
     const title = t(`${sheetName}.name`, {ns: "item_words"});
 
     return (
@@ -21,7 +22,7 @@ export const Sheet: React.FC<Props> = ({sheetId, quantity, ...props}) => {
             {Object.values(icon.texture).map((texture) => (
                 <Icon key={texture} icon={texture}/>
             ))}
-            <div className="text">{icon.text.toUpperCase()}</div>
+            <div className="text">{icon.text?.toUpperCase()}</div>
             {craft.quality !== 0 && <div className="quality">{craft.quality}</div>}
             {quantity !== undefined && <div className="quantity">{quantity}</div>}
         </div>

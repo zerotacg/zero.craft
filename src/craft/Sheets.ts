@@ -1,5 +1,7 @@
+import data from '../data/sheets';
+
 export type Sheets = {
     [sheetId: number]: string;
-}
+};
 
-export const SHEETS: Sheets = (window as any).Sheets;
+export default (data as Sheets);

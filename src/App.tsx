@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import ItemInfoDialog from './components/ItemInfo';
 import LanguageSelector from './components/LanguageSelector';
@@ -9,27 +9,37 @@ import {Provider as InfoProvider} from './info/InfoContext';
 import SlotsPanel from "./components/SlotsPanel";
 import CraftItemList from "./components/CraftItemList";
 import CraftPreview from "./components/CraftPreview";
+import Materials, {State as MaterialsState} from "./data/MaterialsContext";
+import {fetchMaterials} from "./data/material";
 
 export default function App() {
+    const [materials, setMaterials] = useState<MaterialsState>([]);
+    useEffect(() => {
+        fetchMaterials()
+            .then(setMaterials)
+    }, []);
+
     return (
         <div className="App">
-            <InfoProvider>
-                <CraftProvider>
-                    <ItemInfoDialog/>
-                    <MaterialSelection/>
-                    <QuantitySelection/>
-                    <div className="container-xxl">
-                        <div className="row">
-                            <LanguageSelector/>
+            <Materials.Provider value={materials}>
+                <InfoProvider>
+                    <CraftProvider>
+                        <ItemInfoDialog/>
+                        <MaterialSelection/>
+                        <QuantitySelection/>
+                        <div className="container-xxl">
+                            <div className="row">
+                                <LanguageSelector/>
+                            </div>
+                            <div className="row">
+                                <div className="col-2"><SlotsPanel/></div>
+                                <div className="col-5"><CraftItemList/></div>
+                                <div className="col-5"><CraftPreview/></div>
+                            </div>
                         </div>
-                        <div className="row">
-                            <div className="col-2"><SlotsPanel/></div>
-                            <div className="col-5"><CraftItemList/></div>
-                            <div className="col-5"><CraftPreview/></div>
-                        </div>
-                    </div>
-                </CraftProvider>
-            </InfoProvider>
+                    </CraftProvider>
+                </InfoProvider>
+            </Materials.Provider>
         </div>
     );
 }
