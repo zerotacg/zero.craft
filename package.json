@@ -34,18 +34,10 @@
   },
   "devDependencies": {
     "@testing-library/cypress": "^10.0.3",
-    "babel": "^5.8.24",
-    "benchmark": "^2.1.0",
-    "chai": "^3.4.1",
     "cypress": "14.3.2",
-    "jshint": "^2.8.0",
-    "jspm": "^0.16.15",
-    "mocha": "^2.3.4",
-    "rimraf": "^2.5.1",
-    "serve": "^14.2.4",
-    "sinon": "^1.17.2",
-    "sinon-chai": "^2.8.0",
-    "start-server-and-test": "^2.0.11"
+    "rimraf": "6.0.1",
+    "serve": "14.2.4",
+    "start-server-and-test": "2.0.11"
   },
   "eslintConfig": {
     "extends": [
