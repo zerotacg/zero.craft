@@ -1,4 +1,4 @@
-export default {
+const sheets = {
     46: "mamaa.sitem"
     , 302: "mbnaa.sitem"
     , 558: "mchaa.sitem"
@@ -34419,3 +34419,5 @@ export default {
     , 8810798: "test_conso_desert_forage_success.sitem"
     , 8811054: "test_conso_defense.sitem"
 };
+
+export default sheets;

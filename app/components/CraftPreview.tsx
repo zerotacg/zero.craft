@@ -2,11 +2,13 @@ import React, {useContext} from 'react';
 import {useTranslation} from 'react-i18next';
 import CraftContext from "../craft/CraftContext";
 import {calculateCraftResult} from "~/craft/CraftResult";
+import {useMaterials} from "~/data/MaterialsContext";
 
 const CraftPreview: React.FC = () => {
     const {t} = useTranslation();
     const {slots} = useContext(CraftContext);
-    const result = calculateCraftResult(slots);
+    const materials = useMaterials();
+    const result = calculateCraftResult(slots, materials);
 
     return (
         <>
@@ -46,7 +48,7 @@ const CraftPreview: React.FC = () => {
                             Color:
                         </div>
                         <div className="col">
-                            {t("mpcol" + result.color)}
+                            {t(`mpcol${result.color}`)}
                         </div>
                     </div>
                     <div className="row">
@@ -54,7 +56,7 @@ const CraftPreview: React.FC = () => {
                             Class:
                         </div>
                         <div className="col">
-                            {t("uiItemRMClass" + result.purity)}
+                            {t(`uiItemRMClass${result.purity}`)}
                         </div>
                     </div>
                     <div className="row">

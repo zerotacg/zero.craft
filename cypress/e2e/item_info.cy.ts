@@ -4,10 +4,10 @@ describe('item_info', () => {
     })
 
     it('should show container item information', () => {
-        cy.contains('Magic Focus').click();
+        cy.findByText('Magic Focus').click();
 
         cy.get('.w_slot_item:visible').click();
-        cy.get(".sheet").first().click();
+        cy.findByTitle('Basic Beng Amber').click();
         cy.get('.sheet').first().rightclick();
 
         cy.get('.item_info:visible')

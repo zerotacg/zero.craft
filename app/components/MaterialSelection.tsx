@@ -16,7 +16,7 @@ function compare(a: SItem, b: SItem): number {
     if (a.icon.text > b.icon.text) {
         return 1;
     }
-    if (a.craft.purity != b.craft.purity) {
+    if (a.craft.purity !== b.craft.purity) {
         return a.craft.purity - b.craft.purity;
     }
     return a.sheet_id - b.sheet_id;
@@ -24,8 +24,7 @@ function compare(a: SItem, b: SItem): number {
 
 const Materials: React.FC<MaterialsProps> = ({slot}) => {
     const {materialSelected} = useContext(CraftContext);
-    const SItems = useMaterials();
-    const materials = SItems
+    const materials = useMaterials()
         .filter(sheet => sheet.craft.part & Math.pow(2, slot))
         .sort(compare);
 

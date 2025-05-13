@@ -49,7 +49,7 @@ pages:
         - cypress
     script:
         - echo "The site will be deployed to $CI_PAGES_URL"
-        - cp -R build/* public/
+        - cp -R build/client/* public/
     artifacts:
         paths:
             - build

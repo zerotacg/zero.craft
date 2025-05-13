@@ -82,7 +82,7 @@ const ItemInfo: React.FC<ItemInfoProps> = ({material, slot}) => {
 const ItemInfoDialog: React.FC = () => {
     const {t} = useTranslation();
     const {sheetId, slot, close} = useContext(InfoContext);
-    const material = sheetId ? useMaterial(sheetId) : undefined;
+    const material = useMaterial(sheetId ?? 0);
     const selectedSlot = slot ?? Object.keys(material?.craft?.data ?? [])[0] as unknown as TSlot;
 
     if (material === undefined) {

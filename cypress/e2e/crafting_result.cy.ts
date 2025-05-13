@@ -98,10 +98,10 @@ describe('Crafting window', () => {
             .within(() => {
                 cy.get('.w_slot_item').click();
             })
-        cy.get(`.modal .sheet[title="${material}"]`).click();
+        cy.findByTitle(material).click();
 
         if (count) {
-            cy.get(`.sheet[title="${material}"]`).click();
+            cy.findByTitle(material).click();
             cy.contains('Select Quantity')
                 .parents('.modal')
                 .within(() => {
