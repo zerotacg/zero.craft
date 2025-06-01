@@ -1,6 +1,6 @@
-import React, {createContext, PropsWithChildren, useState} from "react";
-import {TSlot} from "../craft/TSlot";
-import {nop} from "../utils";
+import React, {createContext, type PropsWithChildren, useState} from "react";
+import {TSlot} from "~/craft/TSlot";
+import {nop} from "~/utils";
 
 export interface State {
     sheetId?: number;

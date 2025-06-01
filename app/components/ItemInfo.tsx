@@ -1,12 +1,12 @@
 import React, {useContext} from 'react';
 import {useTranslation} from 'react-i18next';
-import {SItem} from '../craft/SItem';
-import {TSlot} from '../craft/TSlot';
-import InfoContext from "../info/InfoContext";
+import {type SItem} from '~/craft/SItem';
+import {TSlot} from '~/craft/TSlot';
+import InfoContext from "~/info/InfoContext";
 import Sheet from "./Sheet";
 import Icon from "./Icon";
-import {SLOTS} from "../craft/Slots";
-import {useMaterial} from "../data/MaterialsContext";
+import {SLOTS} from "~/craft/Slots";
+import {useMaterial} from "~/data/MaterialsContext";
 
 interface ItemInfoProps {
     material: SItem;

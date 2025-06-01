@@ -1,9 +1,9 @@
 import React, {useContext} from 'react';
 import CraftContext from "../craft/CraftContext";
-import {TSlot} from '../craft/TSlot';
+import {TSlot} from '~/craft/TSlot';
 import Sheet from './Sheet';
-import {useMaterials} from "../data/MaterialsContext";
-import {SItem} from "../craft/SItem";
+import {useMaterials} from "~/data/MaterialsContext";
+import type {SItem} from "~/craft/SItem";
 
 interface MaterialsProps {
     slot: TSlot;

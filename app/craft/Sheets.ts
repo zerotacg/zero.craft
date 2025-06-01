@@ -1,4 +1,4 @@
-import data from '../data/sheets';
+import data from '~/data/sheets';
 
 export type Sheets = {
     [sheetId: number]: string;

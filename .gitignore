@@ -1,9 +1,11 @@
 .bin/
 .idea/*
 
-node_modules/
+.DS_Store
+/node_modules/
 
-build
+/.react-router/
+/build/
 
 cypress/screenshots/*
 cypress/videos/*
