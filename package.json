@@ -9,10 +9,11 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "build": "react-router build",
+    "postbuild": "cd build/client && mv assets data locales textures favicon.ico __spa-fallback.html *.gif *.png manifest.json robots.txt zero.craft",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
-    "ci:start": "serve --listen 5173 ./build/client",
+    "ci:start": "http-server --port 5173 ./build/client",
     "ci:cypress": "start-server-and-test ci:start http://localhost:5173 cy:run"
   },
   "dependencies": {
@@ -39,6 +40,7 @@
     "react-router-devtools": "^1.1.0",
     "rimraf": "^2.5.1",
     "serve": "^14.2.4",
+    "http-server": "14.1.1",
     "start-server-and-test": "^2.0.11",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.2",

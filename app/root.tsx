@@ -12,7 +12,9 @@ export function Layout({children}: { children: React.ReactNode }) {
         <html lang="en" data-bs-theme="dark">
         <head>
             <meta charSet="utf-8"/>
+            <link rel="icon" href="./favicon.ico"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <meta name="theme-color" content="#000000"/>
             <Meta/>
             <Links/>
             <link type="text/css" rel="stylesheet" href="./textures/texture.css"/>
