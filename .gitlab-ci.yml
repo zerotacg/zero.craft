@@ -29,7 +29,7 @@ cypress:
         - build
     extends: .node
     image:
-        name: cypress/included:14.5.4
+        name: cypress/included:15.3.0
         entrypoint: [ "" ]
     artifacts:
         expire_in: 1 day
