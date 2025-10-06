@@ -2,7 +2,7 @@ image: busybox
 
 .node:
     image:
-        name: node:23
+        name: node:24
     cache:
         key:
             files:
