@@ -43,7 +43,7 @@
     "start-server-and-test": "2.0.13",
     "tailwindcss": "4.1.11",
     "typescript": "5.9.2",
-    "vite": "6.3.5",
+    "vite": "6.3.6",
     "vite-tsconfig-paths": "5.1.4"
   }
 }
