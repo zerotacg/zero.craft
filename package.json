@@ -30,7 +30,7 @@
   "devDependencies": {
     "@react-router/dev": "7.9.3",
     "@tailwindcss/vite": "4.1.11",
-    "@testing-library/cypress": "10.0.3",
+    "@testing-library/cypress": "10.1.0",
     "@types/node": "24.2.0",
     "@types/react": "19.2.0",
     "@types/react-dom": "19.2.0",
