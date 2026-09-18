@@ -13,8 +13,9 @@
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
-    "ci:start": "http-server --port 5173 ./build/client",
-    "ci:cypress": "start-server-and-test ci:start http://localhost:5173 cy:run"
+    "ci": "npm run clean && npm install && npm run build && npm run ci:cypress",
+    "ci:cypress": "start-server-and-test ci:start http://localhost:5173 cy:run",
+    "ci:start": "http-server --port 5173 ./build/client"
   },
   "dependencies": {
     "@react-router/node": "7.9.3",
