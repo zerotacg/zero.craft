@@ -37,7 +37,7 @@
     "@types/react-dom": "19.3.0",
     "benchmark": "2.1.4",
     "cypress": "15.3.0",
-    "react-router-devtools": "5.1.6",
+    "react-router-devtools": "6.2.3",
     "rimraf": "6.0.1",
     "serve": "14.2.5",
     "http-server": "14.1.1",
